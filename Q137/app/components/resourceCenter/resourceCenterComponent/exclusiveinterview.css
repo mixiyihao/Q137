@@ -1,0 +1,40 @@
+p.SprovideoReviewListP{
+	width: 500px;
+	height: 400px;
+	margin: 10px;
+	float: left;
+}
+div.exclusiveinnerdiv{
+
+}
+p.SprovideoReviewListP embed,p.SprovideoReviewListP object{
+	width: 500px;
+	height: 300px;
+}
+div.exclusiveinterview{
+   padding-left: 7px;
+   width: 100%;
+   margin: 20px auto;
+}
+div.exclusiveinterview>h2{
+	
+	font-size: 18px;
+    height: 20px;
+    line-height: 20px;
+    width: 200px;
+    padding-left: 7px;
+    border-left: 4px solid #4fc0de;
+}
+span.exclusiveinterviewtitle{
+   font-weight: 500;
+   padding: 20px 10px;
+   display: block;
+}
+i.exclusiveinterviewi{
+	color: #606060;
+	display: block;
+	font-size: 12px;
+}
+div.exclusiveinnerdiv{
+	width: 100%;
+}

@@ -1,0 +1,744 @@
+.importRewardMain {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #f4f4f6;
+    color: #606060;
+}
+
+.importRewardInner {
+    width: 1100px;
+    margin: 0 auto;
+    background-color: #fff;
+    min-height: 600px;
+    padding: 20px;
+}
+
+.rewardTitle {
+    height: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2e3740;
+    text-align: left;
+    box-sizing: border-box;
+    border-left: 4px solid #4ac0e0;
+    padding-left: 10px;
+    position: relative;
+}
+
+.Ir-back {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 16px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #7b8086;
+}
+
+.Ir-back .iconfont {
+    position: relative;
+    top: 1px;
+}
+
+.Ir-back:hover {
+    color: #4ac0e0;
+}
+
+.importRewardWrap {
+    clear: both;
+    overflow: hidden;
+}
+
+.RewardInfomation {
+    float: left;
+    width: 765px;
+    margin-left: 15px;
+    /*height: 100px;*/
+}
+
+.rewardClassInfo {
+    width: 100%;
+    height: 28px;
+    line-height: 28px;
+    text-align: left;
+    margin-top: 5px;
+    padding-left: 15px;
+    background-color: #f5f5f5;
+}
+
+.rewardClassInfo span {
+    margin-right: 35px;
+}
+
+.rewardHandle {
+    width: 100%;
+    padding: 10px 0 0 15px;
+    box-sizing: border-box;
+    border-bottom: 1px dashed #d4d4d4;
+}
+
+.rewardHandle p {
+    /*margin-bottom: 10px;*/
+    position: relative;
+}
+
+.rewardChooseItem .mustFixed {
+    top: 6px
+}
+
+.mustFixed {
+    position: absolute;
+    color: red;
+    left: -8px;
+    ;
+    top: 2px;
+}
+
+.RewardStudent .mustFixed {
+    position: relative;
+    left: -3px;
+}
+
+.rH_importTime {
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+}
+
+.rH_importTime i.p_name {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 30px;
+    line-height: 28px;
+}
+
+.rH_importTime p {
+    width: 100%;
+    padding-left: 80px;
+    height: 100%;
+    position: relative;
+}
+
+.rH_importTime p span {
+    position: absolute;
+    top: 0;
+    width: 190px;
+    height: 30px;
+    line-height: 28px;
+    left: 100px;
+    box-sizing: border-box;
+    border: 1px solid #dedede;
+    text-align: left;
+    padding-left: 5px;
+    color: #606060;
+}
+
+.rH_importTime p a {
+    position: absolute;
+    top: 0;
+}
+
+.rH_goFrontDay,
+.rH_goEndDay {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #1380f9;
+    background-color: #e1f9fd;
+    border: 1px solid #d3e7fd;
+    box-sizing: border-box;
+}
+
+.rH_goFrontDay {
+    left: 70px;
+}
+
+.rH_goEndDay {
+    left: 290px;
+}
+
+.rH_goFrontDay:hover,
+.rH_goEndDay:hover {
+    color: #fff;
+    background-color: #4fbfdc;
+    border-color: #4fbfdc
+}
+
+.rH_goFrontDay.rH_uselessBtn,
+.rH_goEndDay.rH_uselessBtn,
+.rH_goFrontDay.rH_uselessBtn:hover,
+.rH_goEndDay.rH_uselessBtn:hover {
+    color: #f1f1f1;
+    background-color: #fcfcfc;
+    border-color: #f1f1f1;
+}
+.rH_selectType{
+    margin:5px 0px 2px;
+}
+.rH_selectType i.p_name {
+    margin-right: 14px;
+}
+
+.rH_selectType span {
+    margin-right: 60px;
+}
+
+.rH_selectType span input {
+    position: relative;
+    top: -1px;
+    margin-right: 3px;
+}
+
+.rH_inputText i.p_name {
+    margin-right: 9px;
+}
+
+.rH_changeScore i.p_name {
+    margin-right: 8px;
+}
+
+.rH_changeScore input {
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 3px;
+    border: 1px solid #d5d5d5;
+    outline: 0;
+}
+
+.rH_changeScore input:hover,
+.rH_changeScore input:focus {
+    border-color: #4ac0e0;
+}
+
+.rH_inputText textarea {
+    width: 610px;
+    height: 90px;
+    border: 1px solid #d5d5d5;
+    outline: 0;
+    resize: none;
+    padding: 0 5px;
+}
+
+.rH_saveAndSubmit {
+    width: 110px;
+    height: 30px;
+    line-height: 26px;
+    color: #fff;
+    background-color: #49c0e0;
+    text-align: center;
+    padding: 0;
+    margin: 20px 0 0 20px;
+}
+
+.RewardStudent {
+    float: right;
+    width: 270px;
+    overflow-x: hidden;
+    padding-top: 5px;
+}
+
+.rS_title {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    background-color: #f5f5f5;
+    padding-left: 10px;
+}
+
+.RewardStudent .rS_table {
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
+.RewardStudent .rS_table span {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.rS_showStuList {
+    height: 820px;
+    overflow-y: auto;
+    border-left: 1px solid #f5f5f5;
+    border-bottom: 1px solid #f5f5f5;
+    box-sizing: border-box;
+}
+
+.rS_showStuList p {
+    height: 36px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.RewardStudent .rS_showStuList span {
+    display: inline-block;
+    text-align: center;
+    height: 36px;
+    line-height: 36px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.rS_ck {
+    /*width: 45px;*/
+    width: 30px;
+}
+
+.rS_ck input {
+    width: 14px;
+    height: 14px;
+    background-color: #fff;
+}
+
+.rS_name {
+    width: 74px;
+    text-align: left;
+}
+
+.rS_num {
+    width: 146px;
+}
+
+.importRewardMain .tipErr {
+    margin-left: 10px;
+    color: #e2231b;
+    position: relative;
+    top: 10px;
+}
+
+.importRewardMain .sucorerr {
+    position: fixed;
+    top: 75px;
+    right: 30px;
+    line-height: 26px;
+    text-align: center;
+    box-sizing: border-box;
+    width: 150px;
+    overflow: hidden;
+}
+
+.importRewardMain .sucorerr span {
+    display: block;
+    width: 150px;
+    background: #f7944d;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.importRewardMain .sucorerr i {
+    position: relative;
+    top: 2px;
+}
+
+.sucorerr span.sOeHide {
+    width: 0;
+    opacity: 0;
+    white-space: nowrap;
+    line-height: 26px;
+    overflow: hidden;
+    transition: all 2.5s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.0980392) 0px -3px 5px;
+}
+
+
+/*选择类型*/
+
+.rH_rewardChooseItem {
+    box-sizing: border-box;
+    min-height: 30px;
+    margin-bottom: 8px;
+    position: relative;
+    padding-left: 68px;
+}
+
+
+/*.importRewardInner .rH_rewardChooseItem span {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    width: 120px;
+    text-align: center;
+    border: 1px solid #f5f5f5;
+    box-sizing: border-box;
+    color: #606060;
+    cursor: pointer;
+}*/
+
+.createReward {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.rdType:first {
+    margin-left: 10px;
+}
+
+.importRewardInner .rH_rewardChooseItem i {
+    margin-right: 10px;
+}
+
+.importRewardInner .rH_rewardChooseItem i.thisNo {
+    display: inline-block;
+    width: 25px;
+    margin-right: 0px;
+    font-size: 12px;
+    color: #323232;
+}
+
+.importRewardInner .rH_rewardChooseItem span.rdType.current {
+    color: #fff;
+    background-color: #4ac0e0;
+    border-color: #4ac0e0;
+}
+
+.importRewardInner .rewardTitleWarning {
+    width: 1045px;
+    height: 38px;
+    line-height: 38px;
+    text-align: left;
+    padding-left: 15px;
+    /*padding-right: 15px;*/
+    color: #f28378;
+    background-color: #fce5d1;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.rH_person .p_name {
+    margin-right: 8px;
+}
+
+
+/*表格样式*/
+
+.rH_rewardTable {
+    width: 610px;
+    border: 1px solid #f3eef5;
+}
+
+.rH_rewardTable ul {
+    width: 50px;
+    margin: 0 auto;
+}
+
+.rH_rewardTable ul li {
+    list-style: disc;
+    width: 50px;
+    margin-left: 15px;
+    /*text-align: center;*/
+    font-size: 12px;
+    color: #8e8e8e;
+}
+
+
+/*.rH_rewardTable th i{
+    font-size: 12px;
+}*/
+
+.rH_rewardTh {
+    width: 160px;
+    text-align: center;
+}
+
+.rH_rewardThsub {
+    width: 455px;
+    text-align: left;
+    box-sizing: border-box;
+    padding-left: 15px;
+}
+
+.rH_thOfReward {
+    color: #fff;
+    background-color: #f84a7b;
+}
+
+.rH_thOfPunish {
+    color: #fff;
+    background-color: #3687e2;
+}
+
+.rH_thOfRewardSub {
+    color: #fff;
+    background-color: #f19aaa;
+}
+
+.rH_thOfPunishSub {
+    color: #fff;
+    background-color: #85b9f3;
+}
+
+.rH_rewardTable td {
+    border: 1px solid #f3eef5;
+    /*text-align: center;*/
+    vertical-align: middle;
+    border-left: 0;
+    border-right: 0;
+}
+
+.rH_rewardTable td.rh_text {
+    vertical-align: top;
+}
+
+.rH_rewardTit {
+    width: 160px;
+    text-align: center;
+    /*border-right: 1px solid #f3eef5;*/
+}
+
+.importRewardInner .rH_rewardTit i {
+    margin: 0;
+    font-size: 18px;
+}
+
+.rH_rewardTable td.rH_rewardTit1 {
+    background-color: #fef5f6;
+    border-right: 1px solid #f3eef5;
+}
+
+.rH_rewardTable td.rH_pnishTit1 {
+    background-color: #e9f1fc;
+    border-right: 1px solid #f3eef5;
+}
+
+.rH_rewardTable td.rH_rewardTit2 {
+    background-color: #fcf7fd;
+    border-right: 1px solid #f3eef5;
+}
+
+.rH_rewardTable td.rH_pnishTit2 {
+    background-color: #f6fbfe;
+    border-right: 1px solid #f3eef5;
+}
+
+.rH_rewardTable td.rH_rewardTit3 {
+    background-color: #fdf3f1;
+    border-right: 1px solid #f3eef5;
+}
+
+.rH_rewardTable td.rH_pnishTit3 {
+    background-color: #f1f6fc;
+    border-right: 1px solid #f3eef5;
+}
+
+.rH_rewardTable td.rH_rewardTit1 h6 {
+    /*background-color: #fef5f6;
+    border-right: 1px solid #f3eef5;*/
+    text-align: center;
+    font-size: 12px;
+}
+
+.rH_rewardTable td.rH_pnishTit1 h6 {
+    /*background-color: #e9f1fc;
+    border-right: 1px solid #f3eef5;*/
+    text-align: center;
+    font-size: 12px;
+}
+
+.rH_rewardTable td.rH_rewardTit2 h6 {
+    /*background-color: #fcf7fd;
+    border-right: 1px solid #f3eef5;*/
+    text-align: center;
+    font-size: 12px;
+}
+
+.rH_rewardTable td.rH_pnishTit2 h6 {
+    /*background-color: #f6fbfe;
+    border-right: 1px solid #f3eef5;*/
+    text-align: center;
+    font-size: 12px;
+}
+
+.rH_rewardSuper {
+    width: 110px;
+    text-align: left;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+
+/*.rH_rewardSuper1 {
+    background-color: #fce8ea
+}
+
+.rH_rewardSuper2 {
+    background-color: #f8ebfc
+}
+
+.rH_rewardSuper3 {
+    background-color: #fceeeb
+}
+.rH_pnishSuper1 {
+    background-color: rgb(221, 234, 250)
+}
+
+.rH_pnishSuper2 {
+    background-color: rgb(205, 246, 206)
+}
+
+.rH_pnishSuper3 {
+    background-color: rgb(211, 252, 244)
+}*/
+
+.rH_rewardSub {
+    width: 270px;
+    text-align: left;
+    padding: 5px 0 5px 5px;
+    box-sizing: border-box;
+}
+
+.rH_rewardSub span {
+    font-size: 12px;
+}
+
+.rH_rewardSub input {
+    position: relative;
+    top: -1px;
+    margin-right: 2px;
+}
+
+
+/*.rH_rewardSub1,
+.rH_rewardSub1 textarea {
+    background-color: #fef5f6
+}
+
+.rH_rewardSub2,
+.rH_rewardSub2 textarea {
+    background-color: #fbf8ff
+}
+
+.rH_rewardSub3,
+.rH_rewardSub3 textarea {
+    background-color: #fef6f4
+}
+.rH_pnishSub1,
+.rH_pnishSub1 textarea {
+    background-color: rgb(244, 247, 252)
+}
+
+.rH_pnishSub2,
+.rH_pnishSub2 textarea {
+    background-color: rgb(240, 252, 240)
+}
+
+.rH_pnishSub3,
+.rH_pnishSub3 textarea {
+    background-color: rgb(234, 253, 249)
+}*/
+
+.rH_rewardTable td textarea {
+    width: 140px;
+    /*height: 100%;*/
+    font-size: 12px;
+    margin-top: 5px;
+    min-height: 42px;
+    height: auto;
+    border: none;
+    resize: none;
+    padding-right:4px;
+    /*padding-left: 10px;*/
+    box-sizing: border-box;
+}
+
+.rH_rewardSub p {
+    position: relative;
+    height: 20px;
+    line-height: 20px;
+    box-sizing: border-box;
+}
+
+.rH_rewardSub p .rH_seleBox {
+    /*display: inline-block;*/
+    /*position: absolute;*/
+    /*right: 20px;
+    top: 0;*/
+    margin-left: 10px;
+    height: 20px;
+    box-sizing: border-box;
+}
+
+.rH_rewardSub p .rH_seleBox select {
+    position: relative;
+    top: -1px;
+    height: 18px;
+    width: 45px;
+    line-height: 18px;
+    margin: 0 3px;
+    border: 1px solid #ededed;
+    -webkit-appearance:menulist;
+}
+
+
+/*select 显示隐藏*/
+
+.rH_selectHideItem {
+    display: none;
+}
+
+.rH_selectShowItem {
+    display: inline-block;
+}
+
+.rewardTextarea #tx1{
+    height: 90px;
+}
+.rewardTextarea #tx2{
+    height: 90px;
+}
+.rewardTextarea #tx3{
+    height: 90px;
+}
+.rewardTextarea #tx4{
+    height: 90px;
+}
+.rewardTextarea #tx5{
+    height: 70px;
+}
+.rewardTextarea #tx6{
+    height: 70px;
+}
+.rewardTextarea #tx7{
+    height: 90px;
+}
+.rewardTextarea #tx8{
+    height: 70px;
+}
+.rewardTextarea #tx9{
+
+}
+.punishtextarea #tx1{
+    height: 90px;
+}
+.punishtextarea #tx2{
+    height: 90px;
+}
+.punishtextarea #tx3{
+    height: 90px;
+}
+.punishtextarea #tx4{
+    height: 90px;
+}
+.punishtextarea #tx5{
+    height: 70px;
+}
+.punishtextarea #tx6{
+    height: 70px
+}
+.punishtextarea #tx7{
+    height: 90px;
+}
+.punishtextarea #tx8{
+    height: 70px;
+}
+.punishtextarea #tx9{
+    
+}

@@ -1,0 +1,274 @@
+.papermainTit {
+    height: 30px;
+    width: 100%;
+    /* background: #f7f7f7; */
+}
+.papermainTitEM{
+    width: 1100px;
+    margin: 0 auto;
+}
+.papermainTith2 {
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    margin: 2px 20px;
+    padding-left: 13px;
+    border-left: 4px solid #4ac0e0;
+    font-size: 18px;
+    font-weight: 400;
+    float: left;
+}
+.papermainTithEM {
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    margin: 2px 20px;
+    padding-left: 13px;
+    font-size: 18px;
+    font-weight: 400;
+    float: left;
+}
+.RpaperdivEM{
+    float: right;
+    width: 200px;
+    margin-right: 70px;
+    margin-top: 8px;
+}
+.paperTitbackEM{
+    color: #606060;
+    font-size: 14px;
+    float: right;
+    cursor: pointer;
+}
+.papermainTitEMWrap{
+    background: #e4e9ec;
+    width: 100%;
+    height: 26px;
+}
+.papermainWrapEmStyle{
+    width: 100%;
+}
+/* 返回顶部样式 */
+
+.papermain_TopTo {
+    height: 100%;
+    width: 40px;
+    float: left;
+}
+.FirstPageInfop .fpTwoSpan i {
+    color: red;
+    font-size: 24px;
+}
+.FirstPageInfop .fpTwoSpan {
+    float: left;
+    line-height: 22px;
+    color: #989898;
+}
+.FirstPageInfop .fpTwoSpan b {
+    font-weight: normal;
+    font-size: 12px;
+}
+.FirstPageInfop .fpOneSpan {
+    line-height: 20px;
+    height: 17px;
+    float: left;
+}
+.papermain_TopToCenter {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    background: url("../../../../images/search/top.jpg") no-repeat;
+    top: 140px;
+    cursor: pointer;
+    display: none;
+    z-index: 99;
+    left: 50%;
+    margin-left: 500px;
+}
+
+
+/* 分界线 */
+
+.papermainTit {
+    padding-top: 10px;
+}
+
+section i.papertiti {
+    color: #6a757b;
+    font-size: 12px;
+    padding: 0 3px;
+}
+
+.paperTitback {
+    margin: 5px;
+    color: #606060;
+    font-size: 14px;
+    float: right;
+    cursor: pointer;
+}
+
+.Lpaperdiv2 img {
+    width: 520px;
+}
+
+.paperTitback:hover,
+.paperTitback:hover i {
+    color: #1380f9;
+}
+
+.paperTitback i {
+    color: #606060;
+}
+
+section.paper h2 {
+    font-size: 16px;
+}
+
+div.Lpaperdiv2 {
+    float: left;
+    clear: both;
+   /* padding-left: 37px;*/
+    width: 70%;
+}
+
+div.Rpaperdiv {
+    float: right;
+    width: 200px;
+    margin-right: 70px;
+}
+
+.Rpaperdiv .FirstPageInfop {
+    display: inline-block;
+    width: 262px;
+    height: 300px;
+}
+
+.FirstPageInfop ul {
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.FirstPageInfop li {
+    margin: 4px 0;
+}
+
+.Lpaperdiv2 p.PapermainInfop {
+    margin: 10px 0px;
+    font-size: 14px;
+    color: #606060;
+    text-indent: 2em;
+}
+
+.FirstPageInfop h2 {
+    padding-left: 7px;
+    border-left: 4px solid #4ac0e0;
+    height: 20px;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.FirstPageInfop .fpOneSpanp {
+    line-height: 20px;
+    height: 17px;
+    float: left;
+    overflow: hidden;
+    width: 214px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+aside.paperImgWrap i {
+    width: 100%;
+    margin: 10px auto;
+    color: #606060;
+    text-align: center;
+    font-size: 12px;
+}
+
+.FirstPageInfop .fpOneSpanp:hover,
+.FirstPageTwolip:hover,
+.FirstPageThrlip:hover,
+li.FirstPageOnelip .fpOneSpanp:hover {
+    cursor: pointer;
+    color: #1380f9;
+}
+
+.FirstPageOnelip span.fpTwoSpanp {
+    float: left;
+    line-height: 22px;
+    color: #989898;
+}
+
+aside.paperImgWrap {
+    margin: 20px auto 10px;
+    width: 520px;
+}
+
+.FirstPageOnelip .fpTwoSpanp i {
+    color: red;
+    font-size: 24px;
+}
+
+.FirstPageOnelip .fpTwoSpanp b {
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.FirstPageInfop li {
+    margin: 4px 0;
+}
+
+.FirstPageTwop,
+.FirstPageThrp {
+    color: #404040;
+    height: 22px;
+}
+
+.FirstPageOnelip>div.sanjiaop {
+    float: left;
+    position: relative;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 36px solid #fb0d1c;
+    border-right: 36px solid transparent;
+}
+
+.FirstPageOnelip>div.absp {
+    position: absolute;
+    top: 27%;
+    left: 11px;
+    color: #fff;
+    transform: translate(-50%, -50%);
+}
+
+.FirstPageOnelip {
+    position: relative;
+    color: #404040;
+    height: 40px !important;
+}
+
+.papermainFlag {
+    margin: 50px 0px;
+}
+
+.papermainFlag h3 {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.papermainFlag span {
+    display: inline-block;
+    border-radius: 15px;
+    height: 30px;
+    line-height: 20px;
+    color: #606060;
+    background: #fff;
+    padding: 5px 10px;
+    border: 1px solid #e6eaed;
+    margin: 5px;
+}
+
+.papermainFlag span:hover {
+    color: #1380f9;
+}

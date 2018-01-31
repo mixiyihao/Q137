@@ -1,0 +1,224 @@
+.attendanceQuery-box {
+    margin-top: 13px;
+    min-height: 830px;
+    padding: 20px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    position: relative;
+}
+
+.attendanceQuery-box h2 {
+    font-weight: 400;
+    font-size: 18px;
+    height: 20px;
+    line-height: 20px;
+    border-left: 4px solid #49c0e0;
+    padding-left: 14px
+}
+
+.attendanceQuery-box .attendanceQuery-wrap {
+    margin-top: 10px;
+}
+
+.attendanceQuery-box .attendanceQuery-tool {
+    width: 1040px;
+    height: 95px;
+    background: #f5f5f5;
+    border: 1px solid #e8e8e8;
+    padding-top: 12px;
+    margin-left: 19px;
+    margin-top: 10px;
+}
+
+.attendanceQuery-box .attendanceQuery-tool-select {
+    height: 42px;
+    color: #303030;
+}
+
+.attendanceQuery-box .attendanceQuery-select-box {
+    line-height: 30px;
+    margin-left: 9px;
+    float: left;
+}
+
+.attendanceQuery-box .attendanceQuery-select-box select {
+    width: 240px;
+    height: 30px;
+    line-height: 28px;
+    margin-left: 5px;
+    border: 1px solid #e4e4e4;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url('../../../images/headMaster/aa.svg') no-repeat 98% center;
+    background-size: 15px 13px;
+}
+
+.attendanceQuery-box .attendanceQuery-number {
+    margin-left: 60px;
+    float: left;
+}
+
+.attendanceQuery-box .attendanceQuery-number i{
+    min-width: 25px;
+    text-align: center;
+    color: #1381fc;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.attendanceQuery-box .attendanceQuery-message {
+    padding-left: 9px;
+    height: 40px;
+    line-height: 27px;
+}
+
+.attendanceQuery-box .attendanceQuery-message span {
+    margin-right: 70px;
+    color: #606060;
+}
+
+.attendanceQuery-box .attendanceQuery-message span i {
+    padding-right: 2px;
+    padding-left: 2px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.attendanceQuery-box .attendanceQuery-message span i.one {
+    color: #f678f8;
+}
+
+.attendanceQuery-box .attendanceQuery-message span i.two {
+    color: #f87d9a;
+}
+
+.attendanceQuery-box .attendanceQuery-message span i.three {
+    color: #fa967e;
+}
+
+.attendanceQuery-box .attendanceQuery-message span i.four {
+    color: #eed06d;
+}
+
+.attendanceQuery-box .attendanceQuery-message span i.five {
+    color: #e75582;
+}
+
+.attendanceQuery-box .attendanceQuery-message span i.six {
+    color: #de0d2a;
+}
+
+.attendanceQuery-box .attendanceQuery-table {
+    table-layout: fixed;
+    margin-left: 19px;
+    width: 1040px;
+}
+
+.attendanceQuery-box .attendanceQuery-table thead tr {
+    height: 50px;
+    text-align: center;
+    border-left: 1px solid #e8e8e8;
+    border-right: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.attendanceQuery-box .attendanceQuery-table-tr {
+    background: #f5f5f5;
+}
+
+.attendanceQuery-box .attendanceQuery-table-tr th {
+    text-align: center;
+}
+
+.attendanceQuery-box .attendanceQuery-table-tr th.one {
+    width: 89px;
+}
+
+.attendanceQuery-box .attendanceQuery-table-tr th.two {
+    width: 258px;
+}
+
+.attendanceQuery-box .attendanceQuery-table-tr th.three {
+    width: 238px;
+}
+
+.attendanceQuery-box .attendanceQuery-table-tr th.four {
+    width: 237px;
+}
+
+.attendanceQuery-box .attendanceQuery-table-tr th.five {
+    width: 205px;
+}
+
+.attendanceQuery-box .attendanceQuery-table tbody tr {
+    height: 47px;
+    text-align: center;
+    border-left: 1px solid #e8e8e8;
+    border-right: 1px solid #e8e8e8;
+}
+
+.attendanceQuery-box .attendanceQuery-table tbody td {
+    height: 47px;
+    line-height: 47px;
+    text-align: center;
+    border-bottom: 1px solid #e8e8e8;
+    color: #606060;
+}
+
+.attendanceQuery-box .attendanceQuery-table tbody tr:hover {
+    background-color: #e4f4ff;
+}
+
+.attendanceQuery-box .SchoolGrades_page {
+    width: 383px;
+    margin-right: 0;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+
+.attendanceQuery-box .SchoolGrades_pageHide {
+    display: none;
+}
+
+.attendanceQuery-box .SchoolGrades_pageNum {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 10px;
+}
+
+.attendanceQuery-box .SchoolGrades_pageNum span {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-bottom: 1px solid #bfc3c6;
+}
+
+.attendanceQuery-box .SchoolGrades_pageNum i {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.attendanceQuery-box .SchoolGrades_page button {
+    width: 81px;
+    height: 30px;
+    float: left;
+    text-align: center;
+    border: 1px solid #d3d3d3;
+    margin-left: 8px;
+    color: #323232;
+    background: #fff;
+}
+
+.attendanceQuery-box .SchoolGrades_page .SchoolGrades_page1 {
+    background-color: #d3d3d3;
+    color: #fff;
+    border-color: #d3d3d3;
+}

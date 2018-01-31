@@ -1,0 +1,1044 @@
+.h-quetitle {
+    width: 100%;
+    height: 144px;
+    /*background: url("./kaoshi.png") no-repeat 692px;*/
+    background-size: 38%;
+    background: linear-gradient(60deg, #6cc4ce, #65f1ce);
+    background: #6cc4ce\9\0;
+}
+
+.h-quetitle img {
+    float: right;
+    margin-right: 77px;
+}
+
+.h-quetitle .h-quetitleWrap {
+    width: 1280px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-left: 64px;
+}
+
+.h-quetitle .h-exancenter {
+    width: 548px;
+    padding-top: 32px;
+    float: left;
+}
+
+.h-quetitle .h-exancenter p {
+    font-size: 26px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.h-quetitle .h-exancenter span {
+    display: inline-block;
+    width: 500px;
+    color: #ffffff;
+    opacity: 0.9;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    margin-top: 3px;
+}
+
+
+/*这是前面那个长方体的css*/
+
+.h-questitle {
+    margin-top: 10px;
+    margin-bottom: 13px;
+}
+
+.h-questionBody .h-questitle .h-cubiud {
+    width: 4px;
+    height: 20px;
+    margin-right: 8px;
+    margin-bottom: -4px;
+    padding-top: 8px;
+    display: inline-block;
+    background-color: #4ac0e0;
+}
+
+.h-questionBody .h-questitle .h-information {
+    font-size: 18px;
+    height: 22px;
+    line-height: 22px;
+    color: #444444;
+    display: inline-block;
+    text-indent: 0px;
+    font-weight: bold;
+    /*font-family: "Microsoft YaHei";*/
+    color: #2d3e3f;
+}
+
+.h-questionBody .h-questitle .h-infopoint {
+    display: inline-block;
+    margin-left: 10px;
+    color: gray;
+}
+
+.h-questionBody .h-questitle .h-addexam {
+    display: block;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    line-height: 26px;
+    background-color: #49c0e0;
+    color: #ffffff;
+    float: right;
+    margin-top: -7px;
+    padding: 0;
+}
+.h-questionBody .h-questitle .h-addexam i{
+    margin-right: 3px;
+}
+.h-questionBody .h-questitle .h-addexamMany {
+    display: block;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    line-height: 26px;
+    background-color: #49c0e0;
+    color: #ffffff;
+    float: right;
+    margin-top: -7px;
+    margin-right:10px;
+}
+.h-questionBody .h-questitle .h-addexamMany i{
+    margin-right: 3px;
+}
+
+/*.h-questionBody .h-questitle .h-addexams {
+    height: 33px;
+    line-height: 33px;
+    width: 52px;
+}*/
+
+.linkToQs {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    background-color: #4ac0e0;
+    padding: 0;
+    width: 96px;
+    height: 30px;
+    line-height: 26px;
+    margin-top: -8px;
+}
+
+.linkToQs:hover {
+    color: #fff;
+}
+
+.h-questionBody .h-questitle .h-addexams2 {
+    float: left;
+    font-size: 14px;
+}
+
+.h-questionBody .h-questitle .h-addexams1 {
+    display: inline-block;
+    float: left;
+    margin-top: -1px;
+}
+
+
+/*下面是列表的css*/
+
+.h-questionBody {
+    background-color: #f4f4f6;
+    padding: 16px 40px;
+}
+
+.h-thQuBody {
+    width: 1100px;
+    background-color: #fff;
+    margin: 0 auto;
+    overflow: hidden;
+    /*width: 86.3%;*/
+    padding: 20px;
+    min-height: 500px;
+    position: relative;
+    padding-bottom: 70px;
+}
+
+.h-thSelect {
+    /*min-width: 1250px;*/
+    /*margin-top: 20px;*/
+    padding-top: 12px;
+    padding-bottom: 10px;
+    background-color: #f5f5f5;
+    overflow: hidden;
+}
+
+.h-thselection1 {
+    margin-bottom: 6px;
+    overflow: hidden;
+}
+
+.h-thSelect {
+    overflow: hidden;
+}
+
+.h-thselection1 .h-thSet1,
+.h-thselection1 .h-thSet2,
+.h-thselection1 .h-thSet3 {
+    float: left;
+    width: 30%;
+}
+
+.h-thselection1 .h-thSet2 {
+    width: 29%;
+    margin-right: 0.6%;
+}
+
+.h-thselection1 .h-thSet1 {
+    width: 30%;
+    margin-left: 2.2%;
+    height: 29px;
+}
+
+.h-thselection1 .h-thSet3 {
+    width: 36%;
+    padding-left: 0.7%;
+}
+
+.h-thSelect .h-thselection div {
+    float: left;
+    width: 28%;
+}
+
+.h-thSelect select {
+    width: 238px;
+    height: 28px;
+    border-radius: 0;
+    margin-left: 8px;
+}
+
+.h-thselection1 select {
+    border-radius: 0;
+}
+
+.h-thselection1 .h-thSet1 span,
+.h-thselection1 .h-thSet2 span,
+.h-thselection1 .h-thSet3 span,
+.h-thselection1 .h-thSet1 select,
+.h-thselection1 .h-thSet2 select,
+.h-thselection1 .h-thSet3 select {
+    /*float: right;*/
+    color: #2d3e3f;
+}
+
+.h-thSelect select,
+.h-thselection1 select,
+.h-thselection1 .h-thSet1 select,
+.h-thselection1 .h-thSet2 select,
+.h-thselection1 .h-thSet3 select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url('../../../images/headMaster/aa.svg') no-repeat 98% center;
+    background-size: 15px 13px;
+}
+
+.h-thSelect select::-ms-expand,
+.h-thselection1 select::-ms-expand,
+.h-thselection1 .h-thSet1 select::-ms-expand,
+.h-thselection1 .h-thSet2 select::-ms-expand,
+.h-thselection1 .h-thSet3 select::-ms-expand {
+    display: none;
+}
+
+.h-thselection1 .h-thSet3 select {
+    width: 304px;
+}
+
+.h-thselection1 span,
+.h-thselection span {
+    margin-top: 4px;
+    /*font-weight: bold;*/
+    /*font-family: "Microsoft YaHei";*/
+    color: #2d3e3f;
+}
+
+.h-thselection span,
+.h-thselection button,
+.h-thselection select {
+    /*float: right;*/
+    color: #2d3e3f;
+}
+
+.h-thselection select,
+.h-thselection1 select {
+    background-color: #f5f5f5;
+    border: 1px solid #b0b0b0;
+}
+
+.h-thselection select:hover,
+.h-thselection1 select:hover {
+    background-color: #FFFFFF;
+}
+
+
+/*这是为了给下一行下拉列表调样式设置的margin-left*/
+
+.h-thselection .h-thSelects {
+    margin-left: 4.8%;
+    width: 28%;
+}
+
+.h-thselection .h-thSelects2 {
+    margin-left: 0.7%;
+}
+
+.h-thselection .h-thSelects3 {
+    margin-left: 1%;
+}
+
+.h-thselection .h-thSelects1 {
+    width: 31%;
+}
+
+.h-thSelect .h-thselection .h-thSelects3 {
+    width: 36%;
+}
+
+.h-thSelect .h-thselection .h-thSelects3 .commonButton.button {
+    padding: 0;
+}
+
+.h-thselection button {
+    width: 62px;
+    height: 28px;
+    background-color: #49c0e0;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.h-thSelects3 select {
+    width: 232px;
+}
+
+.h-thselection select:hover,
+.h-thselection1 select:hover {
+    border-color: #4ac0e0;
+}
+
+
+/*下面是列表框开始*/
+
+.h-thQuhead {
+    min-width: 1060px;
+    overflow: hidden;
+    height: 46px;
+    line-height: 46px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #e8e8e8;
+    border-left: 1px solid #e8e8e8;
+    border-right: 1px solid #e8e8e8;
+    /*padding-left: 10px;*/
+    border-bottom: 1px solid #f2f2f2;
+    /*font-weight: bold;*/
+    /*font-family: "Microsoft YaHei";*/
+    color: #2d363f;
+    /*padding-left: 10px;*/
+    /*padding-right: 20px;*/
+}
+
+.h-thQuhead div {
+    float: left;
+}
+
+.h-thQuhead div {
+    text-align: center;
+}
+
+.h-thQuhead .h-thQutitle1 {
+    width: 3%;
+}
+
+.h-thQuhead .h-thQutitle2 {
+    width: 4%;
+}
+
+.h-thQuhead .h-thQutitle3 {
+    width: 14%;
+}
+
+.h-thQuhead .h-thQutitle4 {
+    width: 7%;
+}
+
+.h-thQuhead .h-thQutitle5 {
+    width: 11%;
+    min-width: 114px;
+}
+
+.h-thQuhead .h-thQutitle6 {
+    width: 11%;
+    min-width: 136px;
+}
+
+.h-thQuhead .h-thQutitle7 {
+    width: 8%;
+    min-width: 86px;
+}
+
+.h-thQuhead .h-thQutitle8 {
+    width: 9%;
+}
+
+.h-thQuhead .h-thQutitle9 {
+    width: 11%;
+}
+
+.h-thQuhead .h-thQutitle10 {
+    width: 15%;
+}
+
+.h-thQuhead .h-thQutitle11 {
+    width: 5%;
+}
+
+.h-thQuContent {
+    /*min-height: 480px;*/
+}
+
+
+/*下面是列表信息的样式*/
+
+.h-thQuBodys {
+    min-width: 1060px;
+    overflow: hidden;
+    /*padding-left: 10px;*/
+    border-bottom: 1px solid #f2f2f2;
+    border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.h-thQuBodys div {
+    float: left;
+    text-align: center;
+    height: 19px;
+}
+
+.h-thQuBody .h-thQutitbd1 {
+    width: 3%;
+}
+
+.h-thQuBody .h-thQutitbd2 {
+    width: 4%;
+    font-family: Arial;
+}
+
+.h-thQuBody .h-thQutitbd3 {
+    width: 14%;
+    padding: 0px 24px;
+    font-family: Arial, "Microsoft YaHei";
+    white-space: nowrap;
+    overflow: hidden;
+    /* 内容超出宽度时隐藏超出部分的内容 */
+    text-overflow: ellipsis;
+    /* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/
+}
+
+.h-thQuBody .h-thQutitbd4 {
+    width: 7%;
+}
+
+.h-thQuBody .h-thQutitbd5 {
+    width: 11%;
+    min-width: 114px;
+    padding: 0 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    /* 内容超出宽度时隐藏超出部分的内容 */
+    text-overflow: ellipsis;
+    /* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/
+}
+
+.h-thQuBody .h-thQutitbd6 {
+    width: 11%;
+    min-width: 136px;
+    overflow: hidden;
+    /* 内容超出宽度时隐藏超出部分的内容 */
+    text-overflow: ellipsis;
+    /* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/
+}
+
+.h-thQuBody .h-thQutitbd7 {
+    width: 8%;
+    min-width: 86px;
+    font-family: Arial, "Microsoft YaHei";
+    white-space: nowrap;
+    overflow: hidden;
+    /* 内容超出宽度时隐藏超出部分的内容 */
+    text-overflow: ellipsis;
+    /* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/
+}
+
+.h-thQuBody .h-thQutitbd8 {
+    width: 9%;
+}
+
+.h-thQuBody .h-thQutitbd9 {
+    width: 11%;
+    font-family: Arial;
+}
+
+.h-thQuBody .h-thQutitbd10 {
+    width: 15%;
+}
+
+.h-thQuBody .h-thQutitbd10 .h-tianjione {
+    font-size: 14px;
+}
+
+.h-thQuBody .h-thQutitbd11 {
+    width: 5%;
+}
+
+.h-thQuBody .h-thQutitbd10 a {
+    margin: 0 11px;
+    color: #5b6064;
+}
+.h-thQuBody .h-thQutitbd10 a.icon-tianjiadaoshijuan{
+    font-size: 14px;
+}
+.h-thQuBody .h-thQutitbd10 a:hover {
+    color: #49c0e0;
+}
+
+.h-thQuBody .h-thQutitbd10 a.useless {
+    color: #e2e2e2;
+    cursor: default;
+}
+
+.h-thQuBody .h-thQutitbd10 a.useless:hover {
+    color: #e2e2e2;
+}
+
+
+/*下面是增加删除试卷的样式*/
+
+.h-addbtn {
+    /*height: 50px;*/
+    /*top: 20px;
+    position: relative;*/
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    z-index: 200;
+}
+
+.h-addbtn button {
+    float: left;
+    width: 139px;
+    height: 26px;
+    color: #ffffff;
+    background-color: #49c0e0;
+    margin-left: 10px;
+}
+
+.h-thQuBody .h-page {
+    width: 100%;
+    /*margin-top: 20px;*/
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.h-thQuBody .h-page .h-page0 {
+    float: right;
+    margin-right: 5px;
+}
+
+.h-thQuBody .h-page .h-page0 span {
+    display: inline-block;
+    width: 28px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-bottom: 1px solid #bfc3c6;
+}
+
+.h-thQuBody .h-page button {
+    width: 81px;
+    height: 30px;
+    background-color: #fdfffe;
+    float: right;
+    text-align: center;
+    color: #1d85fe;
+    border: 1px solid #1c86ff;
+    margin-left: 8px;
+}
+
+
+/*下面是预览试卷的样式*/
+
+.h-preview {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    padding-top: 6%;
+    display: none;
+    overflow: auto;
+}
+
+.h-previews {
+    width: 864px;
+    /*height: 380px;*/
+    overflow: hidden;
+    padding-bottom: 50px;
+    background-color: #fff;
+    margin: 0 auto;
+    /*margin-top: 50px;*/
+    border: 1px solid #E2E2E2;
+    padding-left: 20px;
+    padding-right: 15px;
+}
+
+.h-prehead {
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    /*padding-left: 15px;*/
+    /*font-weight: bold;*/
+}
+
+.h-prehead .h-deletprev {
+    width: 30px;
+    margin-right: -15px;
+    /*font-size: 16px;*/
+    text-align: center;
+    cursor: pointer;
+}
+
+.h-prehead .h-deletprev:hover {
+    background-color: #49c0e0;
+    color: #ffffff;
+}
+
+.h-pretitle {
+    height: 50px;
+    line-height: 50px;
+    border-top: 1px solid #dadada;
+    padding: 0px 10px;
+    font-size: 15px;
+}
+
+.h-pretitl {
+    /*border-top:1px solid #E2E2E2;*/
+    /*border-bottom:1px solid #E2E2E2;*/
+    background-color: rgba(242, 242, 242, 1);
+    padding: 10px 10px;
+    overflow: hidden;
+    font-size: 15px;
+    color: #2d363d;
+}
+
+.h-spanpretitl {
+    margin-right: 2px;
+    color: #333333;
+}
+
+.h-spanpretitls {
+    color: #606060;
+}
+
+.h-subject {
+    padding-left: 25px;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+
+.h-subspan {
+    font-weight: 600;
+    /*margin-left: 16px;
+    position: absolute;
+    top: 8px;
+    left: 18px;*/
+    display: inline-block;
+    font-weight: 600;
+    position: relative;
+    top: 8px;
+    left: 0px;
+}
+
+.h-subspan1 {
+    /*position: absolute;
+    top: 8px;
+    left: 53px;*/
+    float: right;
+    width: 745px;
+    position: relative;
+    top: 8px;
+    max-height: 35px;
+    overflow-y: auto;
+}
+
+.h-subject p {
+    /*margin-bottom: 15px;
+    color: #5f5f5f;
+    position: relative;*/
+    width: 100%;
+    display: inline-block;
+    /* margin-bottom: 15px; */
+    color: #5f5f5f;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.h-answer {
+    max-height: 230px;
+    line-height: 30px;
+    padding-left: 10px;
+    background-color: #ebf9fc;
+    font-weight: bold;
+    font-size: 15px;
+    color: #4bc1df;
+    box-sizing: border-box;
+    position: relative;
+    /*overflow: hidden;*/
+    overflow-y: auto;
+}
+
+.h-answer span {
+    display: inline-block;
+    max-width: 100%;
+    height: 100%;
+    padding-right: 5px;
+    /*overflow-y: auto;*/
+}
+
+.h-answer textarea {
+    position: absolute;
+    top: 0px;
+    display: inline-block;
+    /*padding-left: 100px;*/
+    left: 100px;
+    width: 725px;
+    height: 100%;
+    padding-right:105px;
+     overflow-y: auto;
+     border:0;
+     outline: 0;
+     resize: none;
+     background-color: #ebf9fc;
+}
+
+.h-source {
+    padding-top: 17px;
+    padding-bottom: 34px;
+    padding-left: 10px;
+    overflow: hidden;
+    font-size: 15px;
+}
+
+.h-sources {
+    margin-bottom: 8px;
+}
+
+.h-source .h-soansour {
+    color: #323232;
+}
+
+.h-source .h-soansours {
+    color: #5f5f5f;
+    font-weight: 500;
+}
+
+.h-soansours i {
+    font-weight: 700;
+}
+
+.h-prevbtn {
+    overflow: hidden;
+}
+
+.h-prevbtn .h-prevbtn1 {
+    width: 92px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    display: inline-block;
+    background-color: #ffffff;
+    color: #616161;
+    margin-left: 10px;
+    border: 1px solid #e9e9e9;
+    box-sizing: border-box;
+}
+
+.h-prevbtn .h-prevbtn2 {
+    padding: 0;
+    width: 135px;
+    height: 32px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+    background-color: #49c0e0;
+    color: #ffffff;
+    margin-left: 10px;
+    border: 1px solid #49c0e0;
+    position: relative;
+    /*bottom: 3px;*/
+}
+
+
+/*这是删除的样式*/
+
+.h-delete {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+    display: none;
+}
+
+.h-deletes {
+    width: 412px;
+    height: 228px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 150px;
+    border: 1px solid #E2E2E2;
+}
+
+.h-preheads .h-deletprev1 {
+    margin-left: 2px;
+    margin-top: 3px;
+    font-size: 16px;
+}
+
+.h-deletes .h-deletitle {
+    margin-top: 47px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.h-preheads .h-deletprevs {
+    width: 30px;
+    height: 30px;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    font-size: 12px;
+    padding-top: 4px;
+    margin-right: -15px;
+}
+
+.h-preheads .h-deletprevs:hover {
+    background-color: #49c0e0;
+    color: #ffffff;
+}
+
+.h-preheads {
+    height: 30px;
+    margin: 0 14px;
+}
+
+.h-prevbtns {
+    padding-top: 15px;
+    text-align: center;
+}
+
+.h-prevbtns .h-prevbtns1 {
+    margin: 0 5px;
+    width: 106px;
+    height: 32px;
+    background-color: #ffffff;
+    /*color: #616161;*/
+    /*margin-right:10px;*/
+    margin-top: 10px;
+    font-size: 12px;
+    border: 1px solid #e9e9e9;
+}
+
+
+/*这是批量删除存在公有后出现的样式*/
+
+.h-unable {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+    display: none;
+}
+
+.h-deletes {
+    width: 412px;
+    height: 228px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 150px;
+    border: 1px solid #E2E2E2;
+}
+
+.h-preheads .h-deletprev1 {
+    margin-left: 2px;
+    margin-top: 3px;
+    font-size: 16px;
+}
+
+.h-preheads {
+    height: 30px;
+    margin: 0 14px;
+}
+
+.h-prevbtns {
+    padding-top: 15px;
+    text-align: center;
+}
+
+.h-unable .h-prevbtns .h-prevbtns1 {
+    margin: 0 5px;
+    width: 107px;
+    height: 33px;
+    background-color: #49c0e0;
+    color: #FFFFFF;
+    /*margin-right:10px;*/
+    margin-top: 10px;
+    border: 1px solid #49c0e0;
+}
+
+.h-prevbtns .h-prevbtns2 {
+    margin: 0 5px;
+    width: 106px;
+    height: 32px;
+    font-size: 12px !important;
+    background-color: #49c0e0;
+    color: #ffffff;
+    margin-top: 10px;
+    border: 1px solid #49c0e0;
+    padding: 0;
+}
+
+
+/*这是后面添加的radio样式*/
+
+.h-rdo:checked:after {
+    top: 4px;
+    left: 4px;
+    width: 6px;
+    height: 6px;
+    background-color: white;
+}
+
+.h-rdo:checked:before {
+    border-color: blue;
+    background: blue;
+}
+
+.h-rdo {
+    width: 0px;
+    height: 0px;
+    background-color: #cecece;
+    margin-right: 18px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.h-rdo:before,
+.h-rdo:after {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    transition: .3s ease;
+}
+
+.h-rdo:before {
+    top: 0px;
+    left: 0px;
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    border: 1px solid #cecece;
+    /*border: transparent;*/
+}
+
+.h-rdo:after {
+    top: 3px;
+    left: 3px;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+}
+
+.h-rdo:after {
+    content: '';
+    display: block;
+    position: absolute;
+    transition: .3s ease;
+}
+
+
+/*下面是添加考试的css样式*/
+
+.h-addpaper {
+    position: absolute;
+    width: 100%;
+    top: 186px;
+    background-color: #f4f4f6;
+    height: 30px;
+    left: -40px;
+}
+
+
+/*切换*/
+
+.queChooseTab {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.queChooseTab i {
+    margin-right: 10px;
+}
+
+.queChooseTab span {
+    display: inline-block;
+    width: 117px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #f5f5f5;
+    color: #606060;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.queChooseTab span.current {
+    background-color: #4ac0e0;
+    color: #fff;
+    border-color: #4ac0e0;
+}
+
+.shotAnsEdit {
+    margin-top: 15px;
+}
+
+.shotAnsEdit textarea {
+    width: 100%;
+    border-color: #e9e9e9;
+    text-indent: 10px;
+    padding-top: 3px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 68px;
+}

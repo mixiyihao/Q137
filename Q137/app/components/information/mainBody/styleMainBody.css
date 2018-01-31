@@ -1,0 +1,95 @@
+.h-data s {
+    text-decoration: none;
+    text-indent: 3px;
+}
+
+h-data {
+    /*min-width: 1280px;*/
+    width: 100%;
+    /*padding-left: 266px;*/
+}
+
+.h-landing .h-data .h-title {
+    height: 25px;
+    padding-left: 230px;
+    line-height: 25px;
+    margin-top: 15px;
+}
+
+.h-data .h-title .h-cubiud {
+    width: 4px;
+    height: 20px;
+    margin-right: 8px;
+    margin-bottom: -4px;
+    padding-top: 8px;
+    display: inline-block;
+    background-color: #4ac0e0;
+}
+
+.h-data .h-title .h-information {
+    font-size: 18px;
+    height: 22px;
+    line-height: 22px;
+    color: #444444;
+    display: inline-block;
+    text-indent: 0px;
+}
+
+.h-data table {
+    /*min-width: 920px;*/
+    /*width: 75%;*/
+    height: 168px;
+    margin-top: 36px;
+    margin-left: 230px;
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.h-data1 table {
+    /*width: 880px;*/
+    /*width: 75%;*/
+    height: 42px;
+    margin-top: 36px;
+    /*margin-left: 282px;*/
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.h-data table tr {
+    display: flex;
+}
+
+.h-data table td {
+    vertical-align: middle;
+    width: 250px;
+    min-width: 250px;
+    height: 42px;
+    line-height: 42px;
+    border-bottom: none;
+    border-right: none;
+    border: none;
+    /*flex: 1;*/
+    text-indent: 5px;
+    font-family: Microsoft YaHei;
+    border-top: 1px solid #e5e5e5;
+    border-left: 1px solid #e5e5e5;
+}
+
+.h-data table td span {
+    color: #6f6f6f;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.h-data table td s {
+    color: #444444;
+    font-weight: 600;
+}
+
+.h-firsttd {
+    background-color: #f9f9f9;
+}
+
+.h-fivetr td {
+    width: 100%;
+}

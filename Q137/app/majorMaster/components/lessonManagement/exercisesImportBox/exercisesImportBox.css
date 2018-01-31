@@ -1,0 +1,92 @@
+.exercisesImportBox-content {
+    height: 360px;
+}
+
+.guidanceImportBox-container .exercisesImportBox-textarea-diff {
+    height: 40px;
+}
+
+.guidanceImportBox-container .exercisesImportBox-upload {
+    float: left;
+    display: inline-block;
+    height: 23px;
+    width: 94px;
+    background: #51c0de;
+    color: #fff;
+    font-size: 12px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    line-height: 23px;
+    text-align: center;
+    cursor: pointer;
+    padding: 0;
+}
+
+.exercisesImportBox-upload i {
+    vertical-align: -1px;
+    margin-right: 3px;
+}
+
+.exercisesImportBox-prompt {
+    float: left;
+    height: 28px;
+    line-height: 14px;
+    color: #8f8f8f;
+    font-size: 12px;
+    display: inline-block;
+    width: 213px;
+    margin-left: 4px;
+}
+
+.exercisesImportBox-upload-img {
+    margin-left: 80px;
+    border: 1px solid #e0e0e0;
+    background: #f3f3f3;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    width: 35px;
+    height: 35px;
+    position: relative;
+}
+
+.exercisesImportBox-upload-img span {
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: #fc0e1e;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 14px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.exercisesImportBox-addNew {
+    margin-top: 25px;
+}
+
+.exercisesImportBox-form {
+    display: none;
+}
+
+.exercisesImportBox-upload-img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: static;
+    overflow: hidden;
+    border-radius: 4px
+}
+
+.exercisesImportBox-detailed-card {
+    height: 115px;
+}

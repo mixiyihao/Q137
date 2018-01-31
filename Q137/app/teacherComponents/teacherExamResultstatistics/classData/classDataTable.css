@@ -1,0 +1,28 @@
+.tableStyle{
+  width: 428px;
+  margin-left: 12px;
+  border: 1px solid #f2f2f2;
+}
+.tableStyle tr td{
+  text-align: left;
+  width: 33%;
+  padding-left: 12px;
+  height: 50px;
+  line-height: 54px;
+}
+.tableStyle tr{
+  border-bottom: 1px solid #f2f2f2;
+}
+.Classdataecharts{
+  border: 1px solid #f2f2f2;
+  width:608px;height:275px;left:12px;
+}
+.manStyleclassDatas{
+  position: relative;
+  z-index: 999!important;
+  top: -126px;
+  left: 317px;
+  width: 10px;
+  height: 10px;
+  color: black;
+}

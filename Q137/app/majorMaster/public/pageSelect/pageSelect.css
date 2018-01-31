@@ -1,0 +1,51 @@
+.pageSelect-page {
+    float: right;
+    width: 383px;
+    margin-top: 15px;
+    margin-right: 0px;
+}
+
+.pageSelect-pageHide {
+    display: none;
+}
+
+.pageSelect-pageNum {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 10px;
+}
+
+.pageSelect-pageNum span {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-bottom: 1px solid #bfc3c6;
+}
+
+.pageSelect-pageNum i {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.pageSelect-page button {
+    width: 81px;
+    height: 30px;
+    float: left;
+    text-align: center;
+    margin-left: 8px;
+    background-color: #fff;
+    color: rgb(50, 50, 50);
+    border: 1px solid #d3d3d3;
+}
+
+.pageSelect-page .pageSelect-page1 {
+    background-color: rgb(211, 211, 211);
+    color: rgb(255, 255, 255);
+    border-color: rgb(211, 211, 211);
+}

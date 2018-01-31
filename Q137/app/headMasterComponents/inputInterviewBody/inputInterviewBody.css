@@ -1,0 +1,185 @@
+.inputInterviewstyle {
+    width: 264px !important;
+}
+
+.inputInterviewstyleinnerspan {
+    width: 236px !important;
+}
+
+.InputInterviewBody_box {
+    background-color: #f4f4f5;
+    min-height: 650px;
+    overflow: hidden;
+}
+
+.InputInterviewBody_box .InputInterviewBody_wrap {
+    width: 1198px;
+    min-height: 536px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-top: 13px;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.InputInterviewBody_box .InputInterviewBody_wrap h2 {
+    font-weight: 400;
+    font-size: 18px;
+    height: 20px;
+    line-height: 20px;
+    border-left: 4px solid #49c0e0;
+    padding-left: 5px;
+}
+
+.InputInterviewBody_box .InputInterviewBody_back {
+    position: absolute;
+    right: 25px;
+    top: 20px;
+}
+
+.InputInterviewBody_box .InputInterviewBody_back a {
+    float: left;
+    width: 35px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #31353e;
+    display: inline-block;
+}
+
+.InputInterviewBody_box .InputInterviewBody_back i {
+    float: left;
+    display: inline-block;
+    width: 15px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #31353e;
+}
+
+.InputInterviewBody_box .InputInterviewBody_msg {
+    height: 50px;
+    background-color: #f5f5f5;
+    margin-left: 10px;
+    margin-top: 18px;
+    line-height: 50px;
+    padding-left: 12px;
+}
+
+.InputInterviewBody_box .InputInterviewBody_msg span {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    color: #333333;
+    float: left;
+    font-weight: 600;
+}
+
+.InputInterviewBody_box .InputInterviewBody_msg span i {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    color: #333333;
+    font-weight: 600;
+}
+
+.InputInterviewBody_box .InputInterviewBody_userNum {
+    margin-left: 45px;
+}
+
+.InputInterviewBody_box .InputInterviewBody_center {
+    margin-top: 13px;
+    margin-left: 29px;
+    border-bottom: 1px dashed #c9c9c9;
+    height: 266px;
+}
+
+.InputInterviewBody_box .InputInterviewBody_choose {
+    height: 30px;
+    line-height: 30px;
+}
+
+.InputInterviewBody_box .InputInterviewBody_choose .InputInterviewBody_interview {
+    background: #37b0cf;
+    color: #fff;
+    width: 130px;
+    height: 30px;
+    text-align: center;
+    line-height: 28px;
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #37b0cf;
+}
+
+.InputInterviewBody_box .InputInterviewBody_choose .InputInterviewBody_interview2 {
+    width: 130px;
+    height: 30px;
+    text-align: center;
+    line-height: 28px;
+    display: inline-block;
+    cursor: pointer;
+    background: #fff;
+    color: #6e6e6e;
+    border: 1px solid #e9e7e8;
+}
+
+.InputInterviewBody_box .InputInterviewBody_choose .InputInterviewBody_punish {
+    border: 1px solid #e9e7e8;
+    color: #6e6e6e;
+    width: 130px;
+    height: 30px;
+    text-align: center;
+    line-height: 28px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.InputInterviewBody_box .InputInterviewBody_choose .InputInterviewBody_punish2 {
+    background: #37b0cf;
+    border: 1px solid #37b0cf;
+    color: #fff;
+    width: 130px;
+    height: 30px;
+    text-align: center;
+    line-height: 28px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.InputInterviewBody_box .InputInterviewBody_chooseDate {
+    height: 30px;
+    margin-top: 12px;
+}
+
+.InputInterviewBody_box .InputInterviewBody_textarea {
+    height: 117px;
+    margin-top: 12px;
+}
+
+.InputInterviewBody_box .InputInterviewBody_textarea textarea {
+    width: 1057px;
+    height: 117px;
+    border: 1px solid #e9e8e8;
+    background-color: rgba(0, 0, 0, 0);
+    resize: none;
+    padding: 5px;
+    color: #666666;
+}
+
+.InputInterviewBody_box .InputInterviewBody_wrap .InputInterviewBody_save {
+    width: 95px;
+    height: 34px;
+    background-color: #4ac0e0;
+    text-align: center;
+    line-height: 34px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 12px;
+    margin-left: 69px;
+    padding: 0px;
+}
+
+.InputInterviewBody_box .InputInterviewBody_inputBoxHide {
+    display: none;
+}

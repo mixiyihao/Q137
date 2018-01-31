@@ -1,0 +1,427 @@
+.Insertassistant .InsertassH2, .Insertassistant2 .InsertassH2 {
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+    border-bottom: 1px solid #dadada;
+    margin: 0 17px 9px;
+}
+
+.Insertassistant2 {
+    margin-top: 10px;
+}
+
+.InsertassH2 span {
+    display: inline-block;
+    font-size: 16px;
+}
+
+.InsertassH2 i {
+    position: absolute;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    right: -17px;
+}
+
+.InsertassH2 i:hover {
+    color: #fff;
+    background: #4ac0e0;
+}
+
+.jurisdictionfirst button.InsertShowAll {
+    width: 100px;
+    text-align: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.assistantcontent {
+    height: 21px;
+    width: 100%;
+}
+
+.Editassistantcontent-top {
+    margin-top: 8px;
+}
+
+.assistantcontent > div {
+    position: relative;
+    width: 50%;
+    display: inline-block;
+}
+
+.assistantcontent div .assistantcontent-important {
+    color: red;
+    line-height: 21px;
+    margin-right: 3px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.Insertassistant .assistantcontentWrap .Editassistantcontent input {
+    border: 0px;
+    color: #808080;
+    float: left;
+}
+
+.assistantcontent input {
+    padding-left: 5px;
+    width: 299px;
+    height: 21px;
+    border: 1px solid #e8e8e8;
+    line-height: 11px;
+    vertical-align: middle;
+    border-radius: 0;
+}
+
+.assistantcontent b {
+    display: inline-block;
+    width: 300px;
+    left: 90px;
+    font-weight: 300;
+    color: red;
+    text-align: left;
+    position: absolute;
+    top: -10px;
+}
+
+.assistantcontent span:not(.ant-calendar-picker-icon) {
+    height: 21px;
+    line-height: 21px;
+    display: inline-block;
+    width: 110px;
+    text-align: center;
+    color: #808080;
+    float: left;
+}
+
+.assistantcontent span.DatePicker {
+    width: 299px;
+}
+
+.assistantcontent span.DatePicker span.ant-calendar-picker-icon, .assistantcontent span.DatePicker i.anticon {
+    line-height: 15px;
+}
+
+.assistantcontentWrap {
+    width: 100%;
+    padding: 0 8px;
+}
+
+.assistanthead {
+    background: #f5f5f5;
+    padding-left: 16px;
+    line-height: 35px;
+    height: 35px;
+    font-size: 16px;
+}
+
+.assistanthead-diff {
+    background: #f5f5f5;
+    padding-left: 16px;
+    line-height: 35px;
+    height: 35px;
+    font-size: 14px;
+    color: #616161;
+}
+
+.assistanthead-diff span {
+    margin-right: 15px;
+}
+
+.Insertassistant-job {
+    margin-left: 28px;
+    margin-top: 4px;
+    color: #414141;
+}
+
+.Insertassistant-job-select {
+    margin-left: 28px;
+    margin-top: 4px;
+    color: #414141;
+}
+
+.Insertassistant-job-select select {
+    margin-left: 9px;
+    height: 25px;
+    width: 147px;
+    outline: none;
+    border: 1px solid #e8e8e8;
+    line-height: 25px;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url('../../../../../images/headMaster/aa.svg') no-repeat 98% center;
+    background-size: 15px 13px;
+}
+
+.assistantjurisdiction {
+    padding: 10px 8px 15px;
+}
+
+.assistantjurisdiction .jurisdictiontitle {
+    float: left;
+    display: inline-block;
+    width: 88px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    color: #808080;
+}
+
+.jurisdictiontitle i {
+    line-height: 30px;
+    vertical-align: middle;
+    display: inline-block;
+    color: red;
+}
+
+.jurisdictionoptionWrap {
+    float: left;
+}
+
+.jurisdictionoption {
+    width: 743px;
+    height: 165px;
+    /*overflow-y: auto;*/
+    border: 1px solid #e8e8e8;
+}
+
+input.jurisdictioninputWrap {
+    background: #fff;
+    width: 240px;
+    height: 26px;
+    line-height: 26px;
+    display: inline-block;
+    border: 1px solid #bababa;
+    padding-left: 2px;
+}
+
+.jurisdictionoption > div.jurisdictionfirst {
+    background: #f5f5f5;
+    padding-left: 17px;
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+}
+
+.jurisdictionoption > div.jurisdictionfirst i {
+    position: absolute;
+    left: 313px;
+    font-size: 10px;
+    top: 1px;
+    cursor: pointer;
+}
+
+.jurisdictionfirst span {
+    margin-right: 6px;
+    line-height: 30px;
+    vertical-align: middle;
+    color: #808080;
+}
+
+.jurisdictionfirst button {
+    width: 45px;
+    height: 26px;
+    /*border-top: 1px solid #bababa;*/
+    /*border-right: 1px solid #bababa;*/
+    /*border-bottom: 1px solid #bababa;*/
+    line-height: 26px;
+    background: #4fc0ce;
+    color: #fff;
+    padding: 0 !important;
+}
+
+.jurisdictionWrap {
+    float: left;
+}
+
+.jurisdictionoption .jurisdictionClassList {
+    padding: 7px 0 0 20px;
+    height: 122px;
+    overflow-y: auto;
+}
+
+.jurisdictionClassList div {
+    display: inline-block;
+    margin-right: 34px;
+    min-width: 128px;
+    color: #808080;
+}
+
+.jurisdictionClassList div input {
+    margin-right: 3px;
+}
+
+.jurisdictionSubmit {
+    /* margin-top: 10px; */
+    /* margin-left: 96px; */
+    cursor: pointer;
+    position: absolute;
+    bottom: 5px;
+    left: 96px;
+}
+
+.jurisdictionSubmit .cancel {
+    border: 1px solid #e8e8e8;
+    display: inline-block;
+    width: 95px;
+    height: 34px;
+    color: #000;
+    background: #fff;
+    text-align: center;
+    line-height: 34px;
+    float: left;
+}
+
+.jurisdictionSubmit .confirm {
+    border: 1px solid #51c0de;
+    width: 95px;
+    height: 34px;
+    line-height: 34px;
+    display: inline-block;
+    background: #51c0de;
+    color: #fff;
+    text-align: center;
+    margin-left: 10px;
+    float: left;
+    padding: 0;
+}
+
+.jurisdictionSubmit b {
+    display: inline-block;
+    width: 300px;
+    left: 230px;
+    font-weight: 300;
+    color: red;
+    text-align: left;
+    position: absolute;
+    top: 5px;
+    cursor: auto;
+}
+
+/* gebie选择框样式*/
+.assistantcontentSex {
+    color: #606060;
+    position: relative;
+    height: 33px;
+}
+
+.assistantcontent-top{
+    margin-top: 8px;
+}
+
+.assistantcontent-margin {
+    margin-top: 5px;
+}
+
+.assistantcontentWrap .assistantcontent-input:hover {
+    border-color: #4ac0e0;
+}
+
+/*.assistantcontentWrap .ant-calendar-picker:hover .ant-calendar-picker-input:not(.ant-input-disabled) {*/
+    /*border-color: #e8e8e8;*/
+/*}*/
+
+.assistantcontentWrap .assistantcontent .ant-input:hover {
+    border-color: #4ac0e0;
+}
+
+.assistantcontent .assistantcontentSex input {
+    width: 20px;
+    border: 0px;
+}
+
+.assistantcontent .assistantcontentSex input#female {
+    left: 10px;
+}
+
+.assistantcontent .assistantcontentSex input#male {
+    left: 30px;
+}
+
+.assistantcontentSex > label.female {
+    left: 200px
+}
+
+.assistantcontentSex > label.male {
+    left: 140px
+}
+
+/* 选择框样式*/
+.assistantcontentSex > input[type="radio"], .assistantcontentSex > input[type="radio"]:checked {
+    -webkit-appearance: none !important;
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    display: none;
+    top: 10px;
+    z-index: 100;
+}
+
+.assistantcontentSex > label {
+    position: absolute;
+    /* 决定label的位置*/
+
+    top: 2px;
+    height: 22px;
+}
+
+.assistantcontentWrap .assistantcontentSex > label span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    line-height: 18px;
+    text-align: left;
+}
+
+.assistantcontentSex > label:before {
+    content: '';
+    position: absolute;
+    /* 决定input的位置*/
+    left: -20px;
+    top: 2px;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease !important;
+    -moz-transition: all 0.3s ease !important;
+}
+
+.assistantcontentSex > label:after {
+    content: '';
+    position: absolute;
+    /* 决定input的位置*/
+    left: -20px;
+    top: 2px;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-top: 3px;
+    margin-left: 3px;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+}
+
+.assistantcontentSex input[type='radio']:checked + label:before {
+    border-color: #49c0e0;
+    background: #49c0e0;
+}
+
+.assistantcontentSex input[type='radio']:checked + label:after {
+    background-color: white;
+}
+
+.assistantcontentDate {
+    height: 33px;
+}

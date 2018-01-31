@@ -1,0 +1,37 @@
+
+.ClassbasicData_box .ClassbasicData_top {
+    height: 38px;
+    background: #f5f5f5;
+    line-height: 38px;
+    margin-left: 15px;
+    margin-top: 12px;
+    color: #2eadcd;
+}
+
+.ClassbasicData_box .ClassbasicData_top i {
+    float: left;
+    height: 38px;
+    line-height: 38px;
+    display: inline-block;
+    margin-left: 6px;
+}
+
+.ClassbasicData_box .ClassbasicData_top span {
+    float: left;
+    display: inline-block;
+    height: 38px;
+    line-height: 38px;
+    font-weight: 500;
+}
+
+.ClassbasicData_box .ClassbasicData_top .ClassbasicData_topSchool {
+    margin-left: 6px;
+}
+
+.ClassbasicData_box .ClassbasicData_top .ClassbasicData_topMajor {
+    margin-left: 35px;
+}
+
+.ClassbasicData_box .ClassbasicData_top .ClassbasicData_topClass {
+    margin-left: 20px;
+}

@@ -1,0 +1,77 @@
+.h-step .h-agree {}
+
+.h-step .h-agree ul {
+    text-align: center;
+    width: 766px;
+    margin: 0 auto;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.su_sanlianfa {
+    width: 130px !important;
+}
+div.suggView{
+/*    margin-bottom: 10px;
+*/}
+div.suggModel{
+    margin-top: 8px;
+}
+.su_sanlianfa .spro-wunai {
+    text-align: center;
+    color: #1380fa;
+    width: 120px !important;
+}
+
+div.spro-wunai:hover {
+    color: #1380fa;
+}
+
+a#3.h-delets {
+    width: 100px;
+}
+
+.su_sanlianfa .gangbazi {
+    width: 50px;
+    padding-left: 0px !important;
+    margin-left: 6px !important;
+    color: #1481fa !important;
+}
+
+.su_sanlianfa .icon-yijianfankui {}
+
+.su_sanlianfa div {
+    color: #108ee9;
+    padding-left: 0px;
+}
+
+.h-step .h-agree ul li {
+    float: left;
+    text-align: center;
+    margin-left: 110px;
+}
+
+.h-step .h-agree ul li .h-agree1 {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.h-step .h-agree ul li .h-agree1 s {
+    text-decoration: none;
+    font-size: 26px;
+    margin: 0 3px;
+    margin-right: 6px;
+    font-weight: 600;
+    font-style: italic;
+    font-family: Arial;
+}
+
+.h-navs .h-step .h-reset1 {
+    font-size: 20px;
+}
+
+.h-newSuggesBox {
+    margin-left: 210px;
+    height: 144px;
+}

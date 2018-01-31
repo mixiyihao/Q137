@@ -1,0 +1,141 @@
+.acsStatis{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    background-color: #f4f4f6;
+}
+.acsStatisInner{
+    min-height: 600px;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+}
+.acsStatisInner h2{
+    font-weight: 400;
+    font-size: 18px;
+    height: 20px;
+    line-height: 20px;
+    border-left: 4px solid #49c0e0;
+    padding-left: 5px;
+}
+.acsthStatisTab span{
+    display: inline-block;
+    padding: 0px 16px;
+    border-top: 4px solid transparent;
+    border-right: 1px solid rgb(228, 228, 228);
+    background: rgb(244, 244, 246);
+    cursor: pointer;
+    text-align: center;
+    height: 38px;
+    line-height: 32px;
+    box-sizing: border-box;
+    color: #606060;
+}
+
+.acsthStatisTab span.defaultClick{
+    border-top: 4px solid rgb(73, 192, 224);
+    border-right: 1px solid rgb(228, 228, 228);
+    background: rgb(255, 255, 255);
+    outline: none;
+}
+.acsStaSearch{
+    clear: both;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+}
+.acsStaSearch input{
+    width: 280px !important;
+}
+.acsthStatisList DatePicker{
+   padding-left: 20px;
+}
+.acsStatisSearchtime{
+    position: relative;
+    left: 59px;
+    display: inline-block;
+}
+.acsnoAnswer {
+    border: 1px solid #e5e5e5;
+    border-top: 0px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 45px;
+    background: url(../../images/search/nomessage.jpg) no-repeat 10px center;
+    background-size: 30px;
+}
+.shijiankongjianacc{
+    letter-spacing: 1px;
+    margin-left: 10px;
+    border-radius: 0px !important;
+    width: 280px !important;
+    float: left;
+    margin-right: 20px !important;
+    margin-left: 20px !important;
+}
+.acctimespan{
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+}
+.acctimespantwo{
+    /*width: 50px;*/
+    margin-left:10px;
+    display: inline-block;
+    text-align: center;
+}
+.accqueding{
+    display: inline-block;
+    width: 65px;
+    height: 30px;
+    background: #48c1de;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    left: 3px;
+    position: relative;
+    top: 2px;
+    cursor: pointer;
+}
+.accthStaTable>tr{
+    background: #f5f5f5;
+    border-right: 1px solid #e5e5e5 !important;
+    border-left: 1px solid #e5e5e5 !important;
+}
+.accthStaTable>tr td{
+    border-top: 0px !important;
+    text-align: left;
+    padding-left: 20px;
+}
+.accthStaTable{
+    border: 0px !important;
+}
+.accthbody tr td{
+    text-align: left;
+    padding-left: 20px;
+}
+.accthbody tr{
+    border: 1px solid #e5e5e5;
+}
+.accDownloadoutter{
+    width: 100%;
+    height: 50px;
+    background: #f5f5f5;
+    border: 1px solid #e5e5e5;
+}
+.accDownloadall{
+    font-weight: 100;
+    background: #49c0e0;
+    color: white;
+    text-align: center;
+    width:95px;
+    height: 28px;
+    margin: 10px 0px;
+    float: right;
+    line-height: 28px;
+    cursor: pointer;
+}
+.accthStaMany{
+    border-bottom: 1px solid #e5e5e5 !important;
+    border-left: 1px solid #e5e5e5 !important;
+    border-right: 1px solid #e5e5e5 !important;
+}

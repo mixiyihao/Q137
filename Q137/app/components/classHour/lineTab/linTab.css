@@ -1,0 +1,78 @@
+.class_lineTab {
+    height: 36px;
+    background: #e4e9ec;
+    width: 100%;
+    line-height: 36px;
+    font-size: 14px;
+}
+
+.lineTab_Wrap {
+    width: 1280px;
+    margin: 0 auto;
+    height: 36px;
+    position: relative;
+}
+
+.lineTab_Wrap .lineTabP_box {
+    float: left;
+}
+
+.lineTab_Wrap .lineTabP {
+    color: #303030;
+    padding-left: 230px;
+    /*width: 900px;*/
+}
+
+.lineTab_Wrap .lineTab_nextBox {
+    float: right;
+    height: 36px;
+    width: 220px;
+    margin-right: 70px;
+    overflow: hidden;
+}
+
+.lineTab_Wrap .lineTab_nextBox div {
+    width: 104px;
+    height: 28px;
+    border: 1px solid #d1d1d1;
+    float: left;
+    text-align: center;
+    line-height: 28px;
+    margin-top: 4px;
+    cursor: pointer;
+    color: #606060;
+}
+
+.lineTab_Wrap .lineTab_nextBox .lineTab_nextBoxPre {
+    margin-left: 220px;
+    margin-right: 12px;
+}
+
+.lineTab_Wrap .lineTab_nextBox .lineTab_nextBoxPreAni {
+    margin-left: 0px;
+    margin-right: 12px;
+    transition: margin-left .3s ease-in;
+    -o-transition: margin-left .3s ease-in;
+    -ms-transition: margin-left .3s ease-in;
+    -moz-transition: margin-left .3s ease-in;
+    -webkit-transition: margin-left .3s ease-in;
+}
+
+.lineTab_Wrap .lineTabP_back {
+    position: absolute;
+    right: 20px;
+    font-size: 14px;
+    text-align: center;
+    color: #7b8086;
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+}
+
+.lineTab_Wrap .lineTabP_back i {
+    vertical-align: -1px;
+}
+
+.lineTab_Wrap .lineTabP_back:hover {
+    color: #4ac0e0;
+}

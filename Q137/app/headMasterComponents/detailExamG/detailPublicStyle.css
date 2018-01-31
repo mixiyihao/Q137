@@ -1,0 +1,48 @@
+.datailPublic {
+    height: 84px;
+    width: 100%;
+    background: #f5f5f5;
+    border-bottom: 1px dashed #c9c9c9;
+}
+
+div.dp-innerdivOne {
+    height: 46px;
+    line-height: 51px;
+    color: #303030;
+}
+
+div.dp-innerdivTwo {
+    line-height: 21px;
+     height: 46px;
+    color: #303030;
+}
+div.dp-innerdivOne span b,div.dp-innerdivOne span i{
+    height: 46px;
+}
+div.dp-innerdivOne span {
+    padding-left: 14px;
+    height: 46px;
+   /* min-width: 120px;*/
+    text-align: left;
+    margin-right: 53px;
+}
+div.dp-innerdivTwo span {
+    padding-left: 14px;
+    height: 46px;
+   /* min-width: 120px;*/
+    text-align: left;
+}
+div.dp-innerdivOne b,div.dp-innerdivTwo b{
+    /*margin-right: 10px;*/
+    font-weight: normal;
+}
+
+div.dp-innerdivOne i,div.dp-innerdivTwo i {
+    font-weight: normal;
+}
+div.dp-innerdivTwo span.dp-innerspan{
+    margin-right: 114px;
+}
+div.dp-innerdivTwo  span.dp-spaninnerTwo{
+    margin-right: 125px;
+}

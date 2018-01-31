@@ -1,0 +1,406 @@
+/* 搜索结果 YH */
+
+.y-searchResult {}
+
+.y-searchResult .y-searchTop {
+    width: 40px;
+    height: 40px;
+    background: red;
+    float: right;
+}
+
+.y-searchResult .y-caption {
+    font-size: 16px;
+    height: 22px;
+    line-height: 22px;
+    text-indent: 11px;
+    background: url(../../../images/leftNavBar/bj_02.gif) no-repeat 0 0;
+    margin: 20px 0 12px 0;
+}
+
+.y-searchResult .y-detailedAnswer {
+    margin-left: 110px;
+    margin-top: 30px;
+}
+
+.y-searchResult .y-detailedAnswer h3 {
+    font-size: 16px;
+    font-weight: normal;
+    color: #0078d7;
+    width: 705px;
+}
+
+
+/*.y-searchResult .y-problemDescription{
+    margin-top: 8px;
+}*/
+
+.y-searchResult .y-problemDescription h4 {
+    font-weight: normal;
+    font-size: 14px;
+    color: #303741;
+    height: 32px;
+    line-height: 32px;
+}
+
+.y-searchResult .y-problemDescription .y-lecturerQuestion {
+    display: none;
+    float: left;
+    width: 710px;
+    color: #7c8083;
+    font-weight: 100;
+    line-height: 19px;
+    letter-spacing: 1px;
+}
+
+.y-searchResult .y-descriptionContent {
+    overflow: hidden;
+}
+
+.y-searchResult .y-descriptionContent div {
+    width: 61px;
+    height: 61px;
+    background: #aeaeae;
+    float: left;
+    margin-right: 7px;
+}
+
+.y-searchResult .y-descriptionContent div img {
+    width: 61px;
+    height: 61px;
+}
+
+.y-searchResult .y-descriptionContent p {
+    float: left;
+    width: 705px;
+    color: #7c8083;
+    line-height: 19px;
+    letter-spacing: 1px;
+}
+
+.y-searchResult .y-descriptionContent p i {
+    font-size: 12px;
+    font-style: italic;
+    color: #8ad2ea;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.y-searchResult .y-lecturerAnswer {
+    margin-top: 7px;
+    margin-left: 20px;
+}
+
+.y-searchResult .y-lecturerAnswer .y-lecturerContent {
+    width: 100%;
+    overflow: hidden;
+    padding-top: 12px;
+}
+
+.y-searchResult .y-lecturerAnswer .y-lecturerContent .y-lecturerContentP2 {
+    display: none;
+    float: left;
+    /*width: 710px;*/
+    color: #2e3740;
+    line-height: 18px;
+    margin-top: 2px;
+}
+
+.y-searchResult .y-lecturerAnswer h4 {
+    font-weight: normal;
+    font-size: 14px;
+    color: #303741;
+    height: 20px;
+    line-height: 20px;
+}
+
+.y-searchResult .y-lecturerAnswer p {
+    float: left;
+    /*width: 720px;*/
+    color: #2e3740;
+    line-height: 18px;
+    margin-top: 2px;
+}
+
+.y-searchResult .y-lecturerAnswer p i {
+    font-size: 12px;
+    font-style: italic;
+    color: #8ad2ea;
+    margin-left: 10px;
+    cursor: pointer;
+    /*float: right;*/
+    width: 48px;
+}
+
+.y-searchResult .y-lecturerAnswer .y-answereValuate {
+    font-size: 12px;
+    color: #7d7e82;
+    overflow: hidden;
+}
+
+.y-searchResult .y-lecturerAnswer .y-answereValuate .y-valuateTitle {
+    margin-top: 11px;
+    float: left;
+}
+
+.y-searchResult .y-lecturerAnswer .y-answereValuate .y-answereValuateTime {
+    float: left;
+    margin-top: 11px;
+    font-size: 12px;
+    color: #bfbfbf;
+}
+
+.y-searchResult .y-lecturerAnswer .y-answereValuate .y-answereValuateFabulous {
+    margin-left: 610px;
+    min-width: 20px;
+    height: 20px;
+    margin-top: 9px;
+}
+
+.y-searchResult .y-lecturerAnswer .y-answereValuate .y-answereValuateFabulous .y-answereValuateFabulousSpan {
+    color: #909090;
+}
+
+.y-searchResult .y-lecturerAnswer .y-answereValuate .y-answereValuateFabulous span {
+    float: left;
+    cursor: pointer;
+    margin-left: 4px;
+}
+
+.y-searchResult .y-lecturerAnswer .y-answereValuate .y-answereValuateFabulous img {
+    width: 14px;
+    height: 15px;
+    float: left;
+    cursor: pointer;
+}
+
+.y-topToWrap {
+    width: 30px;
+    float: right;
+}
+
+.y-topTo {
+    width: 40px;
+    height: 40px;
+    background: url("../../../images/search/top.jpg") no-repeat;
+    position: fixed;
+    bottom: 200px;
+    /*left: 82%;*/
+    cursor: pointer;
+    display: none;
+    margin-right: 30px;
+}
+
+.y-searchMoreWrap {
+    margin: 0px 0px 20px 277px;
+    overflow: hidden;
+    padding: 0px 20px 20px;
+    width: 949px;
+}
+
+.y-searchMore {
+    width: 120px;
+    height: 36px;
+    margin: 80px auto;
+    background: #49c0e0;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.y-searchMore span {
+    display: block;
+    text-align: center;
+    line-height: 36px;
+    color: #fff;
+}
+
+.y-lecturerAnswerTop {
+    margin-top: 7px;
+    margin-left: 20px;
+}
+
+.y-lecturerAnswerTop h3 {
+    color: #1380f9;
+}
+
+.y-searchResult .y-warningMsg {
+    margin-left: 12px;
+    height: 28px;
+    line-height: 28px;
+    display: block;
+    float: left;
+}
+
+.y-searchResult .y-warningMsg i {
+    display: block;
+    width: 28px;
+    height: 28px;
+    background: url(../../../images/search/nomessage.jpg) no-repeat;
+    background-size: 28px 28px;
+    float: left;
+    margin-right: 10px;
+}
+
+.y-lecturerAnswerWrap {
+    margin-top: 14px;
+}
+
+.y-lecturerAnswerLine {
+    height: 1px;
+    border: 1px dashed #e5e5e5;
+    margin-top: 14px;
+    margin-left: 20px
+}
+
+.y-searchResultBox {
+    float: left;
+    width: 700px;
+}
+
+.y-searchResult .hotSearch_box {
+    float: right;
+    width: 240px;
+    min-height: 260px;
+    margin-top: 20px;
+}
+
+.y-searchResult .hotSearch_box h2 {
+    font-weight: 400;
+    font-size: 16px;
+    height: 20px;
+    line-height: 20px;
+    border-left: 4px solid #49c0e0;
+    padding-left: 13px;
+}
+
+.y-searchResult .hotSearch_box .hotSearch_box_list {
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.y-searchResult .hotSearch_box .hotSearch_box_listTop {
+    float: left;
+    position: relative;
+    display: block;
+    height: 44px;
+    width: 44px;
+}
+
+.y-searchResult .hotSearch_box .hotSearch_box_listTop i {
+    width: 0;
+    height: 0;
+    border-top: 44px solid red;
+    border-right: 44px solid transparent;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.y-searchResult .hotSearch_box .hotSearch_box_listTop span {
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    left: 9px;
+    top: 5px;
+    font-weight: 500;
+}
+
+.y-searchResult .hotSearch_box .hotSearch_box_listMsg {
+    float: left;
+    min-height: 44px;
+    width: 175px;
+}
+
+.y-searchResult .hotSearch_box .hotSearch_box_listMsg p {
+    line-height: 20px;
+    color: #2e3641;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.y-searchResult .hotSearch_box .hotSearch_box_listMsg p:hover,
+.y-searchResult .hotSearch_box .hotSearch_box_listMsg2:hover p,
+.y-searchResult .hotSearch_box .hotSearch_box_listMsg2:hover span
+{
+    color: #1280f9;
+}
+
+.y-searchResult .hotSearch_box .hotSearch_box_listMsg2 {
+    float: left;
+    min-height: 20px;
+    width: 230px;
+}
+
+.y-searchResult .hotSearch_box .hotSearch_box_listMsg2 span {
+    float: left;
+    color: #2e3641;
+}
+
+.y-searchResult .hotSearch_box .hotSearch_box_listMsg2 p {
+    line-height: 20px;
+    color: #2e3641;
+    font-size: 14px;
+    word-break: break-all;
+    float: left;
+    width: 200px;
+    cursor: pointer;
+}
+
+.searchResult_More {
+    height: 66px;
+    position: relative;
+    overflow: hidden;
+    margin: 30px 0 20px 277px;
+}
+
+.searchResult_MoreHide {
+    display: none;
+}
+
+.searchResult_More .searchResult_MoreLine {
+    height: 1px;
+    width: 100%;
+    border-bottom: 1px dashed #f2f2f2;
+    margin-top: 32px;
+}
+
+.searchResult_More .searchResult_MoreMsg {
+    width: 140px;
+    height: 66px;
+    background-color: #ffffff;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    /*transform: translate(-50%, 0);*/
+    transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    line-height: 66px;
+    text-align: center;
+    color: #1380fa;
+    /*color:#8c8b8b;*/
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.searchResult_More .searchResult_MoreMsg2 {
+    width: 140px;
+    height: 66px;
+    background-color: #ffffff;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    /*transform: translate(-50%, 0);*/
+    transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    line-height: 66px;
+    text-align: center;
+    color: #8c8b8b;
+    font-size: 16px;
+    cursor: pointer;
+}

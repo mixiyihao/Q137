@@ -1,0 +1,414 @@
+.stuHomeworkList {
+    margin: 9px 0 0 10px;
+    position: relative;
+}
+
+.stuHkListTab {
+    position: relative;
+    height: 38px;
+    border-bottom: 1px solid rgb(242, 242, 242);
+}
+
+.stuHkListTab span {
+    display: inline-block;
+    padding: 0px 16px;
+    border-top: 4px solid transparent;
+    border-right: 1px solid rgb(228, 228, 228);
+    background: rgb(244, 244, 246);
+    cursor: pointer;
+    text-align: center;
+    height: 38px;
+    line-height: 32px;
+    box-sizing: border-box;
+    color: #606060;
+}
+
+.stuHkListTab span:nth-of-type(1) {
+    /*border-left: 1px solid #e4e4e4;*/
+}
+
+.stuHkListTab span.current {
+    border-top: 4px solid rgb(73, 192, 224);
+    border-right: 1px solid rgb(228, 228, 228);
+    background: rgb(255, 255, 255);
+    outline: none;
+}
+
+.stuHkGroup {
+    padding-right: 30px;
+    margin-top: 15px;
+}
+
+.Hkfl {
+    float: left;
+    /*height: 45px;*/
+    width: 180px;
+}
+
+.Hkfl span {
+    display: block;
+    width: 90px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 12px;
+    color: #606060;
+}
+
+.Hkfl span i {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: 900;
+    font-style: oblique;
+    margin-right: 5px;
+}
+
+.Hkfl p {
+    text-align: center;
+    color: #606060;
+}
+
+.stuHkListDetial {
+    margin-top: 15px;
+    border: 1px solid #e5e5e5;
+}
+
+.HkSearchWrap {
+    height: 50px;
+    position: relative;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.HkSearchBox {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+}
+
+.HkSearchBox span {
+    display: inline-block;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 500;
+    box-sizing: border-box;
+    color: #303030;
+}
+
+.HkSearchBox input {
+    width: 280px;
+    height: 32px;
+    line-height: 32px;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    padding-left: 5px;
+}
+
+.HkSearchBox input:active,
+.HkSearchBox input:focus {
+    background-color: #fff;
+    border: 1px solid #1380f9;
+}
+
+table.HkTable th {
+    text-align: center;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+table.HkTable td {
+    position: relative;
+    text-align: center;
+    border-top: 1px solid #f5f5f5;
+    min-height: 50px;
+    /*line-height: 50px;*/
+    vertical-align: middle;
+    /*white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;*/
+}
+
+table.HkTable tbody td {
+    color: #606060;
+}
+
+.hkComment {
+    position: relative;
+}
+
+.hkCMTtext {
+    text-align: left;
+    padding: 5px 5px;
+    line-height: 20px;
+    box-sizing: border-box;
+    width: 300px;
+}
+
+.stuHkCk {
+    width: 50px;
+}
+
+.stuHkCs {
+    width: 136px;
+}
+
+.stuHkLs {
+    width: 136px;
+}
+
+.stuHkTm {
+    width: 160px;
+}
+
+.stuHkSc {
+    width: 60px;
+}
+
+.hkTbD {
+    /*overflow: auto;*/
+}
+
+.hkTbD a {
+    color: #1380fa;
+    display: block;
+    width: 130px;
+    word-break: break-all;
+    /*white-space: nowrap;s
+    text-overflow: ellipsis;
+    overflow: hidden;*/
+}
+
+.hkTbD a:hover {
+    color: #4ac0e0;
+}
+
+a.dnI {
+    position: absolute;
+    width: 20px;
+    right: 0px;
+    top: 50%;
+    transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    /* IE 9 */
+    -moz-transform: translate(0, -50%);
+    /* Firefox */
+    -webkit-transform: translate(0, -50%);
+    /* Safari 和 Chrome */
+    -o-transform: translate(0, -50%);
+    /* Opera */
+}
+
+a.dnI.noneItem {
+    display: none;
+}
+
+.HkDownLoad {
+    width: 98px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    margin: 10px 0 10px 10px;
+    background-color: #4abfe0;
+}
+
+.HkDownLoad a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.HkDownLoad i,
+.HkDownLoad a,
+.HkDownLoad a:hover {
+    color: #fff;
+}
+
+.hkTbCourse,
+.hkTblesson,
+.hkCMTtex {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.noHkTag {
+    /*padding: 5px 0px 5px 35px;*/
+    height: 50px;
+    line-height: 50px;
+    padding-left: 35px;
+    background: url('../../images/search/nomessage.jpg') no-repeat 5px center;
+    background-size: 25px;
+}
+
+.noHkTag.block {
+    display: block
+}
+
+.noHkTag.none {
+    display: none
+}
+
+.showComment {
+    position: absolute;
+    top: 50px;
+    border: 1px solid #00a2f7;
+    box-shadow: rgba(0, 0, 0, 0.0980392) 0px 1px 9px;
+    /*height: 20px;*/
+    z-index: 666;
+    background-color: #fff;
+    line-height: 20px;
+    font-size: 16px;
+    width: 340px;
+    box-sizing: border-box;
+    padding: 10px;
+    display: none;
+}
+
+.hkCenterH2 {
+    width: 100%;
+    /*background:linear-gradient(90deg, rgb(90, 145, 247), rgb(104, 190, 237))  ;*/
+    background: #5a91f7;
+    background: linear-gradient(to right, #5a91f7, #88d6f6);
+    height: 144px;
+    position: relative;
+    /*background-image:url(../../images/homeworkcenter/homeworkcenter.png);
+    background-repeat: no-repeat;
+    background-position: center;*/
+}
+
+.hkCenterH2 h2 {
+    position: absolute;
+    width: inherit;
+    top: 50%;
+    transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    font-size: 20px;
+    font-weight: 100;
+    height: 144px;
+    line-height: 144px;
+    text-align: center;
+    color: #fff;
+    background-image: url(../../images/homeworkcenter/homeworkcenter.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 100px;
+}
+
+
+/*iconfont goD*/
+
+.icon-qushangchuan {
+    margin-left: 4px;
+}
+
+
+/*人物头像*/
+
+.tallYourLeval {
+    display: none;
+    position: absolute;
+    right: 175px;
+    top: -26px;
+    width: 264px;
+    height: 147px;
+    z-index: 2;
+    /*opacity: 0;*/
+    /*background-color: yellow;*/
+}
+
+.tallYourLeval.boyPic {
+    background: url(../../images/homeworkcenter/boyPic.png) no-repeat right center;
+    background-size: cover;
+}
+
+.tallYourLeval.girlPic {
+    background: url(../../images/homeworkcenter/girlPic.png) no-repeat right center;
+    background-size: cover;
+}
+
+.tallYourLeval .toldYouSo {
+    position: absolute;
+    width: 168px;
+    height: 77px;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2e3740;
+    left: 0px;
+    top: 1px;
+    /*z-index: 2;*/
+}
+
+i.boyWord {
+    color: #f64b8f;
+}
+
+i.girlWord {
+    color: #3b92fb;
+}
+
+.tallYourLeval {
+    animation: 2s opacity2 0s;
+    -webkit-animation: 2s opacity2 0s;
+    -moz-animation: 2s opacity2 0s;
+}
+
+@keyframes opacity2 {
+    0% {
+        opacity: 0
+    }
+    50% {
+        opacity: .8;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes opacity2 {
+    0% {
+        opacity: 0
+    }
+    50% {
+        opacity: .8;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes opacity2 {
+    0% {
+        opacity: 0
+    }
+    50% {
+        opacity: .8;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.hkBackTo {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    color: #7b8086;
+    cursor: pointer;
+}
+
+.hkBackTo:hover {
+    color: #4ac0e0;
+}

@@ -1,0 +1,254 @@
+/*下面输入邮箱开始*/
+
+.h-reviseBody {
+    /*    margin-left: 210px;*/
+    min-height: 500px;
+}
+
+.h-email {
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+
+.h-input {
+    width: 362px;
+    margin: 0 auto;
+}
+
+.spro-newrevisetitle {
+    padding-left: 210px;
+    height: 43px;
+    /*    background: red;
+*/
+    width: 100%;
+    text-align: center;
+    margin: 20px auto 10px;
+}
+
+.sproinnernewrevisetitle {
+    width: 350px;
+    margin: 0 auto;
+    padding-right: 40px;
+}
+
+.spro-newrevisetitle .sproinnernewrevisetitle span {
+    width: 56px;
+}
+
+.spro-newrevisetitle .sproinnernewrevisetitle span>i {
+    width: 56px;
+    text-align: center;
+}
+
+.spro-newrevisetitle .sproinnernewrevisetitle span>b {
+    font-weight: normal;
+    /*width: 56px;*/
+}
+
+.spro-newrevisetitle .sproinnernewrevisetitle>strong {
+    font-weight: normal;
+    padding: 0 5px;
+    position: relative;
+    top: -23px;
+}
+
+.c4ac0e0 {
+    color: #4ac0e0 !important;
+}
+
+.spro-newrevisetitle .sproinnernewrevisetitle span>b.spro-revisecomplete {
+    width: 20px;
+}
+
+i.spro-reviseitwo {
+    width: 26px;
+}
+
+.spro-revisestrongtwo {
+    color: #aeaeb0;
+}
+
+.spro-revbtwo {
+    width: 52px;
+    padding: 0 11px;
+}
+
+.c-aeaeb0 {
+    color: #aeaeb0;
+}
+
+.spro-reviseinputone {
+    transform: translate(-50%, -50%);
+    margin-top: 0px !important;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+input#newPassword.h-ipt1 {
+    margin-bottom: 5px;
+}
+
+input#newPassword2.h-ipt {
+    margin-top: 15px;
+}
+.h-ipt:hover, .h-inpt:hover,
+.h-ipt:focus, .h-inpt:focus,input#newPassword.h-ipt1:hover,
+input#newPassword.h-ipt1:focus {
+    border: 1px solid #4ac0e0;
+}
+.h-ipt,
+.h-inpt {
+    width: 362px;
+    height: 42px;
+    border: none;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    text-indent: 8px;
+    /*color: #d0d0d0;*/
+    /*line-height: 42px;*/
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.h-email .h-ipt[value],
+.h-email .h-inpt[value] {
+    color: #606060;
+}
+
+.h-input .h-inpt {
+    margin-bottom: 6px;
+}
+
+.h-revisebtn {
+    width: 362px;
+    height: 40px;
+    background-color: #49c0e0;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-top: 28px;
+    border: none;
+}
+
+.h-input .h-ajaxForm p {
+    color: #606060;
+    font-size: 16px;
+}
+
+.h-input .h-ajaxForm span {
+    color: #979797;
+}
+
+.h-input .h-ajaxForm span a {
+    color: #84d2e9;
+}
+
+
+/*邮箱验证的提示*/
+
+.h-email .h-kipt {
+    position: relative;
+}
+
+.h-email .h-tishi {
+    width: 129px;
+    position: absolute;
+    left: 375px;
+    top: 20px;
+    display: none;
+}
+
+.h-email .h-baocuo {
+    text-indent: 8px;
+    color: #e2231b;
+}
+
+.h-email s {
+    display: inline-block;
+    text-decoration: none;
+    height: 12px;
+    line-height: 12px;
+    width: 12px;
+    background-color: #e2231b;
+    border-radius: 6px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+/*下面是主题部分的css*/
+
+.h-email .h-input .h-ajaxForm p {
+    font-size: 14px;
+    color: #303030;
+}
+
+.h-email .h-kipt {
+    position: relative;
+}
+
+.h-personal {
+    height: 76px;
+}
+
+.h-email .h-tishi,
+.h-email .h-tishi2,
+.h-email .h-tishi3 {
+    width: 129px;
+    position: absolute;
+    left: 375px;
+    top: 26px;
+    display: none;
+}
+
+.h-email .h-baocuo {
+    text-indent: 8px;
+    color: #e2231b;
+}
+
+.h-email s {
+    text-decoration: none;
+    height: 13px;
+    width: 12px;
+    line-height: 12px;
+    background-color: #e2231b;
+    border-radius: 6px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.h-email .h-input .h-ajaxForm span {
+    font-size: 12px;
+    color: #acacac;
+    line-height: 0;
+}
+
+.h-ipt1 {
+    width: 362px;
+    height: 42px;
+    border: none;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    text-indent: 8px;
+    /*color: #d0d0d0;*/
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.h-btn {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.h-navs .h-step .h-r-user .h-current {
+    width: 120px;
+}
+
+.h-navs .h-step .h-r-user .h-current1 {
+    width: 85px;
+}
+
+input[type=button] {
+    cursor: pointer;
+}

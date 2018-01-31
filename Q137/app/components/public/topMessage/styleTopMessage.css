@@ -1,0 +1,238 @@
+.z-nav {
+    width: 100%;
+    height: 144px;
+    background: #91b0ed;
+    color: #fff;
+    font-size: 18px;
+    position: relative;
+}
+
+.z-navn {
+    height: 118px;
+    /*background: url(../../../images/leftNavBar/navimageLine.png) no-repeat 0 center;*/
+    /*background: url(../../../images/leftNavBar/java1.png) no-repeat 530px 0;
+    background-size: 26%;*/
+    position: relative;
+}
+
+.z-nav1Span {
+    font-size: 50px;
+}
+
+.z-nav1 {
+    position: absolute;
+    left: 50%;
+    top: 6px;
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    -webkit-user-select: none;
+    /* Chrome all / Safari all */
+    -moz-user-select: none;
+    /* Firefox all */
+    -ms-user-select: none;
+    white-space: nowrap;
+}
+
+.z-nav1 p:nth-child(1) {
+    font-weight: 200;
+    font-size: 54px;
+    opacity: 0.13;
+    filter: alpha(opacity=13);
+    -moz-opacity: 0.13;
+    -khtml-opacity: 0.13;
+}
+
+.z-nav1 .z-nav1P {
+    font-size: 14px;
+}
+
+.z-nav2 {
+    margin-top: 25px;
+}
+
+.z-nav2 ul li {
+    height: 36px;
+    line-height: 26px;
+    float: left;
+    margin-right: 34px;
+    font-size: 24px;
+}
+
+.z-nav2 ul li:last-child {
+    margin-right: 0;
+}
+
+.z-nav2 ul li:last-child>span {
+    margin-left: 5px;
+}
+
+.small>span {
+    font-size: 12px;
+    text-indent: 5px;
+}
+
+.z-dk {
+    width: 100%;
+    height: 28px;
+    padding-top: 7px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #0086B3;
+    background: rgba(255, 255, 255, 0.3);
+    text-indent: 270px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.z-dk a {
+    font-style: italic;
+    color: #f87552;
+}
+
+.z-hour {
+    width: 300px;
+    height: 40px;
+    float: right;
+    margin-right: 132px;
+}
+
+.z-hour button {
+    width: 132px;
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid #fff;
+    background: rgba(0, 0, 0, 0);
+    color: #fff;
+    margin-top: 84px;
+    font-size: 16px;
+    font-weight: 100;
+    margin-right: 4px;
+}
+
+.z-hour button:hover {
+    background: #fff;
+    color: blue;
+}
+
+
+/* 上一课时 下一课时样式 */
+
+.z-nav .y-nextBox {
+    float: left;
+    margin-top: 59px;
+    margin-left: 100px;
+    -webkit-user-select: none;
+    /* Chrome all / Safari all */
+    -moz-user-select: none;
+    /* Firefox all */
+    -ms-user-select: none;
+}
+
+.z-nav .y-nextBox .y-nextBoxPre {
+    width: 126px;
+    height: 32px;
+    border-size: 1px;
+    border-style: solid;
+    border-color: #fff;
+    float: left;
+    text-align: center;
+    line-height: 32px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.z-nav .y-nextBox .y-nextBoxNext {
+    width: 126px;
+    height: 32px;
+    border-size: 1px;
+    border-style: solid;
+    border-color: #fff;
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 32px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.y-nextBoxPre:hover {
+    background: #fff;
+    color: #1380f9;
+}
+
+.y-nextBoxNext:hover {
+    background: #fff;
+    color: #1380f9;
+}
+
+.z-nav .banenr_showMsg {
+    position: absolute;
+    left: 50%;
+    top: 30px;
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    -webkit-user-select: none;
+    /* Chrome all / Safari all */
+    -moz-user-select: none;
+    /* Firefox all */
+    -ms-user-select: none;
+}
+
+.z-nav .banenr_showMsg p {
+    font-size: 26px;
+}
+
+.z-nav .banenr_showMsg p span {
+    font-size: 26px;
+}
+
+.z-nav .banenr_showButton {
+    height: 26px;
+    width: 200px;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    top: 81px;
+}
+
+.z-nav .banenr_showButton div {
+    float: left;
+    width: 94px;
+    height: 26px;
+    line-height: 25px;
+    border: 1px solid currentColor;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+    color: #fff;
+    -webkit-user-select: none;
+    /* Chrome all / Safari all */
+    -moz-user-select: none;
+    /* Firefox all */
+    -ms-user-select: none;
+}
+
+.z-nav .banenr_showButton div:nth-child(2) {
+    margin-left: 10px;
+}
+
+.z-nav .banenr_showButton div:hover {
+    transition: background .45s;
+    background: rgba(255, 255, 255, .36);
+}
+
+.z-navn .nextBoxPre2 {
+    borderColor: #fff;
+    opacity: 0.5;
+}

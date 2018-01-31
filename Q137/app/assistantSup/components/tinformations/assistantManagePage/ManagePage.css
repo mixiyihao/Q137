@@ -1,0 +1,337 @@
+.TM-ManagePageWrap {
+    width: 1100px;
+    margin: auto;
+    min-height: 550px;
+    padding-left: 0px;
+}
+
+.TM-ManagePageWrap .TM-ManagePageContent {
+
+    width: 100%;
+    height: 650px
+}
+
+.TM-ManagePageContent .TM-ManagePageTMlist {
+    width: 25%;
+    float: left;
+    height: 100%;
+}
+
+.TM-ManagePageContent .TM-ManagePageTMlist .TMlistSearch {
+    width: 100%;
+    padding-top: 3px;
+    height: 53px;
+    background: #f5f5f5;
+    color: #606060;
+}
+
+.TM-ManagePageContent .TM-ManagePageTMlist .TMlistSearch .listSearchContent {
+    margin: 0px 3px;
+    height: 25px;
+}
+
+.TMlistSearch .listSearchContent span, .TMlistSearch .listSearchContent input, .TMlistSearch .listSearchContent button {
+    display: inline-block;
+    line-height: 25px;
+}
+
+.TMlistSearch .listSearchContent input {
+    height: 21px;
+    width: 130px;
+    padding-left: 3px;
+    line-height: 21px;
+    font-size: 12px;
+    border: 1px solid #e8e8e8;
+    outline: none;
+    border-radius: none;
+}
+
+.TMlistSearch .listSearchContent button {
+    height: 21px;
+    width: 32px;
+    line-height: 21px;
+    background: #5abedf;
+    color: #fff;
+    font-size: 12px;
+}
+
+.TMlistSearch .SearchInputWrap {
+    display: inline-block;
+}
+
+.TMlistSearch .listSearchContent span {
+    vertical-align: middle;
+    margin-right: 4px;
+    margin-left: 8px;
+}
+
+.TMlistSearch .listSearchContent span i {
+    color: #fc0f1f;
+    display: inline-block;
+    margin-right: 4px;
+    line-height: 25px;
+    vertical-align: middle;
+}
+
+.TMlistSearch .listSearchText {
+    width: 100%;
+    height: 26px;
+    line-height: 26px;
+}
+
+.TMlistSearch .listSearchText span {
+    display: inline-block;
+    width: 43%;
+    text-align: center;
+}
+
+.TM-ManagePageContent .TM-ManagePageTMlist .TMlistContent {
+    height: 594px;
+    overflow-y: auto;
+    border-left: 1px solid #f8f8f8;
+    border-right: 1px solid #f8f8f8;
+}
+
+.TM-ManagePageContent .TM-ManagePageinnerContent {
+    float: left;
+    height: 100%;
+    width: 73%;
+    margin-left: 2%;
+    background: #fff;
+}
+
+.TMsproPublishradiocheck {
+    color: #606060;
+    position: relative;
+    height: 33px;
+    line-height: 33px;
+    /*border-right: 1px solid #f8f8f8;*/
+    border-bottom: 1px solid #f8f8f8;
+    /*border-left: 1px solid #f8f8f8;*/
+}
+
+/* 选择框样式*/
+.TMsproPublishradiocheck > input[type="radio"], .TMsproPublishradiocheck > input[type="radio"]:checked {
+    -webkit-appearance: none !important;
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 100;
+    display: none;
+}
+
+.TMsproPublishradiocheck > label {
+    position: absolute;
+    /* 决定label的位置*/
+    left: 30px;
+    top: 0;
+    height: 33px;
+}
+
+.TMsproPublishradiocheck > label span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    line-height: 33px;
+    text-align: center;
+}
+
+.TMsproPublishradiocheck > label span:first-child {
+    width: 58px;
+}
+
+.TMsproPublishradiocheck > label span.IDcard {
+    width: 164px;
+
+}
+
+.TMsproPublishradiocheck > label:before {
+    content: '';
+    position: absolute;
+    /* 决定input的位置*/
+    left: -20px;
+    top: 9px;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease !important;
+    -moz-transition: all 0.3s ease !important;
+}
+
+.TMsproPublishradiocheck > label:after {
+    content: '';
+    position: absolute;
+    /* 决定input的位置*/
+    left: -20px;
+    top: 9px;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-top: 3px;
+    margin-left: 3px;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+}
+
+.TMsproPublishradiocheck input[type='radio']:checked + label:before {
+    border-color: #49c0e0;
+    background: #49c0e0;
+}
+
+.TMsproPublishradiocheck input[type='radio']:checked + label:after {
+    background-color: white;
+}
+
+/*	TM width:1030px*/
+.TMinformainBody {
+/ / margin-left: 230 px;
+    margin-top: 20px;
+    min-height: 650px;
+    width: 100%;
+    position: relative;
+}
+
+.TMComponentButtonWraP {
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: -3px;
+    font-size: 15px;
+}
+
+.TMinforBodyh2 {
+    font-size: 18px;
+    font-weight: normal;
+    width: 96px;
+    text-align: center;
+    line-height: 20px;
+    height: 23px;
+    border-left: 4px solid #4abfe0;
+}
+
+.TMinformainouterdiv {
+    margin-top: 10px;
+    margin-left: 14px;
+}
+
+.TMWrap .informainouterdiv span {
+    width: 506px;
+}
+
+.TMinformainouterdiv > div {
+    margin-top: 8px;
+}
+
+.TMinformainouterdiv .TMinformainspanone i,
+.TMinformainouterdiv .TMinformainspantwo i,
+.TMinformainouterdiv .TMinformainspanthree i,
+.TMinformainouterdiv .TMinformainspanone,
+.TMinformainouterdiv .TMinformainspantwo,
+.TMinformainouterdiv .TMinformainspanthree {
+    height: 40px;
+    line-height: 40px;
+}
+
+.TMinformainouterdiv .TMinformainspanone b,
+.TMinformainouterdiv .TMinformainspantwo b,
+.TMinformainouterdiv .TMinformainspanthree b
+{
+    height: 38px;
+    line-height: 40px;
+}
+
+.TMinformainspanone {
+    width: 48%;
+    height: 52px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 52px;
+    border: 1px dashed #dedede;
+}
+
+.TMinformainspanthree {
+    width: 97%;
+    height: 52px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 52px;
+    border: 1px dashed #dedede;
+}
+
+.TMinformaininnerb {
+    background: #f2f2f2;
+    float: left;
+    width: 130px;
+    font-family: arial;
+    height: 54px;
+    border-right: 1px dashed #dedede;
+    text-align: center;
+    font-weight: normal;
+}
+
+.TMMar20 {
+    margin-top: 21px;
+}
+
+.TMinformaininneri {
+    font-family: arial;
+    font-style: normal;
+    padding-left: 37px;
+    float: left;
+    text-align: left;
+}
+
+.TMinformaininneri-overflow {
+    overflow: hidden;
+    width: 82%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.TMinformainspantwo {
+    font-size: 14px;
+    margin-left: 10px;
+    width: 48%;
+    height: 52px;
+    line-height: 52px;
+    font-size: 14px;
+    border: 1px dashed #dedede;
+}
+
+.TMinforlastdiv {
+    font-size: 14px;
+    height: 52px;
+    line-height: 52px;
+    margin-top: 10px;
+    width: 1029px;
+    border: 1px dashed #dedede;
+}
+
+.TMinforBodyh2 .TMComponentButton {
+    display: inline-block;
+    width: 118px;
+    height: 30px;
+    line-height: 30px;
+    float: right;
+    margin-right: 7px;
+    background: #51c0de;
+    color: #fff;
+}
+
+/*左边列表无数据样式*/
+.TMlistContent .spro-nomessageUniqueStyle {
+    width: 36px;
+    height: 36px;
+    /*padding-left: 18px;*/
+    background: url("../../../../images/search/nomessage.jpg") no-repeat 3px 3px;
+    /*size必须写到background后面*/
+    background-size: 28px;
+}

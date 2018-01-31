@@ -1,0 +1,335 @@
+::-webkit-scrollbar
+{
+    width: 10px;
+    height: 6px;
+}
+::-webkit-scrollbar-track-piece
+{
+    background-color: #CCCCCC;
+    -webkit-border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:vertical
+{
+    height: 6px;
+    background-color: #999999;
+    -webkit-border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:horizontal
+{
+    width: 10px;
+    background-color: #CCCCCC;
+    -webkit-border-radius: 10px;
+}
+
+
+.spro-nav {
+    width: 100%;
+    height: 144px;
+    background: url(./navimage.png) no-repeat 730px -20px;
+    position: relative;
+    background: -webkit-linear-gradient(-45deg, #988aee, #8fdef3);
+    /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(-45deg, #988aee, #8fdef3);
+    /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(-45deg, #988aee, #8fdef3);
+    /* Firefox 3.6 - 15 */
+    background: linear-gradient(to -45deg, #988aee, #8fdef3);
+    /* 标准的语法 */
+}
+/*.spro_footer {
+    height: 126px;
+    width: 100%;
+    background: url('./2.jpg') no-repeat left top;
+    background-size: cover;
+}*/
+.footer{
+    width: 400px;  
+    margin: 0 auto;
+    font-size: 18px;
+    color: #c0c0c0;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+}
+.footer .footerinner{
+    padding-top: 30px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    font-size: 18px;
+    color: #afb0b2;
+    margin-bottom: 8px;
+    text-align: 140px;
+    font-size: 16px;
+}
+.footer div img {
+    height: 30px;
+    border: none;
+}
+footer{
+    position: relative;
+    height: 126px;
+    width: 100%;
+    background: #383d41;
+    
+}
+
+.y_footerMessage {
+    height: 27px;
+    display: inline-block;
+    line-height: 30px;
+    font-size: 16px;
+    /*padding-top: 3px;*/
+}
+.y_footerLine {
+    margin: 0 18px;
+    font-size: 14px;
+    font-weight: 100;
+    /*padding-top: 2px;*/
+}
+footer .footer {
+   height: 126px;
+   width: 100%;
+   background: url('./2.jpg');
+   /*background-size: cover;*/
+}
+footer .spro-jp{
+    height: 30px;
+    width: 100%;
+    line-height: 30px;
+    color: #6f7376;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    bottom: 7px;
+    left: 0;
+}
+.footerinner span{
+    color: #6c7177;
+    font-weight: 100;
+    margin-left: 10px;
+}
+
+/*.spro_footer div {
+    width: 373px;
+    margin: 0 auto;
+    padding-top: 57px;
+    font-size: 18px;
+    color: #c0c0c0;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+}
+*/
+/*.spro_footer div img {
+    height: 30px;
+    border: none;
+}*/
+
+.spro_footerLine {
+    margin: 0 18px;
+    font-size: 14px;
+    font-weight: 100;
+    /*padding-top: 2px;*/
+}
+
+.spro_footerMessage {
+    height: 27px;
+    display: inline-block;
+    line-height: 30px;
+    font-size: 16px;
+    /*padding-top: 3px;*/
+}
+
+.teacherStyle1100auto {
+    width: 1100px;
+    margin: 0 auto;
+    background: url(./22_05.png) no-repeat 750px center;
+}
+
+.teacherheader span {
+    width: 300px;
+    height: 30px;
+    position: absolute;
+    background-size: 100%;
+    background: url(./flogo.png) no-repeat;
+}
+
+.teacherheader {
+    padding: 6px 0 5px 0;
+    height: 41px;
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.stydentTitle {
+    width: 1100px;
+    margin: 0 auto;
+    height: 144px;
+    padding: 20px 40px 0 27px;
+}
+
+.spro-call {
+    float: right;
+    margin-right: 20%;
+}
+
+.spro-name {
+    min-width: 400px;
+    color: #fff;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.spro-name span {
+    font-size: 14px;
+    margin-left: 13px;
+}
+
+.spro-ul {
+    min-width: 400px;
+    overflow: hidden;
+    color: #fff;
+    padding-left: 0px;
+}
+
+.spro-ul li {
+    float: left;
+    padding-right: 10px;
+    color: #fff;
+}
+
+.teaStylebody {
+    width: 1100px;
+    margin: 0 auto;
+    background: #fff;
+    height: auto;
+}
+
+.teaStylehead {
+    margin-top: 30px;
+}
+
+.teaStylehead b {
+    width: 4px;
+    height: 16px;
+    display: inline-block;
+    background: #4ac0e0;
+    margin-bottom: -5px;
+    padding-top: 8px;
+}
+
+.teaStylehead span {
+    font-family: "Microsoft Yahei", "Hiragino Sans GB W3";
+    display: inline-block;
+    height: 22px;
+    line-height: 22px;
+    margin-left: 6px;
+    font-size: 18px;
+}
+
+section.teaStylemain {
+    margin-left: 0px;
+}
+
+section.teaStylemain div {
+    -webkit-box-shadow: 0 0 10px #e0e0e0;
+    -moz-box-shadow: 0 0 10px #e0e0e0;
+    box-shadow: 0 0 10px #e0e0e0;
+}
+
+section.teaStylemain div:hover {
+    -webkit-box-shadow: 0 0 10px #ababab;
+    -moz-box-shadow: 0 0 10px #ababab;
+    box-shadow: 0 0 10px #ababab;
+}
+
+section div.teaStylediv {
+    transition: .01s;
+    margin: 20px auto;
+    width: 958px;
+    height: 200px;
+    /*border: 1px solid black;*/
+}
+
+section div dt {
+    float: left;
+}
+
+section div dl {
+    margin-top: 30px;
+    float: left;
+    width: 754px;
+}
+
+section div dl h2 {
+    font-size: 18px;
+    color: #349fe7;
+    font-weight: normal;
+    font-family: "Microsoft Yahei", "Hiragino Sans GB W3";
+}
+
+section div dl span {
+    display: inline-block;
+    float: left;
+    font-size: 16px;
+    margin: 4px 0 10px 0;
+    color: #303030;
+    font-weight: normal;
+    font-family: "Microsoft Yahei", "Hiragino Sans GB W3";
+}
+
+i.innerspan {
+    margin-top: 4px;
+    color: #303030;
+    float: left;
+    font-size: 16px;
+    font-weight: 100;
+    ;
+    font-style: normal;
+    word-wrap: break-word;
+    display: inline-block;
+    font-family: "Microsoft Yahei", "Hiragino Sans GB W3";
+}
+
+section div dl p {
+    width: 754px;
+    font-size: 14px;
+    color: #606060;
+    display: inline-block;
+    font-weight: 100;
+    font-family: "Microsoft Yahei", "Hiragino Sans GB W3";
+}
+
+.photo01 {
+    margin: 14px 0px 14px 14px;
+    background: url(./teaStyle01.png) no-repeat;
+    background-size: 80%;
+    width: 162px;
+    height: 180px;
+}
+
+.photo02 {
+    margin: 14px 0px 14px 14px;
+    background: url(./teaStyle02.png) no-repeat;
+    background-size: 80%;
+    width: 162px;
+    height: 180px;
+}
+
+.photo03 {
+    margin: 14px 0px 14px 14px;
+    background: url(./teaStyle03.png) no-repeat;
+    background-size: 80%;
+    width: 162px;
+    height: 180px;
+}
+
+.photo04 {
+    margin: 14px 0px 14px 14px;
+    background: url(./teaStyle04.jpg) no-repeat;
+    background-size: 80%;
+    width: 162px;
+    height: 180px;
+}

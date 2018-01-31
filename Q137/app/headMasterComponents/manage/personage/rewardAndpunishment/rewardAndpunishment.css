@@ -1,0 +1,79 @@
+.rewardAndpunishment_box {
+    height: 290px;
+    position: relative;
+    margin-top: 25px;
+    margin-left: 18px;
+}
+
+.rewardAndpunishment_box .rewardAndpunishment_title {
+    width: 100%;
+    height: 50px;
+    background-color: #f2f2f2;
+    color: #2f363f;
+    line-height: 50px;
+    text-indent: 14px;
+    font-weight: 400;
+}
+
+.rewardAndpunishment_box .rewardAndpunishment_Center {
+    height: 240px;
+    border: 1px solid #f2f2f2;
+    border-top: none;
+}
+
+.rewardAndpunishment_box .rewardAndpunishment_CenterMsg {
+    height: 30px;
+    width: 100%;
+    padding-left: 55px;
+}
+
+.rewardAndpunishment_box .rewardAndpunishment_CenterMsg span {
+    color: #333;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.rewardAndpunishment_box .rewardAndpunishment_CenterMsg span:nth-child(1) {
+    float: left;
+}
+
+.rewardAndpunishment_box .rewardAndpunishment_CenterMsg span:nth-child(2) {
+    float: left;
+    margin-left: 12px;
+}
+
+.rewardAndpunishment_box .rewardAndpunishment_Chars {
+    width: 100%;
+    height: 209px;
+}
+
+.rewardAndpunishment_box .rewardAndpunishment_CharsRight {
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+.rewardAndpunishment_box .rewardAndpunishment_CharsLeft {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.rewardAndpunishment_box .rewardAndpunishment_number {
+    position: absolute;
+    bottom: 4px;
+    left: 49.5%;
+    z-index: 50;
+    color: #333333;
+    font-size: 12px;
+}
+
+.rewardAndpunishment_box .rewardAndpunishment_line {
+    display: block;
+    height: 5px;
+    width: 1px;
+    background: #333333;
+    position: absolute;
+    bottom: 22px;
+    left: 49.8%;
+}

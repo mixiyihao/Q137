@@ -1,0 +1,95 @@
+.manageBody {
+    width: 100%;
+    min-height: 600px;
+    background-color: #f4f4f6;
+    padding-bottom: 20px;
+}
+
+.manageWrap {
+    width: 1100px;
+    margin: auto;
+    background-color: #fff;
+}
+
+
+/*加载更多*/
+
+.requireMore {
+    width: 100%;
+    position: relative;
+    height: 66px;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.requireMore p {
+    width: 1030px;
+    height: 2px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    border-bottom: 1px dashed #c9c9c9;
+}
+
+.requireMore span {
+    width: 140px;
+    height: 66px;
+    background-color: #ffffff;
+    display: inline-block;
+    position: relative;
+    line-height: 66px;
+    text-align: center;
+    color: #1380fa;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.noMoreMessages {
+    margin-top: 12px;
+    color: #606060;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 60px;
+    background: url(../../images/search/nomessage.jpg) no-repeat left center;
+    background-size: 22px;
+    background-position-x: 33px;
+}
+
+.noMoreMsg {
+    width: 100%;
+    font-size: 16px;
+    position: relative;
+    height: 66px;
+    text-align: center;
+    color: #8c8b8b;
+    /*padding: 0 20px;*/
+}
+
+.tipErr {
+    margin-left: 10px;
+    color: #e2231b;
+    position: relative;
+    top: 5px;
+}
+
+.tipErr .redFork {
+    text-decoration: none;
+    font-size: 12px;
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    line-height: 10px;
+    background-color: #e2231b;
+    /*padding-right: 1px;*/
+    border-radius: 100%;
+    margin-left: 5px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-right: 5px;
+}

@@ -1,0 +1,277 @@
+.teacherLog_body{
+    position: relative;
+}
+
+.teacherLogContainer{
+    width: 100%;
+    min-height: 600px;
+    padding: 10px 0 30px 0;
+    background-color: #f4f4f6;
+}
+.teacherLogInner{
+    position: relative;
+    width: 1100px;
+    min-height: 550px;
+    margin: 0 auto;
+    padding:10px 18px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.teacherLogInner h2{
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    border-left: 4px solid #49c0e0;
+    padding-left: 13px;
+    /*display: inline-block;*/
+}
+.teacherLogInner a{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #7b8086;
+    width: 70px;
+}
+.teacherLogInner a:hover,.teacherLogInner a:hover i{
+    color: #49c0e0;
+}
+.teacherLogWrap{
+    min-height: 84px;
+    margin-top: 14px;
+    border-bottom: 1px dashed #c9c9c9;
+    color: #333;
+    background-color: #f5f5f5;
+    font-size: 14px;
+    font-weight: 400;
+}
+.teacherLogWrap p{
+    width: 100%;
+    min-height: 42px;
+    line-height: 42px;
+    padding-left: 14px;
+    box-sizing: border-box;
+}
+.teacherLogWrap p span{
+    display: inline-block;
+    height: 42px;
+    line-height: 42px;
+    margin:0 60px 0 5px;
+}
+/*无数据状态*/
+.tLogEmpty{
+    width: 100%;
+    height: 500px;
+    /*background: url(/img/tLogEmpty.jpg) no-repeat center center;*/
+    background: url('../../../images/statistics/tLogEmpty.jpg') no-repeat center center;
+}
+/*log*/
+.teacherLogList {
+    overflow: hidden;
+    padding: 0 0 0 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    width: 1020px;
+    float: left;
+}
+
+.teacherLogList .LearningLog_Nomessage {
+    width: 100%;
+    height: 500px;
+    background: url('../../../images/statistics/logNomessage.jpg') no-repeat center center;
+}
+
+.teacherLogList .LearningLog_NomessageHide {
+    display: none;
+}
+
+.teacherLogList li {
+    padding-bottom: 5px;
+}
+
+.teacherLogList li .LearningLog_P {
+    font-size: 16px;
+    line-height: 24px;
+    color: #2f363f;
+    font-weight: normal;
+    position: relative;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+}
+
+.teacherLogList .LearningLog_Time {
+    float: left;
+    width: 76px;
+}
+
+.teacherLogList .LearningLog_Circle {
+    position: absolute;
+    top: 4px;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 100%;
+    background: #e1e1e1;
+    margin-left: -1px;
+    /* z-index: 10; */
+}
+
+.teacherLogList .LearningLog_Content {
+    margin-left: 100px;
+    overflow: hidden;
+    margin-top: 6px;
+}
+
+.teacherLogList .LearningLog_Content:hover {
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.teacherLogList .LearningLog_Content .LearningLog_Item:hover {
+    background: #eaf3fc;
+}
+.LearningLog_Item.shouldLink .LearningLog_Homework,.LearningLog_Item.shouldLink .LearningLog_Homework2{
+    color:#1380f9;
+    cursor: pointer;
+}
+.teacherLogList .LearningLog_Item {
+    width: 100%;
+    height: 53px;
+    background-color: #f5f4f9;
+    padding: 0 19px;
+}
+
+.teacherLogList .LearningLog_ItemTitle {
+    height: 27px;
+    line-height: 36px;
+    font-size: 14px;
+    color: #595959;
+}
+
+.teacherLogList .LearningLog_ItemTitle2 {
+    height: 53px;
+    line-height: 53px;
+    font-size: 14px;
+    color: #595959;
+}
+
+.teacherLogList .LearningLog_ItemDate {
+    float: right;
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    width: 75px;
+}
+
+.teacherLogList .LearningLog_ItemDate2 {
+    float: right;
+    display: inline-block;
+    height: 53px;
+    line-height: 53px;
+    width: 75px;
+}
+
+.teacherLogList .LearningLog_ItemDate i {
+    float: left;
+    display: inline-block;
+    font-size: 18px;
+    color: #8b9094;
+    margin-right: 8px;
+}
+
+.teacherLogList .LearningLog_ItemDate2 i {
+    float: left;
+    display: inline-block;
+    font-size: 18px;
+    color: #8b9094;
+    margin-right: 8px;
+}
+
+.teacherLogList .LearningLog_Homework {
+    color: #8c8b8b;
+}
+
+.teacherLogList .LearningLog_Homework2 {
+    display: none;
+}
+.teacherLogList .LearningLog_Line {
+    width: 1px;
+    background: #f1f2f3;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    left: 121px;
+}
+
+/*add more*/
+.teacherLogInner .LearningLog_LineHide {
+    display: none;
+}
+
+.teacherLogInner .LearningLog_More {
+    height: 66px;
+    width: 100%;
+    position: relative;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.teacherLogInner .LearningLog_MoreHide {
+    display: none;
+}
+
+.teacherLogInner .LearningLog_MoreLine {
+    height: 1px;
+    width: 100%;
+    border-bottom: 1px dashed #f2f2f2;
+    margin-top: 32px;
+}
+
+.teacherLogInner .LearningLog_MoreMsg {
+    width: 140px;
+    height: 66px;
+    background-color: #ffffff;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    /*transform: translate(-50%, 0);*/
+    transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    line-height: 66px;
+    text-align: center;
+    color: #1380fa;
+    /*color:#8c8b8b;*/
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.teacherLogInner .LearningLog_MoreMsg2 {
+    width: 140px;
+    height: 66px;
+    background-color: #ffffff;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    /*transform: translate(-50%, 0);*/
+    transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    line-height: 66px;
+    text-align: center;
+    color: #8c8b8b;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+

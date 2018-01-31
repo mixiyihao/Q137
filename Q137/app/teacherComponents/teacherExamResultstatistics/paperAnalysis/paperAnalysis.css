@@ -1,0 +1,175 @@
+.paperAnalymainBody {
+    position: relative;
+    width: 1100px;
+    height: 260px;
+}
+
+.paperAnalyDataLeft {
+    width: 100%;
+    height: 220px;
+    float: left;
+}
+
+.paperAnalyDataLeft2 {
+    width: 100%;
+    float: left;
+}
+
+.paperAnalyDataRight {
+    width: 478px;
+    height: 220px;
+    /*background: red;*/
+    margin-left: 16px;
+    float: left;
+}
+
+
+/*多选题题干距离右边框的距离*/
+
+.sprepaper_p {
+    margin-right: 22px !important;
+}
+
+.paperAnalyDataRight1 {
+    width: 478px;
+    height: 360px;
+    /*background: red;*/
+    margin-left: 16px;
+    float: left;
+}
+
+.radioExam div.paperAnalymainBody,
+.checkboxExam div.paperAnalymainBody {
+    margin: 10px 0;
+}
+
+.radioExam div.paperAnalyradio,
+.checkboxExam div.paperAnalyradio {
+    margin: 0px !important;
+}
+
+.paperAnalyDataLeft table,
+.paperAnalyDataLeft2 table {
+    clear: both;
+    width: 1040px;
+    border: 1px solid #f5f5f5;
+}
+
+.paperAnalyDataLeft table tr,
+.paperAnalyDataLeft2 table tr {
+    width: 100%;
+    height: 52px;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.paperAnalyDataLeft table tr td,
+.paperAnalyDataLeft2 table tr td {
+    vertical-align: middle !important;
+    height: 52px;
+    padding-left: 15px;
+    line-height: 52px;
+    position: relative;
+}
+
+.paperDatalefttitle {
+    width: 1040px;
+    height: 44px;
+    margin-right: 20px;
+    /*background: #ebf9fc;*/
+    border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+    border-top: 1px solid #f2f2f2;
+}
+
+.paperDatalefttitle span.paperdata_span {
+    padding-left: 15px;
+    width: 149px;
+    display: inline-block;
+    line-height: 44px;
+}
+
+span.paperdata_span i {
+    line-height: 52px;
+    display: inline-block;
+    color: #40c0e0;
+    padding-left: 3px;
+}
+
+.paperAnalyDataRightb {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 112px;
+    right: 206px;
+    color: #49c0e0;
+}
+
+.paperAnalyDataRightb1 {
+    top: 162px !important;
+    right: 203px !important;
+}
+
+.paperAnalyDataRightb b {
+    font-weight: normal;
+    color: #49c0e0;
+    font-size: 22px;
+    display: inline-block;
+    position: static;
+}
+
+.paperAnalyDataRightb .paperAnalyDataRightouteri {
+    display: inline-block;
+}
+
+.patdbstyle {
+    padding-left: 3px;
+    color: black !important;
+    font-weight: normal !important;
+}
+
+.paperAnalyradio p.spre_p,
+.paperAnalyradio p.spre_p {
+    margin-right: 22px;
+}
+
+.paperAnalyradioItem {
+    margin-right: 22px;
+}
+
+.paperAnalyDataradio {
+    height: 360px !important;
+}
+
+.papertdfirst {
+    width: 180px;
+    border-right: 1px solid #f5f5f5;
+}
+
+td.papertdsecound {
+    width: 180px;
+    border-right: 1px solid #f5f5f5;
+}
+
+.papertdinnerdiv {
+    height: 40px;
+    width: 460px;
+}
+
+.paperlearningLog_TopTo {
+    height: 100%;
+    width: 40px;
+    float: left;
+}
+
+.paperlearningLog_TopToCenter {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    background: url("../../../images/search/top.jpg") no-repeat;
+    bottom: 240px;
+    cursor: pointer;
+    display: none;
+    z-index: 99;
+    left: 50%;
+    margin-left: 500px;
+}

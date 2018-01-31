@@ -1,0 +1,280 @@
+.performanceBody_box {
+    background-color: #f4f4f5;
+    min-height: 650px;
+    overflow: hidden;
+}
+
+.performanceBody_box .performanceBody_titleBox {
+    height: 36px;
+    width: 100%;
+}
+
+.performanceBody_box .performanceBody_titleBar {
+    height: 36px;
+    width: 100%;
+    background: #fff;
+}
+
+.performanceBody_box .performanceBody_titleWrap {
+    width: 1100px;
+    margin: 0 auto;
+    height: 36px;
+}
+
+.performanceBody_box .performanceBody_titleWrap span {
+    text-align: center;
+    color: #31363c;
+    display: inline-block;
+    height: 36px;
+    line-height: 33px;
+    border-top: 3px solid #fff;
+    cursor: pointer;
+}
+
+.performanceBody_box .performanceBody_titleWrap span.Active {
+    background: #f4f4f6;
+    border-top-color: #49c0e0;
+}
+
+.performanceBody_box .performanceBody_titleWrap .performanceBody_titleContainer {
+    overflow: hidden;
+    font-size: 14px;
+    box-sizing: border-box;
+    position: relative;
+    white-space: nowrap;
+    zoom: 1;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.performanceBody_box .performanceBody_titleWrap .performanceBody_tabSpan {
+    opacity: 1;
+    width: 32px;
+    height: 100%;
+    pointer-events: auto;
+    border: 1px solid #d3e4ff;
+    background: #e0f9fd;
+    color: #107ef9;
+}
+
+.performanceBody_box .performanceBody_titleWrap .performanceBody_tabSpan:hover {
+    border: 1px solid #48bfdd;
+    background: #48bfdd;
+    color: #fff;
+}
+
+.performanceBody_box .performanceBody_titleWrap .performanceBody_prew,
+.performanceBody_box .performanceBody_titleWrap .performanceBody_next {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    height: 32px;
+    line-height: 32px;
+    position: absolute;
+    text-align: center;
+    cursor: pointer;
+    z-index: 53;
+}
+
+.performanceBody_box .performanceBody_titleWrap .performanceBody_prew {
+    left: 4px;
+    top: 2px;
+}
+
+.performanceBody_box .performanceBody_titleWrap .performanceBody_prew.performanceBody_prewNone {
+    background: #fbfbfb;
+    color: #f1f1f1;
+    border: 1px solid #f1f1f1;
+}
+
+.performanceBody_box .performanceBody_titleWrap .performanceBody_next {
+    right: 4px;
+    top: 2px;
+}
+
+.performanceBody_box .performanceBody_titleWrap .performanceBody_next.performanceBody_nextNone {
+    background: #fbfbfb;
+    color: #f1f1f1;
+    border: 1px solid #f1f1f1;
+}
+
+.performanceBody_box .performanceBody_titleWrap .performanceBody_titleWrap_scrollCen {
+    overflow: hidden;
+}
+
+.performanceBody_box .performanceBody_titleWrap .performanceBody_titleWrap_scroll {
+    white-space: nowrap;
+    box-sizing: border-box;
+    padding-left: 0;
+    -webkit-transition: -webkit-transform .3s cubic-bezier(.645,.045,.355,1);
+    transition: -webkit-transform .3s cubic-bezier(.645,.045,.355,1);
+    transition: transform .3s cubic-bezier(.645,.045,.355,1);
+    transition: transform .3s cubic-bezier(.645,.045,.355,1),-webkit-transform .3s cubic-bezier(.645,.045,.355,1);
+    position: relative;
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+.performanceBody_box .performanceBody_wrap {
+    width: 1100px;
+    min-height: 630px;
+    background-color: #ffffff;
+    margin: 10px auto 20px;
+    padding: 12px 20px;
+}
+
+.performanceBody_box .performanceBody_wrap h2 {
+    font-weight: 400;
+    font-size: 18px;
+    height: 20px;
+    line-height: 20px;
+    border-left: 4px solid #49c0e0;
+    padding-left: 13px;
+    display: inline-block;
+}
+
+.performanceBody_box .performanceBody_tab {
+    margin-top: 20px;
+    border-bottom: 1px solid #e5e5e5;
+    height: 38px;
+    margin-left: 17px;
+}
+
+.performanceBody_box .performanceBody_tab span {
+    display: inline-block;
+    padding: 0px 16px;
+    border-top: 4px solid transparent;
+    border-right: 1px solid rgb(228, 228, 228);
+    background: rgb(244, 244, 246);
+    cursor: pointer;
+    text-align: center;
+    height: 38px;
+    line-height: 32px;
+    box-sizing: border-box;
+    color: #606060;
+}
+
+.performanceBody_box .performanceBody_tab span.Active {
+    border-top: 4px solid rgb(73, 192, 224);
+    border-right: 1px solid rgb(228, 228, 228);
+    background: rgb(255, 255, 255);
+    outline: none;
+}
+
+.performanceBody_box .performanceBody_term {
+    height: 30px;
+    line-height: 30px;
+    margin-top: 6px;
+    margin-left: 18px;
+    border-left: 1px solid #f2f2f2;
+}
+
+.performanceBody_box .performanceBody_term span {
+    width: 178px;
+    border: 1px solid #f2f2f2;
+    border-left: none;
+    height: 30px;
+    text-align: center;
+    color: #5f5f5f;
+    line-height: 30px;
+    font-size: 14px;
+    display: inline-block;
+    cursor: pointer;
+    background: #fff;
+}
+
+.performanceBody_box .performanceBody_term span.Active {
+    background: #49c0e0;
+    color: #fff;
+    border-color: #49c0e0;
+}
+
+.performanceBody_box .performanceBody_top {
+    height: 38px;
+    background: #f5f5f5;
+    line-height: 38px;
+    margin-left: 18px;
+    margin-top: 13px;
+    color: #2eadcd;
+}
+
+.performanceBody_box .performanceBody_top i {
+    float: left;
+    height: 38px;
+    line-height: 38px;
+    display: inline-block;
+    margin-left: 6px;
+}
+
+.performanceBody_box .performanceBody_top span {
+    float: left;
+    display: inline-block;
+    height: 38px;
+    line-height: 38px;
+    font-weight: 500;
+}
+
+.performanceBody_box .performanceBody_top .performanceBody_topSchoolTop {
+    margin-left: 6px;
+}
+
+.performanceBody_box .performanceBody_top .performanceBody_topMajorTop {
+    margin-left: 35px;
+}
+
+.performanceBody_box .performanceBody_top .performanceBody_topClassTop {
+    margin-left: 20px;
+}
+
+.performanceBody_box .performanceBody_tool {
+    height: 30px;
+    margin-top: 13px;
+    margin-left: 17px;
+}
+
+.performanceBody_box .performanceBody_tool span {
+    display: inline-block;
+    height: 30px;
+    width: 120px;
+    border: 1px solid #e8e8e8;
+    text-align: center;
+    line-height: 30px;
+    float: left;
+    background: #fff;
+    color: #606060;
+    cursor: pointer;
+    border-right: none;
+}
+
+.performanceBody_box .performanceBody_tool span:last-child {
+    border-right: 1px solid #e8e8e8;
+}
+
+.performanceBody_box .performanceBody_tool span.Active {
+    background: #37b0cf;
+    color: #fff;
+    border-top: 1px solid #37b0cf;
+    border-bottom: 1px solid #37b0cf;
+}
+
+.performanceBody_box .performanceBody_wrap .performanceBody_import {
+    height: 30px;
+    float: right;
+    width: 100px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    background: #4ac1e1;
+    cursor: pointer;
+    margin-top: 11px;
+    margin-right: 10px;
+    padding: 0px;
+}
+
+.performanceBody_box .performanceBody_import i {
+    font-size: 18px;
+    margin-right: 4px;
+    vertical-align: -2px;
+}

@@ -1,0 +1,635 @@
+.spro_quetitle {
+    width: 100%;
+    height: 144px;
+    background: linear-gradient(60deg, #6cc4ce, #65f1ce);
+}
+
+.FFFFCC {}
+
+
+/* 期末考试样式 下拉框样式*/
+
+.sprosatPublicleftselect_final {
+    color: #606060;
+    width: 356px;
+    height: 30px;
+    position: absolute;
+    display: inline-block;
+}
+
+.sprosatPublicleftselect_final.sele_fino {
+    left: 0px;
+}
+
+.sprosatPublicleftselect_final.sele_fint {
+    left: 340px;
+}
+
+.sprosatPublicleftselect_final span {
+    width: 268px;
+    height: 100%;
+    padding-left: 12px;
+    line-height: 30px;
+    display: inline-block;
+    border: 1px solid #e9e7e8;
+    font-size: 14px;
+    background: url("../../../images/leftNavBar/xiala.svg") no-repeat 94.5% center;
+    background-size: 16px 14px;
+}
+
+.sprosatPublicleftselect_final span:hover {
+    border: 1px solid #4ac0e0;
+}
+.spro_select_finalExam{
+    position: relative;
+}
+.sprosatPublicleftselect_final ul {
+    border: 1px solid #4ac0e0;
+    width: 268px;
+    left: 26px;
+    position: relative;
+    z-index: 888;
+    background: #fff;
+}
+
+.sprosatPublicleftselect_final li {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #909090;
+    height: 28px;
+    line-height: 28px;
+    padding-left: 12px;
+}
+
+.sprosatPublicleftselect_final li:hover {
+    cursor: pointer;
+    color: white;
+    background: #49c0e0;
+}
+
+.spro_storeimage {
+    position: relative;
+    background-image: url("../../../images/Noexam/Noexam2.jpg");
+    background-repeat: no-repeat;
+    background-size: 80%;
+    width: 368px;
+    height: 256px;
+    margin: 1% auto 0;
+}
+
+.sproteastore-minheight {
+    min-height: 50px;
+    display: block;
+}
+
+
+/*这是前面那个长方体的css*/
+
+.spro_storeimagespan {
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    position: absolute;
+    top: 102%;
+    font-style: italic;
+    color: #a6a6a6;
+    /*font-family: "Microsoft YaHei";*/
+}
+
+.spro_questitle {
+    position: relative;
+    margin-bottom: 14px;
+}
+
+.spro_questitle div a {
+    top: 0px;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    width: 97px;
+    height: 30px;
+    text-align: center;
+    line-height: 27px;
+    font-size: 14px;
+    background: #49c0e0;
+    color: #fdfffe;
+    font-weight: 500;
+    padding: 0px;
+}
+
+.spro_questionBody .spro_questitle .spro_cubiud {
+    width: 4px;
+    height: 20px;
+    margin-right: 8px;
+    margin-bottom: -4px;
+    padding-top: 8px;
+    display: inline-block;
+    background-color: #4ac0e0;
+}
+
+.spro_questionBody .spro_questitle .spro_information {
+    font-size: 18px;
+    height: 22px;
+    line-height: 22px;
+    color: #2d363f;
+    display: inline-block;
+    text-indent: 0px;
+    /*font-family: "Microsoft YaHei";*/
+}
+
+.exspro_styleteadivfinal {
+    display: inline-block;
+    line-height: 30px;
+    padding: 0 5px;
+}
+
+.exspro_styletealistbfinal {
+    width: 28px;
+    height: 30px;
+    text-align: center;
+    border-bottom: 1px solid #bfc3c6;
+    font-weight: normal;
+    display: inline-block;
+}
+
+.exspro_styletealistspanfinal {
+    margin-left: 20px;
+}
+
+
+/*下面是列表的css*/
+
+.spro_questionBody {
+    background-color: #f4f4f6;
+    padding: 15px 40px;
+}
+
+.spro_thQuBody {
+    min-height: 500px;
+    width: 1100px;
+    background-color: #fff;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+span.AtestFlaginnerspan {
+    left: 18px !important;
+}
+
+.spro_thSelect {
+    /*min-width: 1250px;*/
+    padding-top: 11px;
+    padding-bottom: 20px;
+    background-color: #f5f5f5;
+    height: 70px;
+    position: relative;
+}
+
+.SproCouselect {
+    margin-left: 256px;
+}
+
+.Spromajselect,
+.SproCouselect {
+    width: 256px !important;
+}
+
+.spro_thselection1 {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.spro_thselection1 .spro_thSet1,
+.spro_thselection1 .spro_thSet2,
+.spro_thselection1 .spro_thSet3 {
+    float: left;
+    width: 30%;
+}
+
+.spro_thSelect select {
+    width: 238px;
+    height: 28px;
+}
+
+.spro_thselection1 .spro_thSet1 span,
+.spro_thselection1 .spro_thSet2 span,
+.spro_thselection1 .spro_thSet3 span,
+.spro_thselection1 .spro_thSet1 select,
+.spro_thselection1 .spro_thSet2 select,
+.spro_thselection1 .spro_thSet3 select {
+    float: right;
+}
+
+.spro_thselection1 .spro_thSet3 select {
+    width: 304px;
+}
+
+.spro_thselection1 span,
+.spro_selebody_final span {
+    /*font-family: "Microsoft YaHei";*/
+    position: relative;
+    left: 10px;
+    margin-top: 2px;
+    display: inline-block;
+}
+
+.SprothQuestion {
+    margin-left: 20px;
+}
+
+.spro_selebody_final {
+    height: 50px;
+    padding-left: 13px;
+    border: 1px solid #e8e8e8;
+    background: #f5f5f5;
+    padding-top: 7px;
+    margin-bottom: -1px;
+}
+
+.spro_selebody_final b {
+    font-weight: normal;
+    display: inline-block;
+    text-align: center;
+    width: 62px;
+    height: 26px;
+    background-color: #49c0e0;
+    color: #ffffff;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+button::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner {
+    border: none;
+    padding: 0;
+}
+
+input,
+button {
+    -moz-padding-start: npx;
+    -moz-padding-end: npx;
+}
+
+.spro_thSelects3>span {
+    color: #313540;
+}
+
+.spro_thSelects3 select {
+    width: 232px;
+}
+
+.spro_thSelects3 input {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    float: right;
+    height: 26px;
+    position: relative;
+    border: 1px solid #b0b0b0;
+    background: #f5f5f5;
+    padding-left: 5px;
+}
+
+.spro_thSelects3 input::-webkit-input-placeholder {
+    position: relative;
+    /*padding-left: 5px;*/
+}
+
+.spro_thSelects3 input:hover {
+    outline: blue;
+    border: 1px solid #49C0E0;
+    height: 26px;
+    width: 200px;
+}
+
+.spro_thSelects3 input:focus {
+    outline: blue;
+    height: 26px;
+    border: 1px solid #49C0E0;
+    width: 200px;
+}
+
+
+/*下面是列表框开始*/
+
+.spro_thQuhead {
+    width: 1060px;
+    overflow: hidden;
+    height: 46px;
+    line-height: 46px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #e8e8e8;
+    border-left: 1px solid #e8e8e8;
+    border-right: 1px solid #e8e8e8;
+    border-bottom: 1px solid #f2f2f2;
+    /*font-family: "Microsoft YaHei";*/
+    /*padding-left: 10px;*/
+    /*padding-right: 20px;*/
+}
+
+.spro_thQuhead div {
+    color: #2d363f;
+    float: left;
+}
+
+.spro_thQuhead div {
+    text-align: center;
+}
+
+
+/*.spro_thQuhead .spro_thQutitle2 {
+    width: 4%;
+}
+
+.spro_thQuhead .spro_thQutitle3 {
+    width: 16%;
+}
+
+.spro_thQuhead .spro_thQutitle5 {
+    width: 13%;
+}
+
+.spro_thQuhead .spro_thQutitle6 {
+    width: 13%;
+}
+
+.spro_thQuhead .spro_thQutitle7 {
+    width: 13%;
+}
+
+.spro_thQuhead .spro_thQutitle10 {
+    width: 18%;
+}*/
+
+
+/*下面是列表信息的样式*/
+
+.spro_thQuBodysfinal {
+    color: #606060;
+    width: 1060px;
+    overflow: auto !important;
+    border-bottom: 1px solid #f2f2f2;
+    border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.spro_thQuBodysfinal:hover {
+    background: #e4f4ff;
+}
+
+.spro_thQuBodysfinal:hover .spro_caoz a,
+.spro_thQuBodysfinal:hover .spro_caoz_diff a {
+    color: #1380f9;
+}
+
+.spro_thQuBodysfinal div {
+    font-family: Arial;
+    float: left;
+    text-align: center;
+}
+
+.spro_thQuBody .spro_xuh,
+.spro_thQuhead .spro_titxuh {
+    width: 5%;
+}
+
+.spro_thQuBody .spro_mingc,
+.spro_thQuhead .spro_titmingc {
+    width: 27%;
+}
+
+.spro_thQuBody .spro_zhuany,
+.spro_thQuhead .spro_titzhuany {
+    width: 27%;
+}
+
+.spro_thQuBody .spro_kec,
+.spro_thQuhead .spro_titkec {
+    width: 27%;
+}
+
+.spro_thQuBody .spro_kec_diff,
+.spro_thQuhead .spro_titkec_diff {
+    width: 33%;
+}
+
+.spro_thQuBody .spro_kec_diff_mm,
+.spro_thQuhead .spro_titkec_diff_mm {
+    width: 23%;
+}
+
+.spro_thQuBody .spro_beiz,
+.spro_thQuhead .spro_titbeiz {
+    width: 15%;
+    font-family: Arial;
+}
+
+.spro_thQuBody .spro_caoz,
+.spro_thQuhead .spro_titcaoz {
+    width: 13%;
+}
+
+.spro_thQuBody .spro_caoz_diff,
+.spro_thQuhead .spro_titcaoz_diff {
+    width: 8%;
+}
+
+.spro_thQuBody .spro_caoz_diff_mm,
+.spro_thQuhead .spro_titcaoz_diff_mm {
+    width: 18%;
+}
+
+
+.spro_thQuBody .spro_caoz_diff a,
+.spro_thQuBody .spro_caoz a {
+    margin: 0 5px;
+    color: #5b6064;
+    font-size: 14px;
+}
+
+.spro_thQuBody .spro_caoz_diff_mm a,
+.spro_thQuBody .spro_caoz_mm a {
+    margin: 0 5px;
+    color: #5b6064;
+    font-size: 14px;
+}
+
+.spro_thQuBody .spro_caoz_diff a:hover,
+.spro_thQuBody .spro_caoz a:hover {
+    color: #1380f9;
+}
+
+.spro_thQuBody .spro_caoz_diff_mm a:hover,
+.spro_thQuBody .spro_caoz_mm a:hover {
+    color: #1380f9;
+}
+
+.spro_thQuBody .spro_caoz_diff b.dib,
+.spro_thQuBody .spro_caoz b.dib {
+    font-weight: normal;
+    margin-left: 2px;
+}
+
+.spro_thQuBody .spro_caoz_diff_mm b.dib,
+.spro_thQuBody .spro_caoz_mm b.dib {
+    font-weight: normal;
+    margin-left: 2px;
+}
+
+.spro_thQuBody .spro_caoz_diff i,
+.spro_thQuBody .spro_caoz i {
+    margin: 0 11px;
+    color: #5b6064;
+}
+
+.spro_thQuBody .spro_caoz_diff_mm i,
+.spro_thQuBody .spro_caoz_mm i {
+    margin: 0 11px;
+    color: #5b6064;
+}
+
+.spro_thQuBody .spro_caoz_diff i:hover,
+.spro_thQuBody .spro_caoz i:hover {
+    color: #1380f9;
+}
+
+.spro_thQuBody .spro_caoz_diff_mm i:hover,
+.spro_thQuBody .spro_caoz_mm i:hover {
+    color: #1380f9;
+}
+
+#ac {
+    background: #f2f4ff;
+    color: #ccd3ff;
+    border: 1px solid #ccd3ff;
+}
+
+#ab {
+    background: #f2f4ff;
+    color: #ccd3ff;
+    border: 1px solid #ccd3ff;
+}
+
+
+/*下面是增加删除试卷的样式*/
+
+.spro_addbtn {
+    padding-top: 16px;
+}
+
+.spro_addbtn button {
+    float: left;
+    width: 120px;
+    height: 26px;
+    color: #ffffff;
+    background-color: #49c0e0;
+    margin-left: 10px;
+}
+
+.spro_pageinner {
+    position: absolute;
+    /*width: 28%;*/
+    right: 0px;
+}
+
+.spro_thQuBody .spro_page {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+.spro_thQuBody .spro_page button {
+    width: 81px;
+    height: 30px;
+    border: 1px solid #d3d3d3;
+    /*background-color: #fdfffe;*/
+    float: right;
+    text-align: center;
+    /*color: #1d85fe;
+    border: 1px solid #1c86ff;*/
+    margin-left: 8px;
+}
+
+a.spro_useless {
+    color: #e2e2e2 !important;
+}
+
+a.spro_useless:hover {
+    color: #e2e2e2 !important;
+    cursor: default !important;
+}
+
+.h-addexamMany1{
+    position: absolute;
+    top: 0;
+    right: 140px;
+    /* display: block; */
+    width: 136px;
+    height: 30px;
+    text-align: center;
+    line-height: 26px;
+    background-color: #49c0e0;
+    color: #ffffff;
+}
+.h-addexamMany1 i{
+    margin-right: 3px;
+}
+
+.h-addexamMany1_diff{
+    position: absolute;
+    top: 0;
+    right: 160px;
+    /* display: block; */
+    width: 136px;
+    height: 30px;
+    text-align: center;
+    line-height: 26px;
+    background-color: #49c0e0;
+    color: #ffffff;
+}
+.h-addexamMany1_diff i{
+    margin-right: 3px;
+}
+
+.h-addexamMany2 {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    /* display: block; */
+    width: 130px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #49c0e0;
+    color: #ffffff;
+    padding: 0 !important;
+}
+
+.h-addexamMany2 i {
+    margin-right: 3px;
+    vertical-align: -1px;
+}
+
+.h-addexamMany3 {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    /* display: block; */
+    width: 145px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #49c0e0;
+    color: #ffffff;
+    padding: 0 !important;
+}
+
+.h-addexamMany3 i {
+    margin-right: 3px;
+    vertical-align: -1px;
+}

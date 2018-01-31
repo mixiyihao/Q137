@@ -1,0 +1,364 @@
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+html,
+body,
+#app,
+.h-content,
+.h-setting {
+    width: 100%;
+}
+
+.h-content,
+.h-setting {
+    min-height: 600px;
+    min-width: 960px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.h-content .h-setting {
+    background: url("../../images/login/06denglu.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.h-tnav {
+    width: 100%;
+    padding-top: 70px;
+}
+
+.h-tnav .h-logo {
+    width: 240px;
+    margin: 0 auto;
+}
+
+.h-tnav .h-logo .h-beij {
+    width: 240px;
+    height: 70px;
+    background: url("../../images/login/red-02.png") no-repeat center -42px;
+    background-size: 90%;
+    margin-top: 10px;
+}
+
+.h-tnav .h-logo p {
+    font-family: "微软雅黑", "Hiragino Sans GB";
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: -32px;
+    font-size: 16px;
+    opacity: 0.8;
+    /*font-weight: 100;*/
+}
+
+.h-section {
+    width: 100%;
+    padding-top: 24px;
+    overflow: hidden;
+}
+
+.h-section .h-login {
+    width: 388px;
+    height: 320px;
+    background-color: #f2f7fa;
+    margin: 0 auto;
+    padding-top: 31px;
+}
+
+.h-section .h-login .h-numbe {
+    text-align: center;
+    color: #606060;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.h-section .h-login .h-point {
+    width: 100%;
+    /*height: 20px;*/
+    font-size: 12px;
+    color: #e2231b;
+    height: 36px;
+    line-height: 12px;
+    text-indent: 56px;
+    padding-top: 24px;
+}
+
+.h-section .h-login .h-user {
+    width: 320px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-bottom: 1px solid #e1e6e9;
+    overflow: hidden;
+}
+
+.h-section .h-login .h-user1 {
+    width: 320px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.h-section .h-login .h-user2 {
+    width: 320px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-bottom: 1px solid #e1e6e9;
+    overflow: hidden
+}
+
+.h-section .h-login .h-user span {
+    /*display: inline-block;*/
+    color: #919598;
+    font-size: 22px;
+    margin-top: -8px;
+}
+
+.h-section .h-login .h-user2 span {
+    /*display: inline-block;*/
+    color: #919598;
+    font-size: 22px;
+    margin-top: -8px;
+}
+
+.h-section .h-login .h-user2 .h-colour {
+    color: #acafb1;
+}
+
+.h-section .h-login .h-user .h-colour {
+    color: #acafb1;
+}
+
+.h-section .h-login .h-user2 input {
+    /*display: inline-block;*/
+    width: 288px;
+    border: none;
+    height: 30px;
+    background-color: #f2f7fa;
+    /*background-color: #ff806f;*/
+    color: #919598;
+    /*padding-bottom: 3px;*/
+    margin-top: -2px;
+    /*font-weight: 100;*/
+    text-indent: 5px;
+    margin-top: -10px;
+    /*background-color: #f2f7fa;*/
+}
+
+.h-section .h-login .h-user input {
+    /*display: inline-block;*/
+    width: 288px;
+    border: none;
+    height: 27px;
+    line-height: 27px;
+    background-color: #f2f7fa;
+    /*background-color: #ff806f;*/
+    color: #919598;
+    /*padding-bottom: 3px;*/
+    /*font-weight: 100;*/
+    text-indent: 5px;
+    margin-top: -7px;
+    /*background-color: #f2f7fa;*/
+}
+
+.h-user1 input {
+    height: 30px;
+}
+
+.h-section .h-login .h-user input[value] {
+    color: #303030;
+}
+
+.h-section .h-login .h-user2 input[value] {
+    color: #303030;
+}
+
+.h-section .h-login .h-test {
+    border-bottom: 1px solid #e1e6e9;
+}
+
+.h-section .h-login .h-test input {
+    font-size: 14px;
+    border: none;
+    /*background-color: #f2f7fa;*/
+    color: #919598;
+    padding-bottom: 5px;
+    /*font-weight: 100;*/
+    color: #000;
+     background-color: #f2f7fa;
+    -webkit-box-shadow: 0 0 0 400px #f2f7fa inset;
+}
+
+.h-section .h-login input[placeholder] {
+    color: #444444;
+}
+
+.h-section .h-login input[autocomplete] {
+    background-color: #f2f7fa;
+    -webkit-box-shadow: 0 0 0 400px #f2f7fa inset;
+}
+
+
+.h-section .h-login .h-user1 .h-test {
+    /*display: none;*/
+    width: 100%;
+    height: 100%;
+    /*border-bottom: 1px solid #e0e5e9;*/
+}
+
+.h-section .h-login .h-user1 img {
+    border: none;
+}
+
+.h-clear {
+    display: none !important;
+}
+
+.h-section .h-login .h-user1 .h-test input {
+    font-size: 12px;
+    /*margin-right: 106px;*/
+    text-indent: 5px;
+    /*color: #919598;*/
+    border: none;
+    width: 140px;
+    margin-top: -2px;
+    letter-spacing: 1px;
+    padding-bottom: 0px;
+}
+
+.h-user1 .h-test .h-yanz {
+    float: left;
+}
+
+.h-user1 .h-test img {
+    float: right;
+}
+
+.h-section .h-login .h-entry {
+    width: 320px;
+    height: 36px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #49c0e0;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 16px;
+    border: 1px solid #49c0e0;
+    color: #feffff;
+    letter-spacing: 1px;
+    /*font-family: Microsoft YaHei;*/
+}
+.h-section .h-login .disabledEntry{
+    width: 320px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    background-color: #68a8ba;;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 16px;
+    border: 1px solid #68a8ba;;
+    color: #feffff;
+    letter-spacing: 1px;
+}
+.h-section .h-login .h-retrieve {
+    text-indent: 37px;
+    font-size: 12px;
+    color: #909090;
+    line-height: 20px;
+}
+
+.h-section .h-login .h-retrieve a {
+    color: #1380f9;
+}
+
+.h-section .h-login .h-retrieve p {
+    display: inline-block;
+}
+
+.h-section .h-login .h-retrieves {
+    margin-right: 40px;
+}
+
+.h-checkbox {
+    /*font-family: 宋体;*/
+    font-size: 12px;
+    color: #000000;
+    border: 1px solid #006600;
+    background-color: #DBFBF7;
+}
+
+.h-jizhu {
+    margin-left: 2px;
+    position: relative;
+    top: 1px;
+}
+
+.h-foot {
+    height: 72px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.14);
+    position: absolute;
+    bottom: 10px;
+    padding-top: 15px;
+}
+
+.h-foot p a {
+    margin: 0 43px;
+    color: #bebfd1;
+    font-size: 13px;
+}
+
+.h-foot p a:hover {
+    color: #fff;
+}
+
+.h-foot p {
+    text-align: center;
+    line-height: 2.2;
+    color: #9196b3;
+    font-size: 12px;
+    font-family:  "iconfont";
+}
+
+
+/* 浏览器版本提示 */
+
+.h-content {
+    position: relative;
+}
+
+p.warningBox {
+    position: absolute;
+    height: 34px;
+    font-size: 14px;
+    line-height: 34px;
+    background-color: rgba(150, 164, 224, .17);
+    color: #eaedf9;
+    padding: 0 11px;
+    top: 20px;
+    left: 20px;
+    z-index: 100;
+}
+
+p.warningBox a {
+    color: #6bd3fe;
+}
+
+p.warningBox a:hover {
+    color: #6bd3fe;
+    text-decoration: underline;
+}

@@ -1,0 +1,220 @@
+.spromainBodytitle {
+    /*width: 960px;*/
+    height: 86px;
+    margin-top: 33px;
+    margin-left: 246px;
+    background: #f2f2f2;
+    padding-top: 16px;
+    padding-left: 16px;
+    width: 1027px;
+}
+
+/*title基本资料左面的样式设置*/
+
+.spromainBodyleft {
+    width: 530px;
+    height: 100%;
+    float: left;
+}
+
+/*字体大小font-size 22px*/
+
+.fz22 {
+    font-size: 22px;
+}
+
+.dib {
+    display: inline-block;
+}
+
+.w130 {
+    width: 130px;
+}
+
+.pr {
+    position: relative;
+}
+
+.cf2 {
+    color: #606060;
+}
+
+.mainposition {
+    /*display: block;*/
+    font-family: arial;
+    color: #606060;
+}
+
+.maininnerleftdiv {
+    padding-left: 96px;
+    margin-top: 10px;
+}
+
+.maininnerspanone {
+    display: inline-block;
+    font-family: arial;
+    line-height: 24px;
+    color: #606060;
+}
+
+.spaninnerfatheri {
+    position: absolute;
+    z-index: 30;
+    color: white;
+    font-size: 10px;
+    height: 10px;
+    width: 130px;
+    text-align: center;
+    font-family: arial;
+}
+
+.inforstudentName {
+    color: #3288f9;
+}
+
+.maininnerspantwo {
+    width: 180px;
+    margin-left: 30px;
+}
+
+.maininnerspantwo > b {
+    color: #fd7345;
+}
+
+.spanrangeinnerfather {
+    margin-left: 10px;
+    width: 130px;
+    height: 16px;
+    background: #77746f;
+    border-radius: 5px;
+    position: relative;
+}
+
+.spanrangeinnersun {
+    width: 0px;
+    height: 16px;
+    background: #fd7345;
+    border-radius: 5px;
+    top: 9px;
+    left: 10px;
+    position: absolute;
+}
+
+/*title基本资料右面的样式设置*/
+
+.spromainBodyright {
+    float: left;
+}
+
+.mainstudytime {
+    font-family: arial;
+    display: block;
+}
+
+.maininnerstudytime {
+    margin-top: 16px;
+    line-height: 22px;
+    height: 22px;
+}
+
+.maininnerstudyi {
+    width: 20px;
+    text-align: center;
+    font-style: normal;
+}
+
+/*设计下面整体的样式*/
+
+.informainBody {
+    margin-left: 230px;
+    margin-top: 20px;
+    min-height: 650px;
+    /*	width:1030px;
+*/
+    width: 1045px;
+}
+
+.inforBodyh2 {
+    font-size: 18px;
+    font-weight: normal;
+    width: 96px;
+    text-align: center;
+    line-height: 20px;
+    height: 23px;
+    border-left: 4px solid #4abfe0;
+}
+
+.informainouterdiv {
+    margin-top: 10px;
+    margin-left: 14px;
+}
+
+.TMWrap .informainouterdiv span {
+    width: 506px;
+}
+
+.informainouterdiv > div {
+    margin-top: 8px;
+    height: 40px;
+}
+
+.informainouterdiv .Stuinformainspanone, .informainouterdiv .Stuinformainspantwo {
+    height: 40px;
+    line-height: 40px;
+}
+
+.informainouterdiv .Stuinformainspanone .informaininnerb, .informainouterdiv .Stuinformainspantwo .informaininnerb {
+    height: 39px;
+}
+
+.TMWrap .informainouterdiv span.Stuinformainspanmore {
+    width: 1022px;
+}
+
+.informainspanone {
+    width: 509px;
+    height: 52px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 52px;
+    border: 1px dashed #dedede;
+}
+
+.informaininnerb {
+    background: #f2f2f2;
+    float: left;
+    width: 130px;
+    font-family: arial;
+    height: 50px;
+    border-right: 1px dashed #dedede;
+    border-bottom: 1px dashed #dedede;
+    text-align: center;
+    font-weight: normal;
+}
+
+.informaininneri {
+    font-family: arial;
+    font-style: normal;
+    padding-left: 37px;
+    float: left;
+    text-align: center;
+}
+
+.informainspantwo {
+    font-size: 14px;
+    margin-left: 10px;
+    width: 509px;
+    height: 52px;
+    line-height: 52px;;
+    font-size: 14px;
+    border: 1px dashed #dedede;
+}
+
+.inforlastdiv {
+    font-size: 14px;
+    height: 52px;
+    line-height: 52px;
+    margin-top: 10px;
+    width: 1029px;
+    border: 1px dashed #dedede;
+}

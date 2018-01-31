@@ -1,0 +1,259 @@
+.teacherWork_box {
+    position: fixed;
+    bottom: 50px;
+    left: 50%;
+    margin-left: 581px;
+    z-index: 300;
+    transition: bottom .15s ease-in-out;
+}
+
+.teacherWork_box .teacherWork_square {
+    width: 34px;
+    height: 34px;
+    box-shadow: 0 2px 5px rgba(247, 120, 17, .6);
+    display: block;
+    cursor: pointer;
+    position: relative;
+    background: #f57b0e;
+    color: #fff;
+    text-align: center;
+    line-height: 14px;
+    font-size: 12px;
+    padding-top: 3px;
+}
+
+.teacherWork_box .teacherWork_squareClose {
+    width: 34px;
+    height: 34px;
+    box-shadow: 0 2px 5px rgba(247, 120, 17, .6);
+    display: block;
+    cursor: pointer;
+    position: relative;
+    background: #f57b0e;
+    color: #fff;
+    text-align: center;
+    line-height: 34px;
+}
+
+.teacherWork_box .teacherWork_center {
+    position: absolute;
+    height: 164px;
+    background: #fff;
+    border-top: 4px solid #f77811;
+    left: -325px;
+    top: -85px;
+    width: 319px;
+    box-shadow: 0 6px 40px 0 rgba(0, 0, 0, .15)!important;
+    -webkit-box-shadow: 0 6px 40px 0 rgba(0, 0, 0, .15)!important;
+    -moz-box-shadow: 0 6px 40px 0 rgba(0, 0, 0, .15)!important;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    pointer-events: none;
+}
+
+.teacherWork_box .teacherWork_center.Active {
+    opacity: 1;
+    box-shadow: 0 6px 40px 0 rgba(0, 0, 0, .15)!important;
+    -webkit-box-shadow: 0 6px 40px 0 rgba(0, 0, 0, .15)!important;
+    -moz-box-shadow: 0 6px 40px 0 rgba(0, 0, 0, .15)!important;
+    left: -335px;
+    transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    pointer-events: auto;
+}
+
+.teacherWork_box .teacherWork_child {
+    border: 1px solid #f8f8fa;
+    width: 319px;
+    height: 161px;
+    padding: 0 8px;
+}
+
+.teacherWork_box .teacherWork_title {
+    height: 33px;
+}
+
+.teacherWork_box .teacherWork_titleMsg {
+    color: #3f3f3f;
+    float: left;
+    margin-top: 7px;
+}
+
+.teacherWork_box .teacherWork_titleMsg i {
+    font-size: 18px;
+    color: #1481fa;
+    margin: 0 1px;
+}
+
+.teacherWork_box .teacherWork_child .teacherWork_title .teacherWork_reset {
+    text-align: center;
+    line-height: 28px;
+    height: 28px;
+    display: block;
+    float: right;
+    width: 70px;
+    color: #fff;
+    background: #f77811;
+    cursor: pointer;
+    margin-top: 3px;
+    padding: 0;
+}
+
+.teacherWork_box .teacherWork_reset.commonButton.button {
+    padding: 0;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.teacherWork_box .teacherWork_reset.commonButton:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #F79F13;
+    border-radius: 100%;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.teacherWork_box .teacherWork_reset.commonButton:hover:before,
+.teacherWork_box .teacherWork_reset.commonButton:focus:before,
+.teacherWork_box .teacherWork_reset.commonButton:active:before {
+    -webkit-transform: scale(2);
+    transform: scale(2);
+}
+
+.teacherWork_box .teacherWork_reset.commonButton:hover,
+.teacherWork_box .teacherWork_reset.commonButton:focus,
+.teacherWork_box .teacherWork_reset.commonButton:active {
+    color: white;
+}
+
+.teacherWork_box .teacherWork_reset i {
+    font-size: 18px;
+    vertical-align: -1px;
+    margin-right: 2px;
+}
+
+.teacherWork_box .teacherWork_table {
+    height: 116px;
+    border: 1px solid #f4f5f7;
+    margin-top: 3px;
+}
+
+.teacherWork_box .teacherWork_table div {
+    height: 25%;
+}
+
+.teacherWork_box .teacherWork_table span.teacherWork_leftBorder {
+    border-bottom: 1px solid #f4dbc7;
+}
+
+.teacherWork_box .teacherWork_table span.teacherWork_border {
+    border-bottom: 1px solid #f6f6f6;
+}
+
+.teacherWork_box .teacherWork_table div span {
+    display: inline-block;
+    width: 33.333%;
+    height: 28.5px;
+    float: left;
+    text-align: center;
+    line-height: 28px;
+}
+
+.teacherWork_box .teacherWork_table span.color {
+    color: #303030;
+}
+
+.teacherWork_box .teacherWork_table span {
+    color: #606060;
+}
+
+.teacherWork_box .teacherWork_table div span.teacherWork_leftTool {
+    background: #fde2cd;
+}
+
+.teacherWork_box .teacherWork_table div span.teacherWork_topTool {
+    background: #f5f5f5;
+}
+
+.teacherWork_box .teacherWork_msgBox {
+    position: fixed;
+    z-index: 99;
+    top: 75px;
+    right: 30px;
+    width: 170px;
+    height: 26px;
+    text-align: center;
+    display: block;
+}
+
+.teacherWork_box .teacherWork_msgCenter {
+    width: 100%;
+    height: 100%;
+    background: rgb(247, 148, 77);
+    border-radius: 4px;
+    opacity: 1;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.098) 0px 2px 5px;
+}
+
+.teacherWork_box .teacherWork_msgCenterAnimate {
+    width: 0;
+    height: 100%;
+    background: rgb(247, 148, 77);
+    border-radius: 4px;
+    opacity: 0;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.098) 0px -3px 5px;
+    transition: all 2.5s ease-in-out;
+    white-space: nowrap;
+}
+
+.teacherWork_box .teacherWork_msgIcon {
+    float: left;
+    display: block;
+    padding-left: 2px;
+    width: 18px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+
+.teacherWork_box .teacherWork_msgCenterMsg {
+    float: left;
+    width: 140px;
+    text-align: center;
+    line-height: 26px;
+    color: rgb(255, 255, 255);
+}
+
+.teacherWork_box .teacherWork_msgCenterMsgAnimate {
+    float: left;
+    width: 0px;
+    text-align: center;
+    line-height: 26px;
+    color: rgb(255, 255, 255);
+    transition: all 2.5s ease-in-out;
+    white-space: nowrap;
+    overflow: hidden;
+}

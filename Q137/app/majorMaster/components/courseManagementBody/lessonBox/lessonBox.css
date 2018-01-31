@@ -1,0 +1,387 @@
+.lessonBox-container {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.lessonBox-container .lessonBox-wrap {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 999;
+    width: 634px;
+    height: 462px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(238, 238, 238);
+}
+
+.lessonBox-container .lessonBox-title {
+    margin: 0 12px;
+    height: 37px;
+    border-bottom: 1px solid #dadada;
+}
+
+.lessonBox-container .lessonBox-title-msg {
+    float: left;
+    height: 37px;
+    line-height: 37px;
+    display: inline-block;
+    width: 100px;
+    font-size: 14px;
+    color: #333333;
+    font-weight: 600;
+}
+
+.lessonBox-container .lessonBox-title-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: inline-block;
+    width: 37px;
+    height: 37px;
+    text-align: center;
+    line-height: 37px;
+    font-size: 14px;
+    color: #333333;
+    cursor: pointer;
+}
+
+.lessonBox-container .lessonBox-title-close:hover {
+    background-color: #49c0e0;
+    color: #fff;
+}
+
+.lessonBox-container .lessonBox-center {
+    height: 366px;
+    width: 100%;
+}
+
+.lessonBox-container .lessonBox-center-add {
+    float: left;
+    width: 398px;
+    height: 100%;
+    padding: 6px 5px 5px 0;
+    margin-left: 12px;
+    border-bottom: 1px solid #dadada;
+}
+
+.lessonBox-container .lessonBox-center-edit {
+    float: left;
+    height: 100%;
+    width: 96%;
+    padding: 6px 0 5px 0;
+    margin-left: 12px;
+    border-bottom: 1px solid #dadada;
+}
+
+.lessonBox-container .lessonBox-center-detailed {
+    border-right: 1px solid #dadada;
+    float: left;
+    width: 222px;
+    height: 100%;
+    border-left: 1px solid #dadada;
+}
+
+.lessonBox-container .lessonBox-center-detailed {
+    background: #e9f4f6;
+}
+
+.lessonBox-container .lessonBox-center-title {
+    height: 36px;
+    background: #ededed;
+    width: 100%;
+    line-height: 36px;
+}
+
+.lessonBox-container .lessonBox-center-title span {
+    float: left;
+    margin-left: 15px;
+    color: #606060;
+    font-size: 12px;
+}
+
+.lessonBox-container .lessonBox-center-type {
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.lessonBox-container .lessonBox-center-important {
+    color: red;
+}
+
+.lessonBox-container .lessonBox-label {
+    float: left;
+    width: 65px;
+    color: #404040;
+    text-align: right;
+    margin-right: 8px;
+    line-height: 25px;
+}
+
+.lessonBox-container .lessonBox-center-span {
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: #606060;
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid #e8e8e8;
+    margin-right: 6px;
+    font-size: 12px;
+}
+
+.lessonBox-container .lessonBox-center-span.Active {
+    background: #51c0de;
+    border-color: #51c0de;
+    color: #fff;
+}
+
+.lessonBox-container .lessonBox-center-span-type {
+    width: 64px;
+}
+
+.lessonBox-container .lessonBox-lesson-box {
+    height: 187px;
+}
+
+.lessonBox-container .lessonBox-lesson-box-none {
+    display: none;
+}
+
+.lessonBox-container .lessonBox-center-span-stage {
+    width: 70px;
+}
+
+.lessonBox-container .lessonBox-center-name {
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.lessonBox-container .lessonBox-center-name input {
+    float: left;
+    height: 25px;
+    width: 250px;
+    border: 1px solid #eeeeee;
+    outline: none;
+    font-size: 12px;
+    padding-left: 7px;
+}
+
+.lessonBox-container .lessonBox-center-stage {
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.lessonBox-container .lessonBox-center-order {
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.lessonBox-container .lessonBox-center-order input {
+    float: left;
+    height: 25px;
+    width: 70px;
+    border: 1px solid #eeeeee;
+    outline: none;
+    font-size: 12px;
+    padding-left: 7px;
+}
+
+.lessonBox-container .lessonBox-center-structure {
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.lessonBox-container .lessonBox-label-structur {
+    margin-top: 4px;
+}
+
+.lessonBox-container .lessonBox-center-div {
+    float: left;
+    width: 310px;
+    height: 76px;
+    border: 1px solid #e8e8e8;
+}
+
+.lessonBox-container .lessonBox-center-div div {
+    float: left;
+    margin-right: 8px;
+    height: 14px;
+    line-height: 14px;
+    color: #5f5f5f;
+    margin-top: 7px;
+    font-size: 12px;
+}
+
+.lessonBox-container .lessonBox-center-div div input {
+    margin: 0 5px 3px 3px;
+}
+
+.lessonBox-container .lessonBox-center-addNew {
+    height: 22px;
+    border: 1px dashed #e8e8e8;
+    width: 372px;
+    margin-left: 17px;
+    margin-top: 60px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    cursor: pointer;
+    color: #5f5f5f;
+}
+
+.lessonBox-container .lessonBox-center-addNew i {
+    margin-right: 3px;
+    vertical-align: -1px;
+}
+
+.lessonBox-container .lessonBox-button {
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.lessonBox-container .lessonBox-button span {
+    width: 70px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    display: inline-block;
+    float: left;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.lessonBox-button p {
+    float: left;
+    line-height: 25px;
+    font-size: 12px;
+    color: red;
+    margin-left: 4px;
+}
+
+.lessonBox-container .lessonBox-button-cancel {
+    color: #606060;
+    border: 1px solid #f4f4f4;
+    margin-right: 8px;
+}
+
+.lessonBox-container .lessonBox-button-cancel:hover {
+    color: #fff;
+    background: #51c0de;
+    border: 1px solid #51c0de;
+}
+
+.lessonBox-container .lessonBox-button-save {
+    color: #fff;
+    background: #51c0de;
+    padding: 0;
+}
+
+.lessonBox-container .lessonBox-center-detailed h4 {
+    font-size: 14px;
+    color: #313131;
+    margin-top: 6px;
+    padding-left: 15px;
+}
+
+.lessonBox-container .lessonBox-detailed-card {
+    height: 116px;
+    width: 194px;
+    margin-top: 7px;
+    margin-left: 10px;
+    background: #fff;
+    padding: 4px;
+}
+
+.lessonBox-container .lessonBox-detailed-content {
+    max-height: 338px;
+    overflow-y: auto;
+}
+
+.lessonBox-container .lessonBox-detailed-card p {
+    font-size: 12px;
+    line-height: 18px;
+    color: #606060;
+    width: 185px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+
+.lessonBox-container .lessonBox-detailed-button {
+    width: 110px;
+    height: 22px;
+    float: right;
+    margin-top: 10px;
+}
+
+.lessonBox-container .lessonBox-detailed-button span {
+    height: 22px;
+    width: 50px;
+    background: #51c0de;
+    color: #fff;
+    text-align: center;
+    line-height: 22px;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 4px;
+    padding: 0;
+    font-size: 12px;
+}
+
+.lessonBox-container .lessonBox-detailed-button i {
+    font-size: 12px;
+}
+
+.lessonBox-container .lessonBox-center-exam {
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.lessonBox-container .lessonBox-center-exam select {
+    height: 28px;
+    border: 1px solid #f3f3f3;
+    color: rgb(102, 102, 102);
+    line-height: 25px;
+    width: 250px;
+    outline: none;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url('../../../../images/headMaster/aa.svg') no-repeat 98% center;
+    background-size: 15px 13px;
+    font-size: 12px;
+}
+
+.lessonBox-container .lessonBox-center-exam select:hover {
+    border: 1px solid #4ac0e0;
+}
+
+.lessonBox-container .lessonBox-lesson-after {
+    margin-left: 5px;
+    color: #404040;
+}
+
+.lessonBox-center-error-msg {
+    float: left;
+    color: red;
+    font-size: 12px;
+    line-height: 25px;
+    margin-left: 4px;
+}
+
+.lessonBox-center-error-msgLes {
+    float: left;
+    color: red;
+    font-size: 12px;
+    line-height: 25px;
+    margin-left: 68px;
+}

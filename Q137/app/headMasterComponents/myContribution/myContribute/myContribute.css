@@ -1,0 +1,445 @@
+.MyContributeMain {
+    width: 100%;
+    /*min-height: 550px;*/
+    padding: 10px 0;
+    background-color: #f4f4f6;
+    color: #606060;
+}
+
+.myContributeInner {
+    width: 1100px;
+    margin: 0 auto;
+    min-height: 550px;
+}
+
+.myContributeInfo {
+    width: 100%;
+    height: 180px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 15px;
+    clear: both;
+    position: relative;
+}
+
+.mC_Infomation {
+    height: 150px;
+    width: 315px;
+    float: left;
+    position: relative;
+}
+
+.mC_img {
+    width: 110px;
+    height: 150px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.mC_canvas {
+    /*float: right;*/
+    position: absolute;
+    /*right: -50%;*/
+    /*left: 50%;*/
+    right: -377px;
+    top: -65px;
+    /*transform: scale(.5);*/
+    -webkit-transform: scale(.5);
+    -moz-transform: scale(.5);
+    -ms-transform: scale(.5);
+    -o-transform: scale(.5);
+    transform: scale(.5);
+}
+
+.mC_infoDetail {
+    width: 205px;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    /*background-color: yellow;*/
+}
+
+.mC_infoDetail p {
+    width: 100%;
+    text-align: left;
+    padding-left: 12px;
+}
+
+.mC_tName {
+    display: inline-block;
+    font-size: 18px;
+    height: 20px;
+    line-height: 20px;
+    color: #f43c82;
+    margin-right: 10px;
+}
+
+.mC_tName.mC_tNameMale {
+    color: #1584dc;
+}
+
+.mC_tSex {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    /*background-color: #f43c82;*/
+    color: #fff;
+    border-radius: 3px;
+}
+
+.icon-nv {
+    background-color: #f43c82;
+}
+
+.icon-nan {
+    background-color: #1584dc;
+}
+
+.mC_infoDetail p.mC_person {
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.mC_infoDetail p.mC_pNormal {
+    margin-bottom: 12px;
+}
+
+.mC_infoDetail p.mC_pNormal i {
+    color: #43bfe3;
+    display: inline-block;
+    margin: 0 3px;
+    font-size: 18px;
+    height: 20px;
+    line-height: 20px;
+    /*text-align: center;*/
+}
+
+.mC_infoDetail p.mC_pNormal i.mC_colorDft {
+    color: #ea140a;
+    font-size: 20px;
+}
+
+.myContributeTable {
+    width: 100%;
+    background-color: #fff;
+    padding: 15px;
+}
+
+.mC_table {
+    /*min-height: 150px;*/
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.myContributeTable_top .mC_tableWork {
+    width: 321px;
+    float: left;
+}
+
+.myContributeTable_top {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.mC_table p {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #f5f5f5;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.myContributeTable_top p {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #f5f5f5;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.myContributeTable_top p.mC_tit01 {
+    border: 1px solid #f0f0f0;
+    border-bottom: none;
+}
+
+.myContributeTable_top .myContributeTable_center {
+    border: 1px solid #f0f0f0;
+    border-bottom: none;
+}
+
+.myContributeTable_top .myContributeTable_center_item {
+    height: 30px;
+    border-bottom: 1px solid #f0f0f0;
+    line-height: 30px;
+    color: #606060;
+}
+
+.myContributeTable_top .myContributeTable_center_title {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.myContributeTable_top .myContributeTable_center_msg {
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+
+.myContributeTable_top .mC_tableStudent {
+    width: 361px;
+    float: left;
+    margin-left: 10px;
+}
+
+.myContributeTable_top p.mC_tit02 {
+    border: 1px solid #f0f0f0;
+    border-bottom: none;
+}
+
+.myContributeTable_top .myContributeTable_center_titleStu {
+    float: left;
+    width: 40%;
+    text-align: center;
+}
+
+ .myContributeTable_center_msgStu {
+    float: right;
+    width: 60%;
+    text-align: center;
+}
+
+.myContributeTable_center_msgStu .myContributeTable_center_msgStuNum {
+    min-width: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.myContributeTable_top .mC_tableFeedback {
+    width: 367px;
+    float: left;
+    margin-left: 10px;
+}
+
+.myContributeTable_top p.mC_tit04 {
+    border: 1px solid #f0f0f0;
+    border-bottom: none;
+}
+
+.myContributeTable_top .mC_tgl {
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 9px solid #f5f5f5;
+}
+
+.myContributeTable_top .mC_tgl.mC_ta {
+    left: 0px;
+}
+
+.myContributeTable_top .mC_tgl.mC_tb {
+    left: 24px
+}
+
+.myContributeTable_top .mC_tgl.mC_tc {
+    left: 48px
+}
+
+.myContributeTable_top .mC_tgl.mC_td {
+    left: 72px
+}
+
+.mC_ranks {
+    color: #606060;
+    font-size: 12px;
+}
+
+.mC_titFirst {
+    display: inline-block;
+    font-size: 16px;
+    min-width: 72px;
+    padding: 0 6px;
+    height: 34px;
+    line-height: 24px;
+    text-align: center;
+    margin-left: 5px;
+    color: #fff;
+    position: relative;
+    top: -10px;
+    font-size: 14px;
+    /*overflow: hidden;*/
+}
+
+.mC_titMore {
+    color: #737373;
+    margin-left: 3px;
+}
+
+.mC_titMore i {
+    color: #fc1607;
+}
+
+.mC_titSecond {
+    margin-left: 15px;
+}
+
+.mC_titSecond i {
+    display: inline-block;
+    font-size: 18px;
+    color: #fc1607;
+}
+
+.mC_table table {
+    border: 1px solid #f5f5f5;
+    border-top: 1px solid #e5e5e5;
+}
+
+.mC_table table td {
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.mC_table table th {
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #f5f5f5;
+}
+
+.mC_table table.mC_countWork th {
+    width: 153px;
+}
+
+.mC_cW {
+    background-color: #f22c61
+}
+
+.mC_table table.mC_countManage th {
+    width: 268px;
+}
+
+.mC_table table.mC_countManage td {
+    height: 50px;
+}
+
+.mC_cM {
+    background-color: #37b6d9
+}
+
+.mC_table table.mC_countClass th {
+    width: 174px;
+}
+
+.mC_table table.mC_countClass td {
+    border-top: 1px solid #f5f5f5;
+}
+
+.mC_table table.mC_countClass th.mC_clsWidth {
+    width: 200px;
+}
+
+.cB_class {
+    width: 200px;
+}
+
+.mC_cC {
+    background-color: #b52bf0
+}
+
+.mC_table table.mC_countCmt th {
+    width: 357px;
+}
+
+.mC_cCM {
+    background-color: #f4976b
+}
+
+.mC_cWaitFunction {
+    background-color: #45ba5f;
+}
+
+.mC_waitFunction {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    box-sizing: border-box;
+    border: 1px solid #e5e5e5;
+    padding-left: 50px;
+    position: relative;
+}
+
+.mC_waitFunction i {
+    /*margin-right: 5px;*/
+    color: #51c0de;
+    font-size: 30px;
+    position: absolute;
+    left: 20px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    top: 0px;
+}
+
+.mC_table .mC_tgl {
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 9px solid #f5f5f5;
+}
+
+.mC_table .mC_tgl.mC_ta {
+    left: 0px;
+}
+
+.mC_table .mC_tgl.mC_tb {
+    left: 24px
+}
+
+.mC_table .mC_tgl.mC_tc {
+    left: 48px
+}
+
+.mC_table .mC_tgl.mC_td {
+    left: 72px
+}
+
+.mC_star i {
+    color: #f97545;
+    margin-left: 3px;
+}
+
+.mC_tip {
+    position: absolute;
+    font-size: 12px;
+    /*width: 600px;*/
+    height: 20px;
+    line-height: 20px;
+    background-color: #fdeadc;
+    color: #f89172;
+    bottom: 5px;
+    right: 20px;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+.mcbNoData{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    border:1px solid #f5f5f5;
+    color: #606060;
+}

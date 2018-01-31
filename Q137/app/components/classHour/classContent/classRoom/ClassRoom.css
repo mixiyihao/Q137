@@ -1,0 +1,25 @@
+.classRoomContent {
+    width: 100%;
+}
+
+.y_classroomBox {
+    width: 100%
+}
+
+.classroomboos {
+    width: 100%;
+}
+
+.y_classroomBox span.warningTit {
+    background: #fde5d1;
+    color: #f48275;
+    width: 1013px;
+    margin-left: 12px;
+    text-align: left;
+    display: inline-block;
+    height: 32px;
+    font-size: 12px;
+    line-height: 32px;
+    text-indent: 10px;
+    margin-bottom: 0;
+}

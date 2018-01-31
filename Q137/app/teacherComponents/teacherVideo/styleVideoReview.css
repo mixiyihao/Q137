@@ -1,0 +1,87 @@
+.classItemControllIcon {
+    float: left;
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 20px;
+    width: 32px;
+    line-height: 20px;
+    vertical-align: middle;
+    border-radius: 20px;
+    background-color: #e4e4e4;
+    cursor: pointer;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-top: 17px;
+}
+
+.classItemControllIcon:active:after {
+    width: 24px;
+}
+
+.classItemControllIcon:after {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 1px;
+    top: 1px;
+    border-radius: 18px;
+    background-color: #fff;
+    content: " ";
+    cursor: pointer;
+    -webkit-transition: all .3s, width .3s;
+    transition: all .3s, width .3s;
+}
+
+.classItemControllIcon:focus:hover {
+    box-shadow: none
+}
+
+.classItemControllIcon:focus {
+    box-shadow: 0 0 0 2px rgba(16, 142, 233, .2);
+}
+
+.classItemControllIcon-checked {
+    border-color: #52d468;
+    background-color: #52d468;
+}
+
+.classItemControllIcon-checked:active:after {
+    margin-left: -25px;
+}
+
+.classItemControllIcon-checked:after {
+    left: 100%;
+    margin-left: -19px
+}
+
+.videoRights:hover {
+    border: 1px solid #1380f9;
+    color: #1380f9;
+}
+
+.videoRights {
+    width: 106px;
+    height: 28px;
+    border: 1px solid #dbdddc;
+    background: #fff;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #50c3e2;
+}
+
+.videoRights2 {
+    width: 106px;
+    height: 28px;
+    border: 1px solid #4ec4e2;
+    background: #4ec4e2;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+}

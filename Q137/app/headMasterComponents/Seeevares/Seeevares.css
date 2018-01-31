@@ -1,0 +1,132 @@
+.Seeevares_box {
+    /*padding-top: 10px;*/
+    /*padding-left: 255px !important;*/
+}
+
+.Seeevares_box .SeeevaTitleStyle {
+    font-size: 18px !important;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 13px;
+    border-left: 4px solid #49c0e0;
+    margin-bottom: 18px;
+}
+
+.SeeevaItemtouch span:hover {
+    cursor: auto !important;
+}
+
+.SeeevaTopWrap {
+    width: 1078px;
+    height: 200px;
+    padding: 20px;
+    background: #fff;
+}
+
+.SeeStuinfo {
+    margin-left: 16px;
+    /* width: 1036px; */
+    height: 40px;
+    background: #cff0df;
+    margin-top: 10px;
+}
+
+.SSeeStuinfo {
+    margin-top: 16px;
+    height: 22px;
+    line-height: 22px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: #cff0ef;
+    width: 230px;
+    margin-left: 16px;
+    color: #606060;
+}
+
+.SSeeStuinfo span {
+    display: inline-block;
+    text-indent: 10px;
+    line-height: 22px;
+}
+
+.SeeStuinfo span {
+    display: inline-block;
+    line-height: 40px;
+}
+
+span.SeeinnerSpanOne {
+    width: 100px;
+    text-align: center;
+    font-size: 18px;
+    color: #1fad61;
+}
+
+
+/*div.SeeSprodivStyle{
+    padding-left: 0px !important;
+}
+div.SeeSprodivStyle b{
+    padding-left: 13px;
+}
+div.SeeSprodivStyle i{
+    right:-9px !important;
+}*/
+
+span.SeeinnerSpanTwo {
+    color: #1fad61;
+}
+
+div.SeeStuinnerRdiv {
+    float: right;
+    /*width: 200px;*/
+    text-align: center;
+    color: #606060;
+}
+
+span.SeeStuinnerSpanTwo {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+span.SeeStuinnerLastSpan b {
+    font-weight: normal;
+}
+
+span.SeeStuinnerLastSpan i {
+    padding-left: 3px;
+}
+
+.SeeevaCtextarea {
+    border: 1px solid #f2f2f2 !important;
+    line-height: 24px !important;
+    color: #404040 !important;
+    height: 110px !important;
+}
+
+.classEvaluation_box .classEvaluation_wrap .SproclassEvaluation_wrap_oneTitle {
+    min-width: 200px;
+    background: #e8ddfd;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 16px;
+    margin-bottom: 16px;
+    position: relative;
+    float: left;
+}
+
+.classEvaluation_box .classEvaluation_wrap .SproclassEvaluation_wrap_oneTitle i {
+    position: absolute;
+    width: 10px;
+    border-right: 0;
+    border-left: 18px solid #e8ddfd;
+    border-bottom: 18px solid transparent;
+    border-top: 17px solid transparent;
+    top: 0;
+    right: -17px;
+}
+
+.classEvaluation_box .classEvaluation_wrap .SproclassEvaluation_wrap_oneTitle>b {
+    width: auto;
+    font-weight: normal;
+    display: inline-block;
+}

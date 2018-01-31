@@ -1,0 +1,100 @@
+.evaluatePopBox_box {
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    width: 412px;
+    height: 228px;
+    background: #fff;
+    z-index: 999;
+    border-radius: 6px;
+    background-image: url('../../../images/evaluate/evaluate.svg');
+    background-repeat: no-repeat;
+    background-position: -33px -12px;
+    background-size: 236px 251px;
+}
+
+.evaluatePopBox_box .evaluatePopBox_bg {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 412px;
+    height: 228px;
+    z-index: -1;
+    color: #f9f9f9;
+    font-size: 234px;
+    margin-top: -62px;
+    margin-left: -31px;
+}
+
+.evaluatePopBox_box .evaluatePopBox_title {
+    height: 41px;
+    line-height: 41px;
+    width: 412px;
+    color: #f8923e;
+    text-align: center;
+}
+
+.evaluatePopBox_box .evaluatePopBox_msg {
+    height: 24px;
+    line-height: 24px;
+    text-indent: 11px;
+    color: #f87614;
+    font-size: 12px;
+    background: #fdd5bb;
+}
+
+.evaluatePopBox_box .evaluatePopBox_center {
+    height: 44px;
+    width: 100%;
+    margin-top: 33px;
+}
+
+.evaluatePopBox_box .evaluatePopBox_icon {
+    float: left;
+    width: 44px;
+    height: 44px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 44px;
+    color: #fff;
+    background: #ace4ff;
+    margin-left: 40px;
+    font-size: 28px;
+}
+
+.evaluatePopBox_box .evaluatePopBox_message {
+    float: left;
+    width: 320px;
+    margin-left: 7px;
+}
+
+.evaluatePopBox_box .evaluatePopBox_message p:nth-child(1) {
+    float: left;
+    font-size: 16px;
+    color: #2f2f2f;
+    line-height: 16px;
+}
+
+.evaluatePopBox_box .evaluatePopBox_message p:nth-child(2) {
+    float: left;
+    color: #616161;
+    line-height: 28px;
+}
+
+.evaluatePopBox_box .evaluatePopBox_button {
+    margin: 0 auto;
+    margin-top: 16px;
+    width: 96px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    color: #fff;
+    background: #f9903d;
+    cursor: pointer;
+    padding: 0px;
+}

@@ -1,0 +1,272 @@
+/*教师端共用body样式*/
+
+.spro_publicback {
+    position: absolute;
+    right: 0;
+    color: #2d363f;
+}
+
+.spro_publicback:hover,
+.spro_publicback:hover>i {
+    color: #49c0e0;
+}
+
+.spro_questionBody .spro_questitle .spro_cubiud {
+    width: 4px;
+    height: 20px;
+    margin-right: 8px;
+    margin-bottom: -4px;
+    padding-top: 8px;
+    display: inline-block;
+    background-color: #4ac0e0;
+}
+
+.spro_questionBody .spro_questitle .spro_information {
+    font-size: 18px;
+    height: 22px;
+    line-height: 22px;
+    color: #2d363f;
+    display: inline-block;
+    text-indent: 0;
+}
+
+.spro_questionBody {
+    background-color: #f4f4f6;
+    padding: 15px 40px;
+}
+
+.spro_thQuBody {
+    min-height: 500px;
+    width: 1100px;
+    background-color: #fff;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+
+/*############################分###割###线#############################################*/
+
+.spro-finallistP {
+    color: #606060;
+    line-height: 48px;
+    height: 48px;
+    border: 1px solid #e9e9e9;
+    padding-left: 17px;
+}
+
+.finallisthead div.flkid {
+    position: relative;
+    padding-left: 13px;
+    height: 45px;
+    background: #f5f5f5;
+    border-top: 1px solid #e9e9e9;
+    border-left: 1px solid #e9e9e9;
+    border-right: 1px solid #e9e9e9;
+}
+
+ul.Sprogfinalul li:hover {
+    background: #49c0e0;
+}
+
+div.flkid div {
+    padding-top: 7px;
+}
+
+div.flkid div span {
+    width: 268px;
+    height: 30px;
+    /*line-height: 30px;*/
+}
+
+div.flkidinnerdivone,
+div.flkidinnerdivtwo,
+div.flkidinnerdivthr {
+    min-width: 350px !important;
+}
+
+div.flkidinnerdivone {
+    left: 13px;
+}
+
+div.flkidinnerdivtwo {
+    left: 359px;
+}
+
+div.flkidinnerdivthr {
+    right: 0;
+}
+
+.flkidthr li {
+    display: inline-block;
+    line-height: 45px;
+    text-align: center;
+    color: #2e3641;
+}
+
+.flkidinnerdivone ul,
+.flkidinnerdivtwo ul,
+.flkidinnerdivthr ul {
+    width: 268px !important;
+    left: 49px !important;
+}
+
+.flkidinnerdivone span,
+.flkidinnerdivtwo span,
+.flkidinnerdivthr span {
+    margin-left: 5px;
+}
+
+.flkidinner_ser {
+    color: #606060;
+    height: 40px;
+    background: #f5f5f5;
+}
+.CMflkidinner_ser{
+    position: absolute;
+    /* float: right; */
+    color: #606060;
+    height: 40px;
+    background: #f5f5f5;
+    left: 359px;
+}
+.flkidinner_ser input,.CMflkidinner_ser input {
+    border: 1px solid #b0b0b0;
+    line-height: 30px;
+}
+.sprosatPublicleftselect ul.CM {
+    border: 1px solid #4ac0e0;
+    width: 208px;
+    left: 0px;
+    top: 0px;
+    position: relative;
+    z-index: 8;
+    background: #fff;
+}
+.flkidinner_ser input:hover,
+.flkidinner_ser input:focus,
+.CMflkidinner_ser input:hover,
+.CMflkidinner_ser input:focus{
+    border: 1px solid #4ac0e0;
+}
+
+.flkidinner_ser input,
+.flkidinner_ser input:hover,
+.flkidinner_ser input:focus,
+.CMflkidinner_ser input,
+.CMflkidinner_ser input:hover,
+.CMflkidinner_ser input:focus{
+    margin-left: 5px;
+    width: 268px;
+    height: 30px;
+    background: #f5f5f5;
+    padding-left: 10px;
+}
+
+.flkidinner_ser span,
+.CMflkidinner_ser span{
+    vertical-align: middle;
+    // border: 1px solid #49c0e0;
+    display: inline-block;
+    width: 65px !important;
+    line-height: 30px;
+    height: 30px;
+    text-align: center;
+    color: white;
+    background: #49c0e0;
+}
+
+.tfinalpubliclistkidul {
+    border-left: 1px solid #e9e9e9;
+    border-right: 1px solid #e9e9e9;
+    border-bottom: 1px solid #e9e9e9;
+    width: 100%;
+    height: 48px;
+    padding-left: 13px;
+    display: inline-block;
+}
+.tfinalpubliclistkidul:hover{
+    background: #e4f4ff;
+}
+li.thelastSproli {
+    cursor: pointer;
+}
+
+li.thelastSproli b {
+    font-weight: normal;
+    display: inline-block;
+}
+
+li.thelastSproli b.dibactive {
+    display: inline-block;
+}
+
+li.thelastSproli b.dibactive:hover {
+    cursor: pointer;
+}
+
+li.thelastSproli b.dibactive:hover span,
+li.thelastSproli b.dibactive:hover i {
+    color: #49c0e0;
+}
+li.thelastSproli i {
+    display: inline-block;
+    font-size: 21px;
+}
+
+li.thelastSproli i.tbianji {
+    font-size: 18px;
+    width: 21px;
+}
+
+li.thelastSproli span.tquizzkidspan,
+li.thelastSproli span.tfinalkidspan {
+    padding-right: 3px;
+}
+
+li.thelastSproli i:hover {
+    color: #49c0e0;
+}
+
+li.finallistcaozuo {
+    position: relative;
+}
+
+li.finallistcaozuo i {
+    position: absolute;
+    font-size: 20px
+}
+
+li.finallistcaozuo i.icon-shangyiye {
+    top: -4px;
+}
+
+li.finallistcaozuo i.icon-xiayiye {
+    top: 4px;
+}
+
+.tfinalpubliclistkidul li {
+    color: #606060;
+    height: 43px;
+    line-height: 48px;
+    text-align: center;
+    display: inline-block;
+    white-space: nowrap;
+    /*保证文本内容不会自动换行，如果多余的内容会在水平方向撑破单元格。*/
+    overflow: hidden;
+    /*隐藏超出单元格的部分。*/
+    text-overflow: ellipsis;
+    /*将被隐藏的那部分用省略号代替。*/
+}
+
+.forbid {
+    background-color: #d3d3d3;
+    color: #ffffff;
+    border-color: #d3d3d3;
+}
+
+.starts {
+    background-color: #ffffff;
+    color: #323232;
+    border-color: #d3d3d3;
+}

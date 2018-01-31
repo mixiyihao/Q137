@@ -1,0 +1,51 @@
+.sprotitleBody {
+    width: 100%;
+    height: 80px;
+    position: relative;
+    transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    background-position: center;
+    background: #6094f7;
+    background-image: linear-gradient(45deg, #6094f7 0%, #68BEEF 100%);
+    /*background: linear-gradient(to right, #6094f7, #68BEEF);*/
+    top: 40px;
+}
+
+.titleBodygradient {
+    filter: alpha(opacity=100 finishopacity=50 style=1 startx=0, starty=0, finishx=0, finishy=150) progid: DXImageTransform.Microsoft.gradient(startcolorstr=#5a91f7, endcolorstr=#68BEEF, gradientType=0);
+    -ms-filter: alpha(opacity=100 finishopacity=50 style=1 startx=0, starty=0, finishx=0, finishy=150) progid: DXImageTransform.Microsoft.gradient(startcolorstr=#5a91f7, endcolorstr=#68BEEF, gradientType=0);
+    /*IE8*/
+    background: #5a91f7;
+    /* background:-webkit-gradient(linear, 0 0, 0 right, from(#5a91f7), to(#68BEEF);  */
+    background: -o-linear-gradient(right, #5a91f7, #68BEEF);
+}
+
+.sprotitleBody .sprotitlebackground {
+    background-image: url("../../../images/sproinformation/titlebackground.png");
+    background-size: 100%;
+    width: 100%;
+    margin: auto;
+    height: 80px;
+    /*top: 50%;*/
+    position: absolute;
+}
+
+.sprotitleBody .sprotitlebackground span.sproinnerspan {
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    margin-left: 83px;
+    font-weight: normal;
+}

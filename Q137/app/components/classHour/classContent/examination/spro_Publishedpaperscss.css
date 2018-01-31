@@ -1,0 +1,193 @@
+.spro_Publishexamname{
+    margin-top: 10px;
+}
+.spro_PublishDatePicker2{
+    letter-spacing: 1px;
+    margin-left: 10px;
+    border-radius: 0px !important;
+    width: 167px;
+  }
+span .ant-calendar-picker-input{
+    display: inline-block;
+}
+.ant-input {
+    height: 30px;
+    border-radius: 0px;
+}
+.ant-time-picker-input:focus{
+    box-shadow:none !important;
+}
+.ant-time-picker-input {
+    height: 30px;
+    border-radius: 0px;
+}
+
+.Publishedclass {
+    padding: 0 10px;
+    display: inline-block;
+}
+
+.Publishedclass label>input {
+    width: 70px;
+    margin-right: 3px;
+}
+.PublishTitle{
+        display: inline-block;
+    font-size: 18px;
+    position: absolute;
+    left: 32px;
+    top: 17px;
+}
+.Publishedclassspan {
+    display: inline-block;
+    line-height: 30px;
+    height: 35px;
+}
+
+.Publishedclass label>input[type="checkbox"] {
+    -webkit-appearance: none;
+    background-image: url("../../../../images/Noexam/checkboxinit.png");
+    width: 14px;
+    height: 14px;
+    margin-left: 0px;
+    margin-right: 3px;
+    margin-top: -2px;
+    background-size: 100%;
+    position: relative;
+    z-index: 99;
+}
+
+.Publishedclass label>input[type="checkbox"]:checked {
+    -webkit-appearance: none;
+    background-image: url("../../../../images/Noexam/checkboxinit1.png");
+    width: 16px;
+    height: 16px;
+    margin-top: -2px;
+    margin-left: -1px;
+    margin-right: 2px;
+    background-size: 100%;
+    position: relative;
+    z-index: 99;
+}
+
+
+/*li.ant-time-picker-panel-select-option-selected{
+
+}*/
+
+
+/*::-webkit-input-placeholder */
+
+.spro_PublishedpapersMianBodyexamname:hover {
+    border: 1px solid #4ac0e0;
+}
+
+.spro_PublishedpapersMianBodyexamname:focus {
+    border: 1px solid #4ac0e0;
+}
+
+.spro_PublishedpapersMianBodyexamname {
+    padding-left: 4px;
+    width: 408px;
+    height: 30px;
+    border: 1px solid #e8e8e8;
+    margin-left: 10px;
+}
+
+.spro_PublishedpapersMianBodyexamname0 {
+    font-weight: normal;
+    display: inline-block;
+    padding-left: 4px;
+    width: 231px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 10px;
+}
+
+.examrdo:before {
+    border: 1px solid #e1e1e1 !important;
+}
+
+.spro_Publisha:hover {}
+.sproPublishradiocheckOne{
+    position: relative;
+    height: 20px;
+    display: inline-block;
+    padding-left: 11px;
+}
+.sproPublishradiocheck {
+    position: relative;
+    height: 20px;
+    width: 100%;
+    padding-left: 11px;
+}
+
+.sproPublishradiocheck2 {
+    position: relative;
+    height: 20px;
+    display: inline-block;
+    width: 70px;
+}
+
+.sproPublishradiocheck>input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    opacity: 0;
+}
+
+.sproPublishradiocheck>label {
+    position: absolute;
+    /* 决定label的位置*/
+    left: 30px;
+    line-height: 14px;
+    font-size: 14px;
+    top: 8px;
+    width: 100%;
+}
+
+.sproPublishradiocheck>label:before {
+    content: '';
+    position: absolute;
+    /* 决定input的位置*/
+    left: -20px;
+    top: 0px;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease !important;
+    -moz-transition: all 0.3s ease !important;
+}
+
+.sproPublishradiocheck>label:after {
+    content: '';
+    position: absolute;
+    /* 决定input的位置*/
+    left: -20px;
+    top: 0px;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-top: 3px;
+    margin-left: 3px;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+}
+
+.sproPublishradiocheck input[type='radio']:checked+label:before,
+.sproPublishradiocheck input[type='checkbox']:checked+label:before {
+    border-color: #49c0e0;
+    background: #49c0e0;
+}
+
+.sproPublishradiocheck input[type='radio']:checked+label:after,
+.sproPublishradiocheck input[type='checkbox']:checked+label:after {
+    background-color: white;
+}

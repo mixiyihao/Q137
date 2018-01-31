@@ -1,0 +1,40 @@
+.teacherStatisticsTitle_box {
+    width: 100%;
+    height: 144px;
+    background-size: 38%;
+    /*background: linear-gradient(60deg, #8cb5f5, #88adf3);*/
+    background: linear-gradient(45deg, #ee526c 0%, #ee526c 1%, #f36a80 100%);
+    background: #8cb5f5\9\0;
+}
+
+.teacherStatisticsTitle_box .teacherStatisticsTitle_boxWrap {
+    width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-left: 37px;
+}
+
+.teacherStatisticsTitle_box .teacherStatisticsTitle_boxMsg {
+    width: 400px;
+    padding-top: 50px;
+    float: left;
+}
+
+.teacherStatisticsTitle_box .teacherStatisticsTitle_boxMsg p {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.teacherStatisticsTitle_box .teacherStatisticsTitle_boxMsg span {
+    color: #ffffff;
+    font-size: 18px;
+    opacity: 0.9;
+    font-weight: 300
+}
+
+.teacherStatisticsTitle_box .teacherStatisticsTitle_boxWrap img {
+    float: right;
+    position: relative;
+    right: -104px;
+}

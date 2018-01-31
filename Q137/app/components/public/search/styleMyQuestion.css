@@ -1,0 +1,410 @@
+/* 我的提问 YH */
+
+.y-myQuestionBox {
+    overflow: hidden;
+    min-height: 690px;
+}
+
+.y-myQuestion {
+    margin: 0 0 0 230px;
+    background: #fff;
+    overflow: hidden;
+    min-height: 690px;
+    padding: 0 20px 20px;
+    position: relative;
+}
+
+.y-myQuestion .y-caption {
+    font-size: 16px;
+    height: 22px;
+    line-height: 22px;
+    text-indent: 11px;
+    background: url(../../../images/leftNavBar/bj_02.gif) no-repeat 0 0;
+    margin: 20px 0 12px 0;
+}
+
+.y-myQuestion .y-captionH2 {
+    font-size: 18px;
+    font-weight: normal;
+    padding-left: 15px;
+    line-height: 20px;
+    height: 23px;
+    margin-top: 10px;
+    border-left: 4px solid #4abfe0;
+}
+
+.y-myQuestionUlBox {
+    min-height: 562px;
+}
+
+.y-myQuestion ul {
+    width: 955px;
+    border: 1px solid #f2f2f2;
+}
+
+.y-myQuestion ul li {
+    border-top: 1px solid #f2f2f2;
+    min-height: 50px;
+}
+
+.y-myQuestion ul .y-questionTitle {
+    background: #f5f5f5;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.y-myQuestion ul .y-questionTitle div {
+    float: left;
+    line-height: 48px;
+    padding-left: 20px;
+}
+
+.y-myQuestion ul .y-questionTitle div:nth-child(1) {
+    width: 550px;
+    border-right: 1px solid #f2f2f2;
+}
+
+.y-myQuestion ul .y-questionTitle div:nth-child(2) {
+    width: 149px;
+    border-right: 1px solid #f2f2f2;
+}
+
+.y-myQuestion ul .y-questionTitle div:nth-child(3) {
+    width: 127px;
+}
+
+.y-myQuestion ul .y-questionTitle div:nth-child(4) {
+    width: 120px;
+    padding-left: 0;
+    text-align: center;
+}
+
+.y-myQuestion ul .y-questionMsg .y-questionContent {
+    overflow: hidden;
+}
+
+.y-myQuestion ul .y-questionMsg .y-questionContent div {
+    float: left;
+    padding-left: 15px;
+    color: #31363c;
+    line-height: 50px;
+}
+
+.y-myQuestion ul .y-questionMsg .y-questionContent div:nth-child(1) {
+    width: 550px;
+}
+
+.y-myQuestion ul .y-questionMsg .y-questionContent div:nth-child(2) {
+    width: 149px;
+}
+
+.y-myQuestion ul .y-questionMsg .y-questionContent div:nth-child(3) {
+    width: 127px;
+    color: #7b7f82;
+}
+
+.y-myQuestion ul .y-questionMsg .y-questionContent div:nth-child(4) {
+    width: 120px;
+    padding-left: 0;
+}
+
+.y-myQuestion ul .y-questionMsg .y-questionLeft {
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.y-myQuestion ul .y-questionMsg .y-questionLeft .y-questionLeftP {
+    width: 550px;
+    float: left;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.y-myQuestion ul .y-questionMsg .y-questionLeft .y-questionLeftP2 {
+    width: 550px;
+    float: left;
+    font-size: 16px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.y-myQuestion ul .y-questionMsg .y-questionLeftDelete {
+    float: left;
+    display: block;
+    /*width: 17px;*/
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    color: #1481fa;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.y-myQuestion ul .y-questionMsg .y-questionRightTool {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.y-myQuestion ul .y-questionMsg .y-questionRightTool i {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.y-myQuestion ul .y-questionMsg .y-questionRightTool i.icon-huifu {
+    vertical-align: -1px;
+}
+
+.y-myQuestion ul .y-questionMsg .y-questionRightTool i.y-questionLeftDrop {
+    font-size: 14px;
+    cursor: pointer;
+    color: #1481fa
+}
+
+/*.y-myQuestion ul .y-questionMsg .y-questionLeftDrop:hover {*/
+    /*color: #1481fa;*/
+/*}*/
+
+.y-myQuestion ul .y-questionMsg .y-questionLeftRes {
+    float: left;
+    display: block;
+    /*width: 17px;*/
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    color: #1481fa;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.y-myQuestion ul .y-questionMsg .y-lecturerAnswer {
+    overflow: hidden;
+    display: none;
+}
+
+.y-myQuestion ul .y-questionMsg .y-lecturerAnswerShow {
+    overflow: hidden;
+    display: block;
+}
+
+
+/*.y-myQuestion ul .y-questionMsg .y-lecturerAnswer .y-lecturerQuestion{
+    padding-left: 19px;
+}*/
+
+.y-lecturerQuestion img {
+    width: 650px;
+}
+
+.y-myQuestion ul .y-questionMsg .y-lecturerAnswer .y-lecturerAnswerLeft,
+.y-myQuestion ul .y-questionMsg .y-lecturerAnswer .y-lecturerAnswerRight {
+    padding-left: 15px;
+    float: left;
+    color: #2f363e;
+}
+
+.y-myQuestion ul .y-questionMsg .y-lecturerAnswerLeft {
+    width: 550px;
+    margin-top: 10px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.y-myQuestion ul .y-questionMsg .y-lecturerAnswerCenter {
+    width: 149px;
+    position: absolute;
+    right: -164px;
+    top: 0;
+    color: #2f363e;
+}
+
+.y-myQuestion ul .y-questionMsg .y-lecturerAnswerRight {
+    width: 127px;
+}
+
+.y-myQuestion ul .y-questionMsg .y-lecturerAnswerLeft h4 {
+    font-weight: normal;
+    color: #7e7f83;
+    margin-top: 10px;
+}
+
+.y-myQuestion ul .y-questionMsg .y-lecturerAnswerLeft p {
+    max-width: 535px;
+    line-height: 20px;
+}
+
+.y-myQuestion ul .y-questionMsg .y-lecturerAnswerLeft .y-answereValuateFabulous {
+    min-width: 20px;
+    height: 20px;
+    /*margin-top: 9px;*/
+    /*margin-bottom: 20px;*/
+    margin-right: 26px;
+    position: absolute;
+    right: -100px;
+    bottom: -5px;
+}
+
+.y-myQuestion ul .y-questionMsg .y-lecturerAnswerLeft .y-answereValuateFabulous .y-answereValuateFabulousSpan {
+    color: #909090;
+}
+
+.y-myQuestion ul .y-questionMsg .y-lecturerAnswerLeft .y-answereValuateFabulous span {
+    margin-left: 3px;
+    float: left;
+    cursor: pointer;
+}
+
+.y-myQuestion ul .y-questionMsg .y-lecturerAnswerLeft .y-answereValuateFabulous img {
+    width: 17px;
+    height: 17px;
+    float: left;
+    cursor: pointer;
+}
+
+.y-myQuestion ul .y-questionMsg .y-lecturerAnswerRight {
+    color: #7b7f82;
+}
+
+.y-myQuestion .y-lecturerAnswerLeftTea {
+    position: relative;
+}
+
+
+/*.y-myQuestion ul .y-questionMsg .y-answereValuate {
+    font-size: 12px;
+    color: #7d7e82;
+}*/
+
+
+/*.y-myQuestion ul .y-questionMsg .y-answereValuate .y-valuateTitle {
+    margin-top: 11px;
+    float: left;
+}*/
+
+
+/*.y-myQuestion ul .y-questionMsg .y-answereValuate .y-valuateStar {
+    margin-top: 11px;
+    float: left;
+    font-size: 15px;
+}*/
+
+
+/*.y-myQuestion ul .y-questionMsg .y-answereValuate .y-valuateStar span {
+    background: url(../../../images/search/1.png) no-repeat;
+    background-size: 15px 16px;
+    display: block;
+    margin-left: 3px;
+    float: left;
+    width: 16px;
+    height: 15px;
+}*/
+
+
+.y-myQuestion .y-tab-select {
+    height: 33px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #dedede;
+    border-left: 1px solid #dedede;
+}
+
+.y-myQuestion .y-tab-select span {
+    height: 33px;
+    display: inline-block;
+    padding: 0 11px;
+    line-height: 34px;
+    color: #606060;
+    background: #f4f4f6;
+    cursor: pointer;
+    border: 1px solid #dedede;
+    border-left: none;
+    border-top: 1px solid #dedede;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.y-myQuestion .y-tab-select span.Active {
+    background: #fff;
+    color: #404040;
+    border-top: 4px solid #49c0e0;
+    height: 33px;
+    line-height: 29px;
+    border-bottom: none;
+}
+
+.y-myQuestion .y-questionWarning {
+    height: 50px;
+    /*border-bottom: 1px solid #f2f2f2;
+    border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;*/
+    line-height: 50px;
+}
+
+.y-myQuestion .y-questionWarning i {
+    display: block;
+    width: 28px;
+    height: 28px;
+    background: url(../../../images/search/nomessage.jpg) no-repeat;
+    background-size: 28px 28px;
+    float: left;
+    margin-left: 19px;
+    margin-top: 11px;
+}
+
+.y-myQuestion .y-questionWarning span {
+    float: left;
+    display: block;
+    margin-left: 8px;
+    width: 120px;
+}
+
+.y-myQuestion .y-questionLeftReply {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    color: #1481fa;
+    cursor: pointer;
+}
+
+.y-pageNum {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 10px;
+}
+
+.y-pageNum span {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-bottom: 1px solid #bfc3c6;
+}
+
+.y-pageNum i {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.y-page {
+    float: right;
+    width: 383px;
+    margin-top: 20px;
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+
+.y-page button {
+    width: 81px;
+    height: 30px;
+    float: left;
+    text-align: center;
+    border: 1px solid #d3d3d3;
+    margin-left: 8px;
+    outline: none;
+}

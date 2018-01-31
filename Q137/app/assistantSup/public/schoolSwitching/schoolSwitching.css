@@ -1,0 +1,115 @@
+.schoolSwitching_titleBox {
+    height: 36px;
+    width: 100%;
+}
+
+.schoolSwitching_titleBox .studentManagement_title {
+    height: 36px;
+    width: 100%;
+    background: #fff;
+}
+
+.schoolSwitching_titleBox .studentManagement_titleWrap {
+    width: 1100px;
+    margin: 0 auto;
+    height: 36px;
+    overflow: hidden;
+}
+
+.schoolSwitching_titleBox .studentManagement_titleWrap .studentManagement_titleContainer {
+    overflow: hidden;
+    font-size: 14px;
+    box-sizing: border-box;
+    position: relative;
+    white-space: nowrap;
+    zoom: 1;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.schoolSwitching_titleBox .studentManagement_titleWrap .studentManagement_tabSpan {
+    opacity: 1;
+    width: 32px;
+    height: 100%;
+    pointer-events: auto;
+    border: 1px solid #d3e4ff;
+    background: #e0f9fd;
+    color: #107ef9;
+}
+
+.schoolSwitching_titleBox .studentManagement_titleWrap .studentManagement_tabSpan:hover {
+    border: 1px solid #48bfdd;
+    background: #48bfdd;
+    color: #fff;
+}
+
+.schoolSwitching_titleBox .studentManagement_titleWrap .studentManagement_prew,
+.schoolSwitching_titleBox .studentManagement_titleWrap .studentManagement_next {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    height: 32px;
+    line-height: 32px;
+    position: absolute;
+    text-align: center;
+    cursor: pointer;
+    z-index: 53;
+}
+
+.schoolSwitching_titleBox .studentManagement_titleWrap .studentManagement_prew {
+    left: 4px;
+    top: 2px;
+}
+
+.schoolSwitching_titleBox .studentManagement_titleWrap .studentManagement_prew.studentManagement_prewNone {
+    background: #fbfbfb;
+    color: #f1f1f1;
+    border: 1px solid #f1f1f1;
+}
+
+.schoolSwitching_titleBox .studentManagement_titleWrap .studentManagement_next {
+    right: 4px;
+    top: 2px;
+}
+
+.schoolSwitching_titleBox .studentManagement_titleWrap .studentManagement_next.studentManagement_nextNone {
+    background: #fbfbfb;
+    color: #f1f1f1;
+    border: 1px solid #f1f1f1;
+}
+
+.schoolSwitching_titleBox .studentManagement_titleWrap .studentManagement_titleWrap_scrollCen {
+    overflow: hidden;
+    width: 100%;
+}
+
+.schoolSwitching_titleBox .studentManagement_titleWrap .studentManagement_titleWrap_scroll {
+    white-space: nowrap;
+    box-sizing: border-box;
+    padding-left: 0;
+    -webkit-transition: -webkit-transform .3s cubic-bezier(.645,.045,.355,1);
+    transition: -webkit-transform .3s cubic-bezier(.645,.045,.355,1);
+    transition: transform .3s cubic-bezier(.645,.045,.355,1);
+    transition: transform .3s cubic-bezier(.645,.045,.355,1),-webkit-transform .3s cubic-bezier(.645,.045,.355,1);
+    position: relative;
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+.schoolSwitching_titleBox .studentManagement_titleWrap span {
+    text-align: center;
+    color: #2f3640;
+    display: inline-block;
+    height: 36px;
+    line-height: 33px;
+    border-top: 3px solid #fff;
+    cursor: pointer;
+    position: relative;
+}
+
+.schoolSwitching_titleBox .studentManagement_titleWrap span.Active {
+    background: #f4f4f6;
+    border-top-color: #49c0e0;
+}

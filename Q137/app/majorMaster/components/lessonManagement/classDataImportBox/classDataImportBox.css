@@ -1,0 +1,28 @@
+.classDataImportBox-content-diff {
+    width: 610px;
+    float: left;
+    height: 100%;
+    margin-left: 14px;
+    padding: 4px 4px 4px 0;
+}
+
+.classDataImportBox-content {
+    height: 423px;
+}
+
+.classDataImportBox-uploadScroll {
+    height: 285px;
+    overflow-y: auto;
+    border-bottom: 1px solid #dadada;
+}
+
+.classDataImportBox-uploadContainer {
+    height: 160px;
+    width: 606px;
+    margin-top: 12px;
+}
+
+.classDataImportBox-content-msg {
+    height: 34px;
+    min-height: 34px;
+}

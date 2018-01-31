@@ -1,0 +1,216 @@
+.myFinalExam_box {
+    margin-top: 10px;
+    margin-left: 18px;
+    position: relative;
+}
+
+.myFinalExam_box.myFinalExam_boxShowTwo {
+    height: 127px;
+    overflow: hidden;
+}
+
+.myFinalExam_box .myFinalExam_title {
+    height: 32px;
+    background: #f5f5f5;
+    border: 1px solid #f2f2f2;
+}
+
+.myFinalExam_box .myFinalExam_titleMsg {
+    height: 26px;
+    width: 98px;
+    background: #c74ad9;
+    text-align: center;
+    position: relative;
+    margin-left: 5px;
+    color: #fff;
+    line-height: 23px;
+}
+
+.myFinalExam_box .myFinalExam_titleMsgI {
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 6px solid #f5f5f5;
+}
+
+.myFinalExam_box .myFinalExam_titleMsgI.one {
+    left: 0;
+}
+
+.myFinalExam_box .myFinalExam_titleMsgI.two {
+    left: 16px;
+}
+
+.myFinalExam_box .myFinalExam_titleMsgI.three {
+    left: 33px;
+}
+
+.myFinalExam_box .myFinalExam_titleMsgI.four {
+    left: 50px;
+}
+
+.myFinalExam_box .myFinalExam_titleMsgI.five {
+    left: 67px;
+}
+
+.myFinalExam_box .myFinalExam_titleMsgI.six {
+    left: 82px;
+}
+
+.myFinalExam_box .myFinalExam_table {
+    table-layout: fixed;
+}
+
+.myFinalExam_box .myFinalExam_table tbody {
+    width: 100%;
+}
+
+.myFinalExam_box .myFinalExam_table_all {
+    width: 100%;
+    height: 62px;
+    overflow: hidden;
+}
+
+.myFinalExam_box .myFinalExam_table tr {
+    height: 30px;
+    text-align: center;
+    border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.myFinalExam_box .myFinalExam_table tr.myFinalExam_table_tr {
+    background: #f5f5f5;
+    height: 30px;
+}
+
+.myFinalExam_box .myFinalExam_table tbody tr:hover {
+    background-color: #e4f4ff;
+}
+
+.myFinalExam_box .myFinalExam_table tbody tr:hover .myFinalExam_button {
+    color: #1380f9
+}
+
+.myFinalExam_box .myFinalExam_table tr th {
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    word-break: break-all;
+}
+
+.myFinalExam_box .myFinalExam_table td {
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #606060;
+}
+
+.myFinalExam_box .myFinalExam_t1 {
+    width: 76px;
+}
+
+.myFinalExam_box .myFinalExam_t2 {
+    width: 230px;
+}
+
+.myFinalExam_box .myFinalExam_t3 {
+    width: 218px;
+}
+
+.myFinalExam_box .myFinalExam_t4 {
+    width: 160px;
+}
+
+.myFinalExam_box .myFinalExam_button {
+    color: #606060;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.myFinalExam_box .myFinalExam_button i {
+    margin-right: 3px;
+    vertical-align: -1px;
+}
+
+/*.myFinalExam_box .myFinalExam_button:hover {*/
+    /*color: #1380f9;*/
+/*}*/
+
+.myFinalExam_box .myFinalExam_icon {
+    display: inline-block;
+    width: 15px;
+    height: 18px;
+    position: relative;
+    cursor: pointer;
+    top: 1px;
+}
+
+.myFinalExam_box .myFinalExam_icon i {
+    position: absolute;
+    font-size: 16px;
+    height: 0;
+}
+
+.myFinalExam_box .myFinalExam_icon i.icon-paixu_sheng {
+    top: -1px;
+    left: 2px;
+    color: #606060;
+}
+
+.myFinalExam_box .myFinalExam_icon i.icon-paixu_jiang {
+    bottom: 19px;
+    left: 9px;
+    color: #606060;
+}
+
+.myFinalExam_box .myFinalExam_errorHide {
+    display: none;
+}
+
+.myFinalExam_box .myFinalExam_error {
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+    border: 1px solid #f2f2f2;
+}
+
+.myFinalExam_box .myFinalExam_error i {
+    display: block;
+    width: 28px;
+    height: 28px;
+    background: url('../../../images/search/nomessage.jpg') no-repeat;
+    background-size: 22px 22px;
+    float: left;
+    margin-left: 19px;
+    margin-top: 3px;
+}
+
+.myFinalExam_box .myFinalExam_error span {
+    float: left;
+    display: block;
+    margin-left: 8px;
+    width: 120px;
+    color: #606060;
+}
+
+.myFinalExam_box .myFinalExam_showButton {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background: #51c0de;
+    color: #fff;
+    right: 10px;
+    bottom: 1px;
+    line-height: 18px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(81, 192, 222, .6);
+    -webkit-box-shadow: 0 2px 5px rgba(81, 192, 222, .6);
+    padding: 0;
+}

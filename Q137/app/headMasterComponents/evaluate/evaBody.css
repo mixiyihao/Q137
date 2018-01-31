@@ -1,0 +1,486 @@
+.evaBody {
+    background-color: #f4f4f6;
+    padding: 13px 0;
+}
+
+.evaBodyInner {
+    width: 1100px;
+    min-height: 600px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: #fff;
+    position: relative;
+}
+
+.evaBodyInner h2 {
+    font-size: 18px;
+    font-weight: normal;
+    padding-left: 15px;
+    line-height: 20px;
+    height: 20px;
+    border-left: 4px solid #4abfe0;
+}
+
+.evaBodySelect {
+    position: absolute;
+    right: 20px;
+    top: 12px;
+    height: 30px;
+    line-height: 30px;
+    box-sizing: border-box;
+}
+
+.evaBodySelect select {
+    height: 30px;
+    line-height: 30px;
+    width: 240px;
+    background-color: #fff;
+    outline: none;
+    border: 1px solid #e9e7e8;
+    margin-left: 4px;
+    color: #606060;
+    /*padding-left: 3px;*/
+    text-indent: 3px;
+}
+
+.evaBodySelect select:hover,
+.evaBodySelect select:active {
+    border: 1px solid #4ac0e0;
+}
+
+.evaBodySelect select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url('../../images/headMaster/aa.svg') no-repeat 98% center;
+    background-size: 15px 13px;
+
+}
+
+.evaBodySelect select::-ms-expand {
+    display: none;
+}
+
+.evaBodyInner .openFile {
+    position: absolute;
+    left: 270px;
+    top: 14px;
+    color: #fff;
+    background-color: #49c0e0;
+    width: 100px;
+    height: 30px;
+    line-height: 28px;
+    text-align: center;
+    padding: 0;
+}
+
+.openFile:hover, .linkToBtn:hover {
+    color: #fff;
+}
+
+.evaBody .evaBodyInner .linkToBtn {
+    position: absolute;
+    left: 130px;
+    top: 14px;
+    color: #fff;
+    background-color: #49c0e0;
+    width: 130px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 0;
+}
+
+/*切换班级*/
+
+.evaTabClass {
+    margin: 18px auto 0;
+    height: 39px;
+    position: relative;
+    background-color: #fff;
+    margin-left: 20px;
+}
+
+.evaTabClass .evaTabContainer {
+    width: 956px;
+    height: 39px;
+    margin: 0 auto;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    /*border-bottom: 1px solid #e4e4e4;*/
+}
+
+.evaTabClass .evaFrontBtn, .evaTabClass .evaEndBtn {
+    position: absolute;
+    top: 2px;
+    color: #1380f9;
+    background-color: #e1f9fd;
+    height: 32px;
+    line-height: 32px;
+    width: 32px;
+    text-align: center;
+    border: 1px solid #d3e7fd;
+    box-sizing: border-box;
+}
+
+.evaTabClass .evaFrontBtn:hover, .evaTabClass .evaEndBtn:hover {
+    color: #fff;
+    background-color: #4fbfdc;
+    border-color: #4fbfdc
+}
+
+.evaTabClass .evaFrontBtn.noUse, .evaTabClass .evaEndBtn.noUse, .evaTabClass .evaFrontBtn.noUse:hover, .evaTabClass .evaEndBtn.noUse:hover {
+    color: #f1f1f1;
+    background-color: #fcfcfc;
+    border-color: #f1f1f1;
+}
+
+.evaTabClass .evaFrontBtn {
+    left: 6px;
+}
+
+.evaTabClass .evaEndBtn {
+    right: 6px;
+}
+
+.evaTabBox {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/*.evaTabClass .evaTabContainer */
+.evaTabClass span {
+    display: inline-block;
+    /*padding: 0 12px;*/
+    width: 239px;
+    height: 39px;
+    line-height: 38px;
+    text-align: center;
+    color: #454952;
+    cursor: pointer;
+    background-color: #f4f4f6;
+    box-sizing: border-box;
+    border: 1px solid #e4e4e4;
+    position: relative;
+    /*border-bottom: 0;*/
+    border-left: 0;
+    box-sizing: border-box;
+}
+
+.evaTabClass span i {
+    display: none;
+}
+
+.evaTabClass span.tab_Active {
+    height: 39px;
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.evaTabClass span.tab_Active i {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: #4abfe0;
+    top: -1px;
+    left: 0;
+}
+
+/*筛选区域*/
+
+.evaFilter {
+    height: 50px;
+    background-color: #f4f4f6;
+    margin: 14px 0 0 20px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    text-align: left;
+    padding-left: 12px;
+}
+
+.evaFilter span {
+    display: inline-block;
+    box-sizing: border-box;
+    height: 32px;
+    line-height: 30px;
+    margin-right: 25px;
+    position: relative;
+}
+
+.evaFilter span.searchKeyWordEva {
+    width: 365px;
+}
+
+.evaFilter span select,
+.evaFilter span input {
+    height: 30px;
+    line-height: 30px;
+    width: 240px;
+    background-color: #fff;
+    outline: none;
+    border: 1px solid #e9e7e8;
+    margin-left: 3px;
+    color: #606060;
+}
+
+.evaFilter span select {
+    width: 220px;
+    padding-left: 3px;
+}
+
+.evaFilter span input {
+    width: 260px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+}
+
+.evaFilter span select {
+    width: 220px;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url('../../images/headMaster/aa.svg') no-repeat 98% center;
+    background-size: 15px 13px;
+
+}
+
+.evaFilter span select::-ms-expand {
+    display: none;
+}
+
+.evaFilter span i {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    line-height: 28px;
+    background-color: #49c0e0;
+    color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    right: 0;
+    /*position: relative;
+    top: 1px;*/
+}
+
+.evaFilter span select:hover,
+.evaFilter span select:active,
+.evaFilter span input:hover,
+.evaFilter span input:active {
+    border: 1px solid #4ac0e0;
+}
+
+.evaFilter span input {
+    border: 1px solid #e9e7e8
+}
+
+/*展示列表*/
+
+.showEvaEle {
+    /*margin: 14px 0 0 20px;*/
+    margin-top: 14px;
+    /*min-height: 500px;*/
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -webkit-box-lines: multiple;
+    -moz-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.showEvaEle .C-evaEle {
+    display: inline-block;
+    margin-bottom: 19px;
+    margin-left: 19px;
+    width: 334px;
+    height: 200px;
+    border: 1px solid #e9e7e8;
+    -webkit-box-align: start;
+    -moz-align-items: start;
+    -webkit-align-items: start;
+    align-items: start;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -moz-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    border-radius: 5px;
+    padding: 19px;
+    position: relative;
+}
+
+.showEvaEle .C-evaEle:hover {
+    box-shadow: 0px 0px 14px #d5e5e6;
+    border: 1px solid #d5e5e6;
+    opacity: 1;
+}
+
+.showEvaEle .C-evaEle h3 {
+    font-size: 20px;
+    height: 22px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #303030;
+    margin-bottom: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 240px;
+}
+
+.showEvaEle .C-evaEle p {
+    color: #a2a2a2;
+    text-align: left;
+    line-height: 20px;
+    clear: both;
+    overflow: hidden;
+}
+
+.showEvaEle .C-evaEle p i {
+    float: right;
+    display: inline-block;
+    width: 224px;
+    line-height: 20px;
+    max-height: 40px;
+    word-wrap: break-word;
+}
+
+.showEvaEle .C-evaEle p.evaCmtNum {
+    position: absolute;
+    bottom: 15px;
+    left: 19px;
+}
+
+.showEvaEle .C-evaEle p.evaCmtNum span {
+    margin-right: 10px;
+}
+
+.showEvaEle .C-evaEle a {
+    position: absolute;
+    padding: 5px 15px;
+    font-size: 14px;
+    color: #c3c3c3;
+    border: 1px solid #c3c3c3;
+    cursor: pointer;
+    right: 10px;
+    bottom: 15px;
+}
+
+.showEvaEle .C-evaEle a:hover {
+    color: #fff;
+    background-color: #4ac0e0;
+    border: 0;
+}
+
+.evaCmtFlag {
+    position: absolute;
+    right: 0;
+    top: 19px;
+    width: 65px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    color: #808080;
+    background-color: #e3e3e3;
+    border-radius: 23px 0 0 23px;
+}
+
+.evaCmtFlag.evaGoing {
+    color: #fff;
+    background-color: #7bd1e8;
+}
+
+.evaCmtFlag.evaNot {
+    color: #fff;
+    background-color: #5de871;
+}
+
+.evaNoData {
+    min-height: 500px;
+    /*width: 1100px;*/
+    margin: 0 auto;
+    background-color: #f8f8f8;
+    background: url(../../images/evaluate/commet03.jpg) no-repeat center;
+    background-position-y: 10px;
+    position: relative；
+}
+
+.evaNoData i {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    bottom: 195px;
+    font-weight: 100;
+    color: #c3c3c3;
+    font-size: 14px;
+}
+
+.evaBody_table {
+    table-layout: fixed;
+    border: 1px solid #f2f2f2;
+    margin-left: 20px;
+}
+
+.evaBody_table thead tr {
+    height: 50px;
+    line-height: 50px;
+    color: #606060;
+    border-top: 1px solid #f2f2f2;
+    background: #f4f4f6;
+}
+
+.evaBody_table thead tr th {
+    text-align: center;
+}
+
+ .evaBody_table tbody tr{
+    height: 48px;
+    border-top: 1px solid #f2f2f2;
+    line-height: 48px;
+    text-align: center;
+    color: #606060;
+}
+
+.evaBody_table tbody tr td i {
+    font-size: 18px;
+    vertical-align: -2px;
+    margin-right: 1px;
+}
+
+.evaBody_table tbody tr td i.icon-SHANCHU- {
+    vertical-align: -1px;
+}
+
+.evaBody_table tbody tr td span {
+    cursor: pointer;
+    padding: 2px;
+}
+
+.evaBody_table tbody tr td span:hover {
+    color: #49c0e0;
+}
+
+.evaBody_table tbody .evaBody_tool {
+    text-align: center;
+}

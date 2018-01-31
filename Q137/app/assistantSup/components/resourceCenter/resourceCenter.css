@@ -1,0 +1,132 @@
+.RCmainBody {
+    margin: 0;
+}
+
+.RCmainBodytit {
+    height: 50px;
+    padding-left: 36px;
+    background: #fff;
+    width: 100%;
+    border-bottom: 1px solid #d2d2d2;
+}
+.RCmainBodytitstu{
+    height: 50px;
+    padding-left: 295px;
+    background: #fff;
+    width: 1280px;
+    margin: 0 auto;
+    border-bottom: 1px solid #d2d2d2;
+}
+.RCmainBodytitstu li {
+    transition: 0.3s;
+    -moz-transition: width 0.3s;
+    /* Firefox 4 */
+    -webkit-transition: width 0.3s;
+    /* Safari and Chrome */
+    -o-transition: width 0.3s;
+    cursor: pointer;
+    height: 50px;
+    display: inline-block;
+    width: 80px;
+    line-height: 60px;
+    margin-right: 100px;
+    text-align: center;
+    color: #606060;
+}
+.RCmainBodytit li {
+    transition: 0.3s;
+    -moz-transition: width 0.3s;
+    /* Firefox 4 */
+    -webkit-transition: width 0.3s;
+    /* Safari and Chrome */
+    -o-transition: width 0.3s;
+    cursor: pointer;
+    height: 50px;
+    display: inline-block;
+    width: 80px;
+    line-height: 60px;
+    margin-right: 100px;
+    text-align: center;
+    color: #606060;
+}
+
+.RCmainBodyinnerdiv.onTheTop {
+    position: fixed;
+    top: 38px;
+    z-index: 60;
+    height: 50px;
+}
+
+.RCmainBodyinnerdivStu.onTheTop {
+    position: fixed;
+    top: 40px;
+    z-index: 60;
+    height: 50px;
+}
+
+.RCmainBodytit li:hover {
+    color: #404040;
+}
+.RCmainBodytitstu li:hover {
+    color: #404040;
+}
+.RCmainBodytit li:last-child {
+    margin-right: 0;
+}
+.RCmainBodytitstu li:last-child {
+    margin-right: 0;
+}
+.RCmainBodytit li.co {
+    color: #404040;
+    border-bottom: 2px solid #585858;
+}
+.RCmainBodytitstu li.co {
+    color: #404040;
+    border-bottom: 2px solid #585858;
+}
+.RCmainBodyTab {
+    width: 100%;
+}
+
+#searchMain_box div.RCmainBodyinnerdiv {
+    background:#fff;
+    height: 50px;
+    width: 100%;
+}
+
+#searchMain_box div.RCmainBodyinnerdivStu {
+    background: #fff;
+    height: 50px;
+    /* padding-left: 259px; */
+    width: 100%;
+}
+
+#searchMain_box div.RCmainBodyinnerdivStu {
+    *zoom: 1;
+}
+
+#searchMain_box div.RCmainBodyinnerdivStu:after {
+    display: block;
+    content: "clear";
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.RCmainBodyTabactive {
+    display: block;
+}
+
+.RCmainBodyTabactivenone {
+    display: none;
+}
+
+.RCmainBodywrap {
+    padding: 0px 10px 0px 10px;
+    /*	background: #f4f4f6;*/
+}
+
+.RCmainBodywrap.onTheTop {
+    margin-top: 50px;
+}

@@ -1,0 +1,191 @@
+.courseChapter-container {
+    margin-left: 18px;
+    color: #606060;
+    position: relative;
+    margin-top: 12px;
+}
+
+.courseChapter-container .course-stage {
+    font-size: 16px;
+    line-height: 24px;
+    color: #4c4c4c;
+    font-weight: 400;
+    position: relative;
+}
+
+.courseChapter-container .course-stage span {
+    position: absolute;
+    top: 5px;
+    left: 70px;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #e1e1e1;
+    z-index: 20;
+}
+
+.courseChapter-container-line {
+    width: 1px;
+    background: #f1f2f3;
+    height: 100%;
+    position: absolute;
+    top: 5px;
+    left: 77px;
+}
+
+.courseChapter-container-none {
+    position: absolute;
+    bottom: -6px;
+    left: 77px;
+    height: 7px;
+    background: #fff;
+    width: 1px;
+}
+
+.courseChapter-lessonBox {
+    display: block;
+    color: #606060;
+    height: 32px;
+    background: #f5f4f9;
+    margin-bottom: 4px;
+    text-indent: 20px;
+    margin-left: 90px;
+    line-height: 32px;
+}
+
+.courseChapter-lessonBox:hover {
+    color: #fff;
+    background: #49525d;
+}
+
+.courseChapter-lessonBox:hover a,
+.courseChapter-lessonBox:hover span{
+    color: #fff;
+}
+
+.courseChapter-lessonBox input {
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin: 7px 2px 0 5px;
+}
+
+.courseChapter-lessonBox a {
+    color: #606060;
+    width: 250px;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 32px;
+    text-indent: 0;
+    transition: none;
+    float: left;
+}
+
+.courseChapter-lessonBox .courseChapter-lesson-label {
+    display: inline-block;
+    float: right;
+    margin-left: 3px;
+    font-size: 14px;
+    text-indent: 0;
+    padding: 0 6px;
+    color: gray;
+    cursor: pointer;
+    height: 32px;
+    width: 90px;
+}
+
+.courseChapter-lessonBox .courseChapter-lesson-label-hide {
+    display: none;
+}
+
+.courseChapter-lessonBox .courseChapter-lesson-label i {
+    margin-right: 3px;
+    vertical-align: -1px;
+}
+
+.courseChapter-lessonBox .courseChapter-lesson-label:hover {
+    background: #4ac0e0;
+}
+
+.courseChapter-lesson-exam,
+.courseChapter-lesson-examGray {
+    height: 42px;
+    line-height: 42px;
+    position: relative;
+    background: #f5f4f9;
+    margin-bottom: 4px;
+    border: 1px dashed #d3d3d3;
+    margin-left: 78px;
+}
+
+.courseChapter-lesson-exam {
+    color: #1280f9;
+}
+
+.courseChapter-lesson-examGray {
+    color: #bebebe;
+}
+
+.courseChapter-lesson-exam:hover {
+    color: #fff;
+    background: #a0d8f9;
+    border: 1px solid #a0d8f9;
+}
+
+.courseChapter-lesson-exam:hover .courseChapter-lesson-exam-see,
+.courseChapter-lesson-exam:hover p{
+    color: #fff;
+}
+
+.courseChapter-lesson-exam p {
+    margin-left: 33px;
+    width: 450px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 15px;
+    color: #1280f9;
+    float: left;
+}
+
+.courseChapter-lesson-examGray p {
+    margin-left: 33px;
+    width: 450px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 15px;
+    float: left;
+}
+
+.courseChapter-lesson-exam .courseChapter-lesson-exam-see {
+    display: inline-block;
+    float: right;
+    width: 96px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #80807e;
+    cursor: pointer;
+}
+
+.courseChapter-lesson-examGray .courseChapter-lesson-exam-see {
+    display: inline-block;
+    float: right;
+    width: 96px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.courseChapter-lesson-examGray .courseChapter-lesson-exam-see i,
+.courseChapter-lesson-exam .courseChapter-lesson-exam-see i {
+    margin-right: 3px;
+    vertical-align: -1px;
+}
+
+.courseChapter-lesson-exam .courseChapter-lesson-exam-see:hover {
+    background: #51c0de;
+}

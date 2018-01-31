@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.slider {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.slider>ul {
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    left: 0;
+  /*  transition: left 1s;*/
+}
+
+.slider .slider-item {
+    display: inline-block;
+    height: auto;
+    position: relative;
+}
+
+.slider .slider-item span.slider-iteminnerspan {
+    position: absolute;
+    font-size: 16px;
+    color: #fff;
+    bottom: 24px;
+    left: 16px;
+}
+
+.slider .slider-item>img {
+    cursor: pointer;
+    display: block;
+    height: 340px;
+    width: 100%;
+}
+
+.slider .slider-arrow {
+    display: inline-block;
+    color: #fff;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    z-index: 100;
+    padding: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.slider .slider-arrow:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.slider .slider-arrow.slider-arrow-right {
+    right: 0;
+}
+
+.slider .slider-arrow.slider-arrow-left {
+    left: 0;
+}
+
+.slider .slider-dots-wrap {
+    z-index: 9;
+    /*text-align: center;*/
+    text-align: right;
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+    right: 7px;
+}
+
+.slider .slider-dots-wrap .slider-dot {
+    display: inline-block;
+    width: 22px;
+    height: 4px;
+    border: 2px solid #868686;
+    margin: 6px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.slider .slider-dots-wrap .slider-dot:hover {
+    border: 2px solid #ccc;
+}
+
+.slider .slider-dots-wrap .slider-dot.slider-dot-selected {
+    border: 2px solid #ccc;
+}

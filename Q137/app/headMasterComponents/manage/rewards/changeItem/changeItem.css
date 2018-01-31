@@ -1,0 +1,645 @@
+.cG_manageBody {
+    width: 100%;
+    min-height: 600px;
+    background-color: #f4f4f6;
+    padding-bottom: 20px;
+    padding-top: 13px;
+}
+
+.cG_manageWrap {
+    width: 1100px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.cG_rewardsWrap {
+    /*margin-top: 13px;*/
+    min-height: 536px;
+    padding: 20px;
+    position: relative;
+    color: #333;
+}
+
+.cG_rewardsWrap h2 {
+    font-weight: 400;
+    font-size: 18px;
+    height: 20px;
+    line-height: 20px;
+    border-left: 4px solid #49c0e0;
+    padding-left: 14px;
+    position: relative;
+}
+
+.cG_rewardsWrap h2 .goback {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #7b8086;
+    width: 70px;
+    cursor: pointer;
+}
+
+.cG_rewardsWrap h2 .goback:hover {
+    color: #4ac0e0;
+}
+
+.cG_rewardsMessage {
+    width: 1040px;
+    margin-left: 19px;
+    height: 84px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    line-height: 28px;
+    padding-left: 4px;
+    margin-top: 8px;
+    border-bottom: 1px dashed #c9c9c9;
+    background: #f5f5f5;
+}
+
+.cG_rewardsMessage span {
+    color: #333;
+    margin: 0 30px 0 7px;
+}
+
+.cG_rewardsMessage span.cG_rewardsName {
+    font-size: 16px;
+}
+
+.cG_rewardsCommitBox {
+    width: 1050px;
+    margin: 12px 0px 20px 15px;
+    padding: 0px 0px 20px 14px;
+    border-bottom: 1px dashed #c8c8c8;
+}
+
+.cG_rewardsCommitBox div.cG_rewardTimePick,
+.cG_rewardsCommitBox div.cG_rewardContent,
+.cG_rewardsCommitBox div.cG_rewardScore,
+.cG_rewardsCommitBox div.cG_rewardChangeType {
+    margin-bottom: 10px;
+    font-size: 14px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.cG_rewardFixedIt {
+    position: absolute;
+    left: -8px;
+    top: 0px;
+    color: red;
+}
+
+.cG_rewardsCommitBox div.cG_rewardTimePick,
+.cG_rewardsCommitBox div.cG_rewardScore,
+.cG_rewardsCommitBox div.cG_rewardChangeType {
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.cG_rewardsCommitBox div.cG_rewardChangeType {
+    margin-bottom: 2px;
+}
+
+.cG_rewardsCommitBox div.cG_rewardChangeType span {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #606060;
+}
+
+.cG_rewardsCommitBox div.cG_rewardChangeType span:nth-of-type(2) {
+    margin-left: 70px;
+}
+
+.cG_rewardsCommitBox div.cG_rewardChangeType input {
+    margin-left: 10px;
+    margin-right: 5px;
+    position: relative;
+    top: -1px;
+}
+
+.cG_rewardsCommitBox div.cG_rewardTimePick {
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.cG_rewardsCommitBox div.cG_rewardTimePick i.cG_rwdTime {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.cG_rewardsCommitBox div.cG_rewardTimePick p {
+    width: 100%;
+    padding-left: 80px;
+    height: 100%;
+    position: relative;
+}
+
+.cG_rewardsCommitBox div.cG_rewardTimePick p a,
+.cG_rewardsCommitBox div.cG_rewardTimePick p span {
+    position: absolute;
+    top: 0;
+}
+
+.cG_goFrontDay,
+.cG_goEndDay {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #1380f9;
+    background-color: #e1f9fd;
+    border: 1px solid #d3e7fd;
+    box-sizing: border-box;
+}
+
+.cG_goFrontDay {
+    left: 70px;
+}
+
+.cG_goEndDay {
+    left: 290px;
+}
+
+.cG_goFrontDay:hover,
+.cG_goEndDay:hover {
+    color: #fff;
+    background-color: #4fbfdc;
+    border-color: #4fbfdc
+}
+
+.cG_goFrontDay.cG_uselessBtn,
+.cG_goEndDay.cG_uselessBtn,
+.cG_goFrontDay.cG_uselessBtn:hover,
+.cG_goEndDay.cG_uselessBtn:hover {
+    color: #f1f1f1;
+    background-color: #fcfcfc;
+    border-color: #f1f1f1;
+}
+
+.cG_rewardsCommitBox div.cG_rewardTimePick p span {
+    width: 190px;
+    height: 30px;
+    line-height: 28px;
+    left: 100px;
+    box-sizing: border-box;
+    border: 1px solid #dedede;
+    text-align: left;
+    padding-left: 5px;
+    color: #606060;
+}
+
+.cG_rewardsCommitBox div.cG_rewardContent {
+    padding-top: 3px;
+    margin-bottom: 4px;
+    padding-left: 27px;
+}
+
+.cG_rewardsCommitBox div.cG_rewardContent textarea {
+    margin-left: 10px;
+    border: 1px solid #e9e7e8;
+    width: 960px;
+    height: 60px;
+    overflow-y: auto;
+    padding: 5px;
+    position: relative;
+    outline: 0;
+    top: -5px;
+    resize: none;
+}
+
+.cG_rewardsCommitBox div.cG_rewardScore i {
+    margin-left: 8px;
+    color: #606060;
+}
+
+.cG_rewardsCommitBox div.cG_rewardScore i.cG_rewardFixedIt {
+    color: red;
+    left: -15px;
+}
+
+.cG_rewardsCommitBox div.cG_rewardScore i.cG_tagScore {
+    margin-left: 10px;
+    color: #ff8242;
+}
+
+.cG_rewardsCommitBox div.cG_rewardScore {
+    margin-bottom: 8px;
+}
+
+a.cG_rewardSave {
+    margin-left: 70px;
+    margin-top: 2px;
+    display: inline-block;
+    width: 95px;
+    height: 34px;
+    line-height: 31px;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+    background-color: #49c0e0;
+}
+
+.cG_rewardsShowBox {
+    border-left: 1px solid #e9e8e8;
+    margin-left: 28px;
+    padding-top: 10px;
+}
+
+#cG_rewardShSelect {
+    margin-right: 10px;
+}
+
+.cG_rewardShSelect {
+    height: 56px;
+    line-height: 56px;
+    position: relative;
+    width: 1040px;
+    margin: 20px 0 0 19px;
+    background-color: #f5f5f5;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.cG_rewardShowScore {
+    margin-bottom: 5px;
+}
+
+.cG_rewardShowScore span {
+    padding-left: 8px;
+}
+
+.cG_showRewardSc {
+    margin: 0 3px;
+}
+
+
+/*选择类型*/
+
+.cG_rewardChooseItem {
+    box-sizing: border-box;
+    min-height: 30px;
+    margin-bottom: 8px;
+    padding-left: 68px;
+    position: relative;
+}
+
+.cG_rewardChooseItemName {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.cG_rewardChooseItem i {
+    margin-right: 10px;
+}
+
+.cG_rewardChooseItem i.cGNo {
+    display: inline-block;
+    width: 20px;
+    font-size: 12px;
+    margin-right: 4px;
+}
+
+.cG_rewardTable {
+    width: 960px;
+    border: 1px solid #f3eef5;
+}
+.cG_rewardTable ul {
+    width: 50px;
+    margin: 0 auto;
+}
+
+.cG_rewardTable ul li {
+    list-style: disc;
+    width: 50px;
+    margin-left: 15px;
+    /*text-align: center;*/
+    font-size: 12px;
+    color: #8e8e8e;
+    /*color: */
+}
+.cG_rewardTable th i {
+    font-size: 12px;
+    margin-left: 8px;
+}
+
+.cG_rewardTh {
+    width: 160px;
+    text-align: center;
+}
+
+.cG_rewardThsub {
+    width: 803px;
+    text-align: left;
+    box-sizing: border-box;
+    padding-left: 15px;
+}
+
+.cG_thOfReward {
+    color: #fff;
+    background-color: #f84a7b;
+}
+
+.cG_thOfPunish {
+    color: #fff;
+    background-color: #3687e2;
+}
+
+.cG_thOfRewardSub {
+    color: #fff;
+    background-color: #f19aaa;
+}
+
+.cG_thOfPunishSub {
+    color: #fff;
+    background-color: #85b9f3;
+}
+
+.cG_rewardTable td {
+    border: 1px solid #f3eef5;
+    /*text-align: center;*/
+    vertical-align: middle;
+    border-left: 0;
+    border-right: 0;
+}
+
+.cG_rewardTable td.cG_cgText {
+    vertical-align: top;
+}
+
+.cG_rewardTit {
+    width: 160px;
+    text-align: center;
+}
+.cG_rewardTit i{
+    font-size: 18px;
+    margin: 0;
+}
+.cG_rewardTable td.cG_rewardTit1 {
+    background-color: #fef5f6;
+    border-right: 1px solid #f3eef5;
+}
+
+.cG_rewardTable td.cG_pnishTit1 {
+    background-color: #e9f1fc;
+    border-right: 1px solid #f3eef5;
+}
+
+.cG_rewardTable td.cG_rewardTit2 {
+    background-color: #fcf7fd;
+    border-right: 1px solid #f3eef5;
+}
+
+.cG_rewardTable td.cG_pnishTit2 {
+    background-color: #f6fbfe;
+    border-right: 1px solid #f3eef5;
+}
+
+.cG_rewardTable td.cG_rewardTit3 {
+    background-color: #fdf3f1;
+    border-right: 1px solid #f3eef5;
+}
+
+.cG_rewardTable td.cG_pnishTit3 {
+    background-color: #f1f6fc;
+    border-right: 1px solid #f3eef5;
+}
+
+
+/*.cG_rewardTit1{
+    background-color: #f7d6dd
+}
+.cG_pnishTit1 {
+    background-color: rgb(189, 218, 248)
+}
+.cG_rewardTit2{
+    background-color: #f0d8f8
+}
+.cG_pnishTit2 {
+    background-color: rgb(181, 234, 182)
+}
+.cG_rewardTit3{
+    background-color: #fad9d4
+}
+.cG_pnishTit3{
+    background-color: rgb(191, 248, 237)
+}*/
+
+.cG_rewardTit1 p,
+.cG_rewardTit2 p,
+.cG_rewardTit3 p {
+    text-align: center;
+    /*padding-left: 13px;*/
+    font-size: 14px;
+    color: #8e8e8e;
+    margin-bottom: 18px;
+}
+
+.cG_pnishTit1 p,
+.cG_pnishTit2 p,
+.cG_pnishTit3 p {
+    text-align: center;
+    font-size: 14px;
+    color: #8e8e8e;
+    margin-bottom: 18px;
+}
+
+.cG_rewardTit1 h6,
+.cG_rewardTit2 h6,
+.cG_rewardTit3 h6 {
+    text-align: center;
+    /*padding-left: 13px;*/
+    font-size: 12px;
+    color: #8e8e8e;
+}
+
+.cG_pnishTit1 h6,
+.cG_pnishTit2 h6,
+.cG_pnishTit3 h6 {
+    text-align: center;
+    font-size: 12px;
+    color: #8e8e8e;
+}
+
+.cG_rewardTit3 p,
+.cG_pnishTit3 p {
+    margin: 0;
+}
+
+.cG_rewardSuper {
+    width: 210px;
+    text-align: left;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.cG_rewardSuper i {
+    margin-left: 8px;
+    font-size: 12px;
+    color: #8e8e8e;
+}
+
+
+/*.cG_rewardSuper1{
+    background-color: #fce8ea
+}
+.cG_rewardSuper2{
+    background-color: #f8ebfc
+}
+.cG_rewardSuper3{
+    background-color: #fceeeb
+}
+.cG_pnishSuper1 {
+    background-color: rgb(221, 234, 250)
+}
+
+.cG_pnishSuper2 {
+    background-color: rgb(205, 246, 206)
+}
+
+.cG_pnishSuper3 {
+    background-color: rgb(211, 252, 244)
+}*/
+
+.cG_rewardSub {
+    width: 339px;
+    text-align: left;
+    padding: 5px 0 5px 15px;
+    box-sizing: border-box;
+}
+
+.cG_rewardSub span {
+    font-size: 12px;
+}
+
+.cG_rewardSub input {
+    position: relative;
+    top: -1px;
+    margin-right: 2px;
+}
+
+
+/*.cG_rewardSub1,.cG_rewardSub1 textarea{
+    background-color: #fef5f6
+}
+.cG_rewardSub2,.cG_rewardSub2 textarea{
+    background-color: #fbf8ff
+}
+.cG_rewardSub3,.cG_rewardSub3 textarea{
+    background-color: #fef6f4
+}
+.cG_pnishSub1,
+.cG_pnishSub1 textarea {
+    background-color: rgb(244, 247, 252)
+}
+
+.cG_pnishSub2,
+.cG_pnishSub2 textarea {
+    background-color: rgb(240, 252, 240)
+}
+
+.cG_pnishSub3,
+.cG_pnishSub3 textarea {
+    background-color: rgb(234, 253, 249)
+}*/
+
+.cG_rewardTable td textarea {
+    width: 220px;
+    /*height: 100%;*/
+    margin-top: 5px;
+    min-height: 42px;
+    height: auto;
+    border: none;
+    resize: none;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.sucorerr {
+    /*display: none;*/
+    position: fixed;
+    top: 75px;
+    right: 30px;
+    /*width: 150px;*/
+    line-height: 26px;
+    /*padding: 5px 4px;*/
+    text-align: center;
+    box-sizing: border-box;
+    width: 150px;
+    overflow: hidden;
+}
+
+.sucorerr span {
+    display: block;
+    width: 150px;
+    background: #f7944d;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.sucorerr i {
+    position: relative;
+    top: 2px;
+}
+
+
+/*.sOeShow {
+    width: 150px;
+}*/
+
+.sucorerr span.sOeHide {
+    width: 0;
+    /*height: 100%;*/
+    /*background: #f7944d;*/
+    /*borderRadius: 4px;*/
+    opacity: 0;
+    white-space: nowrap;
+    line-height: 26px;
+    overflow: hidden;
+    transition: all 2.5s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.0980392) 0px -3px 5px;
+}
+
+.cG_rewardSub p{
+    position: relative;
+    height: 20px;
+    line-height: 20px;
+    box-sizing: border-box;
+}
+.cG_rewardSub p .cG_seleBox{
+    /*display: inline-block;*/
+    /*position: absolute;*/
+    /*right: 20px;
+    top: 0;*/
+    margin-left: 10px;
+    height: 20px;
+    box-sizing: border-box;
+}
+.cG_rewardSub p .cG_seleBox select{
+    position: relative;
+    top: -1px;
+    height: 18px;
+    width: 45px;
+    line-height: 18px;
+    margin: 0 3px;
+    border:1px solid #ededed;
+    box-sizing: border-box;
+    -webkit-appearance:menulist;
+}
+/*select 显示隐藏*/
+.cG_selectHideItem{
+    display: none;
+}
+.cG_selectShowItem{
+    display: inline-block;
+}

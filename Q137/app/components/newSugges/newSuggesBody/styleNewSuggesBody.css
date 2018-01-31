@@ -1,0 +1,229 @@
+.h-new-built .h-new-builts span {
+    font-size: 20px;
+}
+
+.h-newSuggesBody {
+    /*margin-left: 210px;*/
+    min-height: 560px;
+}
+
+.h-newSuggesBody .h-newSuggesBodyCenter {
+    margin: 0 auto;
+}
+
+.h-select {
+    background: url("../../../images/headMaster/aa.svg") no-repeat right center;
+    background-size: 20px 13px;
+}
+
+.h-newSuggesBody .h-newSuggesBodyCenter form {
+    min-height: 551px;
+    /* margin-left: 17px; */
+}
+
+.spro-mysuggesbody {
+    margin-top: 5px !important;
+}
+
+
+/*下拉框样式*/
+
+.SpronewSu>span,
+.SpronewSu>ul {
+    width: 182px !important;
+}
+
+.SpronewSu>span {
+    border-radius: 5px !important;
+}
+
+.SpronewSu li,
+.SpronewSu>span {
+    line-height: 38px !important;
+    height: 38px !important;
+}
+
+
+/*我的意見 已回復 未恢復 三個數字的樣式*/
+
+.suggessumStyle {
+    color: #61e5f4;
+}
+
+.suggesYreplyStyle {
+    color: #f8a7b8;
+}
+
+.suggesNreplyStyle {
+    color: #e2a0e8;
+}
+
+.h-newpropose {
+    clear: both;
+    width: 1052px;
+    margin-top: 9px;
+    margin-left: 17px;
+}
+
+.h-detail {
+    margin-left: 17px;
+    width: 1052px;
+}
+
+.h-newpropose input {
+    width: 960px;
+    height: 38px;
+    border-radius: 4px;
+    text-indent: 8px;
+    /*border-width: 1px;*/
+    border: 1px solid #e8e8e8;
+}
+.h-newpropose input:hover,.h-newpropose input:focus,.h-detail textarea:hover,.h-detail textarea:focus{
+    border: 1px solid rgb(18, 128, 251);
+}
+.h-detail p,
+.h-classify p {
+    width: 70px;
+    text-align: right;
+    height: 38px;
+    line-height: 38px;
+}
+
+.h-detail i.dib,
+.h-newpropose i.dib,
+.h-classify i.dib {
+    width: 20px;
+    padding-left: 3px;
+    text-align: left;
+}
+
+.h-newpropose p.dib {
+    width: 70px;
+    text-align: right;
+    height: 38px;
+    /* padding-right: 5px; */
+    line-height: 38px;
+}
+
+.h-detail textarea {
+    margin-top: 10px;
+    width: 960px;
+    /*height: 300px;*/
+    padding-top: 6px;
+    border: 1px solid #f7f7f7;
+    text-indent: 10px;
+    background-color: #fbfbfb;
+    position: relative;
+    overflow: hidden;
+    resize: none;
+}
+
+.h-classify {
+    margin-left: 17px;
+    /*margin-left: 296px;*/
+    overflow: hidden;
+}
+
+.h-classify select {
+    width: 182px;
+    height: 38px;
+    border-radius: 5px;
+    /*appearance:none;*/
+    padding-left: 8px;
+    /*-webkit-appearance: none;   !*去除chrome浏览器的默认下拉图片*!*/
+    /*-moz-appearance: none;  !*去除Firefox浏览器的默认下拉图片*!*/
+    border: 1px solid rgb(169, 169, 169);
+    /**/
+}
+
+.h-classify select:focus {
+    border: 1px solid #28aace;
+}
+
+.h-subfeed {
+    /*margin-left: 296px;*/
+    margin-left: 106px;
+    margin-top: 12px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+.h-subfeed button {
+    width: 106px;
+    height: 32px;
+    border: 1px solid #e8e8e8;
+}
+
+.h-subfeed .h-callsub {
+    background-color: #fff;
+    margin-right: 10px;
+    width: 106px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    border: 1px solid #e8e8e8;
+    display: block;
+}
+
+.h-callsub,
+.h-callsub:hover {
+    color: #606060;
+}
+
+.h-subfeed .h-subfeedback {
+    background-color: #49c0e0;
+    border: 1px solid #49c0e0;
+    color: #ffffff;
+}
+
+.h-newSuggesBody .h-titlnewSugges {
+    height: 40px;
+    line-height: 25px;
+    /*margin-top: 40px;*/
+    /*padding-right: 70px;*/
+}
+
+.h-newSuggesBody .h-titlnewSugges .h-cubiud {
+    width: 4px;
+    height: 20px;
+    margin-right: 14px;
+    margin-bottom: -4px;
+    padding-top: 8px;
+    display: inline-block;
+    background-color: #4ac0e0;
+}
+
+.h-newSuggesBody .h-titlnewSugges .h-information {
+    font-size: 18px;
+    height: 22px;
+    line-height: 22px;
+    color: #2e3740;
+    display: inline-block;
+}
+
+.h-newSuggesBody .h-titlnewSugges .h-new-built {
+    width: 106px;
+    height: 32px;
+    line-height: 32px;
+    float: right;
+    display: inline-block;
+    /*background-color: #ff6b01;*/
+    margin-top: -5px;
+    margin-right: 64px;
+    /*position: relative;*/
+    right: -6px;
+}
+
+.h-newSuggesBody .h-titlnewSugges .h-new-built .h-new-builts {
+    color: #ffffff;
+    margin-left: 18px;
+    margin-right: 5px;
+}
+
+.h-newSuggesBody .h-titlnewSugges .h-new-built .h-new-builts span {
+    font-size: 20px;
+}
+
+.h-newSuggesBodyWarp form {
+    /* margin-left: 18px; */
+}

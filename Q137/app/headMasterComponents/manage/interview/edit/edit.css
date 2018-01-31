@@ -1,0 +1,289 @@
+.eD_manageBody{
+    width: 100%;
+    min-height: 600px;
+    background-color: #f4f4f6;
+    padding-bottom: 20px;
+    padding-top: 13px;
+}
+.eD_manageWrap{
+    width: 1100px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.eD_interviewWrap{
+    /*margin-top: 13px;*/
+    min-height: 536px;
+    padding: 20px;
+    position: relative;
+    color: #333;
+}
+.eD_interviewWrap h2{
+    font-weight: 400;
+    font-size: 18px;
+    height: 20px;
+    line-height: 20px;
+    border-left: 4px solid #49c0e0;
+    padding-left: 14px;
+    position: relative;
+}
+.eD_interviewWrap h2 .goback{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #7b8086;
+    width: 70px;
+    cursor: pointer;
+}
+.eD_interviewWrap h2 .goback:hover{
+    color: #4ac0e0;
+}
+.eD_interviewMessage{
+    width: 1040px;
+    margin-left: 19px;
+    height: 84px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    line-height: 28px;
+    padding-left: 4px;
+    margin-top: 8px;
+    border-bottom: 1px dashed #c9c9c9;
+    background: #f5f5f5;
+}
+.eD_interviewMessage span{
+    color: #333;
+    
+    margin: 0 30px 0 7px; 
+}
+.eD_interviewMessage span.eD_interviewName{
+    font-size: 16px;
+}
+.eD_interviewCommitBox{
+    width: 1050px;
+    margin:12px 0px 20px 15px;
+    padding:0px 0px 20px 14px;
+    border-bottom: 1px dashed #c8c8c8;
+}
+.eD_interviewCommitBox div.eD_interviewTimePick,.eD_interviewCommitBox div.eD_interviewContent,.eD_interviewCommitBox div.eD_interviewScore,.eD_interviewCommitBox div.eD_interviewChangeType{
+    margin-bottom: 10px;
+    font-size: 14px;
+    box-sizing: border-box;
+    position: relative;
+}
+.eD_interviewFixedIt{
+    position: absolute;
+    left: -8px;
+    top: 0px;
+    color: red;
+}
+.eD_interviewCommitBox div.eD_interviewTimePick,.eD_interviewCommitBox div.eD_interviewScore,.eD_interviewCommitBox div.eD_interviewChangeType{
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+}
+
+
+
+.eD_interviewCommitBox div.eD_interviewTimePick{
+    margin-bottom: 8px;
+    position: relative;
+}
+.eD_interviewCommitBox div.eD_interviewTimePick i.eD_intTime{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 30px;
+    line-height: 30px;
+}
+.eD_interviewCommitBox div.eD_interviewTimePick p{
+    width: 100%;
+    padding-left: 80px;
+    height: 100%;
+    position: relative;
+}
+.eD_interviewCommitBox div.eD_interviewTimePick p a,.eD_interviewCommitBox div.eD_interviewTimePick p span{
+    position: absolute;
+    top: 0;
+}
+.eD_goFrontDay,.eD_goEndDay{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #1380f9;
+    background-color: #e1f9fd;
+    border:1px solid #d3e7fd;
+    box-sizing: border-box;
+}
+.eD_goFrontDay{
+    left: 70px;
+}
+.eD_goEndDay{
+    left: 290px;
+}
+ .eD_goFrontDay:hover, .eD_goEndDay:hover{
+    color: #fff;
+    background-color: #4fbfdc;
+    border-color: #4fbfdc
+}
+ .eD_goFrontDay.eD_uselessBtn, .eD_goEndDay.eD_uselessBtn, .eD_goFrontDay.eD_uselessBtn:hover,.eD_goEndDay.eD_uselessBtn:hover{
+    color: #f1f1f1;
+    background-color: #fcfcfc;
+    border-color: #f1f1f1;
+}
+.eD_interviewCommitBox div.eD_interviewTimePick p span{
+    width: 190px;
+    height: 30px;
+    line-height: 28px;
+    left: 100px;
+    box-sizing: border-box;
+    border:1px solid #dedede;
+    text-align: left;
+    padding-left: 5px;
+    color: #606060;
+}
+.eD_interviewCommitBox div.eD_interviewContent{
+    padding-top: 3px;
+    /*margin-bottom: 4px;*/
+    /*padding-left: 27px;*/
+}
+.eD_interviewCommitBox div.eD_interviewContent textarea{
+    margin-left: 10px;
+    border: 1px solid #e9e7e8;
+    width: 960px;
+    height: 60px;
+    overflow-y: auto;
+    padding: 5px;
+    position: relative;
+    outline: 0;
+    top: -5px;
+    resize: none;
+}
+
+.eD_interviewCommitBox div.eD_interviewScore i{
+    margin-left: 8px;
+    color: #606060;
+}
+.eD_interviewCommitBox div.eD_interviewScore i.eD_interviewFixedIt{
+    color: red;
+    left: -15px;
+}
+.eD_interviewCommitBox div.eD_interviewScore i.eD_tagScore{
+    margin-left: 10px;
+    color: #ff8242;
+}
+.eD_interviewCommitBox div.eD_interviewScore{
+    margin-bottom: 8px;
+}
+a.eD_interviewSave{
+    margin-left: 70px;
+    margin-top: 2px;
+    display: inline-block;
+    width: 95px;
+    height: 34px;
+    line-height: 31px;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+    background-color: #49c0e0;
+}
+.eD_interviewShowBox{
+    border-left: 1px solid #e9e8e8;
+    margin-left: 28px;
+    padding-top: 10px;
+}
+
+.eD_interviewCommitBox div.eD_interviewContent {
+    margin-bottom: 10px;
+    font-size: 14px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.eD_interwiewFixedIt {
+    position: absolute;
+    left: -8px;
+    top: 6px;
+    color: red;
+}
+.eD_interviewCommitBox div.eD_interviewContent textarea {
+    margin-left: 10px;
+    border: 1px solid #e9e7e8;
+    width: 960px;
+    height: 115px;
+    overflow-y: auto;
+    padding: 5px;
+    position: relative;
+    outline: 0;
+    top: -5px;
+    resize: none;
+}
+.eD_tipErr{
+    margin-left: 10px;
+    color: #e2231b;
+    /*position: relative;
+    top: 5px;*/
+}
+.eD_tipErr .eD_redFork{
+    text-decoration: none;
+    font-size: 12px;
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    line-height: 10px;
+    background-color: #e2231b;
+    /* padding-right: 1px; */
+    border-radius: 100%;
+    margin-left: 5px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-right: 5px;
+}
+.sucorerr {
+    /*display: none;*/
+    position: fixed;
+    top: 75px;
+    right: 30px;
+    /*width: 150px;*/
+    line-height: 26px;
+    /*padding: 5px 4px;*/
+    text-align: center;
+    box-sizing: border-box;
+    width: 150px;
+    overflow: hidden;
+}
+
+.sucorerr span {
+    display: block;
+    width: 150px;
+    background: #f7944d;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.sucorerr i {
+    position: relative;
+    top: 2px;
+}
+
+
+/*.sOeShow {
+    width: 150px;
+}*/
+
+.sucorerr span.sOeHide {
+    width: 0;
+    /*height: 100%;*/
+    /*background: #f7944d;*/
+    /*borderRadius: 4px;*/
+    opacity: 0;
+    white-space: nowrap;
+    line-height: 26px;
+    overflow: hidden;
+    transition: all 2.5s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.0980392) 0px -3px 5px;
+}

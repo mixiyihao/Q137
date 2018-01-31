@@ -1,0 +1,46 @@
+.interpretative_box {
+    width: 300px;
+    position: absolute;
+    top: 32px;
+    left: -29px;
+    background: #fff;
+    z-index: 199;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.interpretative_box.Active1 {
+    height: 50px;
+    transition: height 0.3s ease-in;
+    -moz-transition: height 0.3s ease-in;
+    -webkit-transition: height 0.3s ease-in;
+    -o-transition: height 0.3s ease-in;
+}
+
+.interpretative_box.Active2 {
+    height: 0px;
+    transition: height 0.3s ease-in;
+    -moz-transition: height 0.3s ease-in;
+    -webkit-transition: height 0.3s ease-in;
+    -o-transition: height 0.3s ease-in;
+}
+
+.interpretative_box .interpretative_top {
+    height: 31px;
+    width: 100%;
+    background: #fff;
+    text-align: left;
+    line-height: 31px;
+    /* border-bottom: 1px solid #dadada; */
+    font-size: 16px;
+    /* color: #fff; */
+    padding-left: 10px;
+}
+
+.interpretative_box .interpretative_top i {
+    display: inline-block;
+}
+
+.interpretative_box .interpretative_topMsg {
+    padding: 3px 10px 0 10px;
+}

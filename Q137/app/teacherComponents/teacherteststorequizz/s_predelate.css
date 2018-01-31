@@ -1,0 +1,81 @@
+.s-delete {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+    display: none;
+}
+
+.s-deletes {
+    width: 441px;
+    height: 226px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 150px;
+    border: 1px solid #E2E2E2;
+}
+
+.s-preheads .s-deletprev1 {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.s-deletes .s-deletitle {
+    margin-top: 47px;
+    text-align: center;
+}
+
+.s-preheads .s-deletprevs {
+    width: 30px;
+    height: 26px;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 4px;
+}
+
+.s-preheads .s-deletprevs:hover {
+    background-color: #49c0e0;
+    color: #ffffff;
+}
+
+.s-preheads {
+    height: 30px;
+}
+
+.s-prevbtns {
+    padding-top: 15px;
+    text-align: center;
+}
+
+.s-prevbtns .s-prevbtns1 {
+    margin: 0 5px;
+    width: 107px;
+    height: 33px;
+    background-color: #ffffff;
+    color: #616161;
+    /*margin-right:10px;*/
+    margin-top: 10px;
+    border: 1px solid #e9e9e9;
+}
+
+.s-prevbtns .s-prevbtns2 {
+    margin: 0 5px;
+    width: 107px;
+    height: 33px;
+    background-color: #49c0e0;
+    color: #ffffff;
+    margin-top: 10px;
+    border: 1px solid #e9e9e9;
+}
+
+p.spro_deletitle span {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+}

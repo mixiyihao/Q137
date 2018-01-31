@@ -1,0 +1,192 @@
+.videoLearning_Box .videoLearning_title {
+    color: #333;
+    background-color: #f5f5f5;
+    font-size: 14px;
+    font-weight: 400;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+    font-weight: bold
+    /*text-align: center;*/
+    /*border-bottom: 1px solid #e5e5e5;*/
+    ;
+}
+
+.videoLearning_Box .videoLearning_title span {
+    display: inline-block;
+    min-width: 130px;
+    height: 50px;
+    color: #2f363f;
+    font-weight: bold;
+    line-height: 50px;
+    font-size: 14px;
+}
+
+.videoLearning_Box .videoLearning_title span i {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.videoLearning_Box .videoLearning_Charts {
+    height: 200px;
+    width: 100%;
+}
+
+.videoLearning_Box .videoLearning_ListMsg {
+    height: 47px;
+    background-color: #f5f5f5;
+    width: 1060px;
+    line-height: 48px;
+    border: 1px solid #ededed;
+    position: relative;
+}
+
+.videoLearning_Box .videoLearning_ListMsg .videoLearning_ListSpan {
+    width: 84px;
+    height: 47px;
+    font-family: "Microsoft Ya Hei";
+    font-weight: 400;
+    line-height: 47px;
+    color: #333333;
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.videoLearning_Box .videoLearning_ListMsg .videoLearning_ListSpan i {
+    color: #1380fa;
+    font-size: 16px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.videoLearning_Box .videoLearning_tableBox {
+    min-height: 750px;
+    position: relative;
+}
+
+.videoLearning_Box .videoLearning_table th {
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.videoLearning_Box .videoLearning_table td {
+    text-align: center;
+    height: 54px;
+    border-bottom: 1px solid #f2f2f2;
+    line-height: 54px;
+    color: #5d6065;
+}
+
+.videoLearning_Box .videoLearning_table tr {
+    border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+}
+
+.videoLearning_Box .videoLearning_tableTool span {
+    cursor: pointer;
+}
+
+.videoLearning_Box .videoLearning_tableTool span i {
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    text-align: center;
+    line-height: 19px;
+    margin-right: 5px;
+}
+
+.videoLearning_Box .videoLearning_tableTool span:hover {
+    color: #1380f9;
+}
+
+.videoLearning_Box .videoLearning_title .videoLearning_More {
+    width: 98px;
+    height: 30px;
+    background-color: #4ac0e0;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+    float: right;
+    font-weight: normal;
+    margin-right: 10px;
+    font-weight: 100;
+}
+
+.videoLearning_Box .videoLearning_title .videoLearning_More i {
+    margin-right: 2px;
+}
+
+.videoLearning_Box .videoLearning_tableTR {
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    background: #fbfeff;
+}
+
+.videoLearning_Box .videoLearning_error {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    /* text-align: center; */
+    border: 1px solid #f2f2f2;
+    border-top: 0;
+    background: url('../../../../images/search/nomessage.jpg') no-repeat 15px center;
+    background-size: 30px;
+    padding-left: 55px;
+}
+
+.videoLearning_Box .videoLearning_errorHide {
+    display: none;
+}
+
+.videoLearning_Box .videoLearning_pageHide {
+    display: none;
+}
+
+.videoLearning_Box .videoLearning_pageShow {
+    display: block;
+    overflow: hidden;
+}
+
+.videoLearning_Box .videoLearning_page {
+    float: right;
+    margin-bottom: 50px;
+    width: 383px;
+    /* position: absolute; */
+    margin-top: 30px;
+    margin-right: 0px;
+}
+
+.videoLearning_Box .videoLearning_pageNum {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 10px;
+}
+
+.videoLearning_Box .videoLearning_pageNum span {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-bottom: 1px solid #bfc3c6;
+}
+
+.videoLearning_Box .videoLearning_pageNum i {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.videoLearning_Box .videoLearning_page button {
+    width: 81px;
+    height: 30px;
+    float: left;
+    text-align: center;
+    border: 1px solid #d3d3d3;
+    margin-left: 8px;
+}

@@ -1,0 +1,96 @@
+.Tabinformation {
+    width: 100%;
+    background: #d8d8de;
+    transition: 0.3s;
+}
+
+.Tabinforinnerdiv {
+    width: 1280px;
+    padding-left: 210px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+.tWrapinfor.onTheTop-tea {
+    padding-top: 30px;
+}
+
+.Tabinforinnerdiv span {
+    cursor: pointer;
+    text-align: center;
+    line-height: 30px;
+    width: 50%;
+    display: inline-block;
+    height: 30px;
+}
+
+.Tabtinforinnerdiv {
+    width: 1280px;
+    padding-left: 210px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+.Tabtinforinnerdiv span.TM {
+    cursor: pointer;
+    text-align: center;
+    line-height: 30px;
+    width: 33%;
+    
+    display: inline-block;
+    height: 30px;
+}
+.Tabtinforinnerdiv span {
+    cursor: pointer;
+    text-align: center;
+    line-height: 30px;
+    width: 33%;
+    display: inline-block;
+    height: 30px;
+}
+
+.Tabinformation.onTheTop {
+    position: fixed;
+    left: 0;
+    top: 40px;
+    z-index: 300;
+}
+
+.Tabinformation.onTheTop-tea {
+    position: fixed;
+    left: 0;
+    top: 38px;
+    z-index: 60;
+}
+
+.Tabinforinnerdiv span.cy {
+    color: #909090;
+}
+
+.Tabinforinnerdiv span.ch {
+    background: #fff;
+    color: #303030;
+}
+
+.Tabinforinnerdiv span.cy:hover {
+    color: #606060;
+    background: #e4e9ec;
+}
+
+.Tabtinforinnerdiv span.cy {
+    color: #909090;
+}
+
+.Tabtinforinnerdiv span.ch {
+    background: #fff;
+    color: #303030;
+}
+
+.Tabtinforinnerdiv span.cy:hover {
+    color: #606060;
+    background: #e4e9ec;
+}
+
+#SproWrap {
+    min-height: 650px;
+}

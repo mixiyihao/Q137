@@ -1,0 +1,115 @@
+.schoolSynthesis-container {
+    margin-top: 13px;
+    margin-left: 16px;
+}
+
+.schoolSynthesis-container .schoolSynthesis-tool {
+    width: 1046px;
+    background: #f5f5f5;
+    height: 60px;
+    padding-top: 13px;
+    border: 1px solid #f2f2f2;
+}
+
+.schoolSynthesis-container .schoolSynthesis-tool-msg {
+    text-align: center;
+    width: 50px;
+    display: inline-block;
+    line-height: 30px;
+    margin-right: 0;
+    margin-left: 16px;
+    float: left;
+}
+
+.schoolSynthesis-container .schoolSynthesis-tool input {
+    width: 270px;
+    height: 30px;
+    border: 1px solid #b0b0b0;
+    background: #f5f5f5;
+    text-indent: 6px;
+    float: left;
+}
+
+.schoolSynthesis-container .schoolSynthesis-tool input:hover {
+    background: #fff;
+    border: 1px solid #4ac0e0;
+}
+
+.schoolSynthesis-container .schoolSynthesis-tool-button {
+    display: inline-block;
+    width: 64px;
+    height: 30px;
+    background: #49c0e0;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.schoolSynthesis-container .schoolSynthesis-table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.schoolSynthesis-container .schoolSynthesis-table thead tr {
+    height: 50px;
+    text-align: center;
+    border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    background-color: #f5f5f5;
+    line-height: 50px;
+}
+
+.schoolSynthesis-container .schoolSynthesis-table thead tr th {
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    word-break: break-all;
+}
+
+.schoolSynthesis-container .schoolSynthesis-table thead tr th.two {
+    width: 82px;
+}
+
+.schoolSynthesis-container .schoolSynthesis-table thead tr th.three {
+    width: 366px;
+}
+
+.schoolSynthesis-container .schoolSynthesis-table thead tr th.four {
+    width: 390px;
+}
+
+.schoolSynthesis-container .schoolSynthesis-table thead tr th.five {
+    width: 207px;
+}
+
+.schoolSynthesis-container .schoolSynthesis-table tbody tr {
+    height: 47px;
+    text-align: center;
+    border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+    line-height: 47px;
+}
+
+.schoolSynthesis-container .schoolSynthesis-table tbody tr:hover {
+    background-color: #e4f4ff;
+}
+
+.schoolSynthesis-container .schoolSynthesis-table tbody tr td {
+    color: #606060;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.schoolSynthesis-container .schoolSynthesis-noData {
+    border: 1px solid #f2f2f2;
+    border-top: 0;
+    height: 48px;
+    line-height: 48px;
+    padding-left: 45px;
+    width: 1046px;
+    background: url("../../../../images/search/nomessage.jpg") no-repeat 9px center;
+    background-size: 30px;
+}

@@ -1,0 +1,67 @@
+.Spre-checkX {
+    position: absolute !important;
+    /* 决定label的位置*/
+    height: 14px;
+    left: 80px !important;
+    line-height: 14px;
+    font-size: 14px;
+    top: 0px !important;
+}
+
+.Spre-checkY {
+    top: 0px !important;
+    position: absolute !important;
+    /* 决定label的位置*/
+    left: 80px !important;
+    line-height: 14px;
+    height: 14px;
+    font-size: 14px;
+}
+
+.Spre-checkY:before {
+    border: 1px solid #ddd;
+    content: '';
+    position: absolute;
+    /* 决定input的位置*/
+    left: -20px;
+    top: 0px;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease !important;
+    -moz-transition: all 0.3s ease !important;
+}
+
+.Spre-checkY:after {
+    border-color: white;
+    background: white
+}
+
+.Spre-checkY:checked:before {
+    border: 1px solid #49c0e0 !important;
+    background: #49c0e0;
+}
+
+.Spre-checkX:after {
+    border-color: white;
+    background: white;
+}
+
+.Spre-checkX:before {
+    border: 1px solid #49c0e0 !important;
+    background: #49c0e0;
+    content: '';
+    position: absolute;
+    /* 决定input的位置*/
+    left: -20px;
+    top: 0px;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease !important;
+    -moz-transition: all 0.3s ease !important;
+}

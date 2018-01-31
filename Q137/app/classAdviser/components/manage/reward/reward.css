@@ -1,0 +1,215 @@
+.rewardsWrap{
+    margin-top: 13px;
+    min-height: 536px;
+    padding: 20px;
+    position: relative;
+    color: #333;
+
+}
+.rewardsWrap h2{
+    font-weight: 400;
+    font-size: 18px;
+    height: 20px;
+    line-height: 20px;
+    border-left: 4px solid #49c0e0;
+    padding-left: 14px;
+}
+.rewardShSelect {
+    height: 56px;
+    line-height: 56px;
+    position: relative;
+    width: 1040px;
+    margin: 10px 0 0 19px;
+    background-color: #f5f5f5;
+    padding-left: 10px;
+    text-align: left;
+}
+#rewardShSelect {
+    margin-right: 10px;
+}
+.rewardShSelect select:hover {
+    border: 1px solid #4ac0e0;
+}
+.rewardShSelect select {
+    width: 220px;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url(../../../../images/headMaster/aa.svg) no-repeat 98% center;
+    background-size: 15px 13px;
+}
+.rewardShSelect select {
+    color: #606060;
+    margin-left: 10px;
+    width: 240px;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    background-color: #f5f5f5;
+    /* border: 1px solid #1081fb; */
+    border: 1px solid #e9e7e8;
+    outline: none;
+}
+.rewardShSelect span {
+    color: #606060;
+    margin-left: 10px;
+}
+
+.rewardShSelect i {
+    font-size: 16px;
+    color: #308afc;
+}
+/*展示列表*/
+.rewardsShowBox {
+    border-left: 1px solid #e9e8e8;
+    margin-left: 28px;
+    /*padding-top: 10px;*/
+}
+.rewardItem {
+    margin-bottom: 10px;
+}
+
+.rewardItem:hover {
+    /*background-color: #e4f4ff;*/
+    background-color: #eef8ff;
+}
+
+.rewardItem p {
+    position: relative;
+}
+
+.timeItem {
+    padding-left: 10px;
+}
+
+.rewardItem p i.iconfont {
+    position: absolute;
+    font-size: 16px;
+    right: 10px;
+    top: 10px;
+    padding: 0;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: #fff;
+    background-color: #4ac1e1;
+    cursor: pointer;
+}
+
+.rewardItem p i.editReward {
+    right: 40px;
+}
+
+.rewardItem p i.notShow {
+    display: none;
+}
+
+.rewardItem .rewardBlue {
+    display: inline-block;
+    border: 3px solid #1081fb;
+    border-radius: 100%;
+    background-color: #fff;
+    box-sizing: border-box;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: -8px;
+    top: 8px;
+}
+
+.rewardTime {
+    color: #1081fb;
+    font-size: 16px;
+    font-weight: 400;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 20px;
+}
+
+.rewardType {
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    width: 64px;
+    height: 22px;
+    line-height: 22px;
+    margin-left: 10px;
+    /*border: 1px solid #000;*/
+    border-radius: 15px;
+}
+
+.rewardType.colorP {
+    color: #f12cea;
+    background-color: #f8c3e6;
+}
+
+.rewardType.colorO {
+    color: #ff5a00;
+    background-color: #ffcfb5;
+}
+
+.rewardText {
+    /*margin-top: 10px;*/
+    padding-left: 59px;
+    font-size: 14px;
+    font-weight: 400;
+    /*padding-top: 10px;*/
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.rewardText .rewardTextSpan {
+    display: inline-block;
+    width: 960px;
+    margin-left: 5px;
+    /*border: 1px solid #e5e5e5;*/
+    line-height: 20px;
+    box-sizing: border-box;
+    padding-left: 5px;
+    max-height: 120px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+    top: 1px;
+}
+
+.rewardText i {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+
+.rewardTexts {
+    margin-bottom: 4px;
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.rewardText span {
+    margin-left: 8px;
+}
+
+/*信息*/
+.rewardsMessage {
+    width: 1040px;
+    margin-left: 19px;
+    height: 84px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    line-height: 28px;
+    padding-left: 4px;
+    margin-top: 15px;
+    border-bottom: 1px dashed #c9c9c9;
+    background: #f5f5f5;
+}
+
+.rewardsMessage span {
+    color: #333;
+    margin: 0 30px 0 7px;
+}
+
+.rewardsMessage span.rewardsName {
+    font-size: 16px;
+}

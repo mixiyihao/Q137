@@ -1,0 +1,296 @@
+.stuEvaBody {
+    padding: 10px 5px 20px 20px;
+    min-height: 600px;
+    position: relative;
+    padding-left: 0;
+    margin-left: 20px;
+}
+
+.stuEvaBody h2 {
+    font-size: 18px;
+    font-weight: normal;
+    padding-left: 15px;
+    line-height: 20px;
+    height: 23px;
+    border-left: 4px solid #4abfe0;
+}
+.stuEvaTabItem{
+    height: 32px;
+    width: 1010px;
+    margin: 14px 0 0 20px;
+    box-sizing: border-box;
+    text-align: left;
+    border-bottom: 1px solid #f5f5f5;
+}
+.stuEvaTabItem .tabItem{
+    display: inline-block;
+    border-top: 4px solid transparent;
+    border-right: 1px solid rgb(228, 228, 228);
+    background: rgb(244, 244, 246);
+    cursor: pointer;
+    text-align: center;
+    height: 32px;
+    line-height: 28px;
+    width: 100px;
+    box-sizing: border-box;
+    color: #606060;
+}
+.stuEvaTabItem .tabItem.current{
+    border-top: 4px solid rgb(73, 192, 224);
+    border-right: 1px solid rgb(228, 228, 228);
+    background: rgb(255, 255, 255);
+    outline: none;
+}
+.stuEvaFilter {
+    height: 50px;
+    width: 1010px;
+    background-color: #f4f4f6;
+    margin: 12px 0 0 20px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    text-align: left;
+    padding-left: 12px;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.stuEvaFilter span {
+    display: inline-block;
+    box-sizing: border-box;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 20px;
+}
+
+.stuEvaFilter span select,
+.stuEvaFilter span input {
+    height: 30px;
+    line-height: 30px;
+    width: 240px;
+    background-color: #fff;
+    outline: none;
+    border: 1px solid #e9e7e8;
+    margin-left: 3px;
+    color: #606060;
+}
+.stuEvaFilter.stuEvafilter2 span{
+    margin-right: 15px;
+}
+.stuEvaFilter.stuEvafilter2 span.stuEvaFlag{
+    margin-right: 0;
+}
+.stuEvaFilter.stuEvafilter2 span select#stuEvaStage{
+    width: 120px;
+}
+.stuEvaFilter.stuEvafilter2 span select#stuEvaFlag{
+    width: 100px;
+}
+.stuEvaFilter span select {
+    width: 220px;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url('../../images/headMaster/aa.svg') no-repeat 98% center;
+    background-size: 15px 13px;
+}
+
+.stuEvaFilter span select::-ms-expand {
+    display: none;
+}
+
+.stuEvaFilter span input {
+    width: 205px;
+    padding-left: 3px;
+    box-sizing: border-box;
+}
+
+.stuEvaFilter span i {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    line-height: 29px;
+    background-color: #49c0e0;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 1px;
+}
+
+.stuEvaFilter span select:hover,
+.stuEvaFilter span select:active,
+.stuEvaFilter span input:hover,
+.stuEvaFilter span input:active {
+    border: 1px solid #4ac0e0;
+}
+/*table*/
+.stuEvaTable{
+    margin: 0px 0 0 20px;
+   width: 1010px;
+    text-align: center;
+    vertical-align: middle;
+}
+.stuEvaTable th{
+    height: 37px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #f4f4f6;
+}
+.stuEvaTable tr{
+    border: 1px solid #f4f4f6;
+    color: #606060;
+}
+.stuEvaTable td{
+    height: 50px;
+    vertical-align: middle;
+    
+}
+.stuEvaTable td div{
+    line-height: 20px;
+}
+.stuEvaTable td div.evaCmtTit{
+    width: 200px;
+}
+.stuEvaTable td div.evaCmtCor{
+    width: 240px;
+}
+.stuEvaTable td div.evaCmtTim{
+    width: 338px;
+}
+.stuEvaTable td div.evaCmtSta{
+    width: 115px;
+}
+.stuEvaTable td div.evaCmtHan{
+    cursor: pointer;
+    width: 115px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.stuEvaTable td div.evaCmtHan:hover{
+    color: #1380f9
+}
+.stuEvaTable td div.evaCmtLes{
+    width: 251px;
+}
+.stuEvaTable td div.evaCmtStg{
+    width: 200px;
+}
+.stuEvaTable td div.evaCmtCor2{
+    width: 327px;
+}
+.stuEvaTable td div.evaCmtSta2{
+    width: 115px;
+}
+.stuEvaTable td div.evaCmtHan2{
+    cursor: pointer;
+    width: 115px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.stuEvaTable td div.evaCmtHan2:hover{
+    color: #1380f9
+}
+
+
+/*切换*/
+
+.stuEvaTab {
+    width: 100%;
+    height: 30px;
+    background-color: #d8d8de;
+    box-sizing: border-box;
+}
+
+.stuEvaTab.onTheTop {
+    position: fixed;
+    left: 0;
+    top: 40px;
+    z-index: 60;
+}
+
+.stuEvaWrap {
+    width: 1280px;
+    margin: 0 auto;
+    padding-left: 210px;
+}
+
+.stuETabs {
+    width: 100%;
+}
+
+.stuEvaTabsItem {
+    display: inline-block;
+    width: 33%;
+    height: 30px;
+    line-height: 27px;
+    text-align: center;
+    color: #999;
+    cursor: pointer;
+    border-top: 3px solid #d8d8de;
+}
+
+.stuEvaTabsItem:hover {
+    color: #606060;
+    background: #f2f5f7;
+    border-top: 3px solid #f2f5f7;
+}
+
+.stuEvaTabsItem.current {
+    color: #606060;
+    background-color: #fff;
+    border-top: 3px solid #4ac0e0;
+    border-bottom: 1px solid #f7f7f9;
+}
+
+/*分页*/
+
+.pageBtn {
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    text-align: right;
+    padding-right: 0;
+}
+
+.pageBtn i {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.pageBtn i.underLine {
+    border-bottom: 1px solid #323232;
+}
+
+.pageBtn a {
+    display: inline-block;
+    margin-left: 10px;
+    width: 81px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(50, 50, 50);
+    border:1px solid rgb(211, 211, 211);
+    box-sizing: border-box;
+}
+.pageBtn a:hover{
+    color: rgb(50, 50, 50);
+}
+.pageBtn a i.iconfont {
+    width: 10px;
+    height: 10px;
+}
+
+.pageBtn a.noUse {
+    color: #fff;
+    background-color: #F5F5F5;
+    border-color: #f5f5f5;
+}
+.pageBtn a.noUse:hover{
+    color: #fff;
+}

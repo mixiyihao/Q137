@@ -1,0 +1,223 @@
+.editContentWrap {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1002;
+    display: -webkit-box;
+    /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box;
+    /* 老版本语法: Firefox (buggy) */
+    display: -ms-flexbox;
+    /* 混合版本语法: IE 10 */
+    display: -webkit-flex;
+    /* 新版本语法: Chrome 21+ */
+    display: flex;
+    /* 新版本语法: Opera 12.1, Firefox 22+ */
+    -webkit-box-pack: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.editContentContainer {
+    /*position: absolute;*/
+    width: 650px;
+    height: 450px;
+    background-color: #fff;
+    clear: both;
+    padding: 12px 0 12px 14px;
+}
+
+.editContentContainer .editContentTitle {
+    position: relative;
+    width: 620px;
+    height: 20px;
+    line-height: 14px;
+    font-size: 14px;
+    /*margin-bottom:7px;*/
+    margin: 0 14px 7px 0;
+    color: #333333;
+    border-bottom: 1px solid #dadada;
+    box-sizing: border-box;
+}
+
+.editContentContainer .editContentTitle .icon-guanbi {
+    position: absolute;
+    right: -10px;
+    top: -11px;
+    width: 30px;
+    height: 30px;
+    /*float: right;*/
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+    color: black;
+    font-size: 12px;
+}
+.editContentContainer .editContentTitle .icon-guanbi:hover{
+    color: #fff;
+    background-color: #4ac0e0;
+}
+.editContentInner {
+    overflow: hidden;
+    clear: both;
+}
+
+.editContentBox{
+    width: 620px;
+    height: 340px;
+    padding: 3px;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+    border:1px solid #f5f5f5;
+    resize: none;
+    overflow-y: auto;
+}
+
+
+/*保存取消操作*/
+
+.editContentSave {
+    width: 620px;
+    height: 44px;
+    padding: 15px 0 0 80px;
+    border-top: 1px solid #dadada;
+    /*background-color: yellow;*/
+}
+
+.editContentSave .saveBtn,
+.editContentSave .cancelBtn {
+    display: inline-block;
+    height: 30px;
+    width: 80px;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.editContentSave .saveBtn {
+    position: relative;
+    top: -2px;
+    line-height: 28px;
+    margin-left: 8px;
+    color: #fff;
+    background-color: #51c0de;
+}
+
+.editContentSave .cancelBtn {
+    line-height: 30px;
+    color: #606060;
+    background-color: #fff;
+    border: 1px solid #e8e8e8;
+}
+
+
+/*右侧卡片*/
+
+.cardItemName,
+.cardItemInterduce {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.cardItemName {}
+
+.cardItemStage {}
+
+.cardItemTerm {}
+
+.cardItemTeacher {}
+
+.cardItemOrder {}
+
+.cardItemInterduce {
+    margin-bottom: 3px;
+}
+
+.cardChangeBtn {
+    text-align: right;
+}
+
+.cardItem .cardChangeBtn a {
+    display: inline-block;
+    width: 60px;
+    height: 20px;
+    line-height: 18px;
+    text-align: center;
+    margin-left: 4px;
+    color: #fff;
+    background-color: #51c0de;
+}
+
+
+/*底部提示*/
+
+.redWarning {
+    color: red;
+    padding-left: 80px;
+}
+
+#rbdNavigator .editContentWrap p {
+    height: 0px;
+    line-height: 0px;
+    width: 100%;
+    text-align: center;
+    color: rgb(51, 51, 51);
+    cursor: auto;
+    position: absolute;
+    bottom: 100px;
+    margin-bottom: 0px;
+    background-color: #fff;
+}
+
+/*成功提示*/
+.editContentSucorerr {
+    /*display: none;*/
+    position: fixed;
+    top: 75px;
+    right: 30px;
+    /*width: 150px;*/
+    line-height: 26px;
+    /*padding: 5px 4px;*/
+    text-align: center;
+    box-sizing: border-box;
+    width: 150px;
+    overflow: hidden;
+}
+
+.editContentSucorerr div {
+    display: block;
+    width: 150px;
+    background: #f7944d;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.editContentSucorerr i {
+    position: relative;
+    top: 2px;
+}
+
+
+.editContentsOeShow {
+    width: 150px;
+}
+
+.editContentSucorerr div.editContentsOeHide {
+    width: 0;
+    opacity: 0;
+    white-space: nowrap;
+    line-height: 26px;
+    overflow: hidden;
+    transition: all 2.5s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.0980392) 0px -3px 5px;
+}

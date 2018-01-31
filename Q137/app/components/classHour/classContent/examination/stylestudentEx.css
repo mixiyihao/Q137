@@ -1,0 +1,1942 @@
+.studentEx {
+    background: rgba(255, 251, 251, 1);
+    position: fixed;
+    /*position: absolute;*/
+    z-index: 1000;
+    display: none;
+    left: 0;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.spre_newexamdiv i {
+    margin-top: 0px !important;
+}
+
+.spre_newexamdiv p.spre_p {
+    margin-bottom: 13px !important;
+}
+
+i.spre_newi {
+    margin-left: 44px !important;
+}
+
+span.spre_newchoosespan {
+    line-height: 24px !important;
+    left: -70px !important;
+}
+
+span.spre_newchoosespan2 {
+    line-height: 16px !important;
+}
+
+.spre_newexamdiv .spre_newexamspan {
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 14.2px;
+    word-wrap: break-word;
+    word-break: break-all;
+    padding-left: 42px !important;
+}
+
+.spre_newexamdiv textarea.spre_newexamspan {
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 14.2px;
+    word-wrap: break-word;
+    line-height: 28px;
+    word-break: break-all;
+    background: #f5f5f5;
+    border: 1px solid transparent;
+    resize: none;
+    width: 89%;
+    padding-left: 42px;
+}
+
+.cstu-exam>label span {
+    margin-left: 14px !important;
+}
+
+.EXspro_Timeover {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 9999;
+    display: none;
+    
+}
+
+.spro-ease {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.spro-ease_in {
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+}
+
+.spro-ease_out {
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+}
+
+.spro-ease_in_out {
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.exspro_ppp11 {
+    margin: 50px auto 0;
+    min-height: 370px;
+    background: white;
+}
+
+.exspro_teatestpages {
+    /*right: 1.5%;
+    position: absolute;
+    margin-right: 10%;*/
+    padding: 40px 0 20px;
+    /*width: 295px;*/
+    float: right;
+}
+
+.exspro_styleteadiv {
+    display: inline-block;
+    line-height: 30px;
+    padding: 0 5px;
+}
+
+.exspro_styletealistb {
+    width: 28px;
+    height: 30px;
+    text-align: center;
+    border-bottom: 1px solid #bfc3c6;
+    font-weight: normal;
+    display: inline-block;
+}
+
+.exspro_styletealistspan {
+    margin-left: 20px;
+}
+
+.exspro_teatestpages button {
+    width: 81px;
+    height: 30px;
+    float: right;
+    text-align: center;
+    border: 1px solid #d3d3d3;
+    margin-left: 8px;
+}
+
+
+/*.spro_pppimage1 {
+    position: relative;
+    background-image: url("../../images/Noexam/Noexam2.jpg");
+    background-repeat: no-repeat;
+    background-size: 80%;
+    width: 368px;
+    height: 256px;
+    margin: -11% auto 0;
+}*/
+
+.cstu-exam {
+    display: block;
+    position: relative;
+    min-height: 30px;
+}
+
+.cstu-exam>input {
+    position: absolute;
+    left: -8px !important;
+    z-index: 99;
+    -webkit-appearance: none;
+}
+
+.cstu-exam label {
+    /*word-wrap: break-word;
+    padding-left: 20px;*/
+    /*position: absolute;*/
+    position: relative;
+}
+
+.cstu-exam>label:after,
+.cstu-exam>label:before {
+    top: 4px !important;
+}
+
+
+.spre_newrightItem span textarea.Spreviewansi {
+    font-weight: normal;
+    width: 643px;
+    border: 1px solid transparent;
+    background: #ebf9fc;
+    resize: none;
+    line-height: 30px;
+}
+
+.spre_newrightItem span.PTTPRAspan {
+    padding: 0px 50px 0px 84px;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.spre_examResult {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    right: 0px;
+    float: right;
+    text-align: center;
+    background: #49c0E0;
+    line-height: 30px;
+    color: #DEF0F4;
+    position: relative;
+    right: 18px;
+    cursor: pointer;
+}
+
+.spre-quetitle {
+    width: 100%;
+    height: 144px;
+    background: linear-gradient(60deg, #6cc4ce, #65f1ce);
+}
+
+.rdo_spreview::before {
+    top: -2px;
+    left: 0px;
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    border: 1px solid #c4c4c4;
+}
+
+.styleblock>label {
+    position: relative !important;
+}
+
+.checkboxExam .styleblock,
+.radioExam .styleblock {
+    margin: 5px 0 !important;
+}
+
+.rdo_spreview::before,
+.rdo_spreview::after {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    transition: .3s ease;
+}
+
+
+/*返回样式*/
+
+a.spreview_backto {
+    position: absolute;
+    right: 10px;
+    font-size: 14px;
+    /*font-family: "Microsoft YaHei";*/
+    color: #666;
+}
+
+.backtoSpan {
+    float: left;
+    height: 30px;
+    line-height: 31px;
+}
+
+.backtoicon {
+    /*font-weight: 600;*/
+    font-size: 16px;
+    top: 3px;
+    color: #808186;
+    height: 30px;
+    float: left;
+    line-height: 30px;
+}
+
+.spre-questitle a.spreview_backto:hover {
+    color: #6ac2cc;
+}
+
+.spre-questitle a.spreview_backto:hover .backtoicon {
+    color: #6ac2cc;
+}
+
+
+/*预览试卷样式*/
+
+.spre_message {
+    width: 600px
+}
+
+
+/*单选框样式*/
+
+.radioExam {}
+
+
+/*单选题样式*/
+
+.spre_danxuan {
+    margin-top: 19px;
+}
+
+.spre_danxuan h2,
+.spre_duoxuan h2 {
+    display: inline-block;
+    font-size: 16px;
+    color: #333;
+}
+
+.spre_danxuan span,
+.spre_duoxuan span {
+    padding-left: 15px;
+    color: #666;
+}
+
+
+/*多选题样式*/
+
+
+.cstu-exam span,
+p.final_stem span.spre_newexamspan {
+    font-weight: 560;
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 14.2px;
+    padding-left: 60px;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+#haha {
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    word-wrap: break-word;
+}
+
+.radioExam p.spre_p,
+.checkboxExam p.spre_p {
+    position: relative;
+    background: #f5f5f5;
+    color: #303741;
+    padding: 10px 50px;
+    margin-bottom: 5px;
+}
+
+.radioExam b,
+.checkboxExam b {
+    left: 35px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #606060;
+    position: absolute;
+}
+
+.iii {
+    font-weight: 600;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.radioExam i.ii,
+.checkboxExam i.ii {
+    vertical-align: bottom;
+    height: 26px;
+    line-height: 26px;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    color: #606060;
+}
+
+.radioExam .preradioItem,
+.checkboxExam .preradioItem {
+    /*padding-left: 11.5%;*/
+    position: relative;
+    padding-left: 60px;
+    /*margin: 4px 0 18px 0;*/
+    margin: 5px 0px;
+}
+
+.radioExam label.spre_Item,
+.checkboxExam label.spre_Item {
+    /*position: absolute;*/
+    /*top: 37%;
+    left: 14%;*/
+    color: #30373f;
+    left: 80px;
+}
+
+.radioExam .rightItem,
+.checkboxExam .rightItem {
+    background: #ebf9fc;
+    margin-top: 5px;
+}
+
+.radioExam .rightItem>span,
+.checkboxExam .rightItem>span {
+    line-height: 32px;
+    /*padding-left: 11.5%;*/
+    color: #4ac1e1;
+}
+
+.radioExam .rightItem>.i,
+.checkboxExam .rightItem>.i {
+    color: white;
+    display: inline-block;
+    letter-spacing: 8px;
+}
+
+.radioExam>div,
+.checkboxExam>div {
+    margin: 20px 0 30px 0;
+}
+
+#i {
+    letter-spacing: 4px;
+    font-weight: 600;
+}
+
+.preradioItem input:before {
+    border: 1px solid #cecece;
+}
+
+.spre_message span {
+    display: inline-block;
+    padding-left: 20px;
+    color: #333;
+}
+
+.spre_message span>b {
+    font-weight: 500;
+}
+
+.spre_message i {
+    color: #666;
+}
+
+
+/*这是前面那个长方体的css*/
+
+.spre-questitle {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.spre-questionBody .spre-questitle .spre-cubiud {
+    width: 4px;
+    height: 20px;
+    margin-right: 8px;
+    margin-bottom: -4px;
+    padding-top: 8px;
+    display: inline-block;
+    background-color: #4ac0e0;
+}
+
+.spre-questionBody .spre-questitle .spre-information {
+    font-size: 16px;
+    height: 22px;
+    line-height: 22px;
+    color: #2E3641;
+    display: inline-block;
+    text-indent: 0px;
+    font-weight: bold;
+    /*font-family: "Microsoft YaHei";*/
+}
+
+
+/*下面是列表的css*/
+
+.spre-questionBody {
+    background-color: #f4f4f6;
+    padding: 16px 40px;
+}
+
+.spre-thQuBody {
+    width: 1100px;
+    background-color: #fff;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 20px 110px;
+}
+
+.spre-thSelect {
+    /*min-width: 1250px;*/
+    padding-bottom: 19px;
+    min-height: 100px;
+    overflow: hidden;
+    border-bottom: 1px dashed #e5e5e5;
+}
+
+.spre-thselection1 {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.spre-thSelect {
+    overflow: hidden;
+}
+
+.spre-thselection1 .spre-thSet1,
+.spre-thselection1 .spre-thSet2,
+.spre-thselection1 .spre-thSet3 {
+    float: left;
+    width: 30%;
+}
+
+.spre-thSelect .spre-thselection div {
+    /*float: left;*/
+}
+
+.spre-thSelect select {
+    width: 238px;
+    height: 28px;
+    margin-left: 8px;
+}
+
+.spre-thselection1 .spre-thSet1 span,
+.spre-thselection1 .spre-thSet2 span,
+.spre-thselection1 .spre-thSet3 span,
+.spre-thselection1 .spre-thSet1 select,
+.spre-thselection1 .spre-thSet2 select,
+.spre-thselection1 .spre-thSet3 select {
+    float: right;
+}
+
+.spre-thselection1 .spre-thSet3 select {
+    width: 304px;
+}
+
+.spre-thselection1 span {
+    font-weight: bold;
+    /*font-family: "Microsoft YaHei";*/
+    position: relative;
+    left: 20px;
+    margin-top: 2px;
+    display: inline-block;
+}
+
+.spre-thselection button,
+.spre-thselection select {
+    float: right;
+}
+
+.spre-thselection button {
+    width: 62px;
+    height: 28px;
+    background-color: #49c0e0;
+    color: #ffffff;
+}
+
+.spre-thSelects3 {
+    width: 100%;
+}
+
+.spre-thSelects3 h1 {
+    padding-bottom: 7px;
+    display: inline-block;
+    width: 85%;
+    color: #2e3641;
+    font-weight: 600;
+    padding-left: 20px;
+    font-size: 19px;
+    /*font-family: "Microsoft YaHei";*/
+}
+
+
+/*下面是列表框开始*/
+
+
+/*下面是列表信息的样式*/
+
+.spre_previewtestItemb {
+    /* width: 50px; */
+    display: inline-block;
+}
+
+.styleblock {
+    display: block;
+    width: 703px !important;
+    height: auto !important;
+}
+
+.spreviewinput {
+    top: -2px !important;
+}
+
+.preradioItem span.answerItem,
+.preradioItem b.answerItem {
+    display: inline-block;
+    padding-top: 3px;
+}
+
+label.Chspre_Item {
+    top: -1px !important;
+}
+
+label span.ChanswerItem {
+    left: -58px !important;
+    top: 0px !important;
+}
+
+label span.PreChanswerItem {
+    left: -4px !important;
+    top: 0px !important;
+}
+
+div.s_previewdiv div.paddinglefti {
+    padding-left: 47px;
+}
+
+div.rightItem span.s_preanswerspan {
+    padding-left: 100px;
+}
+
+.styleblock>label:after,
+.styleblock>label:before {
+    left: -29px !important;
+    top: 2px !important;
+}
+
+.preradioItem span.answerItem {
+    width: 10px;
+    height: 20px;
+    padding-left: 100px;
+    margin: 0;
+    top: -2px;
+    position: absolute;
+}
+
+b.spro-bspreview {
+    width: 770px;
+    left: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    hyphens: auto;
+    word-wrap: break-word;
+    word-break: break-all;
+    position: relative;
+}
+
+.preradioItem b.answerItem {
+    font-weight: normal;
+    position: relative;
+    /*  margin-left: 50px;*/
+    font-size: 14px;
+    width: 700px;
+    line-height: 18px;
+}
+
+label.spre_Item {
+    margin: 5px auto;
+    /*padding: 5px 0;*/
+}
+
+input.rdo {
+    position: absolute;
+    top: 8px;
+    left: 50px;
+}
+
+div.s_previewdiv p.s_previewp {
+    position: relative;
+    background: #f5f5f5;
+    color: #303741;
+    padding: 0px 50px 0px 100px;
+    margin-bottom: 5px;
+}
+
+p.s_previewp .s_preitem0area,
+p.s_previewp .s_preitem1area {
+    border: 1px solid transparent;
+    resize: none;
+    background: #f5f5f5;
+    width: 100%;
+    line-height: 30px;
+}
+
+p.s_previewp b.spre_previewtestItemb {
+    position: absolute;
+    top: 3px;
+}
+.h-titlItem>div.c1 {
+    margin: 0 30px 0 99px;
+    display: block;
+    width: 90%;
+}
+.h-titlItem>div.cstu-exam {
+    margin: 0px 30px 0 48px;
+}
+.spro_ppp0stu {
+    position: relative;
+    top: 100px;
+    display: none;
+    width: 100%;
+    /*   background: #f4f4f6;*/
+    /*padding-bottom: 80px;*/
+}
+
+.spro_pppimagespan1stu {
+    position: absolute;
+    top: 102%;
+    left: 30%;
+    font-style: italic;
+    color: #a6a6a6;
+    /*font-family: "Microsoft YaHei";*/
+}
+
+.zhenkeng>span {
+    width: 100px;
+}
+
+.spro_M120Auto {
+    margin: 90px auto 0;
+}
+
+.M120Autos {
+    height: 40px;
+    width: 66%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.navpare {
+    background: #303030;
+    position: fixed;
+    width: 100%;
+    /* display: none; */
+}
+
+
+.spro_sEXd {
+    position: fixed;
+    right: 17%;
+    top: 25px;
+    z-index: 502;
+    width: 19px;
+    height: 19px;
+}
+
+.X-icon {
+    background-image: url("../../../../images/public/off.jpg");
+    width: 16px;
+    height: 16px;
+    font-weight: bold;
+    background-size: 100%;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.O-icon {
+    position: absolute;
+    top: 1px;
+    width: 17px;
+    height: 17px;
+    left: -20px;
+    display: inline-block;
+    background-image: url("../../../../images/public/Spro49.png");
+    background-size: 100%;
+}
+
+.exSpro-icon {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+}
+
+.exSpro-icon::before {
+    content: "";
+    position: absolute;
+    left: -20px;
+    top: 1px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border-color: #49c0e0;
+    background: #49c0e0;
+}
+
+.exSpro-icon::after {
+    content: "";
+    position: absolute;
+    left: -20px;
+    top: 0px;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-top: 5px;
+    margin-left: 4px;
+    border-radius: 50%;
+    background: white;
+}
+
+.s-back {
+    width: 256px;
+    display: inline-block;
+    float: left;
+    height: 38px;
+    background: url(../../../../images/information/8b5d0c8847358af32445a8dd93daf420.png) no-repeat 13px 14px;
+    background-size: 90%;
+    font-size: 16px;
+    color: #fff;
+    padding: 42px 0 0 0;
+    text-indent: 17px;
+    margin: 0px 0px;
+}
+
+header {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+
+.z-name2 {
+    margin: 10px 40px;
+    width: 158px;
+    list-style-type: none;
+    float: right;
+}
+
+.z-name2>i {
+    color: #858585;
+    width: 158px;
+    display: inline-block;
+    text-align: center;
+}
+
+.z-name2 a {
+    display: inline-block;
+    text-align: right;
+    width: 96px;
+}
+
+.z-name2 span {
+    display: inline-block;
+    width: 38px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    background: #b6e9fa;
+    color: #fff;
+    margin-left: 4px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.h-conceal3 {
+    width: 135px;
+    height: 30px;
+    background: #fff;
+    background-color: #fff;
+    opacity: 0.96;
+    border: 1px solid #4abfe0;
+    position: absolute;
+    z-index: 5;
+    margin-left: -14px;
+    display: none;
+}
+
+.h-conceal4 {
+    height: 60px;
+}
+
+.navpare .nav {
+    position: relative;
+    width: 64%;
+    margin: 0 auto;
+    height: 75px;
+}
+
+.nav .nav_left {
+    display: inline-block;
+    position: relative;
+    width: 300px;
+}
+
+.nav strong {
+    position: absolute;
+    top: -5px;
+    left: -1px;
+    display: inline-block;
+    color: #989898;
+    font-weight: normal;
+    font-size: 15px;
+    /*font-family: "Microsoft YaHei";*/
+}
+
+input {
+    /*font-family: "Microsoft YaHei";*/
+}
+
+.nav b {
+    position: absolute;
+    top: 17px;
+    left: 0px;
+    display: inline-block;
+    color: #989898;
+    font-size: 15px;
+    font-weight: normal;
+    /*font-family: "Microsoft YaHei";*/
+}
+
+.nav>i {
+    color: #989898;
+    line-height: 70px;
+    display: inline-block;
+    position: absolute;
+    right: 46%;
+}
+
+.nav span {
+    float: right;
+    line-height: 75px;
+    margin-right: 0%;
+    color: #676767;
+}
+
+.nav>div#leadtime {
+    color: white;
+    float: right;
+    width: 158px;
+    right: 0;
+    top: 0;
+    text-align: center;
+    height: 78px;
+    line-height: 78px;
+    margin-right: 1%;
+    background-color: #40c0E0;
+}
+
+#leadtime div>span {
+    color: white;
+    height: 78px;
+    line-height: 78px;
+}
+
+#leadtime div>span i {
+    height: 78px;
+    display: inline-block;
+    line-height: 78px;
+    padding-left: 10px;
+    min-width: 20px;
+    text-align: left;
+}
+
+.exItem {
+    width: 100%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.exItem .radioExam {
+    width: 100%;
+}
+
+.exItem .checkboxExam {
+    width: 100%;
+}
+
+.exItem .checkboxExam::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.exItem .h-titlItem {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+form.own {
+    width: 866px;
+    margin-top: 80px;
+    margin: 0 auto;
+}
+
+.danxuans {
+    margin-bottom: 20px;
+}
+
+div.danxuan {
+    margin-bottom: 10px !important;
+}
+
+.spre_newexamdiv {
+    margin-top: 10px !important;
+    margin-bottom: 0px !important;
+}
+
+.duoxuan {
+    padding-top: 30px;
+    border-top: 1.5px dashed #e5e5e5;
+}
+
+div.c>label {
+    position: relative;
+    top: 26%;
+}
+
+form .h-cubiud {
+    width: 4px;
+    height: 20px;
+    margin: 0 7px -4px 3px;
+    padding-top: 8px;
+    display: inline-block;
+    background-color: #4ac0e0;
+}
+
+form .h-information {
+    font-size: 16px;
+}
+
+form .h-information>i {
+    font-size: 10px;
+}
+
+form .h-information b {
+    background-size: 100%;
+}
+
+.h-titlItem>p {
+    margin-left: 17px;
+}
+
+.h-titlItem>div {
+    margin: 10px 30px;
+    min-width: 17%;
+    line-height: 30px;
+}
+
+.h-titlItem>p>i {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.h-titlItem>p>i>span {
+    text-align: center;
+    line-height: 15px;
+    margin-bottom: -3px;
+    padding-left: 0px;
+    width: 73px;
+    display: inline-block;
+    border-bottom: 1px solid black;
+}
+
+.active {
+    height: 30px;
+    width: 100%;
+    display: block;
+    line-height: 30px;
+}
+
+.h-titlItem i {
+    margin-top: 10px;
+}
+
+b.seeanswer {
+    font-weight: normal;
+    position: relative;
+    margin-left: 30px;
+}
+
+form .submit {
+    clear: both;
+    margin: 50px 5% 50px 35%;
+    width: 139px;
+    height: 38px;
+    background-color: #49c0E0;
+    outline: none;
+    border: 0;
+    color: #EBF9FC;
+}
+
+.spre_newrightItem {
+    margin-left: 16px !important;
+}
+
+.spre_newrightItem span.radiospan_final,
+.spre_newrightItem span.answerspan_final,
+.spre_newrightItem span.radiospan_quizz,
+.spre_newrightItem span.radiospan.final {
+    padding-left: 92px;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.submitDiv {
+    width: 100%;
+    border-top: 1px solid #cccccc;
+}
+
+
+/*自定义单选框样式*/
+
+
+/*.rdo:checked::after {
+    top: 4px;
+    left: 4px;
+    width: 6px;
+    height: 6px;
+    background-color: white;
+}
+
+.rdo:checked::before {
+    border-color: blue;
+    background: blue;
+}*/
+
+
+/*自定义复选框样式*/
+
+
+/*
+.rdos:checked::after {
+    top: 4px;
+    left: 4px;
+    width: 6px;
+    height: 6px;
+    background-color: white;
+}
+
+.rdos:checked::before {
+    border-color: #d81e06;
+    background: #d81e06;
+}
+
+.rdo {
+    width: 0px;
+    height: 0px;
+    background-color: #000;
+    margin-right: 30px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.rdo::before,
+.rdo::after {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    transition: .3s ease;
+}
+
+.rdo::before {
+    top: 0px;
+    left: 0px;
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    border: 1px solid #c4c4c4;
+}
+
+.rdo::after {
+    top: 3px;
+    left: 3px;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+}
+*/
+
+
+/*自定义复选框样式*/
+
+
+/*.rdo1 {
+    width: 0px;
+    height: 0px;
+    background-color: #000;
+    margin-right: 30px;
+    position: relative;
+}
+
+.rdo1:before,
+.rdo::after {
+    content: '';
+    display: block;
+    position: absolute;
+    transition: .3s ease;
+}
+
+.rdo1:before {
+    top: 0px;
+    left: 0px;
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
+.rdo1:after {
+    top: 3px;
+    left: 3px;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+}
+
+.rdo1:checked:after {
+    top: 2.5px;
+    left: 2.5px;
+    width: 8px;
+    height: 8px;
+    background-color: blue;
+}
+
+.rdo1:checked:before {
+    border-color: blue;
+}*/
+
+.input_check {
+    position: absolute;
+    visibility: hidden;
+}
+
+.input_check+label {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #888;
+    border-radius: 20%;
+    background-color: #DBFBF7;
+}
+
+
+/*
+.input_check:checked+label:::after {
+    content: " ";
+    position: absolute;
+    left: 2px;
+    bottom: 8px;
+    width: 6px;
+    border-radius: 20%;
+    height: 4px;
+    border: 2px solid blue;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    -ms-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -webkit-transform: rotate(-60deg);
+    transform: rotate(-45deg);
+}*/
+
+.h-titlItem i {
+    display: inline-block;
+    position: relative;
+    left: -3px;
+}
+
+
+/*.c>label {
+    position: relative;
+    top: 8px;
+}*/
+
+.fc6900 {
+    color: #fc6900;
+    font-size: 10px;
+}
+
+.xuanxiangstyle {
+    color: #49c0e0;
+}
+
+div.c1 {
+    position: relative;
+    min-height: 30px;
+}
+
+div.c1 span.chooseItem1 {
+    top: 0;
+    left: 3px;
+}
+div.c1 span.answerItem1 {
+    position: absolute;
+    /*top: -30px;*/
+    min-height: 30px;
+    line-height: 30px;
+    top: -5px;
+}
+.dunxuanstyle div.c1 span.answerItem1 {
+    position: absolute;
+    min-height: 30px;
+    line-height: 30px;
+    top: -7px;
+}
+
+label span.chooseItem {
+    display: inline-block;
+    width: 10px;
+    height: 20px;
+    position: absolute;
+    margin: 0;
+    left: -66px;
+}
+
+label span.chooseItem1 {
+    display: inline-block;
+    width: 10px;
+    height: 20px;
+    position: absolute;
+    margin: 0;
+    left: -30px;
+}
+
+
+label span.answerItem {
+    left: -46px;
+    position: absolute;
+    display: inline-block;
+    width: 88%;
+    margin: 0;
+    line-height: 20px;
+    top: 1px;
+    
+}
+.danxuanstyle .sproPublishradiocheck>label span.answerItem {
+    left: -46px;
+    position: absolute;
+    display: inline-block;
+    width: 88%;
+    margin: 0;
+    line-height: 20px;
+    top: 2px;
+    
+}
+.danxuanstyle .sproPublishradiocheck>label span{
+    font-weight: normal;
+}
+label span.finalExanswerItem {
+    left: -4px;
+    position: absolute;
+    display: inline-block;
+    width: 750px;
+    margin: 0;
+    line-height: 20px;
+    top: 1px;
+    /*top: -30px;*/
+}
+
+label span.answerItem1 {
+    display: inline-block;
+    width: 770px;
+    margin: 0;
+    width: 94%;
+    padding-left: 29px;
+}
+
+.Spre-checkX {
+    position: absolute !important;
+    /* 决定label的位置*/
+    height: 14px;
+    left: 80px !important;
+    line-height: 14px;
+    font-size: 14px;
+    top: 0px !important;
+}
+
+.Spre-checkY {
+    top: 0px !important;
+    position: absolute !important;
+    /* 决定label的位置*/
+    left: 80px !important;
+    line-height: 14px;
+    height: 14px;
+    font-size: 14px;
+}
+
+.Spre-checkY:before {
+    border: 1px solid #ddd;
+    content: '';
+    position: absolute;
+    /* 决定input的位置*/
+    left: -20px;
+    top: 0px;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease !important;
+    -moz-transition: all 0.3s ease !important;
+}
+
+.Spre-checkY:after {
+    border-color: white;
+    background: white
+}
+
+.Spre-checkY:checked:before {
+    border: 1px solid #49c0e0 !important;
+    background: #49c0e0;
+}
+
+.Spre-checkX:after {
+    border-color: white;
+    background: white;
+}
+
+.Spre-checkX:before {
+    border: 1px solid #49c0e0 !important;
+    background: #49c0e0;
+    content: '';
+    position: absolute;
+    /* 决定input的位置*/
+    left: -20px;
+    top: 0px;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease !important;
+    -moz-transition: all 0.3s ease !important;
+}
+.EXspro_delete{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 9999;
+    display: none;
+}
+.EXspro_deletes{
+    position: relative;
+    width: 441px;
+    height: 226px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 150px;
+    border: 1px solid #E2E2E2;
+}
+.EXspro_preheads .EXspro_deletprev1{
+    line-height: 16px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.EXspro_deletes .EXspro_deletitle{
+    margin-top: 47px;
+    text-align: center;
+}
+.EXspro_preheads .EXspro_deletprevs{
+    width: 30px;
+    height: 26px;
+    line-height: 26px;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+
+}
+.EXspro_preheads .EXspro_deletprevs:hover{
+    background-color: #49c0e0;
+    color: #ffffff;
+}
+.EXspro_preheads{
+
+    height: 30px;
+    margin: 0 14px;
+    border-bottom: 1px solid #dadada;
+}
+.EXspro_prevbtns{
+    padding-top: 15px;
+    text-align: center;
+}
+
+.EXspro_prevbtns .EXspro_prevbtns1{
+    margin: 0 5px;
+    width: 107px;
+    height: 33px;
+    background-color: #ffffff;
+    color: #616161;
+    /*margin-right:10px;*/
+    margin-top: 10px;
+    border: 1px solid #e9e9e9;
+}
+.EXspro_prevbtns .EXspro_prevbtns2{
+    margin: 0 5px;
+    width: 107px;
+    height: 33px;
+    background-color: #49c0e0;
+    color: #ffffff;
+    margin-top: 10px;
+    border: 1px solid #e9e9e9;
+}
+.spro_Publishexamname{
+    margin-top: 10px;
+}
+.spro_PublishDatePicker2{
+    letter-spacing: 1px;
+    margin-left: 10px;
+    border-radius: 0px !important;
+    width: 167px;
+  }
+span .ant-calendar-picker-input{
+    display: inline-block;
+}
+.ant-input {
+    height: 30px;
+    border-radius: 0px;
+}
+.ant-time-picker-input:focus{
+    box-shadow:none !important;
+}
+.ant-time-picker-input {
+    height: 30px;
+    border-radius: 0px;
+}
+
+.Publishedclass {
+    padding: 0 10px;
+    display: inline-block;
+}
+
+.Publishedclass label>input {
+    width: 70px;
+    margin-right: 3px;
+}
+.PublishTitle{
+        display: inline-block;
+    font-size: 18px;
+    position: absolute;
+    left: 32px;
+    top: 17px;
+}
+.Publishedclassspan {
+    display: inline-block;
+    line-height: 30px;
+    height: 35px;
+}
+
+.Publishedclass label>input[type="checkbox"] {
+    -webkit-appearance: none;
+    background-image: url("../../../../images/Noexam/checkboxinit.png");
+    width: 14px;
+    height: 14px;
+    margin-left: 0px;
+    margin-right: 3px;
+    margin-top: -2px;
+    background-size: 100%;
+    position: relative;
+    z-index: 99;
+}
+
+.Publishedclass label>input[type="checkbox"]:checked {
+    -webkit-appearance: none;
+    background-image: url("../../../../images/Noexam/checkboxinit1.png");
+    width: 16px;
+    height: 16px;
+    margin-top: -2px;
+    margin-left: -1px;
+    margin-right: 2px;
+    background-size: 100%;
+    position: relative;
+    z-index: 99;
+}
+
+
+/*li.ant-time-picker-panel-select-option-selected{
+
+}*/
+
+
+/*::-webkit-input-placeholder */
+
+.spro_PublishedpapersMianBodyexamname:hover {
+    border: 1px solid #4ac0e0;
+}
+
+.spro_PublishedpapersMianBodyexamname:focus {
+    border: 1px solid #4ac0e0;
+}
+
+.spro_PublishedpapersMianBodyexamname {
+    padding-left: 4px;
+    width: 408px;
+    height: 30px;
+    border: 1px solid #e8e8e8;
+    margin-left: 10px;
+}
+
+.spro_PublishedpapersMianBodyexamname0 {
+    font-weight: normal;
+    display: inline-block;
+    padding-left: 4px;
+    width: 231px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 10px;
+}
+
+.examrdo:before {
+    border: 1px solid #e1e1e1 !important;
+}
+
+.spro_Publisha:hover {}
+.sproPublishradiocheckOne{
+    position: relative;
+    height: 20px;
+    display: inline-block;
+    padding-left: 11px;
+}
+.sproPublishradiocheck {
+    position: relative;
+    height: 20px;
+    width: 100%;
+    padding-left: 11px;
+}
+
+.sproPublishradiocheck2 {
+    position: relative;
+    height: 20px;
+    display: inline-block;
+    width: 70px;
+}
+
+.sproPublishradiocheck>input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    opacity: 0;
+}
+
+.sproPublishradiocheck>label {
+    position: absolute;
+    /* 决定label的位置*/
+    left: 30px;
+    line-height: 14px;
+    font-size: 14px;
+    top: 8px;
+    width: 100%;
+}
+
+.sproPublishradiocheck>label:before {
+    content: '';
+    position: absolute;
+    /* 决定input的位置*/
+    left: -20px;
+    top: 0px;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease !important;
+    -moz-transition: all 0.3s ease !important;
+}
+
+.sproPublishradiocheck>label:after {
+    content: '';
+    position: absolute;
+    /* 决定input的位置*/
+    left: -20px;
+    top: 0px;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-top: 3px;
+    margin-left: 3px;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+}
+
+.sproPublishradiocheck input[type='radio']:checked+label:before,
+.sproPublishradiocheck input[type='checkbox']:checked+label:before {
+    border-color: #49c0e0;
+    background: #49c0e0;
+}
+
+.sproPublishradiocheck input[type='radio']:checked+label:after,
+.sproPublishradiocheck input[type='checkbox']:checked+label:after {
+    background-color: white;
+}
+.h-examin {
+    /* padding-left: 230px; */
+    margin-left: 210px;
+    padding: 30px 0px 0px 25px;
+    /* background-color: #f4f4f6; */
+    min-height: 650px;
+}
+
+.h-examin .h-titl {
+    margin-bottom: 12px;
+}
+
+.ExaminationMess {
+    margin-top: 0px !important;
+    background-size: 29px !important;
+    height: 48px !important;
+    line-height: 48px !important;
+    padding-top: 0px !important;
+    padding-left: 70px !important;
+}
+
+.h-examin .h-titl .h-cubiud {
+    width: 4px;
+    height: 20px;
+    margin-right: 15px;
+    margin-bottom: -4px;
+    padding-top: 8px;
+    display: inline-block;
+    background-color: #4ac0e0;
+}
+
+.h-examin .h-titl .h-information {
+    font-size: 18px;
+    height: 22px;
+    line-height: 22px;
+    color: rgb(96, 96, 96);
+    display: inline-block;
+}
+
+.h-tabulation {
+    padding: 10px 20px 20px 20px;
+    background-color: #fff;
+    min-width: 968px;
+    /* width: 75%; */
+    overflow: hidden;
+}
+
+.h-tabulation .h-tabu-head {
+    height: 50px;
+    line-height: 50px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.h-tabulation .h-tabu-head div {
+    float: left;
+    /*font-weight: bold;*/
+    /*font-family: "Microsoft YaHei";*/
+    border-left: 1px solid #e4e4e4;
+    height: 48px;
+}
+
+
+/*头部框更改宽度后*/
+
+.h-tabu-head .h-titl1 {
+    width: 10.5%;
+    text-align: center;
+}
+
+.h-tabu-head .h-titl2 {
+    width: 22.3%;
+    text-align: center;
+}
+
+.h-tabu-head .h-titl3 {
+    width: 18.5%;
+    text-align: center;
+}
+
+.h-tabu-head .h-titl4 {
+    width: 12.7%;
+    text-align: center;
+}
+
+.h-tabu-head .h-titl5 {
+    width: 11.7%;
+    text-align: center;
+}
+
+.h-tabu-head .h-titl6 {
+    width: 12.7%;
+    text-align: center;
+}
+
+.h-tabu-head .h-titl7 {
+    width: 11.6%;
+    text-align: center;
+}
+
+
+/*下面是考试的列表代码*/
+
+.h-tabu-body {
+    vertical-align: baseline;
+    zoom: 1;
+    overflow: hidden;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.h-tabu-body div {
+    display: table-cell;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+/*更改需求后的宽度*/
+
+.h-tabu-body .h-titlb1 {
+    width: 10.5%;
+    font-family: Arial;
+    text-align: center;
+    position: relative;
+    top: 1px;
+}
+
+.h-tabu-body .h-titlb2 {
+    cursor: pointer;
+    position: relative;
+    width: 22.3%;
+    text-align: left;
+    padding-left: 10px;
+    top: -1px;
+}
+
+.h-tabu-body .h-titlb2 .h-exams {
+    width: 100%;
+    cursor: pointer;
+    font-size: 15px;
+    vertical-align: top;
+    text-align: center;
+    /*padding-left: 30%;*/
+    display: inline-block;
+}
+
+.h-tabu-body .h-titlb2 .h-exams i {
+    margin-left: 3px;
+    font-size: 14px;
+    /*font-style: italic;*/
+}
+
+.h-tabu-body .h-titlb2 a {
+    color: #32363f;
+}
+
+.h-tabu-body .h-titlb3 {
+    width: 18.5%;
+    font-family: Arial;
+}
+
+.h-tabu-body .h-titlb4 {
+    width: 12.7%;
+    text-align: center;
+}
+
+.h-tabu-body .h-titlb5 {
+    width: 11.7%;
+    text-align: center;
+    position: relative;
+    top: -2px;
+}
+
+.h-tabu-body .h-titlb6 {
+    width: 12.7%;
+    text-align: center;
+}
+
+.h-tabu-body .h-titlb7 {
+    width: 11.6%;
+    text-align: center;
+}
+
+.h-tabu-body .h-titlb5 .h-tabufont {
+    color: #49c0e0;
+}
+
+
+/*下面是点击上一页下一页按钮*/
+
+.h-examin .h-tabulation {
+    color: #32363f;
+}
+
+.spro_tabubodys {
+    min-height: 503px;
+}
+
+.h-examin .h-tabulation .h-page {
+    width: 100%;
+    margin-top: 24px;
+    padding-bottom: 30px;
+}
+
+.h-examin .h-page button {
+    width: 81px;
+    height: 30px;
+    background-color: #fdfffe;
+    float: right;
+    text-align: center;
+    color: #1d85fe;
+    border: 1px solid #1c86ff;
+    margin-left: 8px;
+}
+
+
+/* Video页面引用样式 YH*/
+
+.videoReviewListSpan1 {
+    /*cursor: pointer;*/
+    /*padding: 6px 9px 6px 9px;*/
+    background: #4ac6e7;
+    color: #fff;
+    border-radius: 4px;
+    position: relative;
+}
+
+.videoReviewListSpan3 {
+    /*cursor: pointer;*/
+    /*padding: 6px 9px 6px 9px;*/
+    background: #4ac6e7;
+    color: #fff;
+    border-radius: 4px;
+    position: relative;
+}
+
+span.warningTit {
+    font-size: 13px;
+    /*margin-left: 30px;*/
+    color: #f48275;
+    display: block;
+    height: 32px;
+    background: #fde5d1;
+    margin-bottom: 10px;
+    line-height: 32px;
+    padding-left: 10px;
+}

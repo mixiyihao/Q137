@@ -1,0 +1,139 @@
+.myCheckWork_box {
+    margin-top: 10px;
+    margin-left: 18px;
+}
+
+.myCheckWork_box .myCheckWork_title {
+    height: 32px;
+    background: #f5f5f5;
+    border: 1px solid #f2f2f2;
+    position: relative;
+}
+
+.myCheckWork_box .myCheckWork_titleMsg {
+    height: 26px;
+    width: 68px;
+    background: #f18109;
+    text-align: center;
+    position: relative;
+    margin-left: 5px;
+    color: #fff;
+    line-height: 23px;
+    float: left;
+}
+
+.myCheckWork_box .myCheckWork_titleMsgI {
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 6px solid #f5f5f5;
+}
+
+.myCheckWork_box .myCheckWork_titleMsgI.one {
+    left: 0;
+}
+
+.myCheckWork_box .myCheckWork_titleMsgI.two {
+    left: 16px;
+}
+
+.myCheckWork_box .myCheckWork_titleMsgI.three {
+    left: 33px;
+}
+
+.myCheckWork_box .myCheckWork_titleMsgI.four {
+    left: 50px;
+}
+
+.myCheckWork_box .myCheckWork_titleMsgI.five {
+    left: 67px;
+}
+
+.myCheckWork_box .myCheckWork_titleMsgI.six {
+    left: 82px;
+}
+
+.myCheckWork_box .myCheckWork_sum {
+    color: #5f5f5f;
+    float: left;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 25px;
+}
+
+.myCheckWork_box .myCheckWork_sum i {
+    margin-left: 1px;
+    margin-right: 1px;
+    font-size: 16px;
+    color: #2280fe;
+}
+
+.myCheckWork_box .myCheckWork_button {
+    float: right;
+    display: inline-block;
+    width: 96px;
+    height: 28px;
+    line-height: 26px;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.myCheckWork_box .myCheckWork_table {
+    table-layout: fixed;
+}
+
+.myCheckWork_box .myCheckWork_table tr {
+    height: 30px;
+    text-align: center;
+    border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.myCheckWork_box .myCheckWork_table tr.myCheckWork_table_tr {
+    background: #f5f5f5;
+    height: 30px;
+}
+
+.myCheckWork_box .myCheckWork_table tbody tr:hover {
+    background-color: #e4f4ff;
+}
+
+.myCheckWork_box .myCheckWork_table tr th {
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    word-break: break-all;
+}
+
+.myCheckWork_box .myCheckWork_table td {
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #606060;
+}
+
+.myCheckWork_box .myCheckWork_t1 {
+    width: 166px;
+}
+
+.myCheckWork_box .myCheckWork_t2 {
+    width: 167px;
+}
+
+.myCheckWork_box .myCheckWork_t3 {
+    width: 167px;
+}
+
+.myCheckWork_box .myCheckWork_t4 {
+    width: 167px;
+}

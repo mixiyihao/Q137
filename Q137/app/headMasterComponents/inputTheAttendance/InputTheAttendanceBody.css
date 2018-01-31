@@ -1,0 +1,570 @@
+.InputTheAttendanceWrap {
+    /*width: 1200px;*/
+    margin: 13px auto;
+    padding: 20px;
+    min-height: 536px;
+    background: white;
+    overflow: hidden;
+}
+
+select.c60 {
+    color: #606060;
+}
+
+span.spandanceItem {
+    margin-left: 268px;
+}
+
+.InputTheAttendanceShowPage button {
+    width: 81px;
+    height: 30px;
+    /* background-color: #fdfffe; */
+    float: right;
+    text-align: center;
+    margin-left: 8px;
+}
+
+.InputTheAttendanceShowPage .starts {
+    border: 1px solid #d3d3d3 !important;
+}
+
+.InputTheAttendanceShowPage {
+    top: 7px;
+    position: relative;
+    height: 30px;
+}
+
+.InputTheAttendanceShowPage .spro_pageinner {
+    position: absolute;
+}
+
+.spro-optionData {
+    padding-left: 9px;
+    height: 27px;
+    line-height: 3px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.cfd6c01 {
+    color: #fd6c01;
+}
+
+.spro-optionData span {
+    margin-right: 70px;
+    color: #606060;
+}
+
+.spro-optionData b {
+    font-weight: normal;
+    display: inline-block;
+}
+
+.spro-optionData i {
+    padding-right: 2px;
+    padding-left: 2px;
+    font-size: 20px;
+    display: inline-block;
+}
+.InputTheAttspan2 {
+    line-height: 40px;
+}
+.c60 {
+    color: #606060;
+}
+
+.InputTheAttspanTab {
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    line-height: 26px;
+    text-align: center;
+    background: #ffffff;
+    cursor: pointer;
+    color: #606060;
+    border: 1px solid #e8e8e8;
+}
+
+.F16px {
+    font-size: 16px;
+}
+
+.InputTheAttspanTabed {
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    line-height: 26px;
+    text-align: center;
+    background: #37b0cf;
+    cursor: pointer;
+    color: white;
+    border: 1px solid #37b0cf;
+}
+
+.Inputinnderdiv {
+    padding-top: 15px;
+}
+
+.Inputinnerdivtwo {
+    line-height: 28px;
+}
+
+.Inputinnerdivtwo span.Sprotwospan {
+    margin-left: 37px;
+    margin-right:7px;
+
+}
+
+.Inputinnerdivtwo span i {
+    /* margin-left: 5px; */
+}
+
+.Inputinnerdivtwo span.Sprothrspan {
+    margin-left: 30px;
+    margin-right: 7px;
+}
+
+.Inputinnderdiv i.Sprotwoi {
+    margin-left: 37px;
+}
+
+.InputTheAttendanceBox {
+    background-color: #f4f4f5;
+    min-height: 650px;
+    overflow: hidden;
+}
+
+.InputTheAttendanceWrap>h2 {
+    font-weight: 400;
+    font-size: 18px;
+    height: 20px;
+    line-height: 20px;
+    border-left: 4px solid #49c0e0;
+    padding-left: 14px;
+    position: relative;
+    color: #303030;
+}
+
+.InputtheattendbackLink {
+    color: #31353e;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-size: 14px
+}
+
+.InputTheAttspantitle {
+    margin-left: 20px;
+}
+
+.InputTheAttspan {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 45px;
+    margin-left: 9px;
+}
+
+.InputTheAttspan i.caoi {
+    line-height: 17px;
+    vertical-align: middle;
+}
+
+.InputTheAttspan>b {
+    margin-right: 8px;
+    font-weight: normal;
+    font-style: normal;
+    color: #303030;
+}
+
+.Sproinputdancesele,
+.Sproinputdancesele span {
+    width: 240px !important;
+}
+
+.Sproinputdancesele ul,
+.Sproinputdancesele li {
+    width: 240px !important;
+}
+
+.Sproinputdancesele li {
+    height: 30px !important;
+}
+
+.Sprodancetwosele span {
+    height: 33px !important;
+}
+
+.InputTheAttspan>i select {
+    width: 240px;
+    height: 30px;
+    border: 1px solid #d9d9d9;
+}
+
+.InputTheAttdiv {
+    margin-top: 14px;
+    margin-left: 9px;
+}
+
+.InputTheAttendanceWrap2 {
+    position: relative;
+    left: -8px;
+    height: 42px;
+}
+
+.InputTheAttendanceWrap2>h2 {
+    font-weight: 400;
+    font-size: 18px;
+    height: 20px;
+    line-height: 20px;
+    border-left: 4px solid #49c0e0;
+    padding-left: 13px;
+}
+
+.InputTheAttendanceDatePicker>span {
+    line-height: 30px !important;
+    width: 240px !important;
+    height: 30px !important;
+    border-color: black !important;
+    margin-right: 8px !important;
+}
+
+.InputTheAttendanceDatePicker .ant-calendar-picker:hover .ant-calendar-picker-input:not(.ant-input-disabled) {
+    border-color: #4ac0e0;
+}
+
+.InputTheAttendstudentinfo {
+    height: 84px;
+    width: 1040px;
+    background: #f5f5f5;
+    margin: 15px 9px 15px 10px;
+    line-height: 28px;
+    padding-left: 11px;
+    border-bottom: 1px dashed #c9c9c9;
+}
+.nomessageWrap{
+    width: 100%;
+    margin-left: 10px;
+}
+.InputTheAttspan .cred{
+    color: red;
+    vertical-align: sub;
+    line-height: 30px;
+}
+.InputTheAttspankoufen {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 45px;
+    margin-left: 10px;
+}
+.InputTheAttspankoufen>b {
+    margin-right: 8px;
+    font-weight: normal;
+    font-style: normal;
+    color: #303030;
+}
+.InputTheAttendstudentinfo b,
+.InputTheAttendstudentinfo i {
+    color: #303030;
+}
+
+
+
+.InputTheAttendstudentinfo b {
+    font-weight: normal;
+}
+
+.InputTheAttendstudentinfo i {
+    font-style: normal;
+    text-align: center;
+}
+
+.InputTheAttendstudentinfo i.name {
+    text-align: center;
+}
+
+.InputTheAttendabsence {
+    cursor: pointer;
+    width: 100px;
+    height: 34px;
+    margin-left: 83px;
+    text-align: center;
+    line-height: 31px;
+    background: #49c0e0;
+    color: white;
+}
+
+.InputTheAttendline {
+    margin: 16px 9px 20px;
+    border: 1px dashed #c9c9c9;
+}
+
+.InputTheAttendmainWrap {
+    width: 100%;
+}
+
+.InputTheAttendmainBody {
+    width: 100%;
+    height: 150px;
+    background: #f5f5f5;
+    border: 1px solid #e8e8e8;
+    padding-top: 12px;
+    margin-left: 10px;
+}
+
+.InputTheAttendmainBody>div.abs {
+    line-height: 34px;
+    height: 55px;
+    /*border-bottom: 1px solid #c9c9c9;*/
+    /*border-bottom: 1px solid #e8e8e8;*/
+    color: #606060;
+}
+
+i.InputTheAttendabsi {
+    min-width: 25px;
+    text-align: center;
+    color: #1381fc;
+    font-size: 18px;
+}
+
+.InputThetbody,.InputThetbodyEM {
+    width: 100%;
+    line-height: 54px;
+}
+
+.InputThetbody>span,.InputThetbodyEM>span {
+    line-height: 40px;
+    height: 40px;
+    color: #606060;
+}
+
+.InputThetbody span:nth-child(1) {
+    width: 87px;
+    padding-left: 9px;
+    text-align: left;
+}
+.InputThetbodyEM span:nth-child(1) {
+    width: 87px;
+    padding-left: 9px;
+    text-align: left;
+}
+
+.InputThetbody span:nth-child(2) {
+    width: 254px;
+    text-align: center;
+}
+.InputThetbodyEM span:nth-child(2) {
+    width: 300px;
+    padding-left: 9px;
+    text-align: center;
+}
+.InputThetbody span:nth-child(3) {
+    width: 200px;
+    text-align: center;
+}
+.InputThetbodyEM span:nth-child(3) {
+    width: 216px;
+    padding-left: 9px;
+    text-align: center;
+}
+.InputThetbody span:nth-child(4) {
+    width: 200px;
+    text-align: center;
+}
+.InputThetbodyEM span:nth-child(4) {
+    width: 216px;
+    padding-left: 9px;
+    text-align: center;
+}
+.InputThetbody span:nth-child(5) {
+    width: 200px;
+    text-align: center;
+    text-indent: -70px;
+}
+.InputThetbodyEM span:nth-child(5) {
+    width: 200px;
+    
+    text-align: center;
+}
+.InputThetbody span:nth-child(6) {
+    width: 50px;
+    text-align: right;
+}
+
+i.Onei {
+    color: #f678f8;
+}
+
+i.Twoi {
+    color: #f87d9a;
+}
+
+i.Threei {
+    color: #fa967e;
+}
+
+i.Fouri {
+    color: #eed06d;
+}
+
+i.Fivei {
+    color: #e75582;
+}
+
+i.Sixi {
+    color: #de0d2a;
+}
+
+.InputTheTable,.InputTheTableEM {
+    width: 100%;
+    margin-left: 10px;
+}
+
+.InputTheAttspan>i select:hover,
+.InputTheAttspan>i select:focus {
+    border: 1px solid rgb(74, 192, 224);
+}
+
+.InputTheTable>tr,.InputTheTableEM>tr {
+    height: 54px;
+    border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.InputTheTable tr td,.InputTheTableEM tr td{
+    color: #606060;
+}
+
+.InputTheTable>tr:hover,.InputTheTableEM>tr:hover {
+    background: #e4f5ff;
+}
+
+.InputTheTable>tr:hover td:nth-child(6)>b,
+.InputTheTable>tr:hover td:nth-child(6)>i {
+    color: #1380f9;
+}
+
+.InputTheTable>tr td,.InputTheTableEM>tr td  {
+    line-height: 54px;
+}
+
+.InputTheTable>tr td:nth-child(1) {
+    padding-left: 13px;
+    width: 87px;
+}
+.InputTheTableEM>tr td:nth-child(1) {
+    padding-left: 13px;
+    width: 87px;
+}
+.InputTheTable>tr td:nth-child(2) {
+    width: 254px;
+    text-align: center;
+}
+.InputTheTableEM>tr td:nth-child(2) {
+    text-align: center;
+    width: 300px;
+}
+.InputTheTable>tr td:nth-child(3) {
+    width: 200px;
+    text-align: center;
+}
+.InputTheTableEM>tr td:nth-child(3) {
+    text-align: center;
+    width: 216px;
+}
+.InputTheTable>tr td:nth-child(4) {
+    margin-left: 20px;
+    width: 160px;
+    text-align: center;
+}
+.InputTheTableEM>tr td:nth-child(4) {
+    text-align: center;
+
+    width:216px;
+}
+.InputTheTable>tr td:nth-child(5) {
+    width: 200px;
+    text-align: center;
+    text-indent: -36px;
+}
+.InputTheTableEM>tr td:nth-child(5) {
+    text-align: center;
+    width: 200px;
+}
+.InputTheTable>tr td:nth-child(6) {
+    width: 78px;
+    text-align: right;
+}
+
+.Inputcursor {
+    cursor: pointer;
+    position: relative;
+    top: 1px;
+}
+
+.Inputcursor>i {
+    font-size: 14px;
+}
+
+.Inputcursor>b {
+    font-weight: 500;
+    font-size: 14px;
+    vertical-align: baseline;
+    line-height: 54px;
+}
+
+/*
+ 分页样式
+*/
+.InputTheAttendmainWrap .SchoolGrades_page {
+    width: 383px;
+    float: right;
+    margin-top: 10px;
+    margin-right: -10px;
+}
+
+.InputTheAttendmainWrap .SchoolGrades_pageHide {
+    display: none;
+}
+
+.InputTheAttendmainWrap .SchoolGrades_pageNum {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 10px;
+}
+
+.InputTheAttendmainWrap .SchoolGrades_pageNum span {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-bottom: 1px solid #bfc3c6;
+}
+
+.InputTheAttendmainWrap .SchoolGrades_pageNum i {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.InputTheAttendmainWrap .SchoolGrades_page button {
+    width: 81px;
+    height: 30px;
+    float: left;
+    text-align: center;
+    border: 1px solid #d3d3d3;
+    margin-left: 8px;
+    color: #323232;
+    background: #fff;
+}
+
+.InputTheAttendmainWrap .SchoolGrades_page .SchoolGrades_page1 {
+    background-color: #d3d3d3;
+    color: #fff;
+    border-color: #d3d3d3;
+}

@@ -1,0 +1,85 @@
+.TMspro_delete {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+}
+.TMspro_deletes {
+    position: relative;
+    width: 412px;
+    height: 228px;
+    top: 50%;
+    transform: translate(0, -50%);
+    background-color: #fff;
+    margin: 0 auto;
+    border: 1px solid #E2E2E2;
+}
+
+.TMspro_preheads .TMspro_deletprev1 {
+    line-height: 16px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.TMspro_deletes .TMspro_deletitle {
+    margin-top: 47px;
+    text-align: center;
+    font-size: 16px;
+}
+.TMspro_deletes .TMspro_deletitle  span{
+    display: block;
+}
+.TMspro_preheads .TMspro_deletprevs {
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+}
+
+.TMspro_preheads .TMspro_deletprevs:hover {
+    background-color: #49c0e0;
+    color: #ffffff;
+}
+
+.TMspro_preheads {
+    height: 30px;
+    margin: 0 14px;
+}
+
+.TMspro_prevbtns {
+    padding-top: 15px;
+    text-align: center;
+}
+
+.TMspro_prevbtns .TMspro_prevbtns1 {
+    margin: 0 5px;
+    width: 106px;
+    height: 32px;
+    background-color: #ffffff;
+    /*color: #616161;*/
+    /*margin-right:10px;*/
+    margin-top: 10px;
+    font-size: 12px;
+    border: 1px solid #e9e9e9;
+}
+
+.TMspro_delete .TMspro_deletes .TMspro_prevbtns .TMspro_prevbtns2 {
+    margin: 0 5px;
+    width: 106px;
+    height: 32px;
+    background-color: #49c0e0;
+    color: #ffffff;
+    font-size: 12px;
+    margin-top: 10px;
+    border: 1px solid #49c0e0;
+    padding: 0;
+}

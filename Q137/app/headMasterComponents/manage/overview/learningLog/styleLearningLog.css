@@ -1,0 +1,294 @@
+.LearningLog_Box {
+    overflow: hidden;
+}
+
+.LearningLog_Box .LearningLog_title {
+    color: #333;
+    background-color: #f5f5f5;
+    font-size: 14px;
+    font-weight: 400;
+    height: 42px;
+    padding-left: 14px;
+    font-weight: 400;
+}
+
+.LearningLog_Box .LearningLog_title .LearningLog_name {
+    color: #2f363f;
+    font-weight: 400;
+    font-size: 14px;
+    margin-right: 67px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.LearningLog_Box .LearningLog_title .LearningLog_stuno {
+    color: #2f363f;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.LearningLog_Box .LearningLog_title2 {
+    color: #333;
+    background-color: #f5f5f5;
+    font-size: 14px;
+    font-weight: 400;
+    height: 42px;
+    padding-left: 14px;
+    font-weight: 400;
+    border-bottom: 1px dashed #c9c9c9;
+}
+
+.LearningLog_Box .LearningLog_title2 .LearningLog_school {
+    color: #2f363f;
+    font-weight: 400;
+    /*line-height: 42px;*/
+    font-size: 14px;
+    margin-right: 128px;
+    margin-top: 4px;
+    display: inline-block;
+}
+
+.LearningLog_Box .LearningLog_title2 .LearningLog_major {
+    color: #2f363f;
+    font-weight: 400;
+    /*line-height: 42px;*/
+    font-size: 14px;
+    margin-right: 139px;
+    margin-top: 4px;
+    display: inline-block;
+}
+
+.LearningLog_Box .LearningLog_title2 .LearningLog_class {
+    height: 42px;
+    color: #2f363f;
+    font-weight: 400;
+    /*line-height: 42px;*/
+    font-size: 14px;
+    margin-top: 4px;
+    display: inline-block;
+}
+
+.LearningLog_Box .LearningLog_Log {
+    /*min-height: 600px;*/
+    overflow: hidden;
+    padding: 0 0 0 40px;
+    /*margin: 0 auto;*/
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    width: 1020px;
+    float: left;
+}
+
+.LearningLog_Box .LearningLog_Nomessage {
+    width: 100%;
+    height: 500px;
+    background: url('../../../../images/statistics/logNomessage.jpg') no-repeat center center;
+}
+
+.LearningLog_Box .LearningLog_NomessageHide {
+    display: none;
+}
+
+.LearningLog_Box .LearningLog_Log li {
+    padding-bottom: 5px;
+}
+
+.LearningLog_Box .LearningLog_Log li .LearningLog_P {
+    font-size: 16px;
+    line-height: 24px;
+    color: #2f363f;
+    font-weight: normal;
+    position: relative;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+}
+
+.LearningLog_Box .LearningLog_Log .LearningLog_Time {
+    float: left;
+    width: 76px;
+}
+
+.LearningLog_Box .LearningLog_Log .LearningLog_Circle {
+    position: absolute;
+    top: 4px;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 100%;
+    background: #e1e1e1;
+    margin-left: -1px;
+    z-index: 10;
+}
+
+.LearningLog_Box .LearningLog_Log .LearningLog_Content {
+    margin-left: 100px;
+    overflow: hidden;
+    margin-top: 6px;
+}
+
+.LearningLog_Box .LearningLog_Log .LearningLog_Content:hover {
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.LearningLog_Box .LearningLog_Log .LearningLog_Content .LearningLog_Item:hover {
+    background: #eaf3fc;
+}
+
+.LearningLog_Box .LearningLog_Item {
+    width: 100%;
+    height: 53px;
+    background-color: #f5f4f9;
+    padding: 0 19px;
+}
+
+.LearningLog_Box .LearningLog_ItemTitle {
+    height: 27px;
+    line-height: 36px;
+    font-size: 14px;
+    color: #595959;
+}
+
+.LearningLog_Box .LearningLog_ItemTitle2 {
+    height: 53px;
+    line-height: 53px;
+    font-size: 14px;
+    color: #595959;
+}
+
+.LearningLog_Box .LearningLog_ItemDate {
+    float: right;
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    width: 75px;
+}
+
+.LearningLog_Box .LearningLog_ItemDate2 {
+    float: right;
+    display: inline-block;
+    height: 53px;
+    line-height: 53px;
+    width: 75px;
+}
+
+.LearningLog_Box .LearningLog_ItemDate i {
+    float: left;
+    display: inline-block;
+    font-size: 18px;
+    color: #8b9094;
+    margin-right: 8px;
+}
+
+.LearningLog_Box .LearningLog_ItemDate2 i {
+    float: left;
+    display: inline-block;
+    font-size: 18px;
+    color: #8b9094;
+    margin-right: 8px;
+}
+
+.LearningLog_Box .LearningLog_Homework {
+    color: #8c8b8b;
+}
+
+.LearningLog_Box .LearningLog_Homework2 {
+    display: none;
+}
+
+.LearningLog_Box .LearningLog_Line {
+    width: 1px;
+    background: #f1f2f3;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    left: 121px;
+}
+
+.LearningLog_Box .LearningLog_LineHide {
+    display: none;
+}
+
+.LearningLog_Box .LearningLog_More {
+    height: 66px;
+    width: 100%;
+    position: relative;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.LearningLog_Box .LearningLog_MoreHide {
+    display: none;
+}
+
+.LearningLog_Box .LearningLog_MoreLine {
+    height: 1px;
+    width: 100%;
+    border-bottom: 1px dashed #f2f2f2;
+    margin-top: 32px;
+}
+
+.LearningLog_Box .LearningLog_MoreMsg {
+    width: 140px;
+    height: 66px;
+    background-color: #ffffff;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    /*transform: translate(-50%, 0);*/
+    transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    line-height: 66px;
+    text-align: center;
+    color: #1380fa;
+    /*color:#8c8b8b;*/
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.LearningLog_Box .LearningLog_MoreMsg2 {
+    width: 140px;
+    height: 66px;
+    background-color: #ffffff;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    /*transform: translate(-50%, 0);*/
+    transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    line-height: 66px;
+    text-align: center;
+    color: #8c8b8b;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.LearningLog_Box .LearningLog_TopTo {
+    height: 100%;
+    /*width: 40px;*/
+    float: left;
+}
+
+.LearningLog_Box .LearningLog_TopToCenter {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    background: url("../../../../images/search/top.jpg") no-repeat;
+    bottom: 240px;
+    cursor: pointer;
+    display: none;
+    z-index: 99;
+    margin-left: 67px;
+    /*left: 50%;
+    margin-left: 500px;*/
+}

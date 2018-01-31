@@ -1,0 +1,18 @@
+.videoShowBox-msg {
+    height: 27px;
+    padding-top: 3px;
+}
+
+.videoShowBox-box {
+    padding: 12px;
+}
+
+.videoShowBox-videoContent {
+    height: 385px;
+}
+
+.videoShowBox-node {
+    height: 385px;
+    width: 100%;
+    padding-top: 10px;
+}

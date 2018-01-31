@@ -1,0 +1,634 @@
+.h-thQuBodyBack {
+    float: right;
+}
+
+.h-addexams {
+    float: right;
+    color: #666;
+    cursor: pointer;
+    width: 50px;
+}
+
+.h-addexams:hover,
+.h-addexams:hover span {
+    color: #49c0e0;
+}
+
+.h-question {
+    height: 30px;
+    line-height: 30px;
+    /*padding-left:16px;*/
+    color: #2d3e3f;
+}
+
+.spro-Questionbutton {
+    width: 140px !important;
+}
+
+.h-question select {
+    border-radius: 0;
+    /*-webkit-appearance: none;*/
+    height: 28px;
+}
+
+.h-editexal select {
+    border-radius: 0;
+    /*-webkit-appearance: none;*/
+    height: 28px;
+}
+.h-question select,.h-editexal select {
+     appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url('../../images/headMaster/aa.svg') no-repeat 98% center;
+    background-size: 15px 13px;
+
+}
+.h-question select::-ms-expand,.h-editexal select::-ms-expand {
+    display: none;
+}
+.h-addexams1 {
+    color: #666;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.h-thEditsele .h-thSet1 select,
+.h-thEditsele .h-thSet2 select,
+.h-thEditsele .h-thSet3 select {
+    border: 1px solid #b0b0b0 !important;
+}
+.h-thEditsele .h-thSet1 select,
+.h-thEditsele .h-thSet2 select,
+.h-thEditsele .h-thSet3 select {
+
+     appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url('../../images/headMaster/aa.svg') no-repeat 98% center;
+    background-size: 15px 13px;
+
+}
+.h-thEditsele .h-thSet1 select::-ms-expand,
+.h-thEditsele .h-thSet2 select::-ms-expand,
+.h-thEditsele .h-thSet3 select::-ms-expand {
+    display: none;
+}
+select.h-editselet {
+    width: 130px;
+    height: 30px;
+    margin-right: 36px;
+    font-weight: 500;
+    border: 1px solid #b0b0b0 !important;
+    color: rgb(102, 102, 102);
+    /*background: transparent;*/
+    /*-webkit-appearance:none;*/
+}
+
+.h-editselet:hover {
+    border-color: #49c0e0;
+    /*-webkit-appearance:none;*/
+}
+
+.h-question {
+    /*font-weight: bold;*/
+    font-size: 15px;
+    margin-right: 8px;
+}
+
+.h-fraction {
+    width: 68px;
+    height: 26px;
+    text-indent: 5px;
+    font-weight: 500;
+}
+
+.h-editexal {
+    padding-top: 10px;
+    position: relative;
+}
+.warningEditexals{
+    position: absolute;
+    right: 13px;
+    bottom: 5px;
+    font-size:12px;
+    color: #f37a27;
+}
+
+.h-editexals {
+    width: 100%;
+    border-color: #e9e9e9;
+    /*text-indent: 10px;*/
+    padding:3px 10px;
+    /*padding-top: 3px;*/
+    /*overflow: hidden;*/
+    overflow-x: hidden;
+    overflow-y: auto;
+    resize: none;
+}
+.h-editexals:focus{
+    border-color: #4ac0e0;
+}
+h-editexal textarea[placeholder="在这里输入题干..."] {
+    font-size: 12px;
+}
+
+.h-rdo:checked:before {
+    border-color: #49c0e0;
+    background: #49c0e0;
+}
+
+.h-rdo {
+    width: 0px;
+    height: 0px;
+    background-color: #cecece;
+    margin-right: 26px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.h-rdo:before,
+.h-rdo:after {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    transition: .3s ease;
+}
+
+.h-rdo:before {
+    top: 0px;
+    left: 0px;
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    border: 1px solid #cecece;
+}
+
+.h-rdo:after {
+    top: 3px;
+    left: 3px;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+}
+
+.h-rdos:checked:after {
+    top: 4px;
+    left: 4px;
+    width: 6px;
+    height: 6px;
+    background-color: white;
+}
+
+.h-rdos:checked:before {
+    border-color: #49c0e0;
+    background: #49c0e0;
+}
+
+.h-rdo:after {
+    content: '';
+    display: block;
+    position: absolute;
+    transition: .3s ease;
+}
+
+.h-rdos {
+    margin-bottom: 16px;
+    margin-left: 6px;
+}
+
+.h-radi {
+    display: inline-block;
+    width: 34px;
+    height: 28px;
+    border: 1px solid #e8e8e8;
+    text-align: center;
+    line-height: 28px;
+    margin-right: 10px;
+}
+
+.h-radi1 {
+    display: inline-block;
+    width: 34px;
+    height: 28px;
+    border: 1px solid #e8e8e8;
+    text-align: center;
+    line-height: 28px;
+    margin-right: 10px;
+}
+
+.h-raditext {
+    /*border-color: #e8e8e8;*/
+    width: 92%;
+    height: 28px;
+    border: none;
+    border: 1px solid #e8e8e8;
+    margin-bottom: 3px;
+    text-indent: 5px;
+    resize: none;
+    line-height: 26px;
+}
+
+.h-raditext1 {
+    /*border-color: #e8e8e8;*/
+    width: 92%;
+    height: 28px;
+    border: none;
+    border: 1px solid #e8e8e8;
+    margin-bottom: 3px;
+    text-indent: 5px;
+    resize: none;
+    line-height: 26px;
+}
+
+.h-radios {
+    padding-top: 10px;
+}
+
+.h-radios input {
+    color: #666666;
+}
+
+
+/*这是点击选中正确样式的css*/
+
+.h-checkcss .h-radi1 {
+    background-color: #49c0e0 !important;
+    color: #FFFFFF !important;
+}
+
+.h-checkcss .h-raditext1 {
+    border-color: #1c86ff !important;
+    color: #1c86ff !important;
+}
+
+.h-point p {
+    font-size: 14px;
+    color: #909090;
+}
+
+
+/*这是选择试题难度的css样式*/
+
+.h-degree {
+    height: 48px;
+    line-height: 48px;
+    color: #2d3e3f;
+}
+
+.h-degree .h-degspan {
+    margin-right: 30px;
+}
+
+.h-derado1 {
+    margin-bottom: 17px;
+    margin-left: 10px;
+    margin-right: 14px;
+}
+
+.h-derado {
+    margin-bottom: 17px;
+    margin-left: 46px;
+    margin-right: 14px;
+}
+
+
+/*这是下拉框的css*/
+
+.h-thEditsele {
+    height: 30px;
+    overflow: hidden;
+}
+
+.h-thEditsele .h-thSet1 {
+    float: left;
+    width: 29%;
+    color: #2d3e3f;
+    margin-right: 6%;
+    height: 30px;
+}
+
+.h-thEditsele .h-thSet2 {
+    float: left;
+    width: 33%;
+    color: #2d3e3f;
+    height: 30px;
+}
+
+.h-thEditsele .h-thSet3 {
+    float: right;
+    width: 29%;
+    margin-right: 10px;
+    color: #2d3e3f;
+    height: 30px;
+}
+
+.h-thEditsele .h-thSet1 select:hover,
+.h-thEditsele .h-thSet2 select:hover,
+.h-thEditsele .h-thSet3 select:hover {
+    border-color: #49c0e0;
+}
+.h-thEditsele .h-thSet1 select,
+.h-thEditsele .h-thSet2 select,
+ .h-thEditsele .h-thSet3 select{
+     appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url('../../images/headMaster/aa.svg') no-repeat 98% center;
+    background-size: 15px 13px;
+
+}
+.h-thEditsele .h-thSet1 select::-ms-expand,
+.h-thEditsele .h-thSet2 select::-ms-expand,
+ .h-thEditsele .h-thSet3 select::-ms-expand {
+    display: none;
+}
+.h-thEditsele .h-thSet1 span,
+.h-thEditsele .h-thSet2 span,
+.h-thEditsele .h-thSet3 span,
+.h-thEditsele .h-thSet1 select,
+.h-thEditsele .h-thSet2 select,
+.h-thEditsele .h-thSet3 select {
+    /*float: left;*/
+}
+
+.h-thEditsele .h-thSet1 span,
+.h-thEditsele .h-thSet2 span,
+.h-thEditsele .h-thSet3 span {
+    margin-right: 5px;
+}
+
+.h-thEditsele .h-thSet1 select,
+.h-thEditsele .h-thSet2 select,
+.h-thEditsele .h-thSet3 select {
+    width: 240px;
+    height: 30px;
+    border-radius: 0;
+}
+
+
+/*这是最后点击btn提交的样式*/
+
+.h-thEditbtn {
+    margin-top: 18px;
+}
+
+.h-thEditbtn .h-thEditbtns1 {
+    width: 94px;
+    line-height: 30px;
+    text-align: center;
+    height: 30px;
+    border: none;
+    margin-right: 9px;
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid #e9e9e9;
+    color: #616161;
+}
+
+.h-thEditbtn .h-thEditbtns2 {
+    width: 94px;
+    display: inline-block;
+    line-height: 26px;
+    text-align: center;
+    position: relative;
+    bottom: 2px;
+    height: 30px;
+    background-color: #49c0e0;
+    border: 1px solid #49C0E0;
+    color: #FFFFFF;
+    padding: 0;
+    margin-right: 5px;
+}
+
+.h-thEditbtn .h-editpoint {
+    visibility: hidden;
+}
+
+.h-editpoint .h-chacha {
+    text-decoration: none;
+    height: 13px;
+    width: 12px;
+    display: inline-block;
+    line-height: 12px;
+    background-color: #e2231b;
+    padding-right: 1px;
+    border-radius: 6px;
+    margin-left: 5px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.h-editpoint .h-baocuo {
+    color: #e2231b;
+}
+
+
+/*这是修改的input 的checkbox单选多选的样式*/
+
+.h-radios input[type="checkbox"] {
+    display: none;
+}
+
+.h-radios input[type="checkbox"]+label {
+    cursor: pointer;
+    font-size: 1em;
+    margin-bottom: -2px;
+}
+
+.h-radios input[type="radio"] {
+    display: none;
+}
+
+.h-radios input[type="radio"]+label {
+    cursor: pointer;
+    font-size: 1em;
+    margin-bottom: -2px;
+}
+
+.h-degree input[type="radio"] {
+    display: none;
+}
+
+.h-degree input[type="radio"]+label {
+    cursor: pointer;
+    font-size: 1em;
+    margin-bottom: -2px;
+}
+
+
+/* ==================================================================== */
+
+
+/* CHECKBOX TYPE 3 ---------------------------------------------------- */
+
+
+/* ==================================================================== */
+
+#checkbox-3-1+label,
+#checkbox-3-2+label,
+#checkbox-3-3+label,
+#checkbox-3-4+label,
+#checkbox-4-0+label,
+#checkbox-4-1+label,
+#checkbox-4-2+label,
+#checkbox-4-3+label,
+#checkbox-4-4+label,
+#checkbox-4-5+label,
+#checkbox-5-1+label,
+#checkbox-5-2+label,
+#checkbox-5-3+label {
+    background-color: #FFF;
+    border: 1px solid #C1CACA;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+    padding: 7px;
+    border-radius: 1000px;
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+}
+
+#checkbox-5-1+label,
+#checkbox-5-2+label,
+#checkbox-5-3+label {
+    margin-left: 10px;
+    margin-right: 6px;
+}
+
+#checkbox-3-0+label:active,
+#checkbox-3-1+label:active,
+#checkbox-3-2+label:active,
+#checkbox-3-3+label:active,
+#checkbox-3-4+label:active,
+#checkbox-4-0+label:active,
+#checkbox-4-1+label:active,
+#checkbox-4-2+label:active,
+#checkbox-4-3+label:active,
+#checkbox-4-4+label:active,
+#checkbox-4-5+label:active,
+#checkbox-5-1+label:active,
+#checkbox-5-2+label:active,
+#checkbox-5-3+label:active {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+#checkbox-3-0:checked+label,
+#checkbox-3-1:checked+label,
+#checkbox-3-2:checked+label,
+#checkbox-3-3:checked+label,
+#checkbox-3-4:checked+label,
+#checkbox-4-0:checked+label,
+#checkbox-4-1:checked+label,
+#checkbox-4-2:checked+label,
+#checkbox-4-3:checked+label,
+#checkbox-4-4:checked+label,
+#checkbox-4-5:checked+label,
+#checkbox-5-1:checked+label,
+#checkbox-5-2:checked+label,
+#checkbox-5-3:checked+label {
+    background-color: #FFFFFF;
+    border: 1px solid #49c0e0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05), inset 15px 10px -12px rgba(255, 255, 255, 0.1);
+    color: #243441;
+}
+
+#checkbox-3-1:checked+label:before,
+#checkbox-3-2:checked+label:before,
+#checkbox-3-3:checked+label:before,
+#checkbox-3-4:checked+label:before,
+#checkbox-4-0:checked+label:before,
+#checkbox-4-1:checked+label:before,
+#checkbox-4-2:checked+label:before,
+#checkbox-4-3:checked+label:before,
+#checkbox-4-4:checked+label:before,
+#checkbox-4-5:checked+label:before,
+#checkbox-5-1:checked+label:before,
+#checkbox-5-2:checked+label:before,
+#checkbox-5-3:checked+label:before {
+    content: ' ';
+    border-radius: 100px;
+    position: absolute;
+    background: #49c0e0;
+    /*opacity: 0.8;*/
+    display: none;
+    box-shadow: inset 0 15px 23px -10px rgba(187, 230, 240, 0.3), 0 2px 2px rgba(0, 0, 0, 0.1);
+    top: 3px;
+    left: 3px;
+    width: 8px;
+    height: 8px;
+}
+
+#checkbox-3-1:checked+label:before,
+#checkbox-3-2:checked+label:before,
+#checkbox-3-3:checked+label:before,
+#checkbox-3-4:checked+label:before,
+#checkbox-4-0:checked+label:before,
+#checkbox-4-1:checked+label:before,
+#checkbox-4-2:checked+label:before,
+#checkbox-4-3:checked+label:before,
+#checkbox-4-4:checked+label:before,
+#checkbox-4-5:checked+label:before,
+#checkbox-5-1:checked+label:before,
+#checkbox-5-2:checked+label:before,
+#checkbox-5-3:checked+label:before {
+    content: ' ';
+    display: block;
+}
+
+
+/*简答题*/
+.shotAnswerText{
+    width: 100%;
+    height: 68px;
+    margin-top: 10px;
+    border-color: #e9e9e9;
+    text-indent: 10px;
+    padding-top: 3px;
+    overflow: hidden;
+    overflow-y: auto;
+    resize: none;
+}
+
+/* tips */
+#upDateQuestionSucorerr.upDateQuestionSucorerr {
+    /*display: none;*/
+    position: fixed;
+    top: 75px;
+    right: 30px;
+    /*width: 150px;*/
+    line-height: 26px;
+    /*padding: 5px 4px;*/
+    text-align: center;
+    box-sizing: border-box;
+    width: 150px;
+    overflow: hidden;
+}
+
+#upDateQuestionSucorerr div {
+    display: block;
+    width: 150px;
+    background: #f7944d;
+    color: #fff;
+    border-radius: 3px;
+}
+
+#upDateQuestionSucorerr.upDateQuestionSucorerr i {
+    position: relative;
+    top: 2px;
+}
+
+
+#upDateQuestionSucorerr .upDateQuestionsOeShow {
+    width: 150px;
+}
+
+#upDateQuestionSucorerr.upDateQuestionSucorerr div.upDateQuestionsOeHide {
+    width: 0;
+    opacity: 0;
+    white-space: nowrap;
+    line-height: 26px;
+    overflow: hidden;
+    transition: all 2.5s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.0980392) 0px -3px 5px;
+}

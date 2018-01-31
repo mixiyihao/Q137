@@ -1,0 +1,640 @@
+.PersonageMessage_box {
+    /*height: 112px;*/
+    /*width: 100%;*/
+    /* background: url('../../../../images/manage/PersonageMessage_bar.jpg') no-repeat left top; */
+    /*background-color: #c5e7f0;*/
+    /*!* background-size: 1060px 142px; *!*/
+    position: relative;
+    /*z-index: 30;*/
+    margin-left: 18px;
+    margin-top: 10px;
+}
+
+.PersonageMessage_box h3 {
+    color: #fff;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 12px;
+}
+
+.PersonageMessage_box h3 i {
+    margin-left: 5px;
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+    background: #ef3c7e;
+    border-radius: 4px;
+    vertical-align: 2px;
+}
+
+.PersonageMessage_box .PersonageMessage_msg {
+    height: 34px;
+    line-height: 34px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.PersonageMessage_box .PersonageMessage_msg span {
+    width: 33.33%;
+    display: inline-block;
+    color: #fff;
+}
+
+.PersonageMessage_box .PersonageMessage_msg .PersonageMessage_stuno {
+    text-align: right;
+}
+
+.PersonageMessage_box .PersonageMessage_msg .PersonageMessage_major {
+    text-align: center;
+}
+
+.PersonageMessage_box .PersonageMessage_msg .PersonageMessage_class {
+    text-align: left;
+}
+
+.PersonageMessage_bar {
+    /*width: 1002px;*/
+    height: 82px;
+    /*border-top-left-radius: 10px;*/
+    /*border-top-right-radius: 10px;*/
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 9;
+    /*position: absolute;*/
+    /*left: 50%;*/
+    /*top: 60px;*/
+    /*-webkit-transform: translate(-50%, 0);*/
+    /*-moz-transform: translate(-50%, 0);*/
+    /*-ms-transform: translate(-50%, 0);*/
+    /*-o-transform: translate(-50%, 0);*/
+    /*transform: translate(-50%, 0);*/
+    /*box-shadow: 2px 3px 10px rgba(0, 0, 0, .2);*/
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_synthesize {
+    float: left;
+    height: 80px;
+    width: 180px;
+    background: #fff;
+    border-top-left-radius: 10px;
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_synthesize .question {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #6bbac7;
+    color: #fff;
+    line-height: 18px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .6);
+    margin-left: 7px;
+    position: absolute;
+    right: 35px;
+    top: 2px;
+    /*overflow: hidden;*/
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_synthesize .question i {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #6bbac7;
+    left: 0.5px;
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_synthesize .msgModle_triangle {
+    position: absolute;
+    border-top: 0;
+    border-bottom: 10px solid #6bbac7;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    top: 22px;
+    left: 126px;
+    z-index: 201;
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_synthesize .msgModle_triangle2 {
+    display: none;
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_synthesize .PersonageMessage_bar_ranking {
+    position: absolute;
+    left: 8px;
+    top: -1px;
+    background: #cc2c2c;
+    width: 44px;
+    height: 49px;
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_synthesize .PersonageMessage_bar_ranking p:nth-child(1) {
+    height: 17px;
+    line-height: 20px;
+    color: #fff;
+    font-size: 12px;
+    padding-left: 4px;
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_synthesize .PersonageMessage_bar_ranking p:nth-child(2) {
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_synthesize .PersonageMessage_bar_ranking p:nth-child(2) i {
+    text-align: center;
+    font-size: 14px;
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_synthesize .PersonageMessage_bar_tr {
+    position: absolute;
+    left: 8px;
+    top: 41px;
+    width: 0;
+    height: 0;
+    border-left: 22px solid transparent;
+    border-right: 22px solid transparent;
+    border-bottom: 9px solid #fff;
+}
+
+.PersonageMessage_box .PersonageMessage_bar span {
+    display: inline-block;
+    float: left;
+    text-align: center;
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_synthesize span:nth-child(1) {
+    width: 180px;
+    height: 48px;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: Arial;
+    color: #f1556d;
+    line-height: 54px;
+    margin-top: 8px;
+    position: relative;
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_synthesize span:nth-child(1) sup {
+    position: absolute;
+    right: 56px;
+    top: 15px;
+    font-size: 40px;
+    color: #f1556d;
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_synthesize span .PersonageMessage_bar_supHide {
+    display: none;
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_synthesize span:nth-child(2) {
+    width: 180px;
+    height: 24px;
+    line-height: 24px;
+    color: #6a6a6a;
+    position: relative;
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_score {
+    width: 130px;
+    height: 104px;
+    float: left;
+    background: #f6f6f6;
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_score span:nth-child(1) {
+    float: left;
+    width: 130px;
+    height: 42px;
+    line-height: 50px;
+    text-align: center;
+    color: #787878;
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_score span:nth-child(1) i {
+    color: #88e5ca;
+    font-weight: 700;
+    font-family: Arial;
+    font-size: 26px;
+    padding-right: 2px;
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_score span:nth-child(2) {
+    width: 130px;
+    height: 24px;
+    line-height: 24px;
+    color: #6a6a6a;
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_score span:nth-child(3) {
+    width: 130px;
+    height: 20px;
+    line-height: 20px;
+    color: #6a6a6a;
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_averageLenovo {
+    width: 172px;
+    height: 80px;
+    float: left;
+    background: #f6f6f6;
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_averageLenovo span:nth-child(1) {
+    float: left;
+    width: 146px;
+    height: 42px;
+    line-height: 54px;
+    text-align: center;
+    color: #787878;
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_averageLenovo span:nth-child(1) b {
+    color: #c74ad9;
+    font-weight: 700;
+    font-family: Arial;
+    font-size: 26px;
+    padding-right: 2px;
+    cursor: pointer;
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_averageLenovo span:nth-child(1) b:hover {
+    color: #e376f3;
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_averageLenovo span:nth-child(2) {
+    width: 146px;
+    height: 18px;
+    line-height: 18px;
+    color: #6a6a6a;
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_averageLenovo span:nth-child(3) {
+    width: 146px;
+    height: 18px;
+    line-height: 18px;
+    color: #6a6a6a;
+    font-size: 12px;
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_averageSchool {
+    width: 155px;
+    height: 80px;
+    float: left;
+    background: #f6f6f6;
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_averageSchool span:nth-child(1) {
+    float: left;
+    width: 129px;
+    height: 42px;
+    line-height: 54px;
+    text-align: center;
+    color: #787878;
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_averageSchool span:nth-child(1) b {
+    color: #6974de;
+    font-weight: 700;
+    font-family: Arial;
+    font-size: 26px;
+    padding-right: 2px;
+    cursor: pointer;
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_averageSchool span:nth-child(1) b:hover {
+    color: #9099f5;
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_averageSchool span:nth-child(2) {
+    width: 129px;
+    height: 18px;
+    line-height: 18px;
+    color: #6a6a6a;
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_averageSchool span:nth-child(3) {
+    width: 129px;
+    height: 18px;
+    line-height: 18px;
+    color: #6a6a6a;
+    font-size: 12px;
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_evaluate {
+    width: 174px;
+    height: 80px;
+    float: left;
+    background: #f6f6f6;
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_evaluate span:nth-child(1) {
+    float: left;
+    width: 148px;
+    height: 42px;
+    line-height: 54px;
+    text-align: center;
+    color: #787878;
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_evaluate span:nth-child(1) b {
+    color: #ea37a5;
+    font-weight: 700;
+    font-family: Arial;
+    font-size: 26px;
+    padding-right: 2px;
+    cursor: pointer;
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_evaluate span:nth-child(1) b:hover {
+    color: #f560bc;
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_evaluate span:nth-child(2) {
+    width: 148px;
+    height: 18px;
+    line-height: 18px;
+    color: #6a6a6a;
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_evaluate span:nth-child(3) {
+    width: 148px;
+    height: 18px;
+    line-height: 18px;
+    color: #6a6a6a;
+    font-size: 12px;
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_clockingIn {
+    width: 155px;
+    height: 80px;
+    float: left;
+    background: #f6f6f6;
+    /*border-top-right-radius: 10px;*/
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_clockingIn span:nth-child(1) {
+    float: left;
+    width: 129px;
+    height: 42px;
+    line-height: 54px;
+    text-align: center;
+    color: #787878;
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_clockingIn span:nth-child(1) b {
+    color: #f18109;
+    font-weight: 700;
+    font-family: Arial;
+    font-size: 26px;
+    padding-right: 2px;
+    cursor: pointer;
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_clockingIn span:nth-child(1) b:hover {
+    color: #f9c53b;
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_clockingIn span:nth-child(2) {
+    width: 129px;
+    height: 18px;
+    line-height: 18px;
+    color: #6a6a6a;
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_clockingIn span:nth-child(3) {
+    width: 129px;
+    height: 18px;
+    line-height: 18px;
+    color: #6a6a6a;
+    font-size: 12px;
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_award {
+    width: 166px;
+    height: 80px;
+    float: left;
+    background: #f6f6f6;
+    /*border-top-right-radius: 8px;*/
+    /*border-bottom-right-radius: 8px;*/
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_award span:nth-child(1) {
+    float: left;
+    width: 140px;
+    height: 42px;
+    line-height: 54px;
+    text-align: center;
+    color: #787878;
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_award span:nth-child(1) b {
+    color: #3e9744;
+    font-weight: 700;
+    font-family: Arial;
+    font-size: 26px;
+    padding-right: 2px;
+    cursor: pointer;
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_award span:nth-child(1) b:hover {
+    color: #7ac880;
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_award span:nth-child(2) {
+    width: 140px;
+    height: 18px;
+    line-height: 18px;
+    color: #6a6a6a;
+}
+
+.PersonageMessage_box .PersonageMessage_bar .PersonageMessage_bar_award span:nth-child(3) {
+    width: 140px;
+    height: 18px;
+    line-height: 18px;
+    color: #6a6a6a;
+    font-size: 12px;
+}
+
+.PersonageMessage_evaluateMsg {
+    overflow: hidden;
+    min-height: 26px;
+    background: #fcfcfc;
+    border: 1px solid #e6e6e6;
+    border-top: none;
+    /*border-bottom-left-radius: 10px;*/
+    /*border-bottom-right-radius: 10px;*/
+}
+
+.PersonageMessage_evaluateMsg span {
+    float: left;
+    display: inline-block;
+    height: 100%;
+    width: 71px;
+    color: #a3a3a3;
+    margin-top: 3px;
+}
+
+.PersonageMessage_evaluateMsg.PersonageMessage_evaluateMsgDiff {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.PersonageMessage_evaluateMsgLeft {
+    min-height: 26px;
+    width: 50%;
+    float: left;
+}
+
+.PersonageMessage_evaluateMsgLeft.borderRight {
+    border-right: 1px dashed #e7e7e7;
+}
+
+
+.PersonageMessage_evaluateMsgRight.borderLeft {
+    border-left: 1px dashed #e7e7e7;
+}
+
+.PersonageMessage_evaluateMsgLeft.PersonageMessage_evaluateMsgLeftDiff {
+    width: 55%;
+    /*border-right: 1px dashed #e7e7e7;*/
+}
+
+.PersonageMessage_evaluateMsgLeft.PersonageMessage_evaluateMsgLeftDiff.borderRight {
+    border-right: 1px dashed #e7e7e7;
+}
+
+.PersonageMessage_evaluateMsgRight {
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.PersonageMessage_evaluateMsgRight.PersonageMessage_evaluateMsgRightDiff {
+    width: 45%;
+}
+
+.PersonageMessage_evaluateMsgRight.PersonageMessage_evaluateMsgRightDiff.borderLeft {
+    border-left: 1px dashed #e7e7e7;
+}
+
+.PersonageMessage_evaluateMsgRight.PersonageMessage_evaluateMsgRightDiff2 {
+    width: 100%;
+}
+
+.PersonageMessage_evaluateMsgTea {
+    float: left;
+    height: 100%;
+    width: 26%;
+    color: #5d6160;
+    border-bottom-left-radius: 10px;
+}
+
+.PersonageMessage_evaluateMsgTea.PersonageMessage_evaluateMsgTeaDiff {
+    width: 23%;
+}
+
+.PersonageMessage_evaluateMsgTea p {
+    padding: 10px;
+}
+
+.PersonageMessage_evaluateMsgConcent {
+    float: left;
+    height: 100%;
+    width: 74%;
+    color: #5d6160;
+}
+
+.PersonageMessage_evaluateMsgConcent.PersonageMessage_evaluateMsgConcent2 {
+    width: 100%;
+}
+
+.PersonageMessage_evaluateMsgConcent.PersonageMessage_evaluateMsgConcentDiff {
+    width: 77%;
+}
+
+.PersonageMessage_evaluateMsgConcent p {
+    /*margin-top: 10px;*/
+    /*margin-left: 5px;*/
+    /*float: left;*/
+    padding: 3px 10px 3px 10px;
+}
+
+.PersonageMessage_evaluateMsgRight .PersonageMessage_spanDiff {
+    margin-left: 10px;
+}
+
+.PersonageMessage_evaluateMsgConcent p.PersonageMessage_pdiff {
+    margin-top: 3px;
+    margin-left: 3px;
+    float: left;
+    padding: 0;
+    width: 79%;
+}
+
+.PersonageMessage_evaluateMsgTea.diff {
+    border-radius: 0;
+}
+
+.PersonageMessage_evaluateMsgConcent.diff {
+    border-right: none;
+    border-bottom-right-radius: 10px;
+}
+
+.PersonageMessage_titleMsg {
+    height: 24px;
+    width: 120px;
+    background: #f4f9ff;
+    text-align: center;
+    position: relative;
+    margin-left: 5px;
+    color: #343233;
+    line-height: 24px;
+}
+
+.PersonageMessage_titleMsg.diffColor {
+    background: #f8e9ec;
+}
+
+.PersonageMessage_titleMsgI {
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 9px solid #fcfcfc;
+}
+
+.PersonageMessage_titleMsgI.one {
+    left: 0;
+}
+
+.PersonageMessage_titleMsgI.two {
+    left: 24px;
+}
+
+.P.PersonageMessage_titleMsgI.three {
+    left: 48px;
+}
+
+.PersonageMessage_titleMsgI.four {
+    left: 72px;
+}
+
+.PersonageMessage_titleMsgI.five {
+    left: 96px;
+}

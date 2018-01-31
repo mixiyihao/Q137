@@ -1,0 +1,113 @@
+.checkWork_Box {
+    height: 345px;
+    position: relative;
+    margin-top: 25px;
+    margin-left: 18px;
+}
+
+.checkWork_Box .checkWork_Title {
+    width: 100%;
+    height: 50px;
+    background-color: #f2f2f2;
+    color: #2f363f;
+    line-height: 50px;
+    text-indent: 14px;
+    font-weight: 400;
+}
+
+.checkWork_Box select {
+    width: 242px;
+    height: 30px;
+    color: #666666;
+    padding-left: 10px;
+    border: 1px solid #b0b0b0;
+    line-height: 30px;
+    position: absolute;
+    right: 14px;
+    top: 60px;
+    z-index: 99;
+}
+
+.checkWork_Box .checkWork_Center {
+    height: 295px;
+    border: 1px solid #f2f2f2;
+    border-top: none;
+}
+
+.checkWork_Box .checkWork_Chars {
+    height: 295px;
+    width: 100%;
+}
+
+.checkWork_Box .checkWork_LookBox {
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    color: #fff;
+    position: absolute;
+    top: 9px;
+    right: 9px;
+}
+
+.checkWork_Box .checkWork_Look {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    background: #49c0e0;
+    color: #fff;
+}
+
+.checkWork_Box .checkWork_Look.button {
+    padding: 2px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.checkWork_Box .checkWork_Look:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #38a7c5;
+    border-radius: 100%;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.checkWork_Box .checkWork_Look:hover:before,
+.checkWork_Box .checkWork_Look:focus:before,
+.checkWork_Box .checkWork_Look:active:before {
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -ms-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2);
+}
+
+.checkWork_Box .checkWork_Look:hover,
+.checkWork_Box .checkWork_Look:focus,
+.checkWork_Box .checkWork_Look:active {
+    color: white;
+}

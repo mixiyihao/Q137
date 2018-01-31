@@ -1,0 +1,19 @@
+{
+    "employees": [
+        {
+            "FamilyName": "张",
+            "giveName": "三",
+            "salary": 1
+        },
+        {
+            "FamilyName": "李",
+            "giveName": "四",
+            "salary": 2
+        },
+        {
+            "FamilyName": "王",
+            "giveName": "二",
+            "salary": 3
+        }
+    ]
+}

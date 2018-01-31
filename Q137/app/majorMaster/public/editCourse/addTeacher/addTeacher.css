@@ -1,0 +1,40 @@
+#addteacher{
+    position: absolute;
+    width: 150px;
+    height: 20px;
+    right: 0;
+    top: 0;
+    box-sizing: border-box;
+    padding-left: 20px;
+    margin-left: 5px;
+}
+.addTeacherBtn{
+    position: absolute;
+    left: -2px;
+    top: 2px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    box-sizing: border-box;
+    border-radius: 100%;
+    background-color: #4ac0e0;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+#addteacher .videoTeacherName{
+    width: 80px;
+    height: 20px;
+    line-height: 20px;
+    border:1px solid #dedede;
+    
+}
+#addteacher a.videoTeacherSubmit{
+    width: 40px;
+    height: 20px;
+    line-height: 18px;
+    font-size: 12px;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+}

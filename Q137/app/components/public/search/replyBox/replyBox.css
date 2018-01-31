@@ -1,0 +1,262 @@
+.replyBox-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.replyBox-wrap {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 999;
+    width: 865px;
+    height: 500px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(238, 238, 238);
+    /*transform: translate(-50%, -50%);*/
+    /*-o-transform: translate(-50%, -50%);*/
+    /*-ms-transform: translate(-50%, -50%);*/
+    /*-moz-transform: translate(-50%, -50%);*/
+    /*-webkit-transform: translate(-50%, -50%);*/
+}
+
+.replyBox-title {
+    height: 40px;
+    border-bottom: 1px solid #dadada;
+    line-height: 40px;
+    position: relative;
+    margin: 0 17px;
+}
+
+.replyBox-scroll {
+    height: 458px;
+    overflow-y: auto;
+    padding: 0 17px;
+}
+
+.replyBox-title-msg {
+    float: left;
+    font-size: 16px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.replyBox-title-close {
+    position: absolute;
+    right: -18px;
+    top: 0;
+    /*float: right;*/
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    display: block;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.replyBox-title-close:hover {
+    background: #4ac0e0;
+    color: #fff;
+}
+
+.replyBox-question-title {
+    height: 29px;
+    line-height: 29px;
+    background: #e7f2f4;
+    margin-top: 12px;
+}
+
+.replyBox-question-title-msg {
+    margin-left: 47px;
+    font-size: 14px;
+    color: #413f40;
+    font-weight: 700;
+    float: left;
+}
+
+.replyBox-question-title p {
+    padding-left: 12px;
+    color: #4fc1dc;
+    width: 88%;
+    float: left;
+    font-weight: 700;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+
+.replyBox-question-msg {
+    min-height: 30px;
+    background: #f5f5f5;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+
+.replyBox-question-msg span {
+    margin-left: 19px;
+    font-size: 14px;
+    color: #413f40;
+    font-weight: 700;
+    float: left;
+    height: 100%;
+}
+
+.replyBox-question-msg .replyBox-question-detail {
+    padding-left: 12px;
+    color: #5f5f5f;
+    width: 88%;
+    font-weight: 700;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    height: 100%;
+}
+
+.replyBox-question-people {
+    height: 20px;
+    margin-top: 10px;
+    line-height: 20px;
+    font-weight: 700;
+    margin-left: 17px;
+    width: 100%;
+}
+
+.replyBox-question-people-name {
+    float: left;
+}
+
+.replyBox-question-people-time {
+    float: left;
+    margin-left: 80px;
+}
+
+.replyBox-question-people-span {
+    padding-left: 16px;
+    color: #413f40;
+}
+
+.replyBox-question-people-name .prople-name {
+    padding-left: 12px;
+    color: #606060;
+    font-weight: 500;
+}
+
+.replyBox-question-people-time .people-time {
+    color: #606060;
+    font-weight: 500;
+}
+
+.replyBox-question-label-none {
+    display: none;
+}
+
+.replyBox-question-label {
+    margin-top: 10px;
+    width: 100%;
+    min-height: 20px;
+}
+
+.replyBox-question-label-box {
+    margin-left: 8px;
+    float: left;
+}
+
+.replyBox-question-label-node {
+    display: block;
+    height: 20px;
+    margin-left: 4px;
+    margin-bottom: 4px;
+    background: #a4dfef;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    line-height: 18px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.replyBox-question-label-title {
+    height: 100%;
+    float: left;
+    display: inline-block;
+    margin-left: 19px;
+    font-size: 14px;
+    color: #413f40;
+    font-weight: 700;
+}
+
+.replyBox-question-answer {
+    margin-top: 10px;
+    width: 100%;
+    height: 140px;
+}
+
+.replyBox-question-answer-title {
+    float: left;
+    height: 100%;
+    margin-left: 19px;
+    padding-top: 6px;
+    font-weight: 700;
+    color: #413f40;
+}
+
+.replyBox-question-answer textarea {
+    height: 135px;
+    float: left;
+    border: 1px solid #e8e8e8;
+    margin-left: 12px;
+    width: 87%;
+    resize: none;
+    outline: none;
+    padding: 5px;
+}
+
+.replyBox-question-button {
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-bottom: 15px;
+    overflow: hidden;
+} 
+
+.replyBox-question-button span {
+    height: 34px;
+    width: 95px;
+    line-height: 34px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.replyBox-question-button-cancel {
+    color: #606060;
+    border: 1px solid #e8e8e8;
+    float: left;
+}
+
+.replyBox-question-button .replyBox-question-button-enter {
+    margin-left: 10px;
+    color: #fff;
+    background: #51c0de;
+    padding: 0;
+    float: left;
+}
+
+.replyBox-question-button .replyBox-question-button-none {
+    margin-left: 10px;
+    color: #fff;
+    background: #b5d4e7;
+    padding: 0;
+    float: left;
+}

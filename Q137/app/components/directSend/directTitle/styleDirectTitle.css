@@ -1,0 +1,31 @@
+.h-direct {
+    height: 144px;
+}
+
+.h-directhang {
+    height: 144px;
+    background-color: #f0a144;
+}
+
+.h-directitl {
+    height: 144px;
+    /*padding-left: 280px;*/
+    background: url("./jinpingzhibo.png") no-repeat 692px;
+    background-size: 38%;
+    background-color: #f0a144;
+    /*padding-right: 30px;*/
+    padding: 20px 40px 0 310px;
+}
+
+.h-directitl .h-ltitl {
+    padding-top: 20px;
+}
+
+.h-directitl .h-h1font {
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.h-directitl .h-futitl {
+    color: #FFFFFF;
+}

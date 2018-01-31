@@ -1,0 +1,266 @@
+.editItemWrap {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1002;
+    display: -webkit-box;
+    /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box;
+    /* 老版本语法: Firefox (buggy) */
+    display: -ms-flexbox;
+    /* 混合版本语法: IE 10 */
+    display: -webkit-flex;
+    /* 新版本语法: Chrome 21+ */
+    display: flex;
+    /* 新版本语法: Opera 12.1, Firefox 22+ */
+    -webkit-box-pack: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.editItemContainer {
+    /*position: absolute;*/
+    position: relative;
+    width: 650px;
+    min-height: 350px;
+    background-color: #fff;
+    clear: both;
+    padding: 12px 0 12px 14px;
+}
+
+.editItemContainer .editItemTitle {
+    position: relative;
+    width: 620px;
+    height: 20px;
+    line-height: 14px;
+    font-size: 14px;
+    /*margin-bottom:7px;*/
+    margin: 0 14px 7px 0;
+    color: #333333;
+    border-bottom: 1px solid #dadada;
+    box-sizing: border-box;
+}
+
+.editItemContainer .editItemTitle .icon-guanbi {
+    position: absolute;
+    right: -10px;
+    top: -11px;
+    width: 30px;
+    height: 30px;
+    /*float: right;*/
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+    color: black;
+    font-size: 12px;
+}
+
+.editItemContainer .editItemTitle .icon-guanbi:hover {
+    color: #fff;
+    background-color: #4ac0e0;
+}
+
+.editItemChangeType select {
+    width: 120px;
+    height: 30px;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url('../../../images/headMaster/aa.svg') no-repeat 98% center;
+    background-size: 15px 13px;
+    background-color: #fff;
+    margin-left: 3px;
+}
+
+.editItemChangeStem {
+    padding-right: 20px;
+    margin-top: 10px;
+}
+
+.editItemChangeStem textarea {
+    width: 100%;
+    height: 70px;
+    border: 1px solid #e9e9e9;
+    padding: 3px;
+    resize: none;
+}
+
+.ansItem {
+    position: relative;
+    padding-left: 75px;
+    margin-top: 6px;
+}
+
+.roundOut {
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    top: 5px;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    border: 1px solid #f1f1f1;
+    /*background-color: #f1f1f1;*/
+}
+
+.roundOut i {
+    /*display: inline-block;*/
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 100%;
+    background-color: #fff;
+}
+
+.roundOut.isAns {
+    border-color: #5ec6e2;
+}
+
+.roundOut.isAns i {
+    background-color: #5ec6e2;
+}
+
+i.squOut {
+    position: absolute;
+    /*display: inline-block;*/
+    left: 25px;
+    top: 0;
+    width: 36px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #f1f1f1;
+}
+
+i.squOut.isAns {
+    background-color: #5ec6e2;
+    border-color: #5ec6e2;
+    color: #fff;
+}
+
+.ansItem span textarea {
+    resize: none;
+    width: 540px;
+    height: 30px;
+    line-height: 28px;
+    padding-left: 3px;
+    border: 1px solid #f1f1f1;
+    overflow-y: auto;
+}
+
+span.isAns textarea {
+    border-color: #5ec6e2;
+}
+.editItemChangeLevel{
+    margin-top: 6px;
+}
+.editItemChangeLevel select{
+    width: 60px;
+    height: 30px;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url('../../../images/headMaster/aa.svg') no-repeat 98% center;
+    background-size: 15px 13px;
+    background-color: #fff;
+    margin-left: 3px;
+}
+.editItemBelongTo{
+    margin-top: 6px;
+}
+.editItemBelongTo span{
+    margin-left: 3px;
+}
+.editItemMethod{
+    margin-top: 6px;
+}
+.turnBack,.saveThoseData{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.turnBack,.turnBack:hover{
+    line-height: 30px;
+    border:1px solid #f5f5f5;
+    color: #61656f;
+}
+.saveThoseData{
+    position: relative;
+    top: -1px;
+    margin-left: 10px;
+    background-color: #4ac0e0;
+    color: #fff;
+    padding: 0;
+    line-height: 28px;
+}
+.shotAns{
+    margin-top: 6px;
+    width: 100%;
+    padding-right: 20px;
+}
+.shotAns textarea{
+    width: 100%;
+    height: 70px;
+    padding: 3px;
+    resize: none;
+    border:1px solid #f1f1f1;
+}
+/*成功提示*/
+#editItemSucorerr.editItemSucorerr {
+    /*display: none;*/
+    position: fixed;
+    top: 75px;
+    right: 30px;
+    /*width: 150px;*/
+    line-height: 26px;
+    /*padding: 5px 4px;*/
+    text-align: center;
+    box-sizing: border-box;
+    width: 150px;
+    overflow: hidden;
+}
+
+#editItemSucorerr div {
+    display: block;
+    width: 150px;
+    background: #f7944d;
+    color: #fff;
+    border-radius: 3px;
+}
+
+#editItemSucorerr.editItemSucorerr i {
+    position: relative;
+    top: 2px;
+}
+
+
+#editItemSucorerr .editItemsOeShow {
+    width: 150px;
+}
+
+#editItemSucorerr.editItemSucorerr div.editItemsOeHide {
+    width: 0;
+    opacity: 0;
+    white-space: nowrap;
+    line-height: 26px;
+    overflow: hidden;
+    transition: all 2.5s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.0980392) 0px -3px 5px;
+}

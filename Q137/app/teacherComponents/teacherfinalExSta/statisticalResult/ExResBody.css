@@ -1,0 +1,214 @@
+.examResTabspanh {
+    /*border-top: 5px solid #4ac0e0;*/
+    margin-bottom: -1px;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+
+.examResTabspan {
+    cursor: pointer;
+    border-top: 2px solid #f4f4f5;
+    background: #f4f4f5;
+}
+
+.spro_examRessearch>span {
+    margin-left: 12px;
+    display: inline-block;
+    margin-top: 22px;
+    color: #333;
+    letter-spacing: 1px;
+}
+
+ul.finalExamul {
+    width: 1040px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    color: rgb(47, 54, 63);
+    border-right: 1px solid rgb(242, 242, 242);
+    border-bottom: 1px solid rgb(242, 242, 242);
+    overflow: hidden;
+}
+
+ul.finalExamul li {
+    display: inline-block;
+    float: left;
+    height: 50px;
+}
+
+.spro_examRessearch>input {
+    overflow: visible;
+    outline: none;
+    border: 1px solid #b0b0b0;
+    position: relative;
+    height: 30px;
+    width: 281px;
+    line-height: 30px;
+    width: 1;
+    margin-left: 4px;
+    padding-left: 4px;
+    background: rgb(245, 245, 245);
+}
+
+.spro_examRessearch>input::-webkit-input-placeholder {
+    position: relative;
+    padding-left: 9px;
+    line-height: 24px;
+    color: #676767;
+}
+
+.spro_examRessearch>input:hover {
+    outline: blue;
+    border: 1px solid #49C0E0;
+    height: 30px;
+    width: 281px;
+    background: #fff;
+}
+
+.spro_examRessearch>input:focus {
+    outline: blue;
+    height: 30px;
+    border: 1px solid #49C0E0;
+    width: 281px;
+}
+
+.spro_examRessearch>b.finalb {
+    cursor: pointer;
+    vertical-align: middle;
+    border: 0px solid #4AC0E0 !important;
+    font-weight: normal;
+    position: relative;
+    width: 65px;
+    height: 30px;
+    background: #4AC0E0;
+    color: #fff;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+}
+/*.spro_examRessearch>b {
+    cursor: pointer;
+    top: 2px;
+    border: 0px solid #4AC0E0 !important;
+    font-weight: normal;
+    position: relative;
+    width: 65px;
+    height: 28px;
+    background: #4AC0E0;
+    color: #fff;
+    font-size: 14px;
+    line-height: 29px;
+    text-align: center;
+    display: inline-block;
+}*/
+.spro_examRessearch:hover>b {
+    height: 28px;
+}
+
+ol.spro_examResoll .coG,
+ol.spro_examResoll .suG {
+    top: 0px;
+    position: relative;
+}
+
+ul.finalExamul li {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.spro_examResoll>li {
+    color: #2d363f;
+    bottom: 10px;
+    display: inline-block;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+}
+.spro_examResoll>li.lastERli{
+    position: relative;
+    top: 25px;
+    margin-left: 30px;  
+}
+.lastERli tr{
+    height: 5px;
+    line-height: 13px;
+}
+.spro_Excjli,
+.spro_Exctli {
+    top: 0px;
+    position: relative;
+}
+.spro_Excjli,
+.spro_Exctli,
+.coG,
+.suG{
+    cursor: pointer;
+}
+.spro_TabL2 {
+    display: none;
+}
+
+i.finalExshang {
+    position: absolute;
+    top: 0px;
+    background-size: 100%;
+    left: 50px;
+    height: 20px;
+}
+
+i.finalExshangG {
+    position: absolute;
+    top: 0px;
+    background-size: 100%;
+    right: -4px;
+    height: 20px;
+}
+
+i.finalExshangtwo {
+    position: absolute;
+    top: -7px;
+    background-size: 100%;
+    right: 0px;
+    height: 20px;
+}
+
+.shangClass {
+    left: 50px !important;
+}
+
+
+/*i.xia:hover{
+  color: #4AC0E0;
+}
+i.shang:hover{
+  color: #4AC0E0;
+}*/
+
+i.finalExxia {
+    background-size: 100%;
+    position: absolute;
+    top: 0px;
+    height: 27px;
+}
+
+i.finalExxiatwo {
+    background-size: 100%;
+    position: absolute;
+    top: -7px;
+    right: 5px;
+    height: 27px;
+}
+
+span.teacherExamResultspan {
+    font-size: 14px;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+}
+
+.teacherExamResultspaniconfont {
+    font-size: 18px !important;
+    top: 3.5px !important;
+}

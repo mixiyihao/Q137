@@ -1,0 +1,57 @@
+.marksqMian {
+    margin-top: 10px;
+}
+
+.marksqMian h2 {
+    padding-left: 9px;
+    border-left: 4px solid #4ac0e0;
+    height: 20px;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #606060;
+}
+
+span.marksqMainoutterspan {
+    padding-left: 13px;
+    width: 100%;
+    margin: 8px auto;
+    color: #616161;
+}
+div.stTitle{
+    height: 20px;
+}
+span.marksqMainoutterspan b {
+    display: inline-block;
+    margin: 0 3px;
+    font-weight: normal;
+}
+
+span.sq_jiandati {
+    font-size: 16px;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #606060;
+    display: inline-block;
+}
+
+div.marksqitemmain {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+div.sqItemsaveScoreWrap {
+    width: 1040px;
+    margin-left: 20px;
+}
+
+div.MarkpaperMainWrap {
+    margin-top: 26px;
+    margin-left: 20px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+span.sq_jiandati i {
+    padding: 0 3px;
+    font-size: 12px;
+}

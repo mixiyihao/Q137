@@ -1,0 +1,103 @@
+.homeOverview_Box {
+    height: 390px;
+    width: 516px;
+    margin-top: 25px;
+    float: left;
+    position: relative;
+    margin-left: 18px;
+}
+
+.homeOverview_Box .homeOverview_Title {
+    width: 100%;
+    height: 50px;
+    background-color: #f2f2f2;
+    color: #2f363f;
+    line-height: 50px;
+    text-indent: 14px;
+    font-weight: 400;
+}
+
+.homeOverview_Box .homeOverview_Center {
+    height: 330px;
+    border: 1px solid #f2f2f2;
+    border-top: none;
+}
+
+.homeOverview_Box .homeOverview_Chars {
+    height: 327px;
+    width: 100%;
+    top: 12px;
+}
+
+.homeOverview_Box .homeOverview_LookBox {
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    color: #fff;
+    position: absolute;
+    top: 9px;
+    right: 9px;
+}
+
+.homeOverview_Box .homeOverview_Look {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    background: #49c0e0;
+    color: #fff;
+}
+
+.homeOverview_Box .homeOverview_Look.button {
+    padding: 2px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.homeOverview_Box .homeOverview_Look:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #38a7c5;
+    border-radius: 100%;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.homeOverview_Box .homeOverview_Look:hover:before,
+.homeOverview_Box .homeOverview_Look:focus:before,
+.homeOverview_Box .homeOverview_Look:active:before {
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -ms-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2);
+}
+
+.homeOverview_Box .homeOverview_Look:hover,
+.homeOverview_Box .homeOverview_Look:focus,
+.homeOverview_Box .homeOverview_Look:active {
+    color: white;
+}

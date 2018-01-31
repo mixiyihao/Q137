@@ -1,0 +1,522 @@
+.FirstPagetit {
+    padding-top: 15px;
+    width: 100%;
+    background: #fff;
+}
+
+.FirstBanner {
+    padding-left: 7px;
+    width: 510px;
+    height: 340px;
+    display: inline-block;
+    position: relative;
+    float: left;
+}
+.Wrapqhsbleft{
+    float: left;
+    width: 787px;
+}
+
+.FirstPageInfo2 {
+    
+    float: right;
+}
+.FirstPageInfoWrap{
+     padding-top: 15px;
+    float: right;
+}
+.FirstPageInfo {
+    float: right;
+}
+
+li.FirstPageOneli span.fpOneSpan,
+li.FirstPageTwoli,
+li.FirstPageThrli {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.FirstIMG {
+    margin-left: 10px;
+    float: left;
+    width: 262px;
+    height: 335px;
+    position: relative;
+}
+
+.FirstIMG img {
+    width: 262px;
+    height: 160px;
+}
+
+.FirstinnerDivO {
+    position: absolute;
+    top: 0;
+}
+
+.FirstIMG .FirstinnerDivI {
+    position: relative;
+}
+
+.FirstinnerDivI .FirstinnerSpanI {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    color: #fff;
+}
+
+.FirstinnerDivT {
+    position: absolute;
+    bottom: 0;
+}
+
+.FirstinnerDivO img,
+.FirstinnerDivT img {
+    width: 100%;
+}
+
+.FirstPageInfo,
+.FirstPageInfo2 {
+    /*padding-top: 32px;
+	margin-left: 20px;*/
+    display: inline-block;
+    width: 262px;
+   /* height: 300px;*/
+}
+
+.FirstPageInfo h2 {
+    padding-left: 7px;
+    /*border-left: 4px solid #81409e;*/
+    border-left:4px solid #4fc0de;
+    height: 20px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.FirstPageInfo2 h2 {
+    font-size: 16px !important;
+}
+
+.FirstPageInfo .fpOneSpan,
+.FirstPageInfo2 .fpOneSpan,
+.FirstPageInfop .fpOneSpan {
+    width: 214px;
+}
+
+.FirstPageInfo .fpOneSpan,
+.FirstPageInfo2 .fpOneSpan {
+    line-height: 20px;
+    height: 17px;
+    float: left;
+}
+
+.FirstPageInfo .fpOneSpan:hover,
+.FirstPageTwoli:hover,
+.FirstPageThrli:hover,
+li.FirstPageOneli .fpOneSpan:hover {
+    cursor: pointer;
+    color: #1380f9;
+}
+
+.FirstPageInfo .fpTwoSpan,
+.FirstPageInfo2 .fpTwoSpan {
+    float: left;
+    line-height: 22px;
+    color: #989898;
+}
+
+.FirstPageInfo .fpTwoSpan i,
+.FirstPageInfo2 .fpTwoSpan i {
+    color: red;
+    font-size: 24px;
+}
+
+.FirstPageInfo .fpTwoSpan b,
+.FirstPageInfo2 .fpTwoSpan b {
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.FirstPagetit,
+.FirstPagekecheng {
+    *zoom: 1;
+}
+
+.FirstPagetit:after,
+.FirstPagekecheng:after ,
+.Wraphsb:after
+{
+    display: block;
+    content: "clear";
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.FirstPageOneli>div.sanjiao {
+    float: left;
+    position: relative;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 36px solid #fb0d1c;
+    border-right: 36px solid transparent;
+}
+
+.FirstPageOneli>div.abs {
+    position: absolute;
+    top: 27%;
+    left: 11px;
+    color: #fff;
+    transform: translate(-50%, -50%);
+}
+
+.FirstPageOneli {
+    position: relative;
+    color: #404040;
+    height: 40px !important;
+}
+
+.FirstPageInfo ul,
+.FirstPageInfo2 ul {
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.FirstPageInfo li,
+.FirstPageInfo2 li {
+    margin: 4px 0;
+}
+
+.FirstPageTwoli,
+.FirstPageThrli {
+    color: #404040;
+    height: 22px !important;
+}
+
+.FirstPagekecheng {
+    min-height: 300px;
+    background: #fff;
+    padding: 15px 0px 0px 6px;
+}
+
+.Specialkecheng {
+    margin-top: 0px !important;
+}
+
+.FirstPagekecheng .FirstPagekechengLeft {
+    float: left;
+    display: inline-block;
+}
+
+.FirstPagekechengLeft ul {
+    width: 760px;
+    padding-left: 12px;
+}
+
+.FirstPagekechengLeft>h2 {
+    margin-bottom: 10px;
+}
+
+.FirstPagekechengLeft li {
+    width: 100%;
+    height: 151px;
+    border-bottom: 1px dashed #e3e3e3;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.FirstPagekecheng li img {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+}
+
+div.fpkconeleft {
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 120px;
+}
+
+.fpkconetext {
+    /* text-indent: 20px; */
+    margin-left: 10px;
+    width: 500px;
+    float: left;
+}
+
+.fpkconetext h3 {
+    font-size: 16px;
+}
+
+.FirstPageshipin ul {
+    padding-left: 10px;
+}
+
+.FirstPageshipin li {
+    position: relative;
+    margin-right: 10px;
+    overflow: hidden;
+    float: left;
+    display: inline-block;
+    height: 240px;
+}
+
+div.fpkconeleft b {
+    text-align: center;
+    position: absolute;
+    font-weight: normal;
+    font-size: 14px;
+    width: 60px;
+    height: 22px;
+    left: 10px;
+    top: 0px;
+}
+
+div.lookmore {
+    height: 50px;
+    padding: 7px;
+    width: 760px;
+}
+
+span.lookmorespan {
+    cursor: pointer;
+    margin: 0px auto;
+    display: block;
+    text-align: center;
+    width: 175px;
+    height: 35px;
+    background: #4eb5d1;
+    color: #fff;
+    line-height: 35px;
+}
+
+.FirstPageshipin li img {
+    background-size: 100%;
+}
+
+.FirstPageshipin li.fpone {
+    width: 420px;
+}
+
+.FirstPagekechengLeft li:hover {
+    transition: .3s;
+    background: #fff;
+    -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+    /* -webkit-transform: translate3d(0, 0px, -2px); */
+    /* transform: translate3d(0, 1px, -2px); */
+}
+
+.fpkconetext .des {
+    font-size: 12px;
+    text-align: left;
+    color: #9baab6;
+    padding-left: 20px;
+    line-height: 22px;
+    text-align: left;
+}
+
+.fpkconetext .headTit {
+    padding-left: 20px;
+    display: block;
+    font-size: 16px;
+    color: #404040;
+    font-weight: 400;
+    text-align: left;
+}
+
+.fpkconetext .headTit:hover {
+    color: #1380f9;
+}
+
+.fpkconetext .msg {
+    font-size: 14px;
+    color: #9baab6;
+    line-height: 25px;
+}
+
+.fpkconetext .msg a {
+    font-size: 12px;
+    color: #9baab6;
+}
+
+.fpkconetext .msg .aut {
+    line-height: 25px;
+    color: #6cbf4b;
+    position: absolute;
+    bottom: 14px;
+    left: 320px;
+}
+
+.fpkconetext .msg .aut img {
+    width: 25px;
+    vertical-align: middle;
+    margin-right: 8px;
+    height: 25px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+.fpkconetext .msg .time {
+    float: left;
+    margin-left: 10px;
+    font-size: 9px;
+    position: absolute;
+    bottom: 14px;
+    left: 200px
+}
+
+.fpkconetext .msg .time i {
+    margin-right: 3px;
+}
+
+.fpkconetext .msg .tags {
+    float: right;
+}
+
+.fpkconetext .msg p {
+    margin: 10px;
+    color: #606060;
+    padding-left: 14px;
+    line-height: 20px;
+    text-indent: 0px;
+    font-size: 14px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.fpkconetext .msg .tags a {
+    display: inline-block;
+    padding-left: 8px;
+}
+
+.fpkconetext .msg .tags em {
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../../../images/404/404_03.jpg") no-repeat -215px -46px;
+    width: 14px;
+    height: 14px;
+}
+
+.FirstPageshipin li.fptwo {
+    width: 300px;
+}
+
+.FirstPageshipin li.fpthr {
+    width: 230px;
+}
+
+.FirstPageshipin {
+    min-height: 300px;
+    background: #fff;
+    margin-top: 10px;
+    padding: 10px 0px 0px 6px;
+}
+
+.FirstPageshipin>h2 {
+    margin-bottom: 20px;
+}
+
+.FirstPageshipin>h2,
+.FirstPagekecheng div>h2 {
+    font-size: 18px;
+    height: 20px;
+    line-height: 20px;
+    width: 200px;
+    padding-left: 7px;
+    border-left: 4px solid #4fc0de;
+}
+/*加载更多样式*/
+div.FirstPagekechengLeft div.viewMore{
+    
+    height: 66px;
+    width: 100%;
+    position: relative;
+    margin-top: 30px;
+    overflow: hidden;
+}
+div.viewMore div.viewLine{
+    height: 1px;
+    width: 100%;
+    border-bottom: 1px dashed #f2f2f2;
+    margin-top: 32px;
+}
+div.viewMore span.info{
+    display: inline-block;
+    width: 140px;
+    height: 66px;
+    background-color: #ffffff;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    /* transform: translate(-50%, 0); */
+    transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    line-height: 66px;
+    text-align: center;
+    color: #8c8b8b;
+    font-size: 16px;
+    cursor: pointer;
+}
+div.viewMore span.info2{
+    width: 140px;
+    height: 66px;
+    background-color: #ffffff;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    /* transform: translate(-50%, 0); */
+    transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    line-height: 66px;
+    text-align: center;
+    color: #1380fa;
+    font-size: 16px;
+    cursor: pointer;
+}
+.absoluteFirstPageAll{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: white;
+    z-index: 10;
+    top: 0;
+}
+.spro_storeAll,.spro_storeAll .spro_liststore{
+    height: 100%;
+}
+.spro_storeimage {
+    position: relative;
+    background-image: url("../../../images/Noexam/Noexam2.jpg");
+    background-repeat: no-repeat;
+    background-size: 80%;
+    width: 368px;
+    height: 256px;
+    margin: 1% auto 0;
+}
+.spro_storeimagespan {
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    position: absolute;
+    top: 102%;
+    font-style: italic;
+    color: #a6a6a6;
+    /*font-family: "Microsoft YaHei";*/
+}
+.spro_storeAll{
+    padding-top: 100px;
+}

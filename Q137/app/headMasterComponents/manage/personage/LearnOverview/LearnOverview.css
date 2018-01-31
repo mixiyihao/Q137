@@ -1,0 +1,115 @@
+.learnOverview_Box {
+    height: 390px;
+    width: 516px;
+    margin-top: 25px;
+    float: left;
+    margin-left: 10px;
+    position: relative;
+}
+
+.learnOverview_Box .learnOverview_Title {
+    width: 100%;
+    height: 50px;
+    background-color: #f2f2f2;
+    color: #2f363f;
+    line-height: 50px;
+    text-indent: 14px;
+    font-weight: 400;
+}
+
+.learnOverview_Box .learnOverview_Center {
+    height: 330px;
+    border: 1px solid #f2f2f2;
+    border-top: none;
+    overflow: hidden;
+}
+
+.learnOverview_Box .learnOverview_Tool {
+    height: 30px;
+    width: 100%;
+    margin-top: 12px;
+    padding-left: 13px;
+    line-height: 30px;
+}
+
+.learnOverview_Box .learnOverview_Tool .learnOverview_ToolSpan {
+    padding: 0 9px;
+}
+
+.learnOverview_Box .learnOverview_Chars {
+    height: 285px;
+    width: 100%;
+}
+
+.learnOverview_Box .learnOverview_LookBox {
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    color: #fff;
+    position: absolute;
+    top: 9px;
+    right: 9px;
+}
+
+.learnOverview_Box .learnOverview_Look {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    background: #49c0e0;
+    color: #fff;
+}
+
+.learnOverview_Box .learnOverview_Look.button {
+    padding: 2px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.learnOverview_Box .learnOverview_Look:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #38a7c5;
+    border-radius: 100%;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.learnOverview_Box .learnOverview_Look:hover:before,
+.learnOverview_Box .learnOverview_Look:focus:before,
+.learnOverview_Box .learnOverview_Look:active:before {
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -ms-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2);
+}
+
+.learnOverview_Box .learnOverview_Look:hover,
+.learnOverview_Box .learnOverview_Look:focus,
+.learnOverview_Box .learnOverview_Look:active {
+    color: white;
+}

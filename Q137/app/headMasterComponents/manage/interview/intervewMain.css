@@ -1,0 +1,426 @@
+.interviewWrap {
+    margin-top: 13px;
+    /*margin-bottom: 20px;*/
+    min-height: 536px;
+    padding: 20px;
+    position: relative;
+    color: #333;
+}
+
+.interviewWrap h2 {
+    font-weight: 400;
+    font-size: 18px;
+    height: 20px;
+    line-height: 20px;
+    border-left: 4px solid #49c0e0;
+    padding-left: 14px
+}
+
+.interviewMessage {
+    width: 1040px;
+    margin-left: 19px;
+    height: 84px;
+    line-height: 28px;
+    padding-top: 15px;
+    padding-left: 4px;
+    box-sizing: border-box;
+    /*margin-left: 10px;*/
+    margin-top: 15px;
+    /*background-color: #cff0df;*/
+    background: #f5f5f5;
+    border-bottom: 1px dashed #c9c9c9;
+}
+
+.interviewMessage span {
+    /*color: #46b976;*/
+    color: #333;
+    margin: 0 30px 0 7px;
+}
+
+.interviewMessage span.interviewName {
+    font-size: 16px;
+}
+
+.interviewCommitBox {
+    width: 1050px;
+    margin: 12px 0px 20px 15px;
+    padding: 0px 0px 20px 14px;
+    border-bottom: 1px dashed #c8c8c8;
+}
+
+.interviewCommitBox div.interviewTerm,
+.interviewCommitBox div.interviewTime,
+.interviewCommitBox div.interviewContent {
+    margin-bottom: 10px;
+    font-size: 14px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.interwiewFixedIt {
+    position: absolute;
+    left: -8px;
+    top: 6px;
+    color: red;
+}
+
+.interviewCommitBox div.interviewTerm,
+.interviewCommitBox div.interviewTime {
+    height: 30px;
+    /*line-height: 30px;*/
+    text-align: left;
+}
+
+.interviewCommitBox div.interviewTerm select {
+    height: 30px;
+    line-height: 30px;
+    width: 260px;
+    background-color: #fff;
+    outline: none;
+    border: 1px solid #e9e7e8;
+    margin-left: 10px;
+    color: #606060;
+}
+
+.interviewCommitBox div.interviewTerm select:focus,
+.interviewCommitBox div.interviewTerm select:hover {
+    border: 1px solid #4ac0e0;
+}
+
+.interviewCommitBox div.interviewTerm select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url('../../../images/headMaster/aa.svg') no-repeat 98% center;
+    background-size: 15px 13px;
+
+}
+
+.interviewCommitBox div.interviewTerm select::-ms-expand {
+    display: none;
+}
+
+.interviewCommitBox div.interviewTerm {
+    margin-bottom: 8px;
+}
+
+.interviewCommitBox div.interviewTime input {
+    height: 30px;
+    /*line-height: 30px;*/
+    color: #606060;
+}
+
+.interviewCommitBox div.interviewTime {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.interviewCommitBox div.interviewTime .interview_data {
+    width: 100%;
+    padding-left: 69px;
+    height: 100%;
+    position: relative;
+}
+
+.interviewCommitBox div.interviewTime .interview_data a {
+    position: absolute;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #1380f9;
+    background-color: #e1f9fd;
+    border: 1px solid #d3e7fd;
+    box-sizing: border-box;
+}
+
+.interviewCommitBox div.interviewTime .interview_data a:hover {
+    color: #fff;
+    background-color: #4fbfdc;
+    border-color: #4fbfdc;
+}
+
+.interviewCommitBox div.interviewTime .interview_data a.goLastDay {
+    left: 70px;
+}
+
+.interviewCommitBox div.interviewTime .interview_data a.goNextDay {
+    left: 290px;
+}
+
+.interviewCommitBox div.interviewTime .interview_data a.uselessBtn {
+    color: #f1f1f1;
+    background-color: #fcfcfc;
+    border-color: #f1f1f1;
+}
+
+.interviewCommitBox div.interviewTime .interview_data span {
+    position: absolute;
+    width: 190px;
+    height: 30px;
+    line-height: 28px;
+    left: 100px;
+    box-sizing: border-box;
+    border: 1px solid #dedede;
+    text-align: left;
+    padding-left: 5px;
+    color: #606060;
+    display: block;
+}
+
+.interviewCommitBox div.interviewTime i.ivCsTime {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.interviewCommitBox div.interviewContent {
+    padding-top: 5px;
+    margin-bottom: 4px;
+}
+
+.interviewCommitBox div.interviewContent textarea {
+    margin-left: 10px;
+    border: 1px solid #e9e7e8;
+    width: 960px;
+    height: 115px;
+    overflow-y: auto;
+    padding: 5px;
+    position: relative;
+    outline: 0;
+    top: -5px;
+    resize: none;
+}
+.interviewCommitBox div.interviewContent textarea:focus{
+    border-color:#1380f9;
+}
+a.interviewSave {
+    margin-left: 70px;
+    margin-top: 2px;
+    display: inline-block;
+    width: 95px;
+    height: 34px;
+    line-height: 31px;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+    background-color: #49c0e0;
+}
+
+.interviewShowBox {
+    /*margin-top: 20px;*/
+    /*height: 20px;*/
+    border-left: 1px solid #e9e8e8;
+    margin-left: 27px;
+    padding-top: 10px;
+}
+
+.interviewItem:hover ,.interviewItem:hover textarea{
+    background-color: #e4f4ff
+}
+
+.interviewItem p {
+    position: relative;
+}
+.activeTimeOfInterview{
+    padding-left: 20px;
+}
+.activeTimeOfInterview i{
+    margin-left: 7px;
+}
+.interviewItem p i.iconfont {
+    position: absolute;
+    font-size: 16px;
+    right: 10px;
+    top: 0;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: #fff;
+    background-color: #4ac1e1;
+    cursor: pointer;
+}
+
+.interviewItem .interBlue {
+    display: inline-block;
+    border: 3px solid #1081fb;
+    border-radius: 99%;
+    background-color: #fff;
+    box-sizing: border-box;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: -8px;
+    top: 8px;
+}
+
+.interTime {
+    color: #1081fb;
+    font-size: 16px;
+    font-weight: 400;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 20px;
+}
+
+.interType {
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    width: 64px;
+    height: 22px;
+    line-height: 22px;
+    margin-left: 10px;
+    /*border: 1px solid #000;*/
+    border-radius: 15px;
+}
+
+.interType.colorG {
+    color: #1ead5e;
+    background-color: #d0f1de
+}
+
+.interType.colorO {
+    color: #f5904c;
+    background-color: #fde4d0;
+}
+
+.interText {
+    /*margin-top: 15px;*/
+    padding-left: 75px;
+    font-size: 14px;
+    font-weight: 400;
+    /*padding-top: 10px;*/
+    position: relative;
+}
+
+/*.interText textarea {
+    width: 955px;
+    max-height: 120px;
+    margin-left: 5px;
+    font-size: 14px;
+    line-height: 20px;
+    overflow: auto;
+    box-sizing: border-box;
+    padding: 10px 5px;
+    background-color: #fff;
+    color: #333;
+    border:1px solid #e9e8e8;
+    outline: 0;
+    position: relative;
+    top: -10px;
+}*/
+.interText textarea{
+    display: inline-block;
+    width: 950px;
+    min-height: 60px;
+    margin-left: 5px;
+    /*border: 1px solid #e5e5e5;*/
+    background-color: #fff;
+    box-sizing: border-box;
+    padding-left: 5px;
+    /*max-height: 120px;*/
+    overflow-x: hidden;
+    overflow-y: auto;
+    outline: none;
+    border: 0;
+    resize: none;
+}
+/*.interText:hover*/
+.interText i {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+}
+
+.interviewShSelect {
+    height: 56px;
+    line-height: 56px;
+    position: relative;
+    width: 1040px;
+    margin: 10px 0 0 19px;
+    background-color: #f5f5f5;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.interviewShSelect select {
+    color: #606060;
+    margin-left: 10px;
+    width: 240px;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    background-color: #f5f5f5;
+    /*border: 1px solid #1081fb;*/
+    border: 1px solid #e9e7e8;
+    outline: none;
+}
+
+/*.interviewShSelect select:focus,*/
+.interviewShSelect select:hover {
+    border: 1px solid #4ac0e0;
+}
+
+.interviewShSelect select {
+    width: 220px;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url('../../../images/headMaster/aa.svg') no-repeat 98% center;
+    background-size: 15px 13px;
+
+}
+
+.interviewShSelect select::-ms-expand {
+    display: none;
+}
+
+.interviewShSelect span {
+    color: #606060;
+    margin-left: 10px;
+}
+
+.interviewShSelect i {
+    font-size: 16px;
+    color: #308afc;
+}
+.notShow{
+    display: none;
+}
+
+.interText span.edit,.interText span.dele{
+    position: absolute;
+    top: -20px;
+    font-size: 16px;
+    padding: 0;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: #fff;
+    background-color: #4ac1e1;
+    cursor: pointer;
+}
+.interText span.edit{
+    right: 40px;
+}
+.interText span.dele{
+    right: 10px;
+}
+.tipDayI {
+    width: 1040px;
+    height: 38px;
+    line-height: 38px;
+    text-align: left;
+    padding-left: 10px;
+    color: #f28378;
+    background-color: #fce5d1;
+    margin-left: 19px;
+    margin-top: 10px;
+    font-size: 12px;
+}

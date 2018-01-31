@@ -1,0 +1,511 @@
+.spro_ppphtml {
+    color: none;
+}
+
+.spro_teatestcard {
+    position: relative;
+    transition: 1s;
+}
+
+.spro_teatestcard>strong {
+    visibility: hidden;
+}
+
+.spro_teatestcard:hover>strong {
+    visibility: visible;
+    transition: 1s;
+}
+
+.spro_teatestcard>h1 {
+    position: absolute;
+    top: 10px;
+    left: 19px;
+    line-height: 24px;
+}
+
+.spro_teatestcardstate {
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    width: 67px;
+    height: 23px;
+    border-top-left-radius: 23px;
+    border-bottom-left-radius: 23px;
+    text-align: center;
+}
+
+.spro_teatestcard {
+    display: inline-block;
+    margin-left: 18px;
+    margin-top: 15px;
+    width: 31%;
+    height: 200px;
+    border: 1px solid #e9e7e8;
+}
+
+.spro_teatestcard p,
+.spro_teatestcard span {
+    color: #606060;
+    opacity: 0.8;
+}
+
+.spro_teatestcard>p,
+.spro_teatestcard span,
+.spro_teatestcard i,
+.spro_teatestcard b {
+    position: absolute;
+}
+
+.spro_testcardp1 {
+    color: #606060;
+    position: absolute;
+    top: 60px;
+    left: 19px;
+    min-width: 260px;
+    line-height: 21.5px;
+}
+
+.card_X.iconfont {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    font-size: 16px;
+    right: -21px;
+    top: -13px;
+    cursor: pointer;
+    font-weight: normal;
+    color: #07468B;
+}
+
+.card_X.iconfont::before {
+    border-radius: 50%;
+    background-color: white;
+}
+
+.spro_testcardp1 .editSpan {
+    position: absolute;
+    width: 40px;
+    height: 21px;
+    right: 29px;
+    top: -1px;
+    color: #0d6ebf;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.spro_testcardp2 {
+    color: "#606060";
+    position: absolute;
+    top: 82px;
+    left: 19px;
+}
+
+.spro_testcardp3 {
+    color: "#606060";
+    position: absolute;
+    top: 104px;
+    left: 19px;
+}
+
+.spro_testcardb1,
+.spro_testcardb2 {
+    position: absolute;
+    bottom: 15px;
+}
+
+.spro_testcardspan1,
+.spro_testcardspan2 {
+    position: absolute;
+    bottom: 21px;
+}
+
+.spro_testcardb1:hover,
+.spro_testcardb2:hover {
+    cursor: pointer;
+    background: #4AC0E0;
+    color: white;
+    border: 1px solid #fff;
+}
+
+.spro_testcardb1:hover a,
+.spro_testcardb2:hover a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    color: #fff !important;
+}
+
+.spro_testcardb2 a,
+.spro_testcardb1 a {
+    color: #b0b0b0 !important;
+}
+
+.spro_testcardspan1 {
+    left: 18px;
+}
+
+.spro_testcardspan2 {
+    left: 70px;
+}
+
+.spro_testcardb1 {
+    width: 66px;
+    height: 32px;
+    background: #fff;
+    border: 1px solid #b0b0b0;
+    right: 17px;
+    line-height: 32px;
+    text-align: center;
+    color: #b0b0b0;
+    font-weight: normal;
+}
+
+.spro_testcardb2 {
+    width: 66px;
+    height: 32px;
+    background: #fff;
+    border: 1px solid #b0b0b0;
+    right: 95px;
+    line-height: 32px;
+    text-align: center;
+    color: #b0b0b0;
+    font-weight: normal;
+}
+
+.spro_testspanTime {
+    width: 200px;
+    margin-left: 13px;
+}
+
+.spro_testspanTime1 {
+    width: 200px;
+    margin-left: 67px;
+}
+
+.spro_testb {
+    display: inline-block;
+    height: 20px;
+    font-weight: normal;
+    width: 60px;
+    line-height: 19px;
+    vertical-align: text-top;
+}
+
+.spro_testspanTimei {
+    right: -234px;
+    width: 120px;
+}
+
+.spro_teatestcard:hover {
+    -moz-box-shadow: 0px 0px 14px #d5e5e6;
+    /* 老的 Firefox */
+    box-shadow: 0px 0px 14px #d5e5e6;
+    border: 1px solid #d5e5e6;
+    opacity: 1;
+}
+
+
+/*.spro_teatestcard:hover a {
+    color: #fff;
+}*/
+
+
+/*.spro_teatestcard:hover b {
+    cursor: pointer;
+    background: #4AC0E0;
+    color: #fff;
+    border: 1px solid #4AC0E0;
+    transition: 1s;
+}*/
+
+.spro_teatestpages {
+    right: 1.5%;
+    position: absolute;
+    margin-right: 20px;
+    padding: 20px 0 20px;
+}
+
+.spro_teatestpages button {
+    width: 81px;
+    height: 30px;
+    float: right;
+    text-align: center;
+    border: 1px solid #d3d3d3;
+    margin-left: 8px;
+}
+
+input:focus {
+    background: white;
+}
+
+#woc {
+    height: 28px;
+    width: 262px;
+    line-height: 28px;
+    margin-left: 10px;
+    background: #f5f5f5;
+    border: 1px solid #b0b0b0;
+    font-size: 14px;
+    outline: none;
+    padding-left: 5px;
+}
+
+input#woc:hover {
+    background: #fff;
+    border: 1px solid rgb(74, 192, 224);
+}
+
+input#woc:focus {
+    background: #fff;
+    border: 1px solid rgb(74, 192, 224);
+}
+
+#woc::-webkit-input-placeholder {
+    padding-left: 10px;
+}
+
+#woc::-moz-placeholder {
+    padding-left: 10px;
+}
+
+#woc:-ms-input-placeholder {
+    padding-left: 10px;
+}
+
+
+/*select.spro_teliTitle1:hover,
+select.spro_teliTitle2:hover {
+    border: 1px solid #4ac0e0;
+}
+
+select.spro_teliTitle1:link,
+select.spro_teliTitle2:link {
+    border: 1px solid #b0b0b0;
+}*/
+
+select.spro_teliTitle1,
+select.spro_teliTitle2 {
+    width: 232px;
+    height: 31px;
+    border: 1px solid #b0b0b0;
+    margin-left: 10px;
+    color: #656565;
+    background: url("../../images/headMaster/aa.svg") no-repeat 98% center;
+    background-size: 15px 14px;
+    /*-moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-progress-appearance: none;*/
+}
+
+select.spro_teliTitle1::-ms-expand,
+select.spro_teliTitle2::-ms-expand {
+    display: none
+}
+
+.spro_teliTitle1 option,
+.spro_teliTitle2 option {
+    border: 1px solid #1380f9;
+}
+
+.spro_publishExam {
+    z-index: 1000;
+    display: none;
+    left: 0;
+    top: 0;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    position: fixed;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.spro_publishExamX {
+    z-index: 1002;
+    display: none;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    width: 874px;
+    height: 300px;
+    background: #fff;
+    border: 1px solid #01a1f5;
+    opacity: 1;
+}
+
+.spro_publishExamXspan1 {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px !important;
+}
+
+.spro_publishExamXspanX:hover {
+    cursor: pointer;
+    color: rgb(75, 192, 225);
+}
+
+.spro_publishExamXtitle {
+    position: relative;
+    margin: 0 20px;
+    height: 50px;
+    border-bottom: 1px solid #DADADA;
+}
+
+.spro_publishExamXspanX {
+    font-size: 22px;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+
+.spro_publishExamcardcreateexam,
+.spro_publishExamcardchooseexam {
+    width: 281px;
+    height: 154px;
+    position: absolute;
+    top: 32%;
+    background: #f5f5f5;
+    text-align: center;
+    font-weight: bold;
+}
+
+.spro_publishExamcardcreateexam {
+    color: #ebebeb;
+    font-size: 100px;
+    left: 15%;
+}
+
+.spro_publishExamcardchooseexam {
+    color: #ebebeb;
+    font-size: 100px;
+    right: 15%;
+}
+
+.spro_publishExamcardcreateexam:hover,
+.spro_publishExamcardchooseexam:hover {
+    transition: 0s !important;
+    background: #49c0e0;
+    color: #5ec6e3
+}
+
+.spro_publishExamcardcreateexam:hover span,
+.spro_publishExamcardchooseexam:hover span {
+    color: white;
+}
+
+.spro_publishExamcardspan0 {
+    top: 43%;
+    position: absolute;
+    left: 39%;
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.spro_publishExamcardspan1,
+.spro_publishExamcardspan0 {
+    /*width: auto;
+  height: auto;*/
+    cursor: pointer;
+}
+
+.spro_publishExamcardspan1 {
+    color: black;
+    width: 200px;
+    top: 43%;
+    right: 13%;
+    position: absolute;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+
+/*搜索无考试样式*/
+
+.spro_ppp0 {
+    width: 90%;
+    top: 23%;
+    position: absolute;
+}
+
+.spro_ppp0 .spro_listppp {
+    width: 1080px;
+    margin: 0px auto;
+    padding: 40px 16px 80px;
+    position: relative;
+    top: 20px;
+    background: rgb(255, 255, 255);
+}
+
+
+/*无考试样式*/
+
+.spro_ppp {
+    width: 100%;
+    background: rgb(244, 244, 244);
+}
+
+.spro_ppp .spro_listppp {
+    width: 1100px;
+    margin: 0px auto;
+    padding: 21px 16px 80px;
+    position: relative;
+    background: rgb(255, 255, 255);
+}
+
+.spro_pppimage {
+    position: relative;
+    background-image: url("../../images/Noexam/Noexam2.jpg");
+    background-repeat: no-repeat;
+    background-size: 80%;
+    width: 368px;
+    height: 386px;
+    margin: 0 auto;
+}
+
+.spro_pppimage1 {
+    position: relative;
+    background-image: url("../../images/Noexam/Noexam2.jpg");
+    background-repeat: no-repeat;
+    background-size: 80%;
+    width: 368px;
+    height: 256px;
+    margin: -11% auto 0;
+}
+
+.spro_pppimagespan {
+    position: absolute;
+    top: 73%;
+    left: 10%;
+    font-style: italic;
+    color: #a6a6a6;
+    /*font-family: "Microsoft YaHei";*/
+}
+
+.spro_pppimagespan1 {
+    position: absolute;
+    top: 102%;
+    left: 20%;
+    font-style: italic;
+    color: #a6a6a6;
+    /*font-family: "Microsoft YaHei";*/
+}
+
+.forbid {
+    background-color: #d3d3d3;
+    color: #ffffff;
+    border-color: #d3d3d3;
+}
+
+.starts {
+    background-color: #ffffff;
+    color: #323232;
+    border-color: #d3d3d3;
+}

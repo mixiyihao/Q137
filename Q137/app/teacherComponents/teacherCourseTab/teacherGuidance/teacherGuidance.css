@@ -1,0 +1,88 @@
+.teacherGuidance_left {
+    float: left;
+    width: 200px;
+    min-height: 100px;
+    margin-right: 7px;
+}
+
+.teacherGuidance_box {
+    width: 200px;
+    /*min-height: 400px;*/
+    background: #e4e9ec;
+    overflow: hidden;
+    /*margin-right: 2px;*/
+    border: 1px solid #c8c7cf;
+    border-top: none;
+}
+
+.teacherGuidance_box .teacherGuidance_title {
+    height: 49px;
+    line-height: 49px;
+    color: #fff;
+    font-size: 16px;
+    text-indent: 10px;
+    background: #61cae8;
+}
+
+.teacherGuidance_box .teacherGuidance_scroll {
+    /*height: 100%;*/
+    overflow-y: auto;
+}
+
+.teacherGuidance_box .teacherGuidance_content {
+    padding: 7px;
+    width: 100%;
+}
+
+.teacherGuidance_box .teacherGuidance_content h4 {
+    color: #2d3134;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.teacherGuidance_box .teacherGuidance_content p {
+    color: #313133;
+    line-height: 17px;
+}
+
+.teacherGuidance_box .teacherGuidance_content p span {
+    float: left;
+    height: 17px;
+    width: 30px;
+    color: #fff;
+    text-align: center;
+    line-height: 17px;
+    font-size: 12px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.teacherGuidance_box p span.teacherGuidance_labelHide {
+    display: none;
+}
+
+.teacherGuidance_box .teacherGuidance_label1 {
+    background: #b49cfc;
+    margin-right: 5px;
+}
+
+.teacherGuidance_box .teacherGuidance_label2 {
+    background: #ee8e52;
+    margin-right: 7px;
+}
+
+.teacherGuidance_box .teacherGuidance_content h5 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #303030;
+    margin-top: 8px;
+}
+
+.teacherGuidance_box .teacherGuidance_content ul {
+    margin-top: 4px;
+}
+
+.teacherGuidance_box .teacherGuidance_content ul li {
+    color: #69696b;
+    margin-top: 1px;
+}

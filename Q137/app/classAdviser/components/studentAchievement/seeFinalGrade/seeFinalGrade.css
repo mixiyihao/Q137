@@ -1,0 +1,132 @@
+.seeFinalGrade-container {
+    background: #f4f4f5;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.seeFinalGrade-container .seeFinalGrade-wrap {
+    width: 1100px;
+    min-height: 536px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.seeFinalGrade-container h2 {
+    font-weight: 400;
+    font-size: 18px;
+    height: 20px;
+    line-height: 20px;
+    border-left: 4px solid #49c0e0;
+    padding-left: 13px;
+    display: inline-block;
+}
+
+.seeFinalGrade-container .seeFinalGrade-title {
+    height: 60px;
+    background: #f5f5f5;
+    margin-top: 12px;
+    margin-left: 14px;
+}
+
+.seeFinalGrade-container .seeFinalGrade-title span {
+    margin-left: 10px;
+    height: 55px;
+    line-height: 55px;
+    display: inline-block;
+    max-width: 260px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #333;
+}
+
+.seeFinalGrade-container .seeFinalGrade-table {
+    table-layout: fixed;
+    width: 1046px;
+    margin-left: 14px;
+}
+
+.seeFinalGrade-container .seeFinalGrade-table thead tr {
+    height: 50px;
+    text-align: center;
+    border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    background-color: #f5f5f5;
+    line-height: 50px;
+}
+
+.seeFinalGrade-container .seeFinalGrade-table thead tr th {
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    word-break: break-all;
+}
+
+.seeFinalGrade-container .seeFinalGrade-table thead tr th.two {
+    width: 82px;
+}
+
+.seeFinalGrade-container .seeFinalGrade-table thead tr th.three {
+    width: 366px;
+}
+
+.seeFinalGrade-container .seeFinalGrade-table thead tr th.four {
+    width: 376px;
+}
+
+.seeFinalGrade-container .seeFinalGrade-table thead tr th.five {
+    width: 207px;
+}
+
+.seeFinalGrade-container .seeFinalGrade-table tbody tr {
+    height: 47px;
+    text-align: center;
+    border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+    line-height: 47px;
+}
+
+.seeFinalGrade-container .seeFinalGrade-table tbody tr:hover {
+    background-color: #e4f4ff;
+}
+
+.seeFinalGrade-container .seeFinalGrade-table tbody tr td {
+    color: #606060;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.seeFinalGrade-container .seeFinalGrade-noData {
+    border: 1px solid #f2f2f2;
+    border-top: 0;
+    height: 48px;
+    line-height: 48px;
+    padding-left: 45px;
+    width: 1046px;
+    background: url("../../../../images/search/nomessage.jpg") no-repeat 9px center;
+    background-size: 30px;
+}
+
+.seeFinalGrade-container .seeFinalGrade-back {
+    position: absolute;
+    top: 15px;
+    right: 17px;
+    color: #606060;
+}
+
+.seeFinalGrade-container .seeFinalGrade-back:hover {
+    color: #49c0e0;
+}
+
+.seeFinalGrade-container .seeFinalGrade-back span {
+    display: inline-block;
+    line-height: 28px;
+}
+
+.seeFinalGrade-container .seeFinalGrade-back i {
+    vertical-align: -1px;
+}

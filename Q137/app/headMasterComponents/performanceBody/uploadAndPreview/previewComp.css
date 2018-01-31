@@ -1,0 +1,330 @@
+.previewComp {
+    min-height: 600px;
+    background-color: #f4f4f6;
+    padding: 13px 0;
+    color: #333;
+}
+
+.previewInner {
+    width: 1100px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    min-height: 500px;
+    position: relative;
+}
+
+.previewInner h2 {
+    font-weight: 400;
+    font-size: 18px;
+    height: 20px;
+    line-height: 20px;
+    border-left: 4px solid #49c0e0;
+    padding-left: 15px
+}
+
+.previewBack {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 45px;
+    height: 20px;
+    color: #333;
+    z-index: 300;
+}
+
+.previewTag {
+    width: 1040px;
+    height: 38px;
+    line-height: 38px;
+    text-align: left;
+    padding-left: 10px;
+    color: #f7a08f;
+    background-color: #fee5d1;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.previewTag i {
+    margin-right: 3px;
+}
+
+.previewTag.sucTag {
+    color: #3693fb;
+}
+
+.previewTag.errTag {
+    color: #ff997a;
+}
+
+.previewTitle {
+    font-size: 14px;
+    height: 55px;
+    line-height: 55px;
+    width: 1040px;
+    background-color: #f5f5f5;
+    margin: 16px 0 0 20px;
+    padding-left: 16px;
+}
+
+.previewTitle span {
+    margin-left: 30px;
+}
+
+.previewTitle span i {
+    font-size: 18px;
+    color: #1280fb;
+    margin: 0 3px;
+}
+
+.previewClassMessage {
+    font-size: 14px;
+    height: 45px;
+    line-height: 45px;
+    width: 1040px;
+    background-color: #f5f5f5;
+    margin: 0 0 0 20px;
+    padding-left: 16px;
+}
+
+.previewClassMessage span {
+    margin-right: 140px;
+}
+
+.previewClassMessage span i {
+    margin-left: 20px;
+}
+
+.previewInner table {
+    width: 1040px;
+    text-align: center;
+    margin: 0 0 0 20px;
+    border: 1px solid #f5f5f5;
+}
+
+.previewInner table tr.trWarning td {
+    background-color: #fdd9d9;
+    color: #de3e33;
+}
+
+.previewInner table tr.trWarning:hover td {
+    background-color: #fdd9d9;
+}
+
+.previewInner table tr.trWrong td,.previewInner table tr.trWrong:hover td{
+    background-color: #e7e7e7;
+    color: #606060;
+} 
+
+.previewInner table th {
+    background-color: #f5f5f5;
+    height: 45px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.previewInner table td {
+    height: 45px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.previewInner table tr:hover td {
+    background-color: #e4f5ff;
+}
+
+.chooseAll {
+    margin-top: 16px;
+    padding-left: 20px;
+}
+
+.chooseAll input {
+    margin: 0 18px 0px 19px;
+}
+
+.chooseAll input[type="text"] {
+    width: 40px;
+    height: 26px;
+    /*padding-left: 3px;*/
+    text-align: center;
+    line-height: 26px;
+    border-radius: 3px;
+    border: 1px solid #e8e8e8;
+}
+
+.chooseAll input[type="text"]:focus,
+.chooseAll input[type="text"]:hover,
+.chooseAll input[type="text"]:active {
+    border-color: #4ac0e0;
+}
+
+.chooseAll span {
+    margin-left: 15px;
+    color: #ff6a01;
+}
+
+.saveBtn {
+    padding-left: 20px;
+    position: relative;
+    height: 45px;
+    top: 7px;
+}
+
+.saveBtn a {
+    display: inline-block;
+    padding: 0;
+    width: 80px;
+    height: 28px;
+    background-color: #4ac0e0;
+    margin-right: 8px;
+    margin-top: 8px;
+    color: #fff;
+    text-align: center;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.inputComp input {
+    border: 1px solid #f5f5f5;
+    width: 50px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.inputComp input:focus,
+.inputComp input:hover {
+    border-color: #4ac0e0;
+}
+
+.inputComp p,
+{
+    position: fixed;
+    height: 58px;
+    top: 190px;
+    left: 50%;
+    /*transform: translate(-50%, 0);*/
+    transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    z-index: 666;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px -3px 5px;
+    width: 348px;
+    text-align: center;
+    line-height: 58px;
+    opacity: .8;
+    filter: alpha(opacity=80);
+    background-color: black;
+    color: #fff;
+}
+
+span.errMsgShow {
+    margin-left: 15px;
+    color: #fefffd;
+    position: absolute;
+    top: -4px;
+    left: 200px;
+    width: 660px;
+    height: 52px;
+    /*background-color: yellow;*/
+}
+span.errMsgShow .errMsgInner{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    /*font-size: 14px;*/
+    transform: translate(0,-50%);
+    -o-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    padding: 5px 21px;
+    background-color: #f5804b;
+}
+span.errMsgShow .errMsgInner i.errWarn{
+    padding-left: 10px;
+    /*line-height: 14px;
+    font-size: 14px;*/
+}
+span.errMsgShow .errMsgInner i.errWrong{
+    /*margin: 0 auto;*/
+    display: block;
+    padding-left: 41px;
+    /*line-height: 14px;
+    font-size: 14px;*/
+}
+span.errMsgShow .errMsgInner i.iconfont{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    text-align: center;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+}
+span.errMsgShow .errMsgInner i.iconfont:hover{
+    background-color: #e16e3b;
+}
+span.errMsgShow .errMsgInner i.triangle{
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+    -o-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    left: -10px;
+    /*background-color: #f5804b;*/
+    width:0; 
+    height:0; 
+    border-top:8px solid transparent;
+    border-bottom:8px solid transparent; 
+    border-right:15px solid #f5804b;
+}
+.sucorerr {
+    /*display: none;*/
+    position: fixed;
+    top: 75px;
+    right: 30px;
+    /*width: 150px;*/
+    line-height: 26px;
+    /*padding: 5px 4px;*/
+    text-align: center;
+    box-sizing: border-box;
+    width: 150px;
+    overflow: hidden;
+}
+
+.sucorerr span {
+    display: block;
+    width: 150px;
+    background: #f7944d;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.sucorerr i {
+    position: relative;
+    top: 2px;
+}
+
+
+/*.sOeShow {
+    width: 150px;
+}*/
+
+.sucorerr span.sOeHide {
+    width: 0;
+    /*height: 100%;*/
+    /*background: #f7944d;*/
+    /*borderRadius: 4px;*/
+    opacity: 0;
+    white-space: nowrap;
+    line-height: 26px;
+    overflow: hidden;
+    transition: all 2.5s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.0980392) 0px -3px 5px;
+}

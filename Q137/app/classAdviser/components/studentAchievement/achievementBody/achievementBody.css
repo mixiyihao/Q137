@@ -1,0 +1,45 @@
+.performanceBody_wrap .performanceBody_msg_box {
+    height: 36px;
+    width: 100%;
+    margin-left: 3px;
+}
+
+.performanceBody_wrap .performanceBody_msg_span {
+    width: 78px;
+    text-align: left;
+    height: 30px;
+    line-height: 30px;
+    color: #3d3d3d;
+    display: inline-block;
+    float: left;
+    margin-top: 6px;
+    margin-left: 17px;
+}
+
+.performanceBody_wrap .performanceBody_msg_span_diff {
+    margin-left: 60px;
+}
+
+.performanceBody_wrap .performanceBody_msg_term {
+    width: 100%;
+    float: left;
+}
+
+.performanceBody_wrap .performanceBody_msg_select {
+    width: 100%;
+    float: left;
+}
+
+.performanceBody_wrap .performanceBody_msg_select select {
+    height: 30px;
+    width: 200px;
+    border: 1px solid #f2f2f2;
+    color: rgb(102, 102, 102);
+    float: left;
+    margin-top: 6px;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url('../../../../images/headMaster/aa.svg') no-repeat 98% center;
+    background-size: 15px 13px;
+}

@@ -1,0 +1,83 @@
+.spro_lineX-icon {
+    width: 26px;
+    height: 26px;
+    background-size: 100%;
+    margin-left: 30px;
+    display: inline-block;
+    cursor: pointer;
+    /*position: absolute;
+    right: 1%;
+    top: 9.1%;*/
+    float: right;
+    font-size: 12px !important;
+    color: rgba(255, 255, 255, 1) !important;
+    line-height: 26px;
+    text-align: center;
+}
+
+i.icon-gonggao {
+    display: inline-block;
+    position: relative;
+    top: 0;
+}
+
+.lineMessageInnerdiv {
+    /*display: inline-block;*/
+    position: relative;
+    width: 1232px;
+    margin: 0 auto;
+    padding-left: 206px;
+    animation: gonggao 3s;
+}
+
+.lineMessageInnerdiv a {
+    padding-left: 5px;
+    line-height: 26px;
+    font-size: 14px;
+}
+
+.lineMessageInnerdiv a:hover {
+    color: #ff9d76;
+}
+
+.lineMessage {
+    /*padding-left:272px;*/
+    position: absolute;
+    height: 26px;
+    width: 100%;
+    top: 14.8%;
+    background: rgba(255, 255, 255, 0.26);
+    color: rgba(255, 255, 255, 1);
+    bottom: 0;
+    left: 0px;
+}
+
+.line-ease {
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    transition: all 2s ease;
+}
+
+.lineMessage a {
+    position: relative;
+    top: -1px;
+    color: rgba(252, 117, 70, 1)
+}
+
+.lineMessagespan {
+    position: relative;
+    top: -1px;
+    display: inline-block;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 1);
+}
+
+@keyframes gonggao {
+    from {
+        left: -30px;
+    }
+    to {
+        left: 0px;
+    }
+}

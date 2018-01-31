@@ -1,0 +1,226 @@
+.h-direct .h-title {
+    height: 25px;
+    line-height: 25px;
+    margin-top: 30px;
+}
+
+.h-direct .h-title1 {
+    height: 25px;
+    line-height: 25px;
+    margin-top: 10px;
+}
+
+.h-direct .h-title1Hide {
+    display: none;
+}
+
+.h-directbodyto {
+    overflow: hidden;
+    width: 988px;
+    margin: 0 auto;
+}
+
+.h-direct .h-title .h-cubiud {
+    width: 4px;
+    height: 20px;
+    margin-right: 8px;
+    margin-bottom: -4px;
+    padding-top: 8px;
+    display: inline-block;
+    background-color: #4ac0e0;
+}
+
+.h-direct .h-title .h-information {
+    font-size: 18px;
+    height: 22px;
+    line-height: 22px;
+    color: #444444;
+    display: inline-block;
+    text-indent: 0px;
+}
+
+.h-direct .h-title1 .h-cubiud {
+    width: 4px;
+    height: 20px;
+    margin-right: 8px;
+    margin-bottom: -4px;
+    padding-top: 8px;
+    display: inline-block;
+    background-color: #4ac0e0;
+}
+
+.h-direct .h-title1 .h-information {
+    font-size: 18px;
+    height: 22px;
+    line-height: 22px;
+    color: #444444;
+    display: inline-block;
+    text-indent: 0px;
+}
+
+.h-direct .h-dirlist {
+    padding-left: 280px;
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+.h-direct .h-dirlist div {
+    width: 310px;
+    height: 196px;
+    float: left;
+    margin-left: 16px;
+    border-radius: 6px;
+    position: relative;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.h-direct .h-dirlist div:nth-child(1) {
+    background: linear-gradient(60deg, #eaa1e6, #c996fb);
+}
+
+.h-direct .h-dirlist div:nth-child(2) {
+    background: linear-gradient(60deg, #6cc4ce, #66f2cf);
+}
+
+.h-direct .h-dirlist div:nth-child(3) {
+    background: linear-gradient(60deg, #f8c5a8, #ef96ac);
+}
+
+.h-direct .h-dirlist div:nth-child(4) {
+    background: linear-gradient(60deg, #eaa1e6, #c996fb);
+}
+
+.h-direct .h-dirlist div:nth-child(5) {
+    background: linear-gradient(60deg, #6cc4ce, #66f2cf);
+}
+
+.h-direct .h-dirlist div:nth-child(6) {
+    background: linear-gradient(60deg, #f8c5a8, #ef96ac);
+}
+
+.h-direct .h-dirlist .h-chain {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    background-color: #000;
+    opacity: 0.6;
+    /*transition: 1s linear ;*/
+    cursor: pointer;
+    display: none;
+    z-index: 10;
+}
+
+.h-direct .h-dirlist .h-chain {}
+
+.h-direct .h-dirlist .h-chain span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size: 45px;
+    margin-top: -36px;
+    margin-left: -27px;
+    color: #FFFFFF;
+    transition: 0.4s linear;
+    transform: translateY(10px);
+    -o-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -webkit-transform: translateY(10px);
+}
+
+.h-direct .h-dirlist .h-chain:hover span {
+    transform: translateY(0px);
+    -o-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+}
+
+.h-direct .h-dirlist div .h-time {
+    float: right;
+    font-size: 12px;
+    opacity: .6;
+    filter: alpha(opacity=60);
+    padding-top: 5px;
+    padding-right: 5px;
+    width: 100%;
+    text-align: right;
+}
+
+.h-direct .h-dirlist div p {
+    text-align: center;
+}
+
+.h-direct .h-dirlist div .h-room {
+    font-weight: 600;
+    font-size: 20px;
+    width: 100%;
+    margin-top: 64px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.h-direct .h-dirlist div .h-yutime {
+    /*text-align: center;*/
+    padding-top: 8px;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+}
+
+.h-direct .h-dirlist div .h-zname {
+    height: 36px;
+    background-color: #f4f4f4;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /*text-align: center;*/
+    border-radius: 0 0 6px 6px;
+    color: #868686;
+    line-height: 36px;
+}
+
+.h-direct .h-dirlist div .h-xiantiao {}
+
+.h-direct .h-dlist1 {
+    position: relative;
+    background-color: #d19af8;
+}
+
+.h-direct .h-dlist2 {
+    background-color: #488c8b;
+}
+
+.h-direct .h-dlist3 {
+    background-color: #f4aaab;
+}
+
+
+/*下面是即将直播的css代码*/
+
+.h-direct .h-directlist {
+    padding-left: 296px;
+    padding-top: 20px;
+    padding-right: 32px;
+    color: #636363;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+
+.h-direct .h-directlist p .h-r-timers {
+    float: right;
+    font-family: Arial;
+}
+
+.h-direct .h-directlist p .h-timers {
+    color: #4ac0e0;
+    font-size: 12px;
+}
+
+.h-direct .h-directlist p .h-bdtitle {
+    font-weight: bold;
+}

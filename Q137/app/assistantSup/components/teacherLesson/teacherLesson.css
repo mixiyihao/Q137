@@ -1,0 +1,33 @@
+.teacherSelect_paper {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url('../../../images/headMaster/aa.svg') no-repeat 98% center;
+    background-size: 15px 13px;
+}
+
+.lesson_guidanceMsg_label1 {
+    height: 17px;
+    width: 30px;
+    color: #fff;
+    text-align: center;
+    line-height: 17px;
+    font-size: 12px;
+    border-radius: 10px;
+    display: inline-block;
+    background: #b49cfc;
+    margin-right: 5px;
+}
+
+.lesson_guidanceMsg_label2 {
+    height: 17px;
+    width: 30px;
+    color: #fff;
+    text-align: center;
+    line-height: 17px;
+    font-size: 12px;
+    border-radius: 10px;
+    display: inline-block;
+    background: #ee8e52;
+    margin-right: 5px;
+}

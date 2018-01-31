@@ -1,0 +1,213 @@
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+    background-color: #F5F5F5;
+}
+
+
+/*定义滚动条轨道 内阴影+圆角*/
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+    /*opacity: 0.1;*/
+}
+
+
+/*定义滑块 内阴影+圆角*/
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #555;
+}
+
+.sproPublicside {
+    width: 210px;
+    height: 1064px;
+    background-color: #293039;
+    position: fixed;
+    /*left: 40px;*/
+    top: 0;
+    z-index: 499;
+    color: #a3a3a4;
+    font-size: 14px;
+    /*overflow-y: auto;*/
+}
+
+
+/*联想图标*/
+
+.sproPublicside .lenovotit {
+    background: url("../../../images/leftNavBar/logo.png") no-repeat 6px 4px;
+    z-index: 22;
+    font-size: 16px;
+    color: #fff;
+    padding: 38px 0 0 0;
+    text-indent: 17px;
+    display: block;
+}
+
+.sproPublicMajor {
+    cursor: pointer;
+    color: #a3a3a3;
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 51px;
+    text-align: center;
+}
+
+.sproPublicleftselectWrap {
+    border: 1px solid #4b525a;
+    background: #141a21;
+    width: 210px;
+    margin-top: 10px;
+    height: 34px;
+}
+
+.sproPublicleftselect {
+    border: 1px solid #e9e7e8;
+    width: 100%;
+    height: 100%;
+    background-size: 18px 15px;
+}
+
+.sproPublicleftselect::-ms-expand {
+    display: none;
+}
+
+.sproPublicleftselect span {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    padding-left: 12px;
+    line-height: 33px;
+    display: inline-block;
+    font-size: 14px;
+    color: #f4f4f4;
+    background: url("../../../images/leftNavBar/xiala.svg") no-repeat 94.5% center;
+    background-size: 16px 14px;
+}
+
+.sproPublicleftselect ul {
+    width: 208px;
+    left: -1px;
+    position: relative;
+    z-index: 888;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.98) 0px 1px 9px;
+}
+
+.sproPublicleftselect li {
+    color: #909090;
+    height: 28px;
+    line-height: 28px;
+    padding-left: 12px;
+}
+
+.sproPublicleftselect li:hover {
+    cursor: pointer;
+    color: white;
+    background: #49c0e0;
+}
+
+.sproPublicCourseStyle,
+.sproPublicCoursekidStyle {
+    width: 210px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.SproOptionconfig {
+    overflow-y: auto;
+}
+
+.sproPublicCourseStyle {
+    padding-left: 12px;
+    height: 38px;
+    line-height: 38px;
+    border-left: 4px solid #293039;
+}
+
+.sproPublicCoursekidStyle {
+    height: 32px;
+    line-height: 32px;
+    background: #2f3a48;
+    padding-left: 15px;
+}
+
+.sproPublicCoursekidStyle a:hover {
+    color: white;
+}
+
+.sproPublicCourseStyle a,
+.sproPublicCoursekidStyle a {
+    color: #91928d;
+    display: inline-block;
+    height: 100%;
+    transition: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.sproPublicCourseStyle a {
+    width: 156px;
+}
+
+.sproPublicCoursekidStyle a {
+    width: 100%;
+}
+
+.sproPublicCourseStyle a:hover {
+    color: #fff;
+}
+
+.sproPublicCoursekidStyle:hover {
+    background: #1e2731;
+}
+
+.sproPublicCourseStyle:hover,
+.sproPublicCourseStyle:hover.weiSpan {
+    background: #2e3a48;
+}
+
+.sproPublicCourseStyle div.weiSpan {
+    margin: 8px;
+    display: inline-block;
+    line-height: 22px;
+    font-size: 18px;
+    width: 22px;
+    height: 22px;
+    border: 1px solid transparent;
+    float: right;
+}
+
+.CourseconfigWrap {
+    overflow-y: auto;
+    overflow-x: hidden;
+    /*direction: rtl;
+    unicode-bidi: bidi-override;*/
+}
+
+div.weiSpan i {
+    margin-left: 1px;
+    width: 20px;
+    height: 20px;
+    line-height: 18px;
+    display: inline-block;
+    color: #676a6f;
+    font-size: 19px;
+}
+
+div.weiSpan:hover {
+    border: 1px solid #49c0e0;
+    background: #49c0e0;
+    border-radius: 4px;
+}
+
+div.weiSpan:hover i {
+    color: white;
+}

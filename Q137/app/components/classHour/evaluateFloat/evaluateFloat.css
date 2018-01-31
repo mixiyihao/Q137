@@ -1,0 +1,139 @@
+.evaluateFloat_box {
+    position: fixed;
+    bottom: 50px;
+    left: 50%;
+    margin-left: 578px;
+    z-index: 300;
+    transition: bottom .15s ease-in-out;
+}
+
+.evaluateFloat_box .evaluateFloat_circle {
+    width: 41px;
+    height: 41px;
+    border-radius: 100%;
+    background: #f57b0e;
+    color: #fff;
+    text-align: center;
+    line-height: 44px;
+    display: block;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0 2px 5px rgba(247, 120, 17, .6);
+}
+
+.evaluateFloat_box .evaluateFloat_circle i {
+    position: absolute;
+    bottom: -6px;
+    left: 12px;
+    border-bottom: 0px;
+    border-top: 8px solid #f8770f;
+    border-right: 9px solid transparent;
+    border-left: 9px solid transparent;
+}
+
+.evaluateFloat_box .evaluateFloat_center {
+    position: absolute;
+    height: 80px;
+    background: #fff;
+    border-top: 4px solid #f77811;
+    left: -325px;
+    top: 0px;
+    width: 319px;
+    /*box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 10px;*/
+    box-shadow: 0 6px 100px 0 rgba(0, 0, 0, .35)!important;
+    -webkit-box-shadow: 0 6px 100px 0 rgba(0, 0, 0, .35)!important;
+    -moz-box-shadow: 0 6px 100px 0 rgba(0, 0, 0, .35)!important;
+    opacity: 0;
+    /*z-index: -1;*/
+    transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    pointer-events: none;
+}
+
+.evaluateFloat_box .evaluateFloat_center.Active {
+    /*z-index: 1;*/
+    opacity: 1;
+    /*box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 10px;*/
+    box-shadow: 0 6px 100px 0 rgba(0, 0, 0, .35)!important;
+    -webkit-box-shadow: 0 6px 100px 0 rgba(0, 0, 0, .35)!important;
+    -moz-box-shadow: 0 6px 100px 0 rgba(0, 0, 0, .35)!important;
+    left: -335px;
+    transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    pointer-events: auto;
+}
+
+.evaluateFloat_box .evaluateFloat_child {
+    border: 1px solid #f8f8fa;
+    width: 319px;
+    height: 76px;
+}
+
+.evaluateFloat_box .evaluateFloat_left {
+    float: left;
+    width: 71px;
+    height: 74px;
+}
+
+.evaluateFloat_box .evaluateFloat_left span {
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: #fee2cd;
+    margin-top: 12px;
+    margin-left: 12px;
+    font-size: 36px;
+    border-radius: 100%;
+    color: #f97810;
+}
+
+.evaluateFloat_box .evaluateFloat_right {
+    float: left;
+    width: 246px;
+    height: 74px;
+    position: relative;
+}
+
+.evaluateFloat_box .evaluateFloat_right p {
+    height: 14px;
+    color: #303030;
+    margin-top: 8px;
+}
+
+.evaluateFloat_box .evaluateFloat_right span {
+    display: block;
+    border: 1px solid #e2e2e2;
+    text-align: center;
+    line-height: 25px;
+    height: 28px;
+    width: 94px;
+    color: #f87711;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.evaluateFloat_box .evaluateFloat_right span.fade {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    bottom: 15px;
+    -webkit-transition: all .2s cubic-bezier(0.175, 0.885, 0.320, 1.350);
+    -moz-transition: all .2s cubic-bezier(0.175, 0.885, 0.320, 1.350);
+    -o-transition: all .2s cubic-bezier(0.175, 0.885, 0.320, 1.350);
+    transition: all .2s cubic-bezier(0.175, 0.885, 0.320, 1.350);
+}
+
+.evaluateFloat_box .evaluateFloat_right span:hover {
+    background: #f87711;
+    color: #fff;
+    border: 1px solid #f87711;
+}

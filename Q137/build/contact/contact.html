@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>培养能力,塑造人才</title>
+    <link href="../lenovo.ico" rel="shortcut icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link media="all" rel="stylesheet" type="text/css" href="./contact.css" />
+    <link media="all" rel="stylesheet" type="text/css" href="../styles/common.css" />
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=hGcwiP9u567E0ulGFSyiP2uL1dCMURpA"></script>
+</head>
+
+<body>
+    <div class="y_wrap">
+        <header>
+            <div></div>
+        </header>
+        <div class="y_banner">
+            <div class="y_bannerWrap">
+                <p>联系我们</p>
+                <p>资深联想讲师团队为你保驾护航</p>
+            </div>
+        </div>
+        <div class="y_content">
+            <p class="y_contentTitle">联系我们</p>
+            <p class="y_contentMessage">北京联想集团教育事业部</p>
+            <p class="y_contentAddress">北京市海淀区西北旺东路10号院2号楼</p>
+            <div style="width:1100px;height:600px;border:#ccc solid 1px;font-size:12px" id="map"></div>
+        </div>
+        <footer>
+            <div class="footer">
+                <div class="footerinner">
+                    <span class='spro-upLogo'><img src="./22.png" /></span><span>|</span> &nbsp;培养能力 塑造人才
+                </div>
+            </div>
+            <div class='spro-jp'>Copyright 2017 联想 (北京) 有限公司 京ICP备11035381 | 京公网安备110108007970号</div>
+
+        </footer>
+    </div>
+    <script type="text/javascript">
+        //创建和初始化地图函数：
+        function initMap() {
+            createMap(); //创建地图
+            setMapEvent(); //设置地图事件
+            addMapControl(); //向地图添加控件
+            addMapOverlay(); //向地图添加覆盖物
+        }
+
+        function createMap() {
+            map = new BMap.Map("map");
+            map.centerAndZoom(new BMap.Point(116.277051, 40.052396), 17);
+        }
+
+        function setMapEvent() {
+            map.enableScrollWheelZoom();
+            map.enableKeyboard();
+            map.enableDragging();
+            map.enableDoubleClickZoom()
+        }
+
+        function addClickHandler(target, window) {
+            target.addEventListener("click", function() {
+                target.openInfoWindow(window);
+            });
+        }
+
+        function addMapOverlay() {
+            var markers = [{
+                content: "1111111",
+                title: "联想教育",
+                imageOffset: {
+                    width: 0,
+                    height: 3
+                },
+                position: {
+                    lat: 40.053073,
+                    lng: 116.278003
+                }
+            }];
+            for (var index = 0; index < markers.length; index++) {
+                var point = new BMap.Point(markers[index].position.lng, markers[index].position.lat);
+                var marker = new BMap.Marker(point, {
+                    icon: new BMap.Icon("http://api.map.baidu.com/lbsapi/createmap/images/icon.png", new BMap.Size(20, 25), {
+                        imageOffset: new BMap.Size(markers[index].imageOffset.width, markers[index].imageOffset.height)
+                    })
+                });
+                var label = new BMap.Label(markers[index].title, {
+                    offset: new BMap.Size(25, 5)
+                });
+                var opts = {
+                    width: 200,
+                    title: markers[index].title,
+                    enableMessage: false
+                };
+                var infoWindow = new BMap.InfoWindow(markers[index].content, opts);
+                marker.setLabel(label);
+                addClickHandler(marker, infoWindow);
+                map.addOverlay(marker);
+            };
+        }
+        //向地图添加控件
+        function addMapControl() {
+            var scaleControl = new BMap.ScaleControl({
+                anchor: BMAP_ANCHOR_BOTTOM_LEFT
+            });
+            scaleControl.setUnit(BMAP_UNIT_IMPERIAL);
+            map.addControl(scaleControl);
+            var navControl = new BMap.NavigationControl({
+                anchor: BMAP_ANCHOR_TOP_LEFT,
+                type: BMAP_NAVIGATION_CONTROL_LARGE
+            });
+            map.addControl(navControl);
+            var overviewControl = new BMap.OverviewMapControl({
+                anchor: BMAP_ANCHOR_BOTTOM_RIGHT,
+                isOpen: true
+            });
+            map.addControl(overviewControl);
+        }
+        var map;
+        initMap();
+    </script>
+</body>
+
+</html>

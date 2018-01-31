@@ -1,0 +1,416 @@
+.logDetailMain{
+    position: relative;
+    /*left: 0;*/
+    top: -49px;
+    z-index: 100;
+    width: 100%;
+    min-height: 600px;
+    padding: 10px 0 30px 0;
+    background-color: #f4f4f6;
+}
+.LD_wrap{
+    position: relative;
+    width: 1100px;
+    min-height: 550px;
+    margin: 0 auto;
+    padding:10px 18px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.LD_wrap h2{
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    border-left: 4px solid #49c0e0;
+    padding-left: 13px;
+    /*display: inline-block;*/
+}
+.LD_wrap a.LD_back{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #7b8086;
+    width: 70px;
+}
+.LD_Box{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    margin-top:16px;
+    padding:9px 16px 9px;
+    background-color: #f5f5f7;
+}
+.LD_Box span{
+    font-size: 14px;
+    color: #333;
+    margin-right: 44px;
+}
+.LD_active p{
+    font-size: 12px;
+}
+.LD_timeBox{
+    color: #9e96ab;
+}
+.LD_Box .iconfont{
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    font-size: 14px;
+    color: #9e96ab;
+}
+.LD_Info{
+    width: 100%;
+    margin-top: 18px;
+    padding-left: 16px;
+}
+.LD_Info span{
+    margin-right: 44px;
+    color: #333;
+    font-size: 14px;
+}
+/*展示列表*/
+.LD_showList{
+    margin-top: 16px;
+    padding-left: 16px;
+}
+.LD_cmtComtainer{
+    clear:both;
+    overflow: hidden;
+}
+.LD_cmtItem{
+    float: left;
+    position: relative;
+}
+.LD_title1 ,.LD_title2{
+    color: #75767a;
+    background-color: #f5f5f5;
+    padding-left: 10px;
+    position: relative;
+    height: 30px;
+    box-sizing: border-box;
+}
+.LD_title2{
+    margin-top:5px;
+}
+.LD_commitPerson1{
+    display: inline-block;
+    box-sizing: border-box;
+    color: #606060;
+    background-color: #f5f5f5;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.LD_commitPerson1.LD_cmt{
+    position: absolute;
+    top: 0;
+    left: 520px;
+}
+.LD_cmtItem{
+   position: relative;
+    width: 520px;
+    box-sizing: border-box;
+    height: 130px;
+    float: left;
+    border: 1px solid #f5f5f5;
+}
+.LD_cmtItemRight{
+    margin-left: 8px;
+}
+.LD_cmtItem textarea{
+    width: 100%;
+    height: 98px;
+    overflow: auto;
+    border: 0;
+    text-align: left;
+    line-height: 24px;
+    outline: none;
+    resize: none;
+    padding-right: 10px;
+    box-sizing: border-box;
+    background-color: #fff;
+    /* border-bottom: 1px solid #f5f5f5; */
+    /*border-right: 1px solid #f5f5f5;*/
+}
+.LD_cmtBox01, .LD_cmtBox02{
+    padding:0 5px;
+}
+.LD_cperson{
+    position: absolute;
+    height: 16px;
+    line-height: 16px;
+    bottom: 7px;
+    right: 10px;
+    color: #909090;
+    font-size: 12px;
+}
+.LD_cdate{
+    position: absolute;
+    height: 16px;
+    line-height: 16px;
+    bottom: 7px;
+    left: 10px;
+    color: #909090;
+    font-size: 12px;
+}
+.LD_personAndDate{
+    position: relative;
+    text-align: left;
+    padding-left: 10px;
+    color: #909090;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+}
+.LD_person{
+    position: absolute;
+    height: 30px;
+    line-height: 30px;
+    top: 0;
+    left: 150px;
+    right: 0px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+/*interview*/
+.LD_interviewItem {
+    /*border-left: 1px solid #e9e8e8;*/
+    /*margin-left: 28px;*/
+    /*padding-top: 10px;*/
+}
+
+.LD_interviewItem:hover,
+.LD_interviewItem:hover textarea {
+    background-color: #e4f4ff
+}
+
+.LD_interviewItem p {
+    position: relative;
+}
+
+.LD_activeTimeOfInterview {
+    /*padding-left: 20px;*/
+}
+
+.LD_activeTimeOfInterview i {
+    margin-left: 7px;
+}
+
+.LD_interviewItem p i.iconfont {
+    position: absolute;
+    font-size: 16px;
+    right: 10px;
+    top: 0;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: #fff;
+    background-color: #4ac1e1;
+    cursor: pointer;
+}
+
+.LD_interviewItem .LD_interBlue {
+    display: inline-block;
+    border: 3px solid #1081fb;
+    border-radius: 99%;
+    background-color: #fff;
+    box-sizing: border-box;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: -8px;
+    top: 8px;
+}
+
+.LD_interTime {
+    color: #1081fb;
+    font-size: 16px;
+    font-weight: 400;
+    height: 30px;
+    line-height: 30px;
+    /*margin-left: 20px;*/
+}
+
+.LD_interType {
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    width: 64px;
+    height: 22px;
+    line-height: 22px;
+    margin-left: 10px;
+    /*border: 1px solid #000;*/
+    border-radius: 15px;
+}
+
+.LD_interType.LD_colorG {
+    color: #1ead5e;
+    background-color: #d0f1de
+}
+
+.LD_interType.LD_colorO {
+    color: #f5904c;
+    background-color: #fde4d0;
+}
+
+.LD_interText {
+    /*margin-top: 15px;*/
+    /*padding-left: 20px;*/
+    font-size: 14px;
+    font-weight: 400;
+    /*padding-top: 10px;*/
+    position: relative;
+}
+
+.LD_interText textarea {
+    display: inline-block;
+    width: 950px;
+    min-height: 60px;
+    margin-left: 5px;
+    /*border: 1px solid #e5e5e5;*/
+    background-color: #fff;
+    box-sizing: border-box;
+    padding-left: 5px;
+    /*max-height: 120px;*/
+    overflow-x: hidden;
+    overflow-y: auto;
+    outline: none;
+    border: 0;
+    resize: none;
+}
+
+/*reward*/
+
+.LD_rewardItem {
+    margin-bottom: 10px;
+    /*border-left: 1px solid #e9e8e8;*/
+}
+
+.LD_rewardItem:hover {
+    /*background-color: #e4f4ff;*/
+    background-color: #eef8ff;
+}
+
+.LD_rewardItem p {
+    position: relative;
+}
+
+.LD_timeItem {
+    /*padding-left: 20px;*/
+}
+
+.LD_rewardItem p i.iconfont {
+    position: absolute;
+    font-size: 16px;
+    right: 10px;
+    top: 10px;
+    padding: 0;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: #fff;
+    background-color: #4ac1e1;
+    cursor: pointer;
+}
+
+.LD_rewardItem p i.LD_editReward {
+    right: 40px;
+}
+
+.LD_rewardItem p i.notShow {
+    display: none;
+}
+
+.LD_rewardItem .LD_rewardBlue {
+    display: inline-block;
+    border: 3px solid #1081fb;
+    border-radius: 100%;
+    background-color: #fff;
+    box-sizing: border-box;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: -8px;
+    top: 8px;
+}
+
+.LD_rewardTime {
+    color: #1081fb;
+    font-size: 16px;
+    font-weight: 400;
+    height: 30px;
+    line-height: 30px;
+    /*margin-left: 20px;*/
+}
+
+.LD_rewardType {
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    width: 64px;
+    height: 22px;
+    line-height: 22px;
+    margin-left: 10px;
+    /*border: 1px solid #000;*/
+    border-radius: 15px;
+}
+
+.LD_rewardType.LD_colorP {
+    color: #f12cea;
+    background-color: #f8c3e6;
+}
+
+.LD_rewardType.LD_colorO {
+    color: #ff5a00;
+    background-color: #ffcfb5;
+}
+
+.LD_rewardText {
+    /*margin-top: 10px;*/
+    padding-left: 49px;
+    font-size: 14px;
+    font-weight: 400;
+    /*padding-top: 10px;*/
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.LD_rewardText .LD_rewardTextSpan {
+    display: inline-block;
+    width: 960px;
+    margin-left: 5px;
+    /*border: 1px solid #e5e5e5;*/
+    line-height: 20px;
+    box-sizing: border-box;
+    padding-left: 5px;
+    max-height: 120px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+    top: 1px;
+}
+
+.LD_rewardText i {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.LD_rewardTexts {
+    margin-bottom: 4px;
+    /*padding-left: 20px;*/
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.LD_rewardText span {
+    margin-left: 8px;
+}

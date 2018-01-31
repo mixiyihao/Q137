@@ -1,0 +1,84 @@
+.guidanceShowBox-content {
+    height: 335px;
+    width: 100%;
+    background: #e4e9ec;
+}
+
+.guidanceShowBox-card {
+    padding: 9px;
+    width: 100%;
+    height: 335px;
+    overflow-y: auto;
+}
+
+.guidanceShowBox-card h4 {
+    color: #2d3134;
+    font-size: 16px;
+    font-weight: 500
+}
+
+.guidanceShowBox-card p {
+    color: #313133;
+    line-height: 17px
+}
+
+.guidanceShowBox-card p span {
+    float: left;
+    height: 17px;
+    width: 30px;
+    color: #fff;
+    text-align: center;
+    line-height: 17px;
+    font-size: 12px;
+    border-radius: 10px;
+    display: inline-block
+}
+
+.guidanceShowBox-card span.guidanceShowBox-label1 {
+    background: #b49cfc;
+    margin-right: 5px
+}
+
+.guidanceShowBox-card span.guidanceShowBox-label2 {
+    background: #ee8e52;
+    margin-right: 7px
+}
+
+.guidanceShowBox-card span.guidanceShowBox-labelHide {
+    display: none;
+}
+
+.guidanceShowBox-card h5 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #303030;
+    margin-top: 8px
+}
+
+.guidanceShowBox-card ul {
+    margin-top: 4px
+}
+
+.guidanceShowBox-card ul li {
+    color: #69696b;
+    margin-top: 1px
+}
+
+.guidanceShowBox-box {
+    padding: 12px;
+}
+
+.guidanceShowBox-line {
+    height: 26px;
+    background: #61cae8;
+    color: #fff;
+    text-indent: 10px;
+    line-height: 26px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.guidanceShowBox-msg {
+    height: 27px;
+    padding-top: 3px;
+}

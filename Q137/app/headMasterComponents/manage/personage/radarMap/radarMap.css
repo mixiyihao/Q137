@@ -1,0 +1,37 @@
+.radarMap_box {
+    height: 168px;
+    /* overflow: hidden; */
+    position: absolute;
+    top: 55px;
+    right: 55px;
+}
+
+.radarMap_box .radarMap_boxLeft {
+    float: left;
+    width: 450px;
+}
+
+.radarMap_box .radarMap_boxLeft .radarMap_boxLeftCenter {
+    margin-left: 54px;
+}
+
+.radarMap_box .radarMap_boxRight {
+    /*float: right;*/
+    width: 370px;
+    height: 100%;
+    margin-top: 10px;
+    /*margin-right: 54px;*/
+}
+
+.radarMap_box .radarMap_boxLeft .radarMap_boxLeft_title {
+    margin-top: 24px;
+    font-size: #2f2f2f;
+    font-size: 17px;
+    margin-bottom: 27px;
+}
+
+.radarMap_box .radarMap_boxLeft .radarMap_boxLeft_msg {
+    margin-top: 13px;
+    color: #313131;
+    font-size: 14px;
+}

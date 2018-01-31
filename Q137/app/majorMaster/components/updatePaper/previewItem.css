@@ -1,0 +1,149 @@
+.previewItemWrap {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1002;
+    display: -webkit-box;
+    /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box;
+    /* 老版本语法: Firefox (buggy) */
+    display: -ms-flexbox;
+    /* 混合版本语法: IE 10 */
+    display: -webkit-flex;
+    /* 新版本语法: Chrome 21+ */
+    display: flex;
+    /* 新版本语法: Opera 12.1, Firefox 22+ */
+    -webkit-box-pack: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.previewItemContainer {
+    /*position: absolute;*/
+    width: 650px;
+    min-height: 350px;
+    background-color: #fff;
+    clear: both;
+    padding: 12px 0 12px 14px;
+}
+
+.previewItemContainer .previewItemTitle {
+    position: relative;
+    width: 620px;
+    height: 20px;
+    line-height: 14px;
+    font-size: 14px;
+    /*margin-bottom:7px;*/
+    margin: 0 14px 7px 0;
+    color: #333333;
+    border-bottom: 1px solid #dadada;
+    box-sizing: border-box;
+}
+
+.previewItemContainer .previewItemTitle .icon-guanbi {
+    position: absolute;
+    right: -10px;
+    top: -11px;
+    width: 30px;
+    height: 30px;
+    /*float: right;*/
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+    color: black;
+    font-size: 12px;
+}
+
+.previewItemContainer .previewItemTitle .icon-guanbi:hover {
+    color: #fff;
+    background-color: #4ac0e0;
+}
+
+.previewItemInner {
+    /*height: 460px;*/
+    width: 620px;
+    margin: 0 14px 7px 0;
+}
+.previewTypes{
+    padding-left: 10px;
+}
+.previewStem{
+    width: 100%;
+    min-height: 44px;
+    max-height: 88px;
+    line-height: 44px;
+    padding:0 10px;
+    margin-top: 12px;
+    overflow-y: auto;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+}
+.previewChoose{
+    /*padding:0 10px;
+    margin-top: */
+}
+.previewChoose .ansItem{
+    position: relative;
+    padding-left: 80px;
+    min-height: 36px;
+    max-height: 80px;
+    /*margin: 5px 0 0 0;*/
+    box-sizing: border-box;
+    /*background-color: #f1f1f1;*/
+}
+.previewChoose .ansItem input{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+.previewChoose .ansItem .ansCos{
+    position: absolute;
+    left: 50px;
+    top: 5px;
+}
+.previewChoose .ansItem span{
+    display: inline-block;
+    width: 100%;
+    max-height: 80px;
+    line-height: 30px;
+    overflow-y: auto;
+}
+.previewAns{
+    position: relative;
+    width: 100%;
+    min-height: 40px;
+    max-height: 80px;
+    /*line-height: 40px;*/
+    padding-left: 90px;
+    background-color: #ebf9fc;
+}
+.previewAns .finalAns{
+    position: absolute;
+    left: 20px;
+    top: 9px;
+    color: #57c5e1
+}
+.previewAns .ansSquire{
+    display: block;
+    line-height: 40px;
+    max-height: 80px;
+    overflow-y: hidden;
+    color: #57c5e1;
+}
+.ansLeval{
+    padding-left: 10px;
+    margin-top: 6px;
+}
+.ansBelong{
+    padding-left: 10px;
+    margin-top: 6px;
+}

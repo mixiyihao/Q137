@@ -1,0 +1,26 @@
+.h-img404 {
+    width: 315px;
+    margin: 10px auto;
+    margin-top: 130px;
+    height: 252px;
+    background: url('../../../images/404/404_03.jpg') no-repeat center center;
+}
+
+.h-btntopage a {
+    width: 96px;
+    height: 28px;
+    line-height: 28px;
+    display: inline-block;
+    text-align: center;
+    background-color: #49c0e0;
+    color: #FFFFFF;
+}
+
+.h-btntopage {
+    width: 202px;
+    margin: 0 auto;
+}
+
+.h-btntopage1 {
+    margin-right: 8px;
+}

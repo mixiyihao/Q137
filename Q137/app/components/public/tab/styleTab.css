@@ -1,0 +1,744 @@
+.z-navigation {
+    /*width: 100%;*/
+    height: 48px;
+    background: #fafafa;
+    /*min-width: 1290px;*/
+    position: relative;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #eee;
+}
+
+.y_navigation {
+    width: 100%;
+    height: 48px;
+    background: #fafafa;
+    min-width: 1290px;
+    position: relative;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #eee;
+}
+
+.z-navigation1 {
+    width: 100%;
+    height: 48px;
+    display: none;
+}
+
+.z-navigation ul {
+    height: 48px;
+    /*position: absolute;
+    top: 0;
+    left: 0;*/
+}
+
+.y_navigation ul {
+    height: 48px;
+    width: 260px;
+    margin: 0 auto;
+    line-height: 48px;
+}
+
+.y_navigation ul li {
+    box-sizing: content-box;
+    width: 130px;
+    height: 33px;
+    float: left;
+    text-align: center;
+    color: #bababa;
+    cursor: pointer;
+}
+
+.y_navigation ul li:hover {
+    color: #000;
+}
+
+.z-navigation ul li {
+    box-sizing: content-box;
+    width: 130px;
+    height: 48px;
+    float: left;
+    line-height: 48px;
+    text-align: center;
+    color: #bababa;
+}
+
+.kj span {
+    float: right;
+    color: #e6e6e6;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.z-navigation ul li:first-child {
+    /*padding-left: 160px;*/
+}
+
+
+/*.z-navigation ul li:hover {
+    color: #333;
+}*/
+
+.z-banner1 {
+    padding: 0 150px 0 270px;
+    min-height: 600px;
+}
+
+.z-xianDiv {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #fff;
+    height: 20px;
+}
+
+.z-caption {
+    font-size: 16px;
+    height: 22px;
+    line-height: 22px;
+    text-indent: 11px;
+    background: url(../../../images/leftNavBar/bj_02.gif) no-repeat 0 0;
+    margin: 20px 0 12px 0;
+    position: relative;
+}
+
+.z-captionHide {
+    display: none;
+}
+
+.z-caption-content {
+    padding: 0 0 0 20px;
+    color: #606060;
+    position: relative;
+    /*overflow: hidden;*/
+}
+
+.z-caption-contentHide {
+    display: none;
+}
+
+.z-xian {
+    width: 1px;
+    background: #f1f2f3;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    top: 6px;
+    left: 88px;
+}
+
+.z-caption-content p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #4c4c4c;
+    font-weight: normal;
+    position: relative;
+}
+
+.z-caption-content ul {
+    /* margin-bottom: 30px */
+}
+
+.z-caption-content1 {
+    margin-left: 90px;
+}
+
+.z-caption-content1 .LinkToDiv {
+    display: block;
+    /*line-height: 32px;*/
+    color: #606060;
+    height: 32px;
+    background: #f5f4f9;
+    margin-bottom: 4px;
+    text-indent: 20px;
+}
+
+.z-caption-content1 .LinkToDivAni {
+    display: block;
+    /*line-height: 32px;*/
+    height: 32px;
+    color: #fff;
+    background: #49525d;
+    margin-bottom: 4px;
+    text-indent: 20px;
+}
+
+.z-caption-content1 .LinkToDivAni .z-study:hover {
+    background: #4ac0e0;
+    color: #fff;
+}
+
+.z-caption-content1 .LinkToDivAni .z-study {
+    color: #fff;
+}
+
+.z-caption-content1 .LinkToDiv a {
+    color: #606060;
+    width: 270px;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    line-height: 32px;
+    text-indent: 0px;
+    transition: none;
+
+}
+
+.z-caption-content1 .LinkToDiv:hover {
+    color: #fff;
+    background: #49525d;
+}
+
+.z-caption-content1 .LinkToDiv:hover a {
+    color: #fff;
+    transition: none;
+}
+
+.z-caption-content1 .LinkToDiv:hover .z-study {
+    color: #fff;
+}
+
+.z-caption-content1 .LinkToDiv .z-study:hover {
+    background: #4ac0e0;
+}
+
+.z-caption-content1 .LinkToDivAni a {
+    color: #fff;
+    width: 270px;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    line-height: 32px;
+    text-indent: 0px;
+}
+
+.z-study {
+    line-height: 32px;
+    float: right;
+    /* border: 1px solid #d4d4d4; */
+    margin-left: 3px;
+    font-size: 14px;
+    text-indent: 0;
+    padding: 0 6px;
+    color: #808080;
+    cursor: pointer;
+    height: 32px;
+    width: 90px;
+    position: relative;
+}
+
+.z-study i {
+    margin-right: 3px;
+    vertical-align: -1px;
+}
+
+.z-studyHide {
+    display: none
+}
+
+.z-yuan {
+    position: absolute;
+    top: 6px;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #e1e1e1;
+    margin-left: 5px;
+    z-index: 20;
+}
+
+
+/* 重写样式 */
+.z-navBox .teacher_captionCenter {
+    float: left;
+    width: 893px;
+    overflow-y: auto;
+}
+.z-navBox .teacher_captionBox {
+    background: #fff;
+    /*overflow: hidden;*/
+    margin-top: 7px;
+    padding: 10px;
+}
+
+.teacher_caption {
+    font-size: 16px;
+    height: 22px;
+    line-height: 22px;
+    text-indent: 11px;
+    background: url(../../../images/leftNavBar/bj_02.gif) no-repeat 0 0;
+    margin: 10px 0 12px 0;
+}
+
+.z-navBox .teacher_caption_content {
+    padding: 0 0 0 12px;
+    color: #606060;
+    position: relative;
+    /*overflow: hidden;*/
+}
+.z-navBox .teacher_caption_content p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #4c4c4c;
+    font-weight: normal;
+    position: relative;
+}
+
+.z-caption .lessonTab_button {
+    position: absolute;
+    right: 25px;
+    top: 0;
+}
+
+.z-caption .lessonTab_button .lessonTab_buttonFloat {
+    position: relative;
+    float: left;
+}
+
+.z-caption .lessonTab_button .lessonTab_buttonCon {
+    position: absolute;
+    display: none;
+    width: 344px;
+    line-height: 14px;
+    right: -84px;
+    z-index: 666;
+    background-color: #fff;
+    border-radius: 10px;
+    color: #606060;
+    min-height: 30px;
+    box-shadow: 0 0px 10px 0 rgba(0, 0, 0, .35)!important;
+    -webkit-box-shadow: 0 0px 10px 0 rgba(0, 0, 0, .35)!important;
+    -moz-box-shadow: 0 0px 10px 0 rgba(0, 0, 0, .35)!important;
+    text-indent: 0;
+}
+
+.z-caption .lessonTab_button .lessonTab_buttonCon2 {
+    position: absolute;
+    display: none;
+    width: 344px;
+    line-height: 14px;
+    right: -84px;
+    z-index: 666;
+    background-color: #fff;
+    border-radius: 10px;
+    color: #606060;
+    min-height: 30px;
+    box-shadow: 0 0px 10px 0 rgba(0, 0, 0, .35)!important;
+    -webkit-box-shadow: 0 0px 10px 0 rgba(0, 0, 0, .35)!important;
+    -moz-box-shadow: 0 0px 10px 0 rgba(0, 0, 0, .35)!important;
+    text-indent: 0;
+}
+
+.z-caption .lessonTab_button .lessonTab_buttonConCen {
+    height: 14px;
+    line-height: 14px;
+    text-align: left;
+}
+
+.z-caption .lessonTab_button .lessonTab_buttonConCen span {
+    height: 14px;
+    line-height: 14px;
+    text-align: left;
+    text-indent: 0;
+    font-size: 14px;
+}
+
+.z-caption .lessonTab_button .lessonTab_buttonConCen i {
+    display: inline-block;
+    width: 100%;
+    line-height: 18px;
+    padding: 0px 10px;
+}
+
+.z-caption .lessonTab_button .lessonTab_buttonConCen i.tipTime {
+    width: auto;
+    color: #fe6428;
+    padding: 0;
+}
+
+.z-caption .lessonTab_button .lessonTab_buttonConCen .lessonTab_buttonConCenFi i {
+    padding: 15px 8px 10px;
+    color: #fe6428;
+}
+
+.z-caption .lessonTab_button .lessonTab_buttonExam,.z-caption .lessonTab_button .lessonTab_buttonHome {
+    width: 97px;
+    height: 27px;
+    display: inline-block;
+    background: #49c0e0;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 28px;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+    float: left;
+    text-indent: 0;
+}
+
+.z-caption .lessonTab_button .lessonTab_buttonExamNo {
+    width: 97px;
+    height: 27px;
+    display: inline-block;
+    background: #68a8ba;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 28px;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+    float: left;
+    text-indent: 0;
+    opacity: 0.6;
+    filter: alpha(opacity = 60);
+}
+
+
+.z-caption .lessonTab_button span.lessonTab_buttonExam {
+    margin-right: 10px;
+    width: 120px;
+}
+
+.z-caption .lessonTab_button span.lessonTab_buttonExamNo {
+    margin-right: 10px;
+    width: 120px;
+}
+
+.z-caption .lessonTab_button .lessonTab_buttonFloat:hover .lessonTab_buttonCon {
+    display: block;
+    height: 126px;
+    top: -131px;
+}
+
+.z-caption .lessonTab_button .lessonTab_buttonFloat:hover .lessonTab_buttonCon2 {
+    display: block;
+    height: 30px;
+    width: 233px;
+    line-height: 30px;
+    text-align: left;
+    padding-left: 10px;
+    top: -35px;
+    right: -60px;
+    font-size: 14px;
+}
+
+.z-caption .lessonTab_button span.lessonTab_buttonExam i {
+    margin-right: 3px;
+    vertical-align: -1px;
+}
+
+.z-caption .lessonTab_button span.lessonTab_buttonExamNo i {
+    margin-right: 3px;
+    vertical-align: -1px;
+}
+
+.z-caption .lessonTab_button span.lessonTab_buttonHome {
+    width: 140px;
+}
+
+.z-caption .lessonTab_button span.lessonTab_buttonHome i {
+    margin-right: 3px;
+    vertical-align: -1px;
+}
+
+.z-navBox .lessonTab_examLine {
+    height: 42px;
+    line-height: 42px;
+    position: relative;
+    color: #1280f9;
+    background: #f5f4f9;
+    margin-bottom: 4px;
+    border: 1px dashed #d3d3d3;
+    margin-left: -13px;
+}
+
+.z-navBox .lessonTab_examLineGray {
+    height: 42px;
+    line-height: 42px;
+    position: relative;
+    color: #bebebe;
+    background: #f5f4f9;
+    margin-bottom: 4px;
+    border: 1px dashed #d3d3d3;
+    margin-left: -13px;
+}
+
+.z-navBox .lessonTab_examLineGray p {
+    margin-left: 33px;
+    width: 500px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 15px;
+    color: #bebebe;
+    float: left;
+}
+
+.z-navBox .lessonTab_examLineGray .lessonTab_examLineLookHide {
+    display: none;
+}
+
+.z-navBox .lessonTab_examLineGray .lessonTab_examLineStartHide {
+    display: none;
+}
+
+.z-navBox .lessonTab_examLineGray .lessonTab_examLineLook {
+    display: inline-block;
+    float: right;
+    width: 96px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #bebebe;
+    cursor: pointer;
+}
+
+.z-navBox .lessonTab_examLineGray .lessonTab_examLineLook i {
+    margin-right: 3px;
+    vertical-align: -1px;
+}
+
+.z-navBox .lessonTab_examLineGray .lessonTab_examLineStart {
+    display: inline-block;
+    float: right;
+    width: 96px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #bebebe;
+    cursor: pointer;
+}
+
+.z-navBox .lessonTab_examLineGray .lessonTab_examLineStart i {
+    margin-right: 3px;
+    vertical-align: -1px;
+}
+
+.z-navBox .lessonTab_examLineGray .lessonTab_examLineMsg {
+    display: inline-block;
+    float: right;
+    width: 96px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #bebebe;
+}
+
+.z-navBox .lessonTab_examLineGray .lessonTab_examLineMsgHide {
+    display: none;
+}
+
+.z-navBox .lessonTab_examLine:hover {
+    color: #fff;
+    background: #a0d8f9;
+    border: 1px solid #a0d8f9;
+}
+
+.z-navBox .lessonTab_examLine:hover p {
+    color: #fff;
+}
+
+.z-navBox .lessonTab_examLine:hover span {
+    color: #fff;
+}
+
+.z-navBox .lessonTab_examLine p {
+    margin-left: 33px;
+    width: 500px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 15px;
+    color: #1280f9;
+    float: left;
+}
+
+.z-navBox .lessonTab_examLine .lessonTab_examLineLookHide {
+    display: none;
+}
+
+.z-navBox .lessonTab_examLine .lessonTab_examLineStartHide {
+    display: none;
+}
+
+.z-navBox .lessonTab_examLine .lessonTab_examLineLook {
+    display: inline-block;
+    float: right;
+    width: 96px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #80807e;
+    cursor: pointer;
+}
+
+.z-navBox .lessonTab_examLine .lessonTab_examLineLook i {
+    margin-right: 3px;
+    vertical-align: -1px;
+}
+
+.z-navBox .lessonTab_examLine .lessonTab_examLineLook:hover,.lessonTab_examLine .lessonTab_examLineStart:hover {
+    background: #51c0de;
+}
+
+.z-navBox .lessonTab_examLine .lessonTab_examLineStart {
+    display: inline-block;
+    float: right;
+    width: 96px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #1380f9;
+    cursor: pointer;
+}
+
+.z-navBox .lessonTab_examLine .lessonTab_examLineStart i {
+    margin-right: 3px;
+    vertical-align: -1px;
+}
+
+.z-navBox .lessonTab_examLine .lessonTab_examLineMsg {
+    display: inline-block;
+    float: right;
+    width: 96px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #80807e;
+}
+
+.z-navBox .lessonTab_examLine .lessonTab_examLineMsgHide {
+    display: none;
+}
+
+.z-navBox .z-banner .lessonTab_content {
+    padding: 0 0 0 12px;
+}
+
+.lessonTab_content .lessonTab_xian {
+    left: 88px;
+}
+
+.lesson_guidance {
+    display: none;
+    height: 120px;
+    position: absolute;
+    width: 344px;
+    right: -90px;
+    border-radius: 10px;
+    background: #fff;
+    z-index: 199;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .35)!important;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, .35)!important;
+    -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, .35)!important;
+    cursor: auto;
+    padding: 5px 0 5px 0;
+}
+
+.lesson_guidance .lesson_guidanceCenter {
+    display: block;
+    width: 344px;
+    line-height: normal;
+    cursor: auto;
+}
+
+.lesson_guidance .lesson_guidanceTitle {
+    display: inline-block;
+    line-height: 18px;
+    color: #fe6428;
+    margin-left: 15px;
+    width: 329px;
+    cursor: auto;
+}
+
+.lesson_guidance .lesson_guidanceMsg {
+    display: inline-block;
+    width: 329px;
+    line-height: normal;
+    color: #606060;
+    margin-left: 15px;
+    margin-top: 5px;
+    cursor: auto;
+}
+
+.lesson_guidanceMsg_labelHide {
+    display: none;
+}
+
+.lesson_guidanceMsg_number {
+    display: inline-block;
+    height: 17px;
+    min-width: 25px;
+}
+
+.lesson_guidanceMsg_label1 {
+    height: 17px;
+    width: 30px;
+    color: #fff;
+    text-align: center;
+    line-height: 17px;
+    font-size: 12px;
+    border-radius: 10px;
+    display: inline-block;
+    background: #b49cfc;
+    margin-right: 5px;
+}
+
+.lesson_guidanceMsg_label2 {
+    height: 17px;
+    width: 30px;
+    color: #fff;
+    text-align: center;
+    line-height: 17px;
+    font-size: 12px;
+    border-radius: 10px;
+    display: inline-block;
+    background: #ee8e52;
+    margin-right: 5px;
+}
+
+.z-study-guidance:hover .lesson_guidance {
+    top: -126px;
+    display: block;
+}
+
+.teacher_captionCenter .teacherCourse_triangle {
+    position: absolute;
+    height: 150px;
+    width: 438px;
+    top: -160px;
+    right: -105px;
+    border: 1px solid #79d7f1;
+    box-shadow: rgba(12, 50, 60, 0.2) 0 0 10px;
+}
+
+.teacher_captionCenter .teacherCourse_triangle:before,
+.teacher_captionCenter .teacherCourse_triangle:after{
+    position:absolute;
+    content:'';
+    width:14px;
+    height:14px;
+    bottom:-8px;
+    left:50%;
+    margin-left:54px;
+    overflow:hidden;
+    pointer-events:none;
+    -webkit-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+    transform:rotate(45deg);
+    z-index: 98;
+}
+.teacher_captionCenter .teacherCourse_triangle:before{
+    background: rgb(121, 215, 241);
+    box-shadow: rgba(12, 50, 60, 0.2) 0 0 10px;
+
+
+}
+.teacher_captionCenter .teacherCourse_triangle:after{
+    bottom:-7px;
+    background:#fff;
+}

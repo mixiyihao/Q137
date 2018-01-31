@@ -1,0 +1,370 @@
+.SKOutterTitle a {
+    float: right;
+    color: #606060;
+}
+
+.SKOutterTitle a span {
+    display: inline-block;
+    line-height: 28px;
+}
+
+.SKOutterTitle a i {
+    vertical-align: -1px;
+}
+
+.SKOutterTitle a:hover {
+    color: #49c0e0;
+}
+
+.SKTitle {
+    position: relative;
+    width: 1046px;
+    margin-left: 14px;
+    background: #f5f5f5;
+}
+.SKTspanone label{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    left: 0;
+}
+.SKTspanone{
+    position: relative;
+}
+.SKTspanone input{
+    position: absolute;
+    left: 8px;
+    top: 16px;
+}
+.SKToutterDivone{
+    position: relative;
+}
+.SKToutterDivone input{
+    position: absolute;
+    left: 8px;
+    top: 3px;
+    width: 16px;
+    height: 16px;
+}
+.SKToutterDivone span {
+    margin-left: 5px;
+}
+div.SKTone {
+    height: 60px;
+}
+
+.Sk-commonButton {
+    padding: 0px !important;
+}
+
+b.SKTscoreinfo {
+    color: red;
+    position: absolute;
+    font-size: 14px;
+    left: 232px;
+    top: 6px;
+    font-weight: 500;
+}
+
+b.SKTscoreinfo1 {
+    color: red;
+    position: absolute;
+    font-size: 9px;
+    left: 70px;
+    width: 200px;
+    top: 0px;
+    font-weight: 500;
+}
+
+div.SKTone span {
+    color: #333;
+}
+
+
+.CourseEvaluationBody_boxSpro{
+  background: #f4f4f5;
+  padding: 20px 0px;
+}
+.CourseEvaluationBody_boxSpro .CourseEvaluationBody_wrap {
+    width: 1100px;
+    min-height: 536px;
+    background-color: #ffffff;
+    padding: 20px;
+    margin:0 auto;
+
+}
+.CourseEvaluationBody_boxSpro .CourseEvaluationBody_wrap h2 {
+    font-weight: 400;
+    font-size: 18px;
+    height: 20px;
+    line-height: 20px;
+    border-left: 4px solid #49c0e0;
+    padding-left: 13px;
+    display: inline-block;
+}
+span.SKTonespan {
+
+    margin-right: 0px !important;
+    width: auto!important;
+    line-height: 55px;
+    color: #606060;
+    margin:0 10px;
+    max-width: 260px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+
+span.SKTtwospan,
+span.SKTthrspan {
+    width: auto !important;
+   /* margin-left: 36px;*/
+    margin-right: 33px !important;
+}
+
+.SKTone a {
+    text-align: center;
+    line-height: 30px;
+    background: #49c0e0;
+    color: white;
+    width: 100px;
+    height: 30px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.SKTtwo {
+    height: 42px;
+}
+
+div.SKToutterDiv {
+    /*color: #606060;*/
+    padding-top: 15px;
+    border-top: 1px solid #f2f2f2;
+}
+
+span.SkallSpanOne {
+    position: relative;
+    width: 94px !important;
+    background: white !important;
+    display: inline-block;
+    top: 1px;
+    left: 2px;
+}
+
+input.SKTinput2 {
+    text-align: center;
+}
+
+
+/*input.SKTinput2:hover,
+input.SKTinput2:focus {
+    border-width: 0px;
+    border-color: #49c0e0;
+}*/
+
+span.SKTtwospanone {
+    width: 50px !important;
+    display: inline-block;
+    line-height: 30px;
+    margin-right: 0px !important;
+    margin-left: 16px;
+    float: left;
+}
+.SKOutterTitle a:hover i{
+    color: #49c0e0;
+}
+span.SKTtwospantwo {
+    width: 64px !important;
+    height: 30px;
+    background: #49c0e0;
+    color: white;
+    line-height: 30px;
+}
+
+i.SKbatch {
+    position: relative;
+    top: 1px;
+    right: 3px;
+    display: inline-block;
+}
+
+input.SKTtwoinputone {
+    width: 270px;
+    height: 30px;
+    border: 1px solid #b0b0b0;
+    background: #f5f5f5;
+    text-indent: 6px;
+    float: left;
+}
+
+input.SKTtwoinputone:hover,
+input.SKTtwoinputone:focus {
+    background: white;
+    border: 1px solid #4ac0e0;
+}
+
+input.SKTtwoinputtwo {
+    text-indent: 10px;
+    width: 96px;
+    border: 1px solid #b0b0b0;
+}
+
+input.SKTtwoinputtwo:hover,
+input.SKTtwoinputtwo:focus {
+    border: 1px solid #4ac0e0;
+}
+
+span.SKTinnerspanone {
+    width: 127px !important;
+    margin-right: 65px !important;
+}
+
+.spre_publicModeldiv {
+    border: 1px solid #f2f2f2;
+    border-top: 0;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 45px;
+    background: url('../../images/search/nomessage.jpg') no-repeat 10px center;
+    background-size: 30px;
+    width: 1046px;
+}
+
+span.SKTinnerspanone>input {
+    width: 16px;
+    height: 16px;
+    margin-left: 15px;
+}
+
+span.SKTinnerspanone>span {
+   /* padding-left: 13px;*/
+}
+
+span.SKTinnerspantwo {
+    margin-right: 260px !important;
+}
+
+span.SKTinnerspanthr {
+    margin-right: 100px !important;
+}
+
+span.SKTinnerspanfou {
+    margin-right: 0px !important;
+}
+
+.SKTitle span {
+    width: 150px;
+    text-align: center;
+}
+
+.SkTip {
+    margin-left: 14px;
+    margin-top: 13px;
+    width: 1046px;
+    height: 38px;
+    background: #fee5d1;
+    color: #f48277;
+    line-height: 38px;
+    padding-left: 14px;
+    margin-bottom: 12px;
+}
+
+span.SKspanscore {
+    display: inline-block;
+    padding-left: 3px;
+}
+
+.SKAll {
+    display: none;
+    clear: both;
+    margin: 10px 5px 10px 14px;
+    position: relative;
+}
+
+.SKAll input {
+    margin-left: 2px;
+    margin-right: 5px;
+}
+
+.spreview_backto .Sproiconback {
+    position: relative;
+    top: 0;
+    font-size: 16px;
+}
+
+.SKAll span {
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #49c0e0;
+}
+
+span.SKTbot {
+    display: block;
+    color: white;
+    width: 95px;
+    height: 34px;
+    margin-top: 10px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+div.SKTt {
+    padding-left: 14px;
+    margin-bottom: 10px;
+}
+
+div.SKTt {
+    color: #606060;
+}
+
+div.SKTt .SKItemStyle {
+    height: 50px !important;
+    line-height: 50px;
+    border-bottom: 1px solid #f2f2f2;
+    border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+}
+
+div.SKTt .SKItemStyle input {
+    height: 16px;
+    width: 16px;
+}
+
+div.SKTt .SKItemStyle span{   
+  text-align:center;
+}
+
+.SKTspanfou {
+    position: relative;
+}
+
+.SKTspanfouinputspan {
+    border: 1px solid #a9a9a9;
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.SKTspanfouinputspan input {
+    width: 73px !important;
+    height: 21px !important;
+    line-height: 21px;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+.SKTspanfouinputspan:hover {
+    border: 1px solid #4ac0e0;
+}
+
+div.SKTt .SKItemStyle .SKTspanfou input:focus {
+    border-color: rgb(238, 238, 238)
+}

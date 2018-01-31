@@ -1,0 +1,40 @@
+.y-navTitleBox {
+    background-color: #89db96;
+    height: 144px;
+}
+
+.y-nav {
+    width: 100%;
+    height: 144px;
+    background: url(../../../images/leftNavBar/navimage.png) no-repeat 730px -20px;
+    /*padding: 20px 40px 0 310px;*/
+    position: relative;
+}
+
+.z-call {
+    float: right;
+    margin-right: 20%;
+}
+
+.h-name {
+    min-width: 400px;
+    color: #fff;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.h-name span {
+    font-size: 14px;
+    margin-left: 13px;
+}
+
+.h-ul {
+    min-width: 400px;
+    overflow: hidden;
+}
+
+.h-ul li {
+    float: left;
+    padding-right: 10px;
+    color: #fff;
+}

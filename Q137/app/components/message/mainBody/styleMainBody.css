@@ -1,0 +1,241 @@
+.z-landing {
+    width: 100%;
+    min-height: 300px;
+    padding-left: 210px;
+}
+
+.z-mainTop {
+    margin-bottom: 35px;
+}
+
+.spro-myself {
+    margin-top: 30px;
+    margin-left: 25px;
+    width: 100%;
+    height: 19px;
+}
+
+.spro-myselfspan {
+    color: rgb(47, 57, 72);
+    height: 19px;
+    line-height: 19px;
+    font-size: 18px;
+    padding-left: 12px;
+    border-left: 4px solid #4ac0e0;
+}
+
+.spro-messagedb {
+    display: block;
+}
+li.mainItemOne label{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 13px;
+}
+.spro-nomessageStylep {
+    color: #606060;
+    margin-left: 0px !important;
+}
+.spro-nomessageUniqueStyle{
+    width: 36px;
+    height: 36px;
+    float: left !important;
+    /*padding-left: 18px;*/
+    background: url("../../../images/search/nomessage.jpg") no-repeat 3px 3px;
+    /*size必须写到background后面*/
+    background-size: 28px;
+}
+.spro-nomessageStyle {
+    margin-right: 10px;
+    width: 28px;
+    height: 28px;
+    margin-top: 10px;
+    float: left !important;
+    /*padding-left: 18px;*/
+    background: url("../../../images/search/nomessage.jpg") no-repeat;
+    /*size必须写到background后面*/
+    background-size: 100%;
+}
+
+.spro-messagedn {
+    display: none;
+}
+
+.spro-messageTab {
+    width: 1035px;
+    margin-top: 30px;
+    margin-left: 40px;
+    height: 38px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+
+/*.spro-allmessTab{
+    border-top: 4px solid #fff;
+    background: #f4f4f6;
+}*/
+
+.spro-messageselectTabstyle {
+    border-top: 4px solid #49c0e0 !important;
+    background: #fff !important;
+    display: inline-block;
+}
+
+.spro-messageTab>span {
+    border-top: 4px solid #f4f4f6;
+    box-sizing: border-box;
+    color: #606060;
+    display: inline-block;
+    background: #f4f4f6;
+    border-right: 1px solid #e4e4e4;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    line-height: 34px;
+    width: 90px;
+    border-bottom: 1px solid white;
+}
+
+.z-mainTop>p {
+    height: 20px;
+    line-height: 20px;
+    font-size: 16px;
+    text-indent: 24px;
+    background: url(../../../images/leftNavBar/bj_02.gif) no-repeat 12px 0;
+    margin-top: 30px;
+}
+
+.z-mainTop1 {
+    width: 1046px;
+    padding-left: 40px;
+    padding-top: 15px;
+}
+
+.z-mainTop1>p {
+    height: 36px;
+    line-height: 36px;
+    margin-left: 13px;
+}
+
+.z-mainTop1 button {
+    width: 104px;
+    height: 24px;
+    line-height: 24px;
+    background: #4abfe0;
+    float: right;
+    color: #fff;
+    margin-top: 6px;
+}
+
+.z-mainTop1 input {
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.z-mainTop1 span {
+    float: right;
+}
+
+.z-mainTop1 li {
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+    background-color: #f5f4f9;
+    margin-top: 4px;
+    padding-left: 13px;
+}
+
+.z-mainTop1 li span {
+    position: absolute;
+    height: 100%;
+    right: 10px;
+    top: 0px;
+    font-weight: 100;
+}
+
+.z-mainTop1 li i {
+    line-height: 20px;
+    display: inline-block;
+    float: left;
+    border: 1px solid #4ac0e0;
+    margin-top: 4px;
+    margin-left: 20px;
+    font-size: 14px;
+    text-indent: 0px;
+    color: #fff;
+    display: none;
+    cursor: pointer;
+}
+
+.z-mainTop1 li i a {
+    display: inline-block;
+    margin-left: 0px;
+    height: 20px;
+    padding: 0 10px;
+}
+
+.z-mainTop1 li i a:hover {
+    background: #4ac0e0;
+}
+
+.z-mainTop1 li:hover {
+    color: #fff;
+    /*background: #293039;*/
+    background: #49525d;
+}
+
+.z-mainTop1 li:hover>i {
+    display: block;
+}
+
+.z-mainTop1 li:hover a {
+    color: #fff;
+    background: #49525d;
+}
+
+.z-mainTop1 li a {
+    color: #4abfe0;
+    margin-left: 10px;
+    float: left;
+}
+
+.z-mainTop1 li input {
+    float: left;
+    margin-top: 9px;
+}
+
+#yidu {
+    text-align: center;
+}
+
+
+/*这是给消息提示标题加的样式*/
+
+.z-mainTop .z-title {
+    height: 25px;
+    padding-left: 30px;
+    line-height: 25px;
+    margin-top: 10px;
+}
+
+.z-mainTop .z-title .h-cubiud {
+    width: 4px;
+    height: 20px;
+    margin-right: 8px;
+    margin-bottom: -4px;
+    padding-top: 8px;
+    display: inline-block;
+    background-color: #4ac0e0;
+}
+
+.z-mainTop .z-title .h-information {
+    font-size: 18px;
+    height: 22px;
+    line-height: 22px;
+    color: #444444;
+    display: inline-block;
+    text-indent: 0px;
+    position: relative;
+    left: 9px;
+}

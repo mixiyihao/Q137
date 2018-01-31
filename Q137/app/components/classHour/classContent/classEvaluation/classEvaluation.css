@@ -1,0 +1,228 @@
+.classEvaluation_box {
+    padding: 0 0 50px 230px;
+    background: rgb(244, 244, 245);
+    min-height: 600px;
+    position: relative;
+    z-index: 20;
+    overflow: hidden;
+}
+
+.classEvaluation_box .classEvaluation_title {
+    font-size: 16px;
+    height: 45px;
+    line-height: 22px;
+    text-indent: 11px;
+    background: url('../../../../images/leftNavBar/bj_02.gif') 0 10px no-repeat;
+    padding: 10px 0 12px;
+    color: rgb(96, 96, 96);
+    width: 400px;
+}
+
+.classEvaluation_box .classEvaluation_back {
+    position: absolute;
+    right: 20px;
+    top: 6px;
+    color: #7b8086;
+}
+
+.classEvaluation_box .classEvaluation_back i {
+    vertical-align: -1px;
+}
+
+.classEvaluation_box .classEvaluation_back:hover {
+    color: #4ac0e0;
+}
+
+.classEvaluation_box .classEvaluation_wrap {
+    background: rgb(255, 255, 255);
+    overflow: hidden;
+    width: 1038px;
+    margin-left: 12px;
+    padding: 21px 12px 20px 18px;
+}
+
+.classEvaluation_box .classEvaluation_wrap .classEvaluation_wrap_oneTitleBox {
+    width: 100%;
+    overflow: hidden;
+}
+
+.classEvaluation_box .classEvaluation_wrap .classEvaluation_wrap_oneTitle {
+    min-width: 200px;
+    background: #e8ddfd;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 16px;
+    margin-bottom: 16px;
+    position: relative;
+    float: left;
+}
+
+.classEvaluation_box .classEvaluation_wrap .classEvaluation_wrap_oneTitle i {
+    position: absolute;
+    border-right: 0;
+    border-left: 18px solid #e8ddfd;
+    border-bottom: 18px solid transparent;
+    border-top: 17px solid transparent;
+    top: 0;
+    right: -17px;
+}
+
+.classEvaluation_box .classEvaluation_wrap .classEvaluation_wrap_oneSpan {
+    font-weight: 700;
+    float: left;
+}
+
+.classEvaluation_box .classEvaluation_wrap .classEvaluation_wrap_twoSpan {
+    float: left;
+    margin-left: 16px;
+}
+
+.classEvaluation_box .classEvaluation_wrap .classEvaluation_wrap_threeSpan {
+    float: left;
+    display: inline-block;
+    width: 62px;
+    height: 18px;
+    border-radius: 3px;
+    background: #ffc1b2;
+    text-align: center;
+    line-height: 18px;
+    color: #f85921;
+    font-size: 12px;
+    margin-left: 4px;
+    margin-top: 9px;
+    margin-right: 10px;
+}
+
+.classEvaluation_box .classEvaluation_wrap .classEvaluation_wrap_msgTitle {
+    margin-top: 10px;
+    width: 100%;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 18px;
+    background: #f5f5f5;
+    color: #2e3740;
+}
+
+.classEvaluation_box .classEvaluation_wrap .classEvaluation_wrap_msgStarBox {
+    float: left;
+    width: 190px;
+}
+
+.classEvaluation_box .classEvaluation_wrap .classEvaluation_wrap_msgStar {
+    height: 46px;
+    padding-left: 33px;
+    line-height: 46px;
+}
+
+.classEvaluation_box .classEvaluation_wrap .classEvaluation_wrap_msgStar span {
+    float: left;
+    font-size: 28px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.classEvaluation_box .classEvaluation_wrap .classEvaluation_wrap_msgStar span.icon-star {
+    color: #a9a9a9;
+}
+
+.classEvaluation_box .classEvaluation_wrap .classEvaluation_wrap_msgStar span.icon-star1 {
+    color: #ff7245;
+}
+
+.classEvaluation_box .classEvaluation_wrap .classEvaluation_wrap_msgStar i {
+    float: left;
+    padding-left: 10px;
+    color: #fc7e56;
+}
+
+.classEvaluation_box .classEvaluation_wrap .classEvaluation_wrap_msgStar .evaluatePage_wrap_msgScore {
+    display: none;
+}
+
+.classEvaluation_box .classEvaluation_wrap .classEvaluation_wrap_msgStar .classEvaluation_wrap_msgScore {
+    display: none;
+}
+
+.classEvaluation_box .classEvaluation_wrap .classEvaluation_wrap_textarea {
+    width: 100%;
+    line-height: 38px;
+    padding-left: 18px;
+    color: #2e3740;
+    height: 130px;
+}
+
+.classEvaluation_box .classEvaluation_wrap .classEvaluation_wrap_textarea span {
+    float: left;
+    width: 10%;
+}
+
+.classEvaluation_box .classEvaluation_wrap .classEvaluation_wrap_textarea textarea {
+    width: 88%;
+    height: 95px;
+    resize: none;
+    padding: 6px 8px;
+    color: #707070;
+    line-height: 24px;
+    border: none;
+    background: #fff;
+}
+
+.classEvaluation_box .classEvaluation_wrap_box {
+    overflow: hidden;
+}
+
+.classEvaluation_box .classEvaluation_button {
+    overflow: hidden;
+}
+
+.classEvaluation_box .classEvaluation_button span {
+    float: left;
+    display: inline-block;
+    padding: 0;
+    height: 28px;
+    width: 86px;
+    text-align: center;
+    line-height: 28px;
+    cursor: pointer;
+}
+
+.classEvaluation_box .classEvaluation_button span:nth-child(1) {
+    color: #969698;
+    border: 1px solid #e8e8ea;
+    background: #fff;
+}
+
+.classEvaluation_box .classEvaluation_button span:nth-child(2) {
+    background: #49c0e0;
+    border: 1px solid #49c0e0;
+    color: #fff;
+    margin-left: 8px;
+}
+
+.classEvaluation_box .classEvaluation_button span:nth-child(2):hover {
+    color: #fff;
+    border: 1px solid #49c0e0;
+    background: #49c0e0;
+}
+
+.classEvaluation_box .classEvaluation_wrap .classEvaluation_wrap_text {
+    width: 89%;
+    height: 110px;
+    float: left;
+    position: relative;
+    border: 1px solid #f2f2f2;
+}
+
+.classEvaluation_box .classEvaluation_wrap .classEvaluation_wrap_text i {
+    position: absolute;
+    right: 15px;
+    bottom: 20px;
+    font-size: 12px;
+    color: #707070;
+    display: inline-block;
+    height: 12px;
+}
+
+.classEvaluation_box .classEvaluation_wrap .classEvaluation_wrap_text .classEvaluation_wrap_iShow {
+    display: none;
+}

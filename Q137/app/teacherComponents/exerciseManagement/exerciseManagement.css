@@ -1,0 +1,445 @@
+.exerciseManagement_box {
+    width: 100%;
+    min-height: 650px;
+    overflow: hidden;
+    background: #f4f4f6;
+}
+
+.exerciseManagement_box .exerciseManagement_wrap {
+    width: 1100px;
+    margin: 20px auto;
+    background: #fff;
+    min-height: 650px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.exerciseManagement_box .exerciseManagement_wrapCen {
+    margin-top: 20px;
+    min-height: 520px;
+}
+
+.exerciseManagement_box .exerciseManagement_wrapCenBg {
+    width: 100%;
+    height: 500px;
+    background: url('../../images/public/practiceNo.jpg') no-repeat center center;
+}
+
+.exerciseManagement_box .exerciseManagement_wrap h2 {
+    font-weight: 400;
+    font-size: 18px;
+    height: 20px;
+    line-height: 20px;
+    border-left: 4px solid #49c0e0;
+    padding-left: 13px;
+    display: inline-block;
+}
+
+.exerciseManagement_box .exerciseManagement_wrap .exerciseManagement_linkTo {
+    display: block;
+    float: right;
+    width: 100px;
+    height: 28px;
+    background: rgb(74, 192, 224);
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    line-height: 28px;
+    padding: 0;
+}
+
+.exerciseManagement_box .exerciseManagement_content {
+    width: 1060px;
+    margin-bottom: 10px;
+    background: rgb(244, 244, 245);
+}
+
+.exerciseManagement_box .exerciseManagement_content2 {
+    width: 1060px;
+    margin-bottom: 10px;
+    background: rgb(244, 244, 245);
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.098) 0px 2px 5px;
+}
+
+.exerciseManagement_box .exerciseManagement_caption {
+    position: relative;
+    font-size: 16px;
+    min-height: 43px;
+    line-height: 22px;
+    padding-left: 30px;
+    color: rgb(96, 96, 96);
+    width: 1060px;
+    display: flex;
+    display: -webkit-flex;
+}
+
+.exerciseManagement_box .exerciseManagement_captionIcon {
+    position: absolute;
+    left: 0px;
+    top: 9px;
+    font-size: 40px;
+    color: rgb(234, 170, 170);
+}
+
+.exerciseManagement_box .exerciseManagement_captionNu {
+    float: left;
+    margin-top: 11px;
+    margin-right: 3px;
+}
+
+.exerciseManagement_box .exerciseManagement_captionTextarea {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 800px;
+    min-height: 43px;
+    float: left;
+    display: -webkit-flex;
+    align-items: center;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.exerciseManagement_box .exerciseManagement_captionToolBox {
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    width: 160px;
+    min-height: 5px;
+    float: right;
+}
+
+.exerciseManagement_box .exerciseManagement_modify {
+    float: left;
+    min-height: 5px;
+    display: block;
+    color: #1481fa;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.exerciseManagement_box .exerciseManagement_modifyHide {
+    display: none;
+}
+
+.exerciseManagement_box .exerciseManagement_delete {
+    float: left;
+    margin-left: 12px;
+    min-height: 5px;
+    display: block;
+    color: #1481fa;
+    font-size: 17px;
+    cursor: pointer
+}
+
+.exerciseManagement_box .exerciseManagement_deleteHide {
+    display: none;
+}
+
+.exerciseManagement_box .exerciseManagement_practiceStop {
+    float: right;
+    width: 105px;
+    min-height: 5px;
+    display: block;
+    font-size: 14px;
+    color: rgb(144, 144, 144);
+    cursor: pointer;
+}
+
+.exerciseManagement_box .exerciseManagement_captionI {
+    vertical-align: -1px;
+}
+
+.exerciseManagement_practiceShow {
+    display: block;
+}
+
+.exerciseManagement_practiceHide{
+    display: none;
+}
+
+.exerciseManagement_box .exerciseManagement_imageHide {
+    display: none;
+}
+
+.exerciseManagement_box .exerciseManagement_image {
+    width: 350px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.exerciseManagement_box .exerciseManagement_practiceCenter {
+    display: none;
+}
+
+.exerciseManagement_box .exerciseManagement_practiceTitle {
+    width: 104px;
+    height: 33px;
+    line-height: 33px;
+    margin-left: 40px;
+    color: rgb(19, 128, 249);
+    border-top: 1px solid rgb(157, 229, 244);
+    border-right: 1px solid rgb(157, 229, 244);
+    border-bottom: none;
+    border-left: 1px solid rgb(157, 229, 244);
+    border-image: initial;
+    margin-top: 8px;
+    position: relative;
+    background: rgb(251, 251, 251);
+}
+
+.exerciseManagement_box .exerciseManagement_triangleRight {
+    width: 18px;
+    height: 32px;
+    float: left;
+    line-height: 32px;
+    display: inline-block;
+    margin-left: 11px;
+}
+
+.exerciseManagement_box .exerciseManagement_practiceSpan {
+    width: 65px;
+    height: 32px;
+    display: block;
+    line-height: 32px;
+    margin-left: 5px;
+    float: left;
+}
+
+.exerciseManagement_box .exerciseManagement_practiceLine {
+    height: 1px;
+    background: rgb(251, 251, 251);
+    width: 102px;
+    position: absolute;
+    left: 0px;
+    bottom: -1px;
+    z-index: 10;
+}
+
+.exerciseManagement_box .exerciseManagement_practiceMsg {
+    position: absolute;
+    left: 115px;
+    top: 0px;
+    color: rgb(252, 14, 1);
+    width: 260px;
+    height: 16px;
+    font-size: 12px;
+}
+
+.exerciseManagement_box .exerciseManagement_practicThinking {
+    width: 1010px;
+    min-height: 280px;
+    border: 1px solid rgb(157, 229, 244);
+    margin-left: 40px;
+    position: relative;
+    overflow-y: auto;
+    background: rgb(251, 251, 251);
+}
+
+.exerciseManagement_box .exerciseManagement_practicThinkingCenter {
+    min-height: 280px;
+    color: rgb(177, 177, 177);
+}
+
+.exerciseManagement_box .exerciseManagement_practicThinkingCenterText {
+    width: 100%;
+    resize: none;
+    border: none;
+    height: 280px;
+    color: rgb(112, 112, 112);
+    background: transparent;
+    padding: 10px;
+    overflow: auto;
+}
+
+.exerciseManagement_box .practiceShow .exerciseManagement_practiceTitleClick {
+    height: 33px;
+    line-height: 32px;
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 104px;
+    background: rgb(74, 192, 224);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 17px;
+    padding: 0;
+}
+
+.exerciseManagement_box .exerciseManagement_practiceTitleClick2 {
+    height: 33px;
+    line-height: 32px;
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 104px;
+    background: rgb(251, 251, 251);
+    color: rgb(22, 128, 250);
+    position: relative;
+    border-top: 1px solid rgb(157, 229, 244);
+    border-right: 1px solid rgb(157, 229, 244);
+    border-bottom: none;
+    border-left: 1px solid rgb(157, 229, 244);
+    border-image: initial;
+}
+
+.exerciseManagement_box .exerciseManagement_practiceTriangleRight2 {
+    width: 18px;
+    height: 32px;
+    float: left;
+    line-height: 32px;
+    display: inline-block;
+    margin-left: 11px;
+}
+
+.exerciseManagement_box .exerciseManagement_practiceSpan2 {
+    width: 65px;
+    height: 32px;
+    display: block;
+    line-height: 32px;
+    margin-left: 5px;
+    float: left;
+}
+
+.exerciseManagement_box .exerciseManagement_practiceLine {
+    height: 1px;
+    background: rgb(251, 251, 251);
+    width: 102px;
+    position: absolute;
+    left: 0px;
+    bottom: -1px;
+    z-index: 10;
+}
+
+.exerciseManagement_box .exerciseManagement_practicThinking2Show {
+    width: 1010px;
+    min-height: 280px;
+    border: 1px solid rgb(157, 229, 244);
+    margin-left: 40px;
+    position: relative;
+    overflow-y: auto;
+    background: rgb(251, 251, 251);
+    margin-bottom: 17px;
+}
+
+.exerciseManagement_box .exerciseManagement_practicThinking2Hide {
+    display: none;
+}
+
+.exerciseManagement_box .exerciseManagement_practicThinkingCenter2 {
+    min-height: 280px;
+    color: rgb(177, 177, 177);
+}
+
+.exerciseManagement_box .exerciseManagement_practiceBigImgShow {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(30, 30, 30, 1);
+    z-index: 600;
+}
+
+.exerciseManagement_box .exerciseManagement_practiceBigImgHide {
+    display: none;
+}
+
+.exerciseManagement_box .exerciseManagement_practiceBigImgA2 {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #4ac0e0;
+    color: #1e1e1e;
+    border-radius: 100%;
+}
+
+.exerciseManagement_box .exerciseManagement_practiceBigImgA {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: rgba(83, 83, 83, .8);
+    color: #1e1e1e;
+    border-radius: 100%;
+}
+
+.exerciseManagement_practiceBigImg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    max-height: 900px;
+    transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.exerciseManagement_box .exerciseManagement_page {
+    float: right;
+    width: 383px;
+    margin-top: 15px;
+    margin-right: 0px;
+}
+
+.exerciseManagement_box .exerciseManagement_pageHide {
+    display: none;
+}
+
+.exerciseManagement_box .exerciseManagement_pageNum {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 10px;
+}
+
+.exerciseManagement_box .exerciseManagement_pageNum span {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-bottom: 1px solid #bfc3c6;
+}
+
+.exerciseManagement_box .exerciseManagement_pageNum i {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.exerciseManagement_box .exerciseManagement_page button {
+    width: 81px;
+    height: 30px;
+    float: left;
+    text-align: center;
+    margin-left: 8px;
+    background-color: #fff;
+    color: rgb(50, 50, 50);
+    border: 1px solid #d3d3d3;
+}
+
+.exerciseManagement_box .exerciseManagement_page .exerciseManagement_page1 {
+    background-color: rgb(211, 211, 211);
+    color: rgb(255, 255, 255);
+    border-color: rgb(211, 211, 211);
+}
+
+.exerciseManagement_box .exerciseManagement_select {
+    margin-left: 24px;
+    margin-top: 15px;
+}

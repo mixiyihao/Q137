@@ -1,0 +1,274 @@
+.evaluatePage_box {
+    padding: 0px 0px 50px 230px;
+    /*background: rgb(244, 244, 245);*/
+    min-height: 600px;
+    position: relative;
+    z-index: 40;
+}
+
+.evaluatePage_box .evaluatePage_title {
+    font-size: 18px;
+    height: 65px;
+    line-height: 22px;
+    text-indent: 11px;
+    background: url('../../images/leftNavBar/bj_02.gif') 0px 30px no-repeat;
+    padding: 30px 0px 12px;
+    color: rgb(96, 96, 96);
+    width: 120px;
+}
+
+.evaluatePage_box .evaluatePage_back {
+    position: absolute;
+    right: 80px;
+    top: 28px;
+    color: #7b8086;
+}
+
+.evaluatePage_box .evaluatePage_back i {
+    vertical-align: -1px;
+}
+
+.evaluatePage_box .evaluatePage_back:hover {
+    color: #49c0e0;
+}
+
+.evaluatePage_box .evaluatePage_wrap {
+    background: rgb(255, 255, 255);
+    overflow: hidden;
+    width: 970px;
+    margin-left: 6px;
+    padding: 21px 12px 20px 24px;
+}
+
+.evaluatePage_box .evaluatePage_wrap .evaluatePage_wrap_oneTitleBox {
+    width: 100%;
+    overflow: hidden;
+}
+
+.evaluatePage_box .evaluatePage_wrap .evaluatePage_wrap_oneTitle {
+    min-width: 200px;
+    background: #e8ddfd;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 16px;
+    margin-bottom: 16px;
+    position: relative;
+    float: left;
+}
+
+.evaluatePage_box .evaluatePage_wrap .evaluatePage_wrap_oneTitle i {
+    position: absolute;
+    border-right: 0px;
+    border-left: 18px solid #e8ddfd;
+    border-bottom: 18px solid transparent;
+    border-top: 17px solid transparent;
+    top: 0;
+    right: -17px;
+}
+
+.evaluatePage_box .evaluatePage_wrap .evaluatePage_wrap_oneSpan {
+    font-weight: 700;
+    float: left;
+}
+
+.evaluatePage_box .evaluatePage_wrap .evaluatePage_wrap_twoSpan {
+    float: left;
+    margin-left: 16px;
+}
+
+.evaluatePage_box .evaluatePage_wrap .evaluatePage_wrap_threeSpan {
+    float: left;
+    display: inline-block;
+    width: 62px;
+    height: 18px;
+    border-radius: 3px;
+    background: #cbb2f4;
+    text-align: center;
+    line-height: 18px;
+    color: #ae87f4;
+    font-size: 12px;
+    margin-left: 4px;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+
+.evaluatePage_box .evaluatePage_wrap .evaluatePage_wrap_msgTitle {
+    margin-top: 10px;
+    width: 100%;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 18px;
+    background: #f5f5f5;
+    color: #2e3740;
+}
+
+.evaluatePage_box .evaluatePage_wrap .evaluatePage_wrap_msgStarBox {
+    float: left;
+    width: 190px;
+}
+
+.evaluatePage_box .evaluatePage_wrap .evaluatePage_wrap_msgStar {
+    height: 46px;
+    padding-left: 33px;
+    line-height: 46px;
+}
+
+.evaluatePage_box .evaluatePage_wrap .evaluatePage_wrap_msgStar span {
+    float: left;
+    font-size: 28px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.evaluatePage_box .evaluatePage_wrap .evaluatePage_wrap_msgStar span.icon-star {
+    color: #a9a9a9;
+}
+
+.evaluatePage_box .evaluatePage_wrap .evaluatePage_wrap_msgStar span.icon-star1 {
+    color: #ff7245;
+}
+
+.evaluatePage_box .evaluatePage_wrap .evaluatePage_wrap_msgStar i {
+    float: left;
+    padding-left: 10px;
+    color: #fc7e56;
+}
+
+.evaluatePage_box .evaluatePage_wrap .evaluatePage_wrap_textarea {
+    width: 100%;
+    line-height: 38px;
+    padding-left: 18px;
+    color: #2e3740;
+    height: 130px;
+}
+
+.evaluatePage_box .evaluatePage_wrap .evaluatePage_wrap_textarea span {
+    float: left;
+}
+
+.evaluatePage_box .evaluatePage_wrap .evaluatePage_wrap_text {
+    width: 90%;
+    height: 110px;
+    float: left;
+    position: relative;
+    border: 1px solid #f2f2f2;
+}
+
+.evaluatePage_box .evaluatePage_wrap .evaluatePage_wrap_text i {
+    position: absolute;
+    right: 15px;
+    bottom: 20px;
+    font-size: 12px;
+    color: #707070;
+    display: inline-block;
+    height: 12px;
+}
+
+.evaluatePage_box .evaluatePage_wrap .evaluatePage_wrap_text .evaluatePage_wrap_iShow {
+    display: none;
+}
+
+.evaluatePage_box .evaluatePage_wrap .evaluatePage_wrap_textarea textarea {
+    width: 100%;
+    height: 95px;
+    resize: none;
+    padding: 8px;
+    color: #707070;
+    line-height: 24px;
+    border: none;
+}
+
+.evaluatePage_box .evaluatePage_wrap_box {
+    overflow: hidden;
+}
+
+.evaluatePage_box .evaluatePage_button {
+    overflow: hidden;
+    /*margin-left: 25px;*/
+    margin-top: 15px;
+}
+
+.evaluatePage_box .evaluatePage_button span {
+    float: left;
+    display: inline-block;
+    padding: 0px;
+    height: 28px;
+    width: 86px;
+    text-align: center;
+    line-height: 28px;
+    cursor: pointer;
+}
+
+.evaluatePage_box .evaluatePage_button span:nth-child(1) {
+    color: #969698;
+    border: 1px solid #e8e8ea;
+    margin-left: 8px;
+    background: #fff;
+}
+
+.evaluatePage_box .evaluatePage_button span:nth-child(2) {
+    background: #49c0e0;
+    border: 1px solid #49c0e0;
+    color: #fff;
+    margin-left: 8px;
+}
+
+.evaluatePage_box .evaluatePage_button span:nth-child(1):hover {
+    color: #fff;
+    border: 1px solid #49c0e0;
+    background: #49c0e0;
+}
+
+.evaluatePage_box .evaluatePage_msg {
+    height: 74px;
+    background: #f5f5f5;
+    width: 940px;
+    margin-left: 30px;
+    border-bottom: 1px dashed #cacaca;
+    padding-left: 18px;
+}
+
+.evaluatePage_box .evaluatePage_time {
+    height: 30px;
+    line-height: 30px;
+    padding-top: 10px;
+}
+
+.evaluatePage_box .evaluatePage_time .evaluatePage_time_name {
+    font-size: 18px;
+    display: inline-block;
+    color: #303030;
+}
+
+.evaluatePage_box .evaluatePage_time .evaluatePage_time_date {
+    display: inline-block;
+    margin-left: 6px;
+    font-style: normal;
+}
+
+.evaluatePage_box .evaluatePage_time .evaluatePage_time_date b {
+    font-weight: normal;
+    color: #606060;
+}
+
+.evaluatePage_box .evaluatePage_lesson {
+    padding-top: 10px;
+    line-height: 30px;
+}
+
+.evaluatePage_box .evaluatePage_lesson .evaluatePage_lesson_term {
+    display: inline-block;
+    margin-right: 100px;
+    line-height: 20px;
+}
+
+.evaluatePage_box .evaluatePage_lesson .evaluatePage_lesson_term i {
+    color: #404040;
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.evaluatePage_box .evaluatePage_wrap_msgScore {
+    display: none;
+}

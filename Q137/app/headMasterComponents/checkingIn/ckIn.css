@@ -1,0 +1,189 @@
+.ckIn {
+    min-height: 600px;
+    color: #333;
+    padding-bottom: 20px;
+}
+
+.ckInInner {
+    background-color: #fff;
+    /*overflow: hidden;*/
+    position: relative;
+    min-height: 650px;
+}
+
+.ckInInfo {
+    width: 1035px;
+    height: 84px;
+    border-bottom: 1px dashed #c7c7c7;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+    padding: 15px 14px;
+    /*margin-top: 14px;*/
+}
+
+.ckInInfo p {
+    margin-bottom: 10px;
+}
+
+.ckInInfo p span {
+    margin-right: 67px;
+}
+
+.ckInInfo span {
+    font-size: 14px;
+    margin-right: 128px;
+}
+
+.ckInInfo span.lastSpan {
+    margin-right: 139px;
+}
+
+.ckInDetail {
+    background-color: #f5f5f5;
+    margin-top: 14px;
+    /*padding: 14px;*/
+    box-sizing: border-box;
+    /*height: 110px;*/
+}
+
+.ckInDetail div {
+    height: 55px;
+    line-height: 55px;
+    padding-left: 14px;
+    position: relative;
+    box-sizing: border-box;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.ckInDetail div a.checkout {
+    position: absolute;
+    padding: 0;
+    text-align: center;
+    line-height: 30px;
+    background: #49c0e0;
+    color: white;
+    width: 100px;
+    height: 30px;
+    top: 13px;
+    right: 10px;
+}
+
+.ckInDetail div a.checkout i {
+    margin-right: 2px;
+}
+
+.ckInDetail div a.checkoutnull {
+    display: none;
+}
+
+div.ckInDiv {
+    padding-left: 20px;
+}
+
+.ckInDiv span {
+    margin-right: 28px;
+}
+
+.ckInDiv span:nth-of-type(1) {
+    margin-right: 30px;
+}
+
+.ckInDiv span i {
+    font-size: 16px;
+    margin: 0 2px;
+}
+
+.ckInDiv span i.cDmany {
+    color: #338afb;
+    font-weight: 500;
+}
+
+.ckInDiv span i.cDlate {
+    color: #f77cf8;
+}
+
+.ckInDiv span i.cDclass {
+    color: #f87d9a
+}
+
+.ckInDiv span i.cDleave {
+    color: #fa967c
+}
+
+.ckInDiv span i.cDexercise {
+    color: #edc436
+}
+
+.ckInDiv span i.cDwork {
+    color: #e65481
+}
+
+.ckInDiv span i.cDlearn {
+    color: #db0e2c
+}
+
+.ckInInner table th {
+    background-color: #f5f5f5;
+    height: 45px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.ckInInner table {
+    border: 1px solid #f5f5f5;
+}
+
+.ckInInner table tr td {
+    height: 48px;
+    text-align: center;
+    vertical-align: middle;
+    border-top: 1px solid #f5f5f5;
+}
+
+.ckInInner table tr:hover td {
+    background-color: #e4f4ff
+}
+
+
+/*分页*/
+
+.ckInPage {
+    position: absolute;
+    /*bottom: -40px;*/
+    right: 20px;
+    margin-top: 14px;
+    text-align: right;
+}
+
+.ckInPage span {
+    margin-left: 10px;
+}
+
+.ckInPage span i {
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+}
+
+.ckInPage span.ckallPage i {
+    border-bottom: 1px solid #bfc3c6
+}
+
+.ckInPage a {
+    display: inline-block;
+    width: 81px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 8px;
+    cursor: pointer;
+    margin-left: 10px;
+    color: #333;
+    border:1px solid rgb(211, 211, 211);
+}
+
+.ckInPage a.ckdisabled {
+    background-color: #d3d3d3;
+    color: #fff;
+    border-color: #d3d3d3;
+}

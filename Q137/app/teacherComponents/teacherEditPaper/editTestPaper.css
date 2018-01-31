@@ -1,0 +1,85 @@
+.y_radio {
+    width: 0px;
+    height: 0px;
+    background-color: #cecece;
+    margin-right: 26px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.y_radios {
+    margin-top: 8px;
+    margin-left: 6px;
+}
+
+.y_radio:before {
+    top: 0px;
+    left: 0px;
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    border: 1px solid #cecece;
+    background: transparent;
+}
+
+.y_radio:before,
+.y_radios:before {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    transition: .3s ease;
+}
+
+.y_radio:before,
+.y_radio:after {
+    border-radius: 50%;
+}
+
+.y_radios:checked:before {
+    border-color: #49c0e0;
+    background: #49c0e0;
+}
+
+.y_radios:checked:before {
+    border-color: #49c0e0;
+    background: #49c0e0;
+}
+
+.y_radio:after {
+    content: '';
+    display: block;
+    position: absolute;
+    transition: .3s ease;
+}
+
+.y_radios:checked:after {
+    top: 4px;
+    left: 4px;
+    width: 6px;
+    height: 6px;
+    background-color: white;
+}
+
+.createTestpaperOptionBox input[type="text"] {
+    border: 1px solid rgb(176, 176, 176);
+    background: transparent;
+}
+
+.createTestpaperOptionBox input[type="text"]:focus,
+.createTestpaperOptionBox input[type="text"]:hover {
+    border: 1px solid #4ac0e0;
+    background: #fff;
+}
+
+.h-question select {
+    box-sizing: border-box;
+    border: rgb(169, 169, 169)
+}
+
+.h-thEditsele .h-thSet1 select,
+.h-thEditsele .h-thSet2 select,
+.h-thEditsele .h-thSet3 select {
+    box-sizing: border-box;
+    border: rgb(169, 169, 169)
+}

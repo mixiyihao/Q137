@@ -1,0 +1,286 @@
+.paperAnalymainBody {
+    position: relative;
+    width: 1100px;
+    height: 260px;
+}
+
+.paperAnalyDataLeft {
+    width: 100%;
+    height: 220px;
+    float: left;
+}
+
+.paperAnalyDataRight {
+    width: 478px;
+    height: 220px;
+    /*background: red;*/
+    margin-left: 16px;
+    float: left;
+}
+
+
+/*多选题题干距离右边框的距离*/
+
+.sprepaper_p {
+    margin-right: 22px !important;
+}
+
+.paperAnalyDataRight1 {
+    width: 478px;
+    height: 360px;
+    /*background: red;*/
+    margin-left: 16px;
+    float: left;
+}
+
+.radioExam div.paperAnalymainBody,
+.checkboxExam div.paperAnalymainBody {
+    margin: 10px 0;
+}
+
+.radioExam div.paperAnalyradio,
+.checkboxExam div.paperAnalyradio {
+    margin: 0px !important;
+}
+
+.paperAnalyDataLeft table {
+    clear: both;
+    width: 1040px;
+    border: 1px solid #f5f5f5;
+}
+
+.paperAnalyDataLeft table tr {
+    width: 100%;
+    height: 52px;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.paperAnalyDataLeft table tr td {
+    vertical-align: middle !important;
+    height: 52px;
+    padding-left: 15px;
+    line-height: 52px;
+    position: relative;
+}
+
+.paperDatalefttitle {
+    width: 1040px;
+    height: 44px;
+    margin-right: 20px;
+    /*background: #ebf9fc;*/
+    border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+    border-top: 1px solid #f2f2f2;
+}
+
+.paperDatalefttitle span.paperdata_span {
+    padding-left: 15px;
+    width: 149px;
+    display: inline-block;
+    line-height: 44px;
+}
+
+span.paperdata_span i {
+    line-height: 52px;
+    display: inline-block;
+    color: #40c0e0;
+    padding-left: 3px;
+}
+
+.paperAnalyDataRightb {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 112px;
+    right: 206px;
+    color: #49c0e0;
+}
+
+.paperAnalyDataRightb1 {
+    top: 162px !important;
+    right: 203px !important;
+}
+
+.paperAnalyDataRightb b {
+    font-weight: normal;
+    color: #49c0e0;
+    font-size: 22px;
+    display: inline-block;
+    position: static;
+}
+
+.paperAnalyDataRightb .paperAnalyDataRightouteri {
+    display: inline-block;
+}
+
+.patdbstyle {
+    padding-left: 3px;
+    color: black !important;
+    font-weight: normal !important;
+}
+
+.paperAnalyradio p.finalEXspre_pq {
+    position: relative;
+    background: #f5f5f5;
+    color: #303741;
+    padding: 13px 50px 0px 100px;
+    margin-right: 22px;
+}
+
+div.paperAnalyradioItem span.finEXanswer_span {
+    padding-left: 100px;
+}
+
+.paperAnalyradioItem .PTTPRAspan {
+    padding-left: 100px;
+    font-weight: 600;
+}
+
+.PTTPRAspan textarea.Spreviewansi {
+    border: 1px solid transparent;
+    resize: none;
+    width: 650px;
+    line-height: 30px;
+    background: #ebf9fc;
+    font-weight: normal;
+}
+
+textarea.Sprosaq_Item2 {
+    line-height: 28px;
+    /* padding-left: 52px; */
+    width: 100%;
+    resize: none;
+    border: 1px solid transparent;
+    background: #f5f5f5;
+}
+
+.finalEXspre_pq b {
+    position: absolute;
+    top: 11px;
+}
+.finalEXspre_pq textarea{
+    resize: none;
+    width: 100%;
+    background: #f5f5f5;
+    border:1px solid transparent;   
+}
+
+/* 单多选框的样式 */
+
+.finalExradiocheck {
+    position: relative;
+    padding-left: 47px;
+}
+
+.finalExradiocheck>input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    opacity: 0;
+}
+
+.finalExradiocheck>label {
+    position: absolute;
+    /* 决定label的位置*/
+    left: 30px;
+    line-height: 14px;
+    font-size: 14px;
+    top: 8px;
+}
+
+.finalExradiocheck>label:before {
+    content: '';
+    position: absolute;
+    /* 决定input的位置*/
+    left: -20px;
+    top: 0px;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease !important;
+    -moz-transition: all 0.3s ease !important;
+}
+
+.finalExradiocheck>label:after {
+    content: '';
+    position: absolute;
+    /* 决定input的位置*/
+    left: -20px;
+    top: 0px;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-top: 3px;
+    margin-left: 3px;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+}
+
+.finalExradiocheck input[type='radio']:checked+label:before,
+.finalExradiocheck input[type='checkbox']:checked+label:before {
+    border-color: #49c0e0;
+    background: #49c0e0;
+}
+
+.finalExradiocheck input[type='radio']:checked+label:after,
+.finalExradiocheck input[type='checkbox']:checked+label:after {
+    background-color: white;
+}
+
+
+/* 选框分界线 */
+
+.paperAnalyradioItem {
+    margin-right: 22px;
+}
+
+.paperAnalyItem2 {
+    position: relative;
+    width: 1100px;
+    height: 100px;
+}
+
+.paperAnalyDataradio {
+    height: 360px !important;
+}
+
+.papertdfirst {
+    width: 180px;
+    border-right: 1px solid #f5f5f5;
+}
+
+td.papertdsecound {
+    width: 180px;
+    border-right: 1px solid #f5f5f5;
+}
+
+.papertdinnerdiv {
+    height: 40px;
+    width: 460px;
+}
+
+.paperlearningLog_TopTo {
+    height: 100%;
+    width: 40px;
+    float: left;
+}
+
+.paperlearningLog_TopToCenter {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    background: url("../../../images/search/top.jpg") no-repeat;
+    bottom: 240px;
+    cursor: pointer;
+    display: none;
+    z-index: 99;
+    left: 50%;
+    margin-left: 500px;
+}

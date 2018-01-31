@@ -1,0 +1,206 @@
+.rewardRes {
+    min-height: 600px;
+    color: #333;
+}
+
+.rewardResInner {
+    background-color: #fff;
+    /*overflow: hidden;*/
+    position: relative;
+    min-height: 650px;
+}
+
+.rewardInfo {
+    width: 1035px;
+    height: 84px;
+    border-bottom: 1px dashed #c7c7c7;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+    padding: 15px 14px;
+    /*margin-top: 14px;*/
+}
+
+.rewardInfo p {
+    margin-bottom: 10px;
+}
+
+.rewardInfo p span {
+    margin-right: 67px;
+}
+
+.rewardInfo span {
+    font-size: 14px;
+    margin-right: 128px;
+}
+
+.rewardInfo span.lastSpan_Reward {
+    margin-right: 139px;
+}
+
+.infoDetail_Reward {
+    background-color: #f5f5f5;
+    margin-top: 14px;
+    /*padding: 14px;*/
+    box-sizing: border-box;
+    /*height: 110px;*/
+}
+
+.infoDetail_Reward div {
+    height: 55px;
+    line-height: 55px;
+    padding-left: 14px;
+    position: relative;
+    box-sizing: border-box;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+div.seleDivReward {
+    padding-left: 14px;
+}
+
+.infoDetail_Reward div a.checkout {
+    position: absolute;
+    padding: 0;
+    text-align: center;
+    line-height: 30px;
+    background: #49c0e0;
+    color: white;
+    width: 100px;
+    height: 30px;
+    top: 13px;
+    right: 10px;
+}
+
+.infoDetail_Reward div a.checkout i {
+    margin-right: 2px;
+}
+
+.infoDetail_Reward div a.checkoutnull {
+    display: none;
+}
+
+.seleDivReward span {
+    margin-left: 18px;
+}
+
+.seleDivReward span i {
+    font-size: 16px;
+    color: #338afb;
+    margin: 0 2px;
+}
+
+.seleDivReward span.rewardAdd i {
+    color: #338afb;
+}
+
+.seleDivReward span.rewardAddSc {
+    margin-left: 0;
+}
+
+.seleDivReward span.rewardAddSc i {
+    color: #ef83f0;
+}
+
+.seleDivReward span.rewardRdu i {
+    color: #338afb;
+}
+
+.seleDivReward span.rewardRduSc {
+    margin-left: 0;
+}
+
+.seleDivReward span.rewardRduSc i {
+    color: #ef8366;
+}
+
+.rewardResInner table {
+    border: 1px solid #f5f5f5;
+}
+
+.rewardResInner table th {
+    background-color: #f5f5f5;
+    height: 45px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.rewardResInner table tr td {
+    height: 48px;
+    text-align: center;
+    vertical-align: middle;
+    border-top: 1px solid #f5f5f5;
+    overflow: hidden;
+}
+
+.rewardResInner table tr td div {
+    overflow: hidden;
+    word-break: break-all;
+    padding: 3px;
+}
+
+.rewardResInner table tr:hover td {
+    background-color: #e4f4ff
+}
+
+
+/*下拉*/
+
+.seleDivReward select {
+    width: 240px;
+    height: 30px;
+    line-height: 30px;
+    /*margin-left: 5px;*/
+    border: 1px solid #e4e4e4;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url('../../images/headMaster/aa.svg') no-repeat 98% center;
+    background-size: 15px 13px;
+}
+
+.seleDivReward select:hover {
+    border-color: #4ac0e0
+}
+
+.seleDivReward select::-ms-expand {
+    display: none;
+}
+
+
+/*分页*/
+
+.hkResPage {
+    margin-top: 14px;
+    text-align: right;
+}
+
+.hkResPage span i {
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+}
+
+.hkResPage span {
+    margin-left: 10px;
+}
+
+.hkResPage span.hkallPage i {
+    border-bottom: 1px solid #bfc3c6
+}
+
+.hkResPage a {
+    display: inline-block;
+    margin-left: 10px;
+    width: 81px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 8px;
+    cursor: pointer;
+    color: #333;
+}
+
+.hkResPage a.hkdisabled {
+    background-color: #d3d3d3;
+    color: #fff;
+}

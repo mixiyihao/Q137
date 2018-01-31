@@ -1,0 +1,902 @@
+/*0消息时查看的样式*/
+
+.see0 {
+    display: inline-block;
+    position: relative;
+    top: -30%;
+    left: 0;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-size: 100%;
+    background-image: url("../../../images/search/nomessage.jpg");
+}
+
+
+/*头部登录div*/
+
+
+/* .z-name div.spro-conceal1 {
+    width: 280px;
+    min-height: 160px;
+    background: rgba(255, 255, 255, 1);
+    position: absolute;
+    z-index: 400;
+    right: -20px;
+    top: 28px;
+    border-top: 2px solid #00a2f7;
+    box-shadow: rgba(0, 0, 0, 0.098) 0px 2px 10px 4px;
+    display: none;
+} */
+
+
+/*头部个人登录新样式*/
+
+
+/*iconfont样式*/
+
+.spro-stuheadwrap b {
+    display: inline-block;
+    width: 100%;
+    background-size: 100%;
+    height: 40px;
+}
+
+
+/*头部文字样式*/
+
+
+/* .spro-conceal1 strong {
+    display: block;
+    font-weight: normal;
+    text-align: center;
+    margin-top: -6px;
+    width: 100%;
+    height: 30px;
+    line-height: 24px;
+    color: #9b9fa0;
+} */
+
+
+/*底部退出登录样式*/
+
+.spro-stuheader {
+    color: #a3a3a5;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    background: #d7ecf6;
+}
+
+.spro-stuheader:hover {
+    color: #fff;
+    background: #4ac0e0;
+}
+
+.spro-stuheadwrap {
+    margin: 4px 23px;
+    overflow: hidden;
+    min-height: 130px;
+}
+
+.spro-stuheadwrap a {
+    float: left;
+    width: 68px;
+    height: 62px;
+    margin: 0px 5px;
+    border-radius: 3px;
+    /*background: #f5f5f5;*/
+    margin-top: 0px;
+    cursor: pointer;
+    color: #d0d0d0;
+    background: rgba(255, 255, 255, 1);
+}
+
+.spro-stuheadwrap a:hover {
+    background: rgba(247, 247, 247, 1);
+    color: #d0d0d0;
+    /*color: #fff;*/
+}
+
+
+/* .spro-conceal1 b.spro-stuheadinnerb {
+    display: inline-block;
+    width: 100%;
+    height: 16px;
+    margin-top: 17px;
+    text-align: center;
+    line-height: 16px;
+    font-size: 16px;
+}
+
+.spro-conceal1 b.spro-stuheadinnerbSize {
+    font-size: 14px;
+} */
+
+#seeli {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    height: 128px;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.spro_messagei2 {
+    display: inline-block;
+    position: absolute;
+    left: 37%;
+    top: 45%;
+}
+
+.listyle {
+    padding-left: 12px;
+    /*background: rgba(255,255,255,0.9);*/
+    overflow: hidden;
+    width: 298px;
+    word-break: keep-all;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.showmessageList li.listyle:hover {
+    background: rgba(255, 255, 255, 0.9);
+    cursor: pointer;
+}
+
+#listyle1 a {
+    color: white;
+}
+
+#listyle1 {
+    text-align: center;
+    background: #00a2f7;
+    display: block;
+    width: 100%;
+}
+
+
+/*项目开始*/
+
+
+/*左侧导航*/
+
+.h-side {
+    width: 210px;
+    height: 100%;
+    background-color: #293039;
+    position: fixed;
+    /*left: 40px;*/
+    top: 0;
+    z-index: 499;
+    color: #a3a3a4;
+    font-size: 14px;
+}
+
+.h-totality>li>a {
+    display: inline-block;
+    height: 48px;
+    line-height: 48px;
+    font-size: 15px;
+    text-indent: 8px;
+}
+
+.h-totality>li:hover>a {
+    color: #fff;
+}
+
+.h-totality>li>a>span {
+    display: inline-block;
+    font-size: 18px;
+    margin-right: 6px;
+}
+
+.submenu {
+    max-height: 420px;
+    font-size: 14px;
+    display: block;
+    overflow-y: auto;
+    overflow-x: hidden;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    text-align: left;
+    /*IE*/
+    scrollbar-face-color: #fff;
+    /*滚动条3D表面（ThreedFace）的颜色*/
+    scrollbar-highlight-color: #293039;
+    /*滚动条3D界面的亮边（ThreedHighlight）颜色*/
+    scrollbar-shadow-color: #293039;
+    /*滚动条3D界面的暗边（ThreedShadow）颜色*/
+    scrollbar-3dlight-color: #293039;
+    /*滚动条亮边框颜色*/
+    scrollbar-arrow-color: #293039;
+    /*滚动条方向箭头的颜色 */
+    scrollbar-track-color: #293039;
+    /*滚动条的拖动区域(TrackBar)颜色*/
+    scrollbar-darkshadow-color: #293039;
+    /*滚动条暗边框（ThreedDarkShadow）颜色*/
+    /*火狐*/
+    scrollbar-3d-light-color: #293039;
+    /*设置或检索滚动条亮边框颜色*/
+    scrollbar-highlight-color: #293039;
+    /*设置或检索滚动条3D界面的亮边（ThreedHighlight）颜色*/
+    scrollbar-face-color: #293039;
+    /*设置或检索滚动条3D表面（ThreedFace）的颜色*/
+    scrollbar-arrow-color: #293039;
+    /*设置或检索滚动条方向箭头的颜色*/
+    scrollbar-shadow-color: #293039;
+    /*设置或检索滚动条3D界面的暗边（ThreedShadow）颜色*/
+    scrollbar-dark-shadow-color: #293039;
+    /*设置或检索滚动条暗边框（ThreedDarkShadow）颜色*/
+    scrollbar-base-color: #293039;
+    /*设置或检索滚动条基准颜色。其它界面颜色将据此自动调整*/
+}
+
+.submenu li {
+    position: relative;
+    width: 210px;
+    z-index: 300;
+}
+
+.submenu li:hover .z-diamonds {
+    background: #fff;
+}
+
+.submenu li a {
+    display: inline-block;
+    width: 100%;
+    line-height: 32px;
+    padding-left: 40px;
+    z-index: 999;
+}
+
+
+/*切换*/
+
+.z-switcher {
+    font-size: 12px;
+    float: right;
+    margin: 15px 20px 0 0;
+    font-style: oblique;
+    cursor: pointer;
+}
+
+.z-switcher:hover {
+    color: #fff;
+}
+
+.z-switcher>a:hover {
+    color: #4abfe0;
+}
+
+
+/*小方块*/
+
+.z-diamonds {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background: #a3a3a4;
+    margin-right: 6px;
+    margin-bottom: 2px;
+}
+
+.h-side .h-title {
+    background: url("../../../images/leftNavBar/logo.png") no-repeat 6px 4px;
+    z-index: 22;
+    font-size: 16px;
+    color: #fff;
+    padding: 38px 0 0 0;
+    text-indent: 17px;
+    display: block;
+}
+
+.z-header {
+    width: 1280px;
+    height: 40px;
+    background: #fff;
+    margin: 0 auto;
+    position: relative;
+}
+
+a {
+    color: #aeaeae;
+}
+
+.z-message {
+    width: 500px;
+    height: 20px;
+    line-height: 20px;
+    color: #aeaeae;
+    margin: 10px 0 0 264px;
+    float: left;
+}
+
+.z-message>a:hover {
+    color: #4abfe0;
+}
+
+.z-message1 {
+    position: absolute;
+    right: 165px;
+    line-height: 40px;
+    color: #aeaeae;
+    height: 40px;
+}
+
+.z-name {
+    height: 26px;
+    line-height: 26px;
+    float: left;
+    padding-bottom: 2px;
+}
+
+.z-name:hover {
+    background: #ebf6f9;
+}
+
+.z-name .h-gename {
+    display: inline-block;
+    min-width: 70px;
+    text-align: center;
+    color: rgb(163, 163, 164);
+    height: 100%;
+}
+
+.z-name .z-nameTriangle {
+    border-top: 0px;
+    border-bottom: 4px solid #00a2f7;
+    border-right: 4px solid white;
+    border-left: 4px solid white;
+    height: 4px;
+    position: absolute;
+    top: -6px;
+    left: 144px;
+    background-color: #fff;
+    z-index: 401;
+}
+
+.z-name .z-nameTriangle i {
+    top: 4px;
+    left: -2px;
+    border-top: 0px;
+    border-bottom: 2px solid white;
+    border-right: 2px solid #00a2f7;
+    border-left: 2px solid #00a2f7;
+    display: block;
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    font-size: 0;
+    line-height: 0;
+    z-index: 401;
+}
+
+
+/*.sproz-yx:hover .z-conceal {
+    display: block;
+}*/
+
+.sp1,
+.sp2,
+.newsp1 {
+    display: block;
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    font-size: 0;
+    line-height: 0;
+}
+
+.sp1 {
+    top: -6px;
+    /* 它的绝对值加上span的边框宽度等于div边框宽度的5倍 */
+    left: 134px;
+    /* 它来确定尖角的位置 */
+    border-top: 0px;
+    border-bottom: 4px solid #00a2f7;
+    /* 注意颜色的变化 */
+    border-right: 4px solid white;
+    border-left: 4px solid white;
+}
+
+.newsp1 {
+    top: -6px;
+    /* 它的绝对值加上span的边框宽度等于div边框宽度的5倍 */
+    left: 184px;
+    /* 它来确定尖角的位置 */
+    border-top: 0px;
+    border-bottom: 4px solid #00a2f7;
+    /* 注意颜色的变化 */
+    border-right: 4px solid white;
+    border-left: 4px solid white;
+}
+
+.newsp2 {
+    top: 4px;
+    /* 是自身边框宽度的2倍 */
+    left: -2px;
+    /* 是自身边框宽度的-1倍  */
+    border-top: 0px;
+    border-bottom: 2px solid white;
+    border-right: 2px solid #00a2f7;
+    border-left: 2px solid #00a2f7;
+}
+
+.sp2 {
+    top: 4px;
+    /* 是自身边框宽度的2倍 */
+    left: -2px;
+    /* 是自身边框宽度的-1倍  */
+    border-top: 0px;
+    border-bottom: 2px solid white;
+    border-right: 2px solid #00a2f7;
+    border-left: 2px solid #00a2f7;
+}
+
+#import {
+    top: 0px;
+    border-top: 2px solid #00a2f7;
+    width: 298px;
+    height: auto;
+    transition: height 2s;
+    z-index: 6;
+    display: none;
+    margin-left: -130px;
+    visibility: visible;
+    font-size: 14px;
+    font-weight: normal;
+    position: absolute;
+    z-index: 1002;
+}
+
+@keyframes z-conceal {
+    from {
+        top: -100px;
+    }
+    to {
+        top: 23px;
+    }
+}
+
+.z-conceal>ul>li {
+    clear: both;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+}
+
+.z-conceal>ul>li:last-child {
+    float: right;
+}
+
+.z-conceal>ul>li>a {
+    color: #4abfe0;
+    margin-left: 6px;
+}
+
+.z-message1>ul>li:last-child {
+    border: none;
+    height: 40px;
+    line-height: 40px;
+}
+
+.z-name span {
+    display: inline-block;
+    width: 38px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    background: #b6e9fa;
+    color: #fff;
+    margin-left: 4px;
+    margin-right: 10px;
+    font-weight: 600;
+    font-family: arial;
+}
+
+.sproz-yx {
+    cursor: pointer;
+    font-size: 16px;
+    width: 16px;
+    /*height: 16px;*/
+    height: 40px;
+    float: left;
+    z-index: 20;
+    /*right: 14%;*/
+    margin-right: 5px;
+    margin-top: -1px;
+}
+
+.spro_messageheader {
+    position: absolute;
+}
+
+
+/*数字图标*/
+
+.sproz-yx .spro-numBox {
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    border-radius: 100%;
+    background: #fff;
+    position: relative;
+    right: -5px;
+    top: -36px;
+    z-index: 10;
+    line-height: 16px;
+}
+
+.sproz-yx .spro-num {
+    width: 14px;
+    font-family: Arial Regular;
+    height: 14px;
+    line-height: 14px;
+    color: pink;
+    text-align: center;
+    background-color: #f90102;
+    border-radius: 16px;
+    font-size: 13px;
+    margin: 2px 0 0 1px;
+}
+
+
+/*这是头部新加的小圆点*/
+
+.z-name .h-round {
+    display: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #f85438;
+    top: -6px;
+    right: -11px;
+}
+
+
+/* 头部导航 */
+
+#z-headerBox {
+    /* padding-top: 40px; */
+}
+
+.z-headerBoxTop {
+    height: 40px;
+}
+
+.z-headerWrap {
+    position: fixed;
+    top: 0;
+    z-index: 400;
+    width: 100%;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.072392) 0px 2px 5px;
+    -o-box-shadow: rgba(0, 0, 0, 0.072392) 0px 2px 5px;
+    -ms-box-shadow: rgba(0, 0, 0, 0.072392) 0px 2px 5px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.072392) 0px 2px 5px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.072392) 0px 2px 5px;
+}
+
+.dibhead {
+    display: inline-block;
+    width: 100%;
+    line-height: 40px;
+}
+
+.z-headerWrap.top {
+    z-index: 110;
+    position: fixed;
+    _position: absolute;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background: #FFF;
+    overflow: visible;
+    top: 0px;
+    box-shadow: rgba(0, 0, 0, 0.072392) 0px 2px 5px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.072392) 0px 2px 5px;
+    -ms-box-shadow: rgba(0, 0, 0, 0.072392) 0px 2px 5px;
+    -o-box-shadow: rgba(0, 0, 0, 0.072392) 0px 2px 5px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.072392) 0px 2px 5px;
+}
+
+.z-header .header_tools {
+    float: left;
+    margin-left: 300px;
+    height: 100%;
+    width: 700px;
+}
+
+.z-header .header_toolsHide {
+    display: none;
+}
+
+.z-header .header_tools .header_toolsUl {
+    height: 100%;
+    width: 100%;
+}
+
+.z-header .header_tools .header_toolsUl li {
+    float: left;
+    margin: 0 18px;
+    height: 40px;
+    width: 60px;
+    text-align: center;
+    line-height: 40px;
+    color: #505050;
+    cursor: pointer;
+}
+
+.z-header .header_tools .header_toolsUl li a {
+    color: #505050;
+}
+
+.z-header .header_tools .header_toolsUl li a:hover {
+    color: #4ac0e0;
+}
+
+.z-header .header_tools .header_toolsUl li a.Active {
+    color: #00a2f7;
+}
+
+.z-header .header_seacrh {
+    float: right;
+    height: 40px;
+    width: 104px;
+    background: #49c0e0;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    color: #fff;
+    padding: 0;
+}
+
+.z-header .header_seacrh .header_seacrhHide {
+    display: none;
+}
+
+.z-header .header_seacrh span {
+    font-size: 18px;
+    vertical-align: -1px;
+    margin-right: 4px;
+}
+
+.z-header .header_break {
+    float: right;
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #bababa;
+    cursor: pointer;
+}
+
+.z-header .header_break:hover {
+    background: #ebf6f9;
+    color: #848484;
+}
+
+
+/*升级后弹出来的弹出框*/
+
+.z-header .h-grade {
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    position: fixed;
+    /* display: none;*/
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.z-header .h-grade .h-grade1 {
+    width: 491px;
+    height: 84px;
+    background: url("../../information/titleBar/xiaoxinxin.png") no-repeat;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.z-header .h-grade .h-grades {
+    width: 477px;
+    height: 300px;
+    margin: 0 auto;
+    background: url("../../information/titleBar/hailang.png") no-repeat;
+    background-position: center bottom;
+    background-color: #fff;
+}
+
+.z-header .h-grade .h-grades .h-graclose {
+    width: 100%;
+    height: 30px;
+}
+
+.z-header .h-grade .h-grades .h-graclose span {
+    cursor: pointer;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.z-header .h-grade .h-grades .h-graclose span:hover {
+    background-color: #49c0e0;
+    color: #FFFFFF;
+}
+
+.z-header .h-grade .h-grades .h-stripe {
+    width: 100%;
+    text-align: center;
+}
+
+.z-header .h-grade .h-grades .h-stripe p {
+    color: #fa7612;
+    font-size: 26px;
+    margin-top: 44px;
+    margin-bottom: 8px;
+}
+
+.z-header .h-grade .h-grades .h-stripe span {
+    color: #616161;
+    font-size: 16px;
+}
+
+.z-header .h-grade .h-grades .h-stripe span i {
+    color: #4ac1df;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.z-header .h-grade .h-grades .h-graclose2 button {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #FFFFFF;
+    width: 66px;
+    height: 28px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+    color: #FFFFFF;
+}
+
+.z-header .h-grade .h-grades .h-graclose2 button:hover {
+    background-color: #4ac1df;
+    border: 1px solid #4ac1df;
+}
+
+ul.showmessageList {
+    min-height: 160px;
+    position: relative;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+ul.showmessageList .listyle1Link {
+    width: 100%;
+    display: inline-block;
+    margin-left: 0px
+}
+
+ul.showmessageList li#listyle1 {
+    position: absolute;
+    bottom: 0;
+    font-weight: normal;
+}
+
+
+/*2017.8.8 19：18 头部添加部分*/
+
+.headerShowCourse {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 347px;
+    padding-left: 200px;
+    background-color: #2D2D2D;
+    opacity: .95;
+    filter: alpha(opacity=95);
+    top: 40px;
+    left: 0px;
+    z-index: 999;
+}
+
+.headerShowCourseInner {
+    width: 1100px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.majorNames {
+    text-align: center;
+    color: #999;
+}
+
+.courseLists {
+    clear: both;
+    margin: 0 auto;
+    overflow: hidden;
+    width: auto;
+    position: relative;
+    text-align: center;
+    display: table;
+    padding-top: 10px;
+    /*z-index: 888;*/
+}
+
+.showHighLight {
+    float: left;
+    /*display: inline-block;*/
+    width: 180px;
+    /*margin: 0 auto;*/
+    text-align: center;
+    margin-left: 5px;
+    height: 198px;
+    padding: 0 5px;
+    background-color: #413f40;
+}
+
+.showHighLight .showHighLight-scroll {
+    height: 155px;
+    overflow-y: auto;
+}
+
+.showHighLight span:hover {
+    color: #fff;
+    background-color: #4ac0e0;
+}
+
+.showHighLight span.sproFlags {
+    color: #fff;
+}
+
+.showHighLight span {
+    display: inline-block;
+    width: 95%;
+    height: 24px;
+    line-height: 24px;
+    text-indent: 5px;
+    padding-right: 5px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    color: #c8c8c8;
+    text-align: center;
+    cursor: pointer;
+    background-color: #454c54;
+}
+
+.showHighLight span i {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    /*font-weight: 100;*/
+    padding-right: 3px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.showHighLight span.termsTit {
+    height: 43px;
+    line-height: 43px;
+    margin-bottom: 0px;
+    background-color: #413f40;
+}
+
+.showHighLight span.termsTit:hover {
+    color: #999;
+    background-color: #413f40;
+}
+
+.headerUp {
+    position: absolute;
+    width: 20px;
+    height: 18px;
+    background: url('../../../teacherComponents/teacherPublic/styles/images/rbdUp.png');
+    bottom: 5px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+}

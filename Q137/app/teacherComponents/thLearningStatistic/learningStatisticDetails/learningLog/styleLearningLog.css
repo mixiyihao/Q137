@@ -1,0 +1,251 @@
+.learningLog_Box {
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.learningLog_Box .learningLog_title {
+    color: #333;
+    background-color: #f5f5f5;
+    font-size: 14px;
+    font-weight: 400;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+    font-weight: 400;
+}
+
+.learningLog_Box .learningLog_title span {
+    display: inline-block;
+    min-width: 130px;
+    height: 50px;
+    color: #2f363f;
+    font-weight: 400;
+    line-height: 50px;
+    font-size: 14px;
+}
+
+.learningLog_Box .learningLog_title span i {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.learningLog_Box .learningLog_Log {
+    /*min-height: 600px;*/
+    overflow: hidden;
+    padding: 0 0 0 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    width: 1020px;
+    float: left;
+}
+
+.learningLog_Box .learningLog_Nomessage {
+    width: 100%;
+    height: 500px;
+    background: url('../../../../images/statistics/logNomessage.jpg') no-repeat center center;
+}
+
+.learningLog_Box .learningLog_NomessageHide {
+    display: none;
+}
+
+.learningLog_Box .learningLog_Log li {
+    padding-bottom: 5px;
+}
+
+.learningLog_Box .learningLog_Log li .learningLog_P {
+    font-size: 16px;
+    line-height: 24px;
+    color: #2f363f;
+    font-weight: normal;
+    position: relative;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+}
+
+.learningLog_Box .learningLog_Log .learningLog_Time {
+    float: left;
+    width: 70px;
+}
+
+.learningLog_Box .learningLog_Log .learningLog_Circle {
+    position: absolute;
+    top: 6px;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 100%;
+    background: #e1e1e1;
+    margin-left: 5px;
+    z-index: 10;
+}
+
+.learningLog_Box .learningLog_Log .learningLog_Content {
+    margin-left: 100px;
+    overflow: hidden;
+    margin-top: 6px;
+}
+
+.learningLog_Box .learningLog_Log .learningLog_Content:hover {
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.learningLog_Box .learningLog_Log .learningLog_Content .learningLog_Item:hover {
+    background: #eaf3fc;
+}
+
+.learningLog_Box .learningLog_Item {
+    width: 100%;
+    height: 53px;
+    background-color: #f5f4f9;
+    padding: 0 19px;
+}
+
+.learningLog_Box .learningLog_ItemTitle {
+    height: 27px;
+    line-height: 36px;
+    font-size: 14px;
+    color: #595959;
+}
+
+.learningLog_Box .learningLog_ItemTitle2 {
+    height: 53px;
+    line-height: 53px;
+    font-size: 14px;
+    color: #595959;
+}
+
+.learningLog_Box .learningLog_ItemDate {
+    float: right;
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    width: 65px;
+}
+
+.learningLog_Box .learningLog_ItemDate2 {
+    float: right;
+    display: inline-block;
+    height: 53px;
+    line-height: 53px;
+    width: 65px;
+}
+
+.learningLog_Box .learningLog_ItemDate i {
+    float: left;
+    display: inline-block;
+    font-size: 18px;
+    color: #8b9094;
+    margin-right: 8px;
+}
+
+.learningLog_Box .learningLog_ItemDate2 i {
+    float: left;
+    display: inline-block;
+    font-size: 18px;
+    color: #8b9094;
+    margin-right: 8px;
+}
+
+.learningLog_Box .learningLog_Homework {
+    color: #8c8b8b;
+}
+
+.learningLog_Box .learningLog_Homework2 {
+    display: none;
+}
+
+.learningLog_Box .learningLog_Line {
+    width: 1px;
+    background: #f1f2f3;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    left: 121px;
+}
+
+.learningLog_Box .learningLog_LineHide {
+    display: none;
+}
+
+.learningLog_Box .learningLog_More {
+    height: 66px;
+    width: 100%;
+    position: relative;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.learningLog_Box .learningLog_MoreHide {
+    display: none;
+}
+
+.learningLog_Box .learningLog_MoreLine {
+    height: 1px;
+    width: 100%;
+    border-bottom: 1px dashed #f2f2f2;
+    margin-top: 32px;
+}
+
+.learningLog_Box .learningLog_MoreMsg {
+    width: 140px;
+    height: 66px;
+    background-color: #ffffff;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    /*transform: translate(-50%, 0);*/
+    transform: translate(-50%,0);
+    -ms-transform: translate(-50%,0);
+    -moz-transform: translate(-50%,0);
+    -webkit-transform: translate(-50%,0);
+    line-height: 66px;
+    text-align: center;
+    color: #1380fa;
+    /*color:#8c8b8b;*/
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.learningLog_Box .learningLog_MoreMsg2 {
+    width: 140px;
+    height: 66px;
+    background-color: #ffffff;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    /*transform: translate(-50%, 0);*/
+    transform: translate(-50%,0);
+    -ms-transform: translate(-50%,0);
+    -moz-transform: translate(-50%,0);
+    -webkit-transform: translate(-50%,0);
+    line-height: 66px;
+    text-align: center;
+    color: #8c8b8b;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.learningLog_Box .learningLog_TopTo {
+    height: 100%;
+    width: 40px;
+    float: left;
+}
+
+.learningLog_Box .learningLog_TopToCenter {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    background: url("../../../../images/search/top.jpg") no-repeat;
+    bottom: 240px;
+    cursor: pointer;
+    display: none;
+    z-index: 99;
+    /*left: 50%;
+    margin-left: 500px;*/
+}

@@ -1,0 +1,46 @@
+.perMsgTitle_box {
+    height: 36px;
+    border-radius: 10px;
+    /*border: 1px solid #e6e6e6;*/
+    /*background: #fff;*/
+    /*margin-left: 18px;*/
+    /*margin: 12px auto 0;*/
+    /*overflow: hidden;*/
+    margin-top: 2px;
+    text-align: center;
+}
+
+.perMsgTitle_box .perMsgTitle_nameMsg {
+    height: 36px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    line-height: 36px;
+    /*color: #1280f9;*/
+    color: #fff;
+    display: inline-block;
+}
+
+.perMsgTitle_box span {
+    float: left;
+}
+
+.perMsgTitle_box .perMsgTitle_name {
+    margin-left: 16px;
+    margin-right: 25px;
+    min-width: 10px;
+}
+
+.perMsgTitle_box .perMsgTitle_sex {
+    margin-right: 17px;
+    min-width: 10px;
+}
+
+.perMsgTitle_box .perMsgTitle_stuNo {
+    margin-right: 53px;
+    min-width: 10px;
+}
+
+.perMsgTitle_box .perMsgTitle_major {
+    margin-right: 50px;
+    min-width: 10px;
+}

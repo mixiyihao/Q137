@@ -1,0 +1,254 @@
+.h-examin {
+    /* padding-left: 230px; */
+    margin-left: 210px;
+    padding: 30px 0px 0px 25px;
+    /* background-color: #f4f4f6; */
+    min-height: 650px;
+}
+
+.h-examin .h-titl {
+    margin-bottom: 12px;
+}
+
+.ExaminationMess {
+    margin-top: 0px !important;
+    background-size: 29px !important;
+    height: 48px !important;
+    line-height: 48px !important;
+    padding-top: 0px !important;
+    padding-left: 70px !important;
+}
+
+.h-examin .h-titl .h-cubiud {
+    width: 4px;
+    height: 20px;
+    margin-right: 15px;
+    margin-bottom: -4px;
+    padding-top: 8px;
+    display: inline-block;
+    background-color: #4ac0e0;
+}
+
+.h-examin .h-titl .h-information {
+    font-size: 18px;
+    height: 22px;
+    line-height: 22px;
+    color: rgb(96, 96, 96);
+    display: inline-block;
+}
+
+.h-tabulation {
+    padding: 10px 20px 20px 20px;
+    background-color: #fff;
+    min-width: 968px;
+    /* width: 75%; */
+    overflow: hidden;
+}
+
+.h-tabulation .h-tabu-head {
+    height: 50px;
+    line-height: 50px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.h-tabulation .h-tabu-head div {
+    float: left;
+    /*font-weight: bold;*/
+    /*font-family: "Microsoft YaHei";*/
+    border-left: 1px solid #e4e4e4;
+    height: 48px;
+}
+
+
+/*头部框更改宽度后*/
+
+.h-tabu-head .h-titl1 {
+    width: 10.5%;
+    text-align: center;
+}
+
+.h-tabu-head .h-titl2 {
+    width: 22.3%;
+    text-align: center;
+}
+
+.h-tabu-head .h-titl3 {
+    width: 18.5%;
+    text-align: center;
+}
+
+.h-tabu-head .h-titl4 {
+    width: 12.7%;
+    text-align: center;
+}
+
+.h-tabu-head .h-titl5 {
+    width: 11.7%;
+    text-align: center;
+}
+
+.h-tabu-head .h-titl6 {
+    width: 12.7%;
+    text-align: center;
+}
+
+.h-tabu-head .h-titl7 {
+    width: 11.6%;
+    text-align: center;
+}
+
+
+/*下面是考试的列表代码*/
+
+.h-tabu-body {
+    vertical-align: baseline;
+    zoom: 1;
+    overflow: hidden;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.h-tabu-body div {
+    display: table-cell;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+/*更改需求后的宽度*/
+
+.h-tabu-body .h-titlb1 {
+    width: 10.5%;
+    font-family: Arial;
+    text-align: center;
+    position: relative;
+    top: 1px;
+}
+
+.h-tabu-body .h-titlb2 {
+    cursor: pointer;
+    position: relative;
+    width: 22.3%;
+    text-align: left;
+    padding-left: 10px;
+    top: -1px;
+}
+
+.h-tabu-body .h-titlb2 .h-exams {
+    width: 100%;
+    cursor: pointer;
+    font-size: 15px;
+    vertical-align: top;
+    text-align: center;
+    /*padding-left: 30%;*/
+    display: inline-block;
+}
+
+.h-tabu-body .h-titlb2 .h-exams i {
+    margin-left: 3px;
+    font-size: 14px;
+    /*font-style: italic;*/
+}
+
+.h-tabu-body .h-titlb2 a {
+    color: #32363f;
+}
+
+.h-tabu-body .h-titlb3 {
+    width: 18.5%;
+    font-family: Arial;
+}
+
+.h-tabu-body .h-titlb4 {
+    width: 12.7%;
+    text-align: center;
+}
+
+.h-tabu-body .h-titlb5 {
+    width: 11.7%;
+    text-align: center;
+    position: relative;
+    top: -2px;
+}
+
+.h-tabu-body .h-titlb6 {
+    width: 12.7%;
+    text-align: center;
+}
+
+.h-tabu-body .h-titlb7 {
+    width: 11.6%;
+    text-align: center;
+}
+
+.h-tabu-body .h-titlb5 .h-tabufont {
+    color: #49c0e0;
+}
+
+
+/*下面是点击上一页下一页按钮*/
+
+.h-examin .h-tabulation {
+    color: #32363f;
+}
+
+.spro_tabubodys {
+    min-height: 503px;
+}
+
+.h-examin .h-tabulation .h-page {
+    width: 100%;
+    margin-top: 24px;
+    padding-bottom: 30px;
+}
+
+.h-examin .h-page button {
+    width: 81px;
+    height: 30px;
+    background-color: #fdfffe;
+    float: right;
+    text-align: center;
+    color: #1d85fe;
+    border: 1px solid #1c86ff;
+    margin-left: 8px;
+}
+
+
+/* Video页面引用样式 YH*/
+
+.videoReviewListSpan1 {
+    /*cursor: pointer;*/
+    /*padding: 6px 9px 6px 9px;*/
+    background: #4ac6e7;
+    color: #fff;
+    border-radius: 4px;
+    position: relative;
+}
+
+.videoReviewListSpan3 {
+    /*cursor: pointer;*/
+    /*padding: 6px 9px 6px 9px;*/
+    background: #4ac6e7;
+    color: #fff;
+    border-radius: 4px;
+    position: relative;
+}
+
+span.warningTit {
+    font-size: 13px;
+    /*margin-left: 30px;*/
+    color: #f48275;
+    display: block;
+    height: 32px;
+    background: #fde5d1;
+    margin-bottom: 10px;
+    line-height: 32px;
+    padding-left: 10px;
+}

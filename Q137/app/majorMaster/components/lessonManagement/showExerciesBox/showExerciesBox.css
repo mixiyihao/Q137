@@ -1,0 +1,160 @@
+.showExerciesBox-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.showExerciesBox-wrap {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 999;
+    width: 634px;
+    height: 462px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(238, 238, 238);
+}
+
+.showExerciesBox-title {
+    margin: 0 12px;
+    height: 37px;
+    border-bottom: 1px solid #dadada;
+}
+
+.showExerciesBox-title-msg {
+    float: left;
+    height: 37px;
+    line-height: 37px;
+    display: inline-block;
+    width: 140px;
+    font-size: 14px;
+    color: #333333;
+    font-weight: 600;
+}
+
+.showExerciesBox-title-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: inline-block;
+    width: 37px;
+    height: 37px;
+    text-align: center;
+    line-height: 37px;
+    font-size: 14px;
+    color: #333333;
+    cursor: pointer;
+}
+
+.showExerciesBox-title-close:hover {
+    color: #fff;
+    background: #4ac0e0;
+}
+
+.showExerciesBox-content {
+    height: 424px;
+    width: 100%;
+    overflow-y: auto;
+    padding: 0 12px 12px 12px;
+}
+
+.showExerciesBox-content-title {
+    height: 43px;
+    font-size: 16px;
+    min-height: 43px;
+    line-height: 22px;
+    color: #606060;
+}
+
+.showExerciesBox-content-title div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    min-height: 43px;
+    float: left;
+    display: -webkit-flex;
+    align-items: center;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.showExerciesBox-content-message img {
+    width: 350px;
+    /*margin-left: 40px;*/
+    margin-bottom: 10px;
+    /*margin-top: 20px;*/
+}
+
+.showExerciesBox-content-tab {
+    width: 104px;
+    height: 33px;
+    line-height: 33px;
+    /*margin-left: 40px;*/
+    color: #1380f9;
+    border: 1px solid #9de5f4;
+    border-bottom: none;
+    margin-top: 8px;
+    position: relative;
+    background: #fbfbfb;
+}
+
+.showExerciesBox-content-icon {
+    width: 18px;
+    height: 32px;
+    float: left;
+    line-height: 32px;
+    display: inline-block;
+    margin-left: 11px;
+}
+
+.showExerciesBox-content-msg {
+    width: 65px;
+    height: 32px;
+    display: block;
+    line-height: 32px;
+    margin-left: 5px;
+    float: left;
+}
+
+.showExerciesBox-content-line {
+    height: 1px;
+    background: #fbfbfb;
+    width: 102px;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    z-index: 10;
+}
+
+.showExerciesBox-content-text {
+    width: 100%;
+    min-height: 140px;
+    border: 1px solid #9de5f4;
+    /*margin-left: 40px;*/
+    position: relative;
+    overflow-y: auto;
+    background: #fbfbfb;
+}
+
+.showExerciesBox-content-text div {
+    min-height: 140px;
+    color: rgb(177, 177, 177);
+}
+
+.showExerciesBox-content-text textarea {
+    width: 100%;
+    resize: none;
+    border: none;
+    height: 140px;
+    color: rgb(112,112,112);
+    background: transparent;
+    padding: 10px;
+    overflow:auto;
+}

@@ -1,0 +1,49 @@
+.h-email .h-input {
+    margin-top: 35px;
+}
+
+.h-email .h-input .h-treat {
+    width: 135px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+}
+
+.spro-revisecomple {
+    position: absolute;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    top: 10%;
+}
+
+.h-input .h-treat .h-wancheng {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    background-color: #f8780d;
+    font-size: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.h-input .h-lianjie {
+    margin-top: 31px;
+}
+
+.h-input .h-lianjie button {
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #49c0e0;
+    border-radius: 4px;
+    color: #f2fafd;
+    display: block;
+    margin: 0 auto;
+    letter-spacing: 1px;
+}
+
+.h-navs .h-step .h-user {
+    width: 360px;
+}

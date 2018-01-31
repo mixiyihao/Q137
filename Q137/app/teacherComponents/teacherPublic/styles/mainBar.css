@@ -1,0 +1,922 @@
+/* clearfix */
+
+.clearfix:after {
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0
+}
+
+.clearfix {
+    zoom: 1
+}
+
+#rbdNavigator {
+    width: 100%;
+    background: #fff;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 399;
+    height: 37px;
+}
+
+/*.onTheTop {
+    
+}*/
+
+#rbdNavigator p,
+#rbdNavigator span,
+#rbdNavigator a {
+    /*font-weight: 100;*/
+}
+
+
+/* navBar */
+
+#rbdNavigator .rbd-header {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 399;
+    border-bottom:1px solid #f4fafc;
+    /*box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16)!important;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16)!important;
+    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16)!important;*/
+}
+
+#rbdNavigator .rbd-header .rbdInner {
+    width: 1100px;
+    height: 37px;
+    margin: 0 auto;
+    position: relative;
+    background: url('./images/flogo.png') no-repeat left center;
+}
+
+.rbdContent {
+    box-sizing: border-box;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    font-size: 14px;
+}
+
+.rbdContent span {
+    display: inline-block;
+    text-align: center;
+    height: 37px;
+    line-height: 37px;
+    border-bottom: 2px solid #fff;
+    padding: 0 10px;
+    margin: 0 5px;
+    box-sizing: border-box;
+    position: relative;
+}
+.rbdContent span.waitTest{
+    position: absolute;
+    display: none;
+    width: 260px;
+    height: 50px;
+    line-height: 50px;
+    border:0;
+    margin: 0;
+    padding: 0; 
+    background-color: rgba(255,255,255,.95);
+    top: 38px;
+    left: -100px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    border:1px solid #f5f5f5;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .26)!important;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .26)!important;
+    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .26)!important;
+    /*opacity: .96;*/
+    
+}
+.rbdContent span.waitTest .iconfont{
+    /*margin-right: 5px;*/
+    color: #51c0de;
+    font-size: 30px;
+    position: absolute;
+    left: 20px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    top: 0px;
+}
+.rbdContent span.waitTest:hover{
+    height: 50px;
+}
+.rbdContent span:hover .waitTest{
+    display: block;
+    /*border:0;*/
+    border-bottom: 1px solid #f5f5f5;
+    color: #505050;
+}
+span.InitEle {
+    display: none;
+}
+
+span.initSpan a {
+    color: #505050;
+}
+
+span.R-showBox {
+    color: #505050;
+    cursor: pointer;
+}
+
+span.R-active a {
+    color: #1380f9;
+}
+
+span.initSpan:hover a {
+    color: #1380f9;
+}
+
+span.Initstatis:hover a,
+span.Initevaluate:hover a {
+    color: #1380f9;
+}
+
+.rbdContent span:hover,
+.rbdContent span.R-active {
+    height: 38px;
+    color: #1380f9;
+    /*border-bottom: 2px solid #3acfe5;*/
+}
+
+.rbdUser {
+    position: absolute;
+    height: 37px;
+    line-height: 37px;
+    width: 80px;
+    left: 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+.rbdUser:hover {
+    background: #ebf6f9;
+}
+
+.rbdUser span {
+    color: #505050;
+}
+
+.rbdUserBox {
+    display: none;
+    width: 300px;
+    min-height: 160px;
+    position: absolute;
+    right: 0;
+    top: 36px;
+    background-color: #fff;
+    opacity: 0.96;
+    cursor: pointer;
+    z-index: 120;
+    border-top: 2px solid #00a2f7;
+}
+
+i.whwhwht {
+    border-top: 0px;
+    border-bottom: 4px solid #00a2f7;
+    border-right: 4px solid white;
+    border-left: 4px solid white;
+    height: 4px;
+    position: absolute;
+    top: -6px;
+    left: 234px;
+    background-color: #fff;
+}
+
+i.whwhwht i {
+    position: absolute;
+    left: -1px;
+    bottom: -6px;
+    background-color: #fff;
+    width: 2px;
+    height: 2px;
+}
+
+.rbdcontrol i.Rd-dot {
+    position: absolute;
+    right: 15px;
+    top: 9px;
+    width: 35px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 30px;
+    color: #f90102;
+}
+
+.rbdUserBox a,
+.rbdUserBox span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #6f6f6f;
+}
+
+.rbdUserBox a:hover,
+.rbdUserBox div span:hover {
+    color: #fff;
+    background-color: #4abfe0;
+}
+
+.rbdUserBox div {
+    padding: 6px 5px;
+}
+
+.rbdUserBox div span {
+    padding: 13px 0;
+    margin: 0 3px;
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    /*line-height: 30px;*/
+    background-color: #f5f5f5;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #6f6f6f;
+    text-align: center;
+}
+
+.rbdUserBox div span i {
+    display: block;
+    margin: 0 auto;
+    width: 40px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 16px;
+}
+
+span.rbdUserExit {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 40px;
+    height: 37px;
+    text-align: center;
+    line-height: 37px;
+    color: #bababa;
+    cursor: pointer;
+}
+
+span.rbdUserExit:hover {
+    background: #ebf6f9;
+    color: #848484;
+}
+
+.rbdUser em.z-ll {
+    position: absolute;
+    right: 0;
+    color: #505050;
+}
+
+.rbdUser span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+/* NavBox */
+
+.rbdNavBox {
+    display: none;
+    position: fixed;
+    top: 37px;
+    left: 0;
+    width: 100%;
+    height: 347px;
+    background-color: #2D2D2D;
+    opacity: .95;
+    filter: alpha(opacity=95);
+}
+
+/*.rbdNavBox.onTheTop {}*/
+
+.jumpToIndex {
+    position: absolute;
+    width: 200px;
+    height: 37px;
+    left: 0;
+}
+
+.jumpToIndex a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.jumpToIndex a i {
+    position: absolute;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    width: 50px;
+    text-align: center;
+    right: -30px;
+    top: 10px;
+    /*background-position: -1px 0px;*/
+    background: url('./images/content.png') no-repeat center;
+    background-size: contain;
+}
+
+.jumpToIndex a i.classmaster {
+    width: 58px;
+    text-align: center;
+    right: -36px;
+    background: url('./images/classmaster_03.png') no-repeat center;
+    background-size: 55px;
+}
+
+.rbdNavBox .rbdBoxInner {
+    width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+#navBoxContent {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*upBtn*/
+
+.rbdUp {
+    position: absolute;
+    width: 20px;
+    height: 18px;
+    background: url('./images/rbdUp.png');
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.rbd-intro,
+.rbd-class,
+.rbd-exam,
+.rbd-recourse
+{
+    display: none;
+}
+
+
+/* exam components & introduce components */
+
+.rbd-intro,
+
+/*.rbd-exam,*/
+
+.rbd-statis {
+    text-align: center;
+}
+
+.rbd-intro span,
+.rbd-statis span {
+    display: inline-block;
+    width: 220px;
+    height: 64px;
+    font-size: 18px;
+    line-height: 64px;
+    color: #108ee9;
+    margin: 0px 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.rbd-intro span:hover a,
+.rbd-statis span:hover a {
+    color: #fff;
+}
+
+.rbd-intro span:hover,
+.rbd-statis span:hover {
+    background-color: #4ac0e0;
+    color: #fff;
+}
+
+
+/*introduce*/
+
+span.subIntro01 {
+    background: #464f58 url('./images/ex1.png') no-repeat center;
+}
+
+span.subIntro01 a {
+    color: #c8c8c8;
+}
+
+span.subIntro02 {
+    background: #464f58 url('./images/ex2.png') no-repeat center;
+}
+
+span.subIntro02 a {
+    color: #c8c8c8;
+}
+
+
+/*exam*/
+
+.rbd-exam {
+    padding: 0 210px;
+}
+
+.examPart {
+    float: left;
+    height: 278px;
+    width: 220px;
+    margin: 10px 3px;
+    /*padding-top: 15px;*/
+}
+
+.examPart:hover {
+    background-color: #413f40;
+}
+
+#rbdNavigator .examPart:hover .subTit p,
+#rbdNavigator .examPart:hover .subTit p a {
+    color: #fff;
+}
+
+.rbd-exam span {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+}
+
+#rbdNavigator .subTit p:hover {
+    color: #fff;
+    background-color: #4ac0e0;
+}
+
+#rbdNavigator .subTit p a {
+    color: #c8c8c8;
+    ;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+#rbdNavigator .subTit p:hover a {
+    color: #fff;
+}
+
+#rbdNavigator .rbd-exam span a {
+    height: auto;
+    color: #999;
+    cursor: default;
+}
+
+
+/*statis components*/
+
+span.subStatis01 {
+    background: #464f58 url('./images/statis01.png') no-repeat center;
+}
+
+span.subStatis01 a {
+    color: #999;
+}
+
+span.subStatis02 {
+    background: #464f58 url('./images/statis02.png') no-repeat center;
+}
+
+span.subStatis02 a {
+    color: #999;
+}
+
+
+/* class components */
+
+.rbd-class {
+    width: 1140px;
+    padding-top: 10px;
+}
+
+.rbd-class a {
+    color: #999;
+}
+
+.rbd-class div.rbd-f {
+    box-sizing: border-box;
+    float: left;
+    height: 278px;
+    border-left: 1px solid #33383f;
+}
+
+.scSeasion {
+    width: 170px;
+    border: 0;
+}
+
+.scSeasion div.rbdActive {
+    background-color: rgba(23, 207, 229, .22);
+    margin-bottom: 5px;
+}
+
+.scSeasion div.rbdActive div {
+    min-height: 112px;
+    max-height: 140px;
+}
+
+#rbdNavigator .scSeasion div.rbdActive p.SeasionTit a {
+    color: #fff;
+}
+
+.scClass {
+    width: 162px;
+}
+
+#scClass {
+    width: 945px;
+}
+
+#scClass div.showHighLight {
+    float: left;
+    width: 180px;
+    text-align: center;
+    margin-left: 5px;
+    height: 278px;
+    overflow-y: auto;
+}
+
+#scClass div.showHighLight:hover {
+    background-color: #413f40;
+}
+
+.rbd-class span {
+    display: inline-block;
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+    text-indent: 5px;
+    padding-right: 5px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    color: #999;
+    text-align: center;
+    cursor: pointer;
+}
+
+span.termsTit {
+    height: 43px;
+    line-height: 43px;
+    margin-bottom: 0px;
+}
+
+.rbd-class span i {
+    display: inline-block;
+    width: 125px;
+    height: 100%;
+    /*font-weight: 100;*/
+    padding-right: 3px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.rbd-class span.scCspan {
+    color: #c8c8c8;
+    background-color: #454c54;
+}
+
+.showItActive span.scCspan {
+    color: #fff;
+}
+
+.showItActive span.scCspan.showItActive {
+    color: #fff;
+    background-color: #4ac0e0;
+}
+
+#rbdNavigator p {
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #999;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 5px;
+    background-color: #454c56;
+}
+
+#rbdNavigator .rbdInner p {
+    background-color: #fff;
+    height: 60px;
+    line-height: 60px;
+    font-weight: 400;
+    color: #000;
+    cursor: auto;
+    margin-bottom: 0px;
+}
+
+#rbdNavigator p.SeasionTit {
+    height: 26px;
+    line-height: 26px;
+    display: block;
+    background-color: #3b4046;
+    color: #999;
+    margin-bottom: 0;
+    cursor: default;
+}
+
+#rbdNavigator p.SeasionTit.showHightLight {
+    background: #4ac0e0;
+    color: #fff;
+}
+
+#rbdNavigator p.SeasionTit:hover {
+    background: #4ac0e0;
+    color: #fff;
+}
+
+
+/*recourse*/
+
+.rbd-recourse {
+    text-align: center;
+}
+
+.rbd-recourse span {
+    display: inline-block;
+    width: 220px;
+    height: 64px;
+    font-size: 18px;
+    line-height: 64px;
+    color: #108ee9;
+    margin: 0px 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.rbd-recourse span a {
+    display: inline-block;
+    color: #999;
+    width: 100%;
+    height: 100%;
+}
+
+.rbd-recourse span a:hover {
+    color: #fff;
+    background-color: #4ac0e0;
+}
+
+.rbd-recourse span.rec01 {
+    background: #464f58 url('./images/ex1.png') no-repeat center;
+}
+
+.rbd-recourse span.rec02 {
+    background: #464f58 url('./images/ex2.png') no-repeat center;
+}
+
+.rbd-recourse span.rec03 {
+    background: #464f58 url('./images/ex3.png') no-repeat center;
+}
+
+.rbd-recourse span.rec04 {
+    background: #464f58 url('./images/ex1.png') no-repeat center;
+}
+
+
+/* container show hide controls*/
+
+.scClass
+{
+    padding-left: 5px;
+}
+
+#rbdNavigator span a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.schoolWork a,
+.Initstatis a,
+.Initevaluate a,
+.R-countribute a {
+    color: #505050;
+}
+
+.ClInitBox {
+    display: block;
+}
+
+.rbdContent span.ckFlags {
+    color: #1380f9;
+    /*border-bottom: 2px solid #1380f9;*/
+}
+
+.scSeasion div.rbdActive .showItActive {
+    color: #fff;
+    background-color: #4ac0e0;
+}
+
+.rbdcontrol {
+    width: 200px;
+    height: 37px;
+    position: absolute;
+    right: 0;
+}
+
+
+/* messageBox */
+
+.rbdmsgBox {
+    position: absolute;
+    top: 6px;
+    right: 230px;
+}
+
+.rbdmsgBox span.iconfont {
+    color: #aeaeae;
+}
+
+.rbdmsgBox span.iconfont i.msgNumCount {
+    position: absolute;
+    width: 16px;
+    top: -1px;
+    left: 12px;
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    border-radius: 100%;
+}
+
+.rbdmsgBox span.iconfont i {
+    display: inline-block;
+    font-family: Arial Regular;
+    font-size: 13px;
+    height: 14px;
+    width: 14px;
+    line-height: 14px;
+    color: pink;
+    text-align: center;
+    background-color: #f90102;
+    border-radius: 16px;
+    z-index: 10;
+}
+
+#rbdNavigator span.jungleMsg {
+    display: inline-block;
+    height: 31px;
+    font-weight: bolder;
+    width: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.showMsgbox {
+    background-color: rgba(255, 255, 255, .9);
+    display: none;
+    min-height: 160px;
+    position: absolute;
+    bottom: -159px;
+    left: -122px;
+    border-top: 2px solid #00a2f7;
+    width: 298px;
+    height: auto;
+    transition: height 2s;
+    font-size: 14px;
+    /*font-weight: 100;*/
+    z-index: 9;
+}
+
+.showMsgbox.showItemmsg {
+    display: block;
+}
+
+#rbdNavigator .showMsgbox p {
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0);
+    overflow: hidden;
+    width: 298px;
+    word-break: keep-all;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 0;
+    text-indent: 5px;
+    text-align: left;
+}
+
+#rbdNavigator .showMsgbox p:hover {
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+#rbdNavigator .showMsgbox p a {
+    color: #4abfe0;
+    margin-left: 6px;
+    display: inline-block;
+    width: 60px;
+    background: rgba(255, 255, 255, 0);
+}
+
+#rbdNavigator .showMsgbox p i {
+    max-width: 187px;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.showMsgbox a {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background: #00a2f7;
+    display: block;
+    width: 100%;
+    color: white;
+    height: 30px;
+    line-height: 30px;
+}
+
+.showMsgbox:hover a.checkAllBtn {
+    color: #fff;
+}
+
+.showMsgbox .noMessageToread {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    left: 49px;
+    top: 15px;
+}
+
+.showMsgbox .noMessageToread span {
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+    color: #999;
+    text-align: center;
+}
+
+.showMsgbox .noMessageToread i {
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    left: 85px;
+    border-radius: 100%;
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+    background: url('../../../images/search/nomessage.jpg') no-repeat center;
+}
+
+i.rbdtriangle {
+    border-top: 0px;
+    border-bottom: 4px solid #00a2f7;
+    border-right: 4px solid white;
+    border-left: 4px solid white;
+    height: 4px;
+    position: absolute;
+    top: -6px;
+    left: 132px;
+    background-color: #fff;
+}
+
+i.rbdtriangle i {
+    position: absolute;
+    left: -1px;
+    bottom: -6px;
+    background-color: #fff;
+    width: 2px;
+    height: 2px;
+}
+
+
+/*在线提问*/
+
+a.onLineQuestion {
+    display: inline-block;
+    height: 37px;
+    width: 104px;
+    background: #49c0e0;
+    text-align: center;
+    line-height: 37px;
+    cursor: pointer;
+    color: #fff;
+    padding: 0;
+    position: absolute;
+    right: 40px;
+}

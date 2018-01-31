@@ -1,0 +1,65 @@
+/*内容条开始*/
+
+.h-landing .h-navs {
+    width: 100%;
+    height: 144px;
+    background-color: #353537;
+    padding-left: 250px;
+    padding-right: 40px;
+      min-width: 1280px;
+}
+.h-navs .h-step .h-reset {
+    height: 70px;
+    line-height: 86px;
+    color: #f2f2f2;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.h-navs .h-step .h-user {
+    width: 234px;
+    margin: 0 auto;
+    /*margin-bottom: 2px;*/
+}
+
+.h-navs .h-step .h-user li {
+    float: left;
+    width: 150px;
+    height: 66px;
+    color: #aeaeb0;
+    font-size: 14px;
+}
+
+.h-navs .h-step .h-user li p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.h-user .h-icon {
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 20px;
+    font-size: 25px;
+}
+
+.h-navs .h-step .h-user .h-current {
+    color: #ffffff;
+}
+
+.h-navs .h-step .h-user .h-curr1 {
+    width: 130px;
+}
+
+.h-navs .h-step .h-user .h-curr2 {
+    width: 120px;
+}
+
+.h-navs .h-step .h-user .h-curr3 {
+    width: 120px;
+}
+
+.h-navs .h-step .h-user .h-curr4 {
+    width: 85px;
+}
